@@ -1,23 +1,23 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vagroup_epg.xml, https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml, https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml, https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml, https://raw.githubusercontent.com/iptv-org/epg/master/sites/tv24.co.uk/tv24.co.uk.channels.xml, https://raw.githubusercontent.com/iptv-org/epg/master/sites/tvtv.us/tvtv.us.channels.xml, https://raw.githubusercontent.com/iptv-org/epg/master/sites/vidio.com/vidio.com.channels.xml, https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml, https://trada.info/epg.xml" tvg-shift=0 m3uautoload=1
 #EXTM3U
 #-------------------VTV------------------#
-#EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/ySDjzg0/VTV1-cc.webp",❤️| VTV1 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/ySDjzg0/VTV1-cc.webp",❤️| VTV1 ᴴᴰ
 udp://@225.1.2.249:30120
-#EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/G0PXW8r/VTV2-cc.webp",❤️| VTV2 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/G0PXW8r/VTV2-cc.webp",❤️| VTV2 ᴴᴰ
 udp://@225.1.2.13:30120
-#EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VNHdbry/VTV3-cc.png",❤️| VTV3 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VNHdbry/VTV3-cc.png",❤️| VTV3 ᴴᴰ
 udp://@225.1.2.247:30120
-#EXTINF:-1 tvg-id="vtv4hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VCBW4W8/VTV4-cc.webp",❤️| VTV4 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtv4hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VCBW4W8/VTV4-cc.webp",❤️| VTV4 ᴴᴰ
 udp://@225.1.2.20:30120
-#EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Hnyb8Cr/VTV5-cc.webp",❤️| VTV5 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Hnyb8Cr/VTV5-cc.webp",❤️| VTV5 ᴴᴰ
 udp://@225.1.1.131:30120
-#EXTINF:-1 tvg-id="vtv6hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/PtJKgHX/vtvcantho.webp",❤️| VTV6 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtv6hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/PtJKgHX/vtvcantho.webp",❤️| VTV6 ᴴᴰ
 udp://@225.1.2.245:30120
-#EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Z89vrHX/VTV7-cc.webp",❤️| VTV7 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Z89vrHX/VTV7-cc.webp",❤️| VTV7 ᴴᴰ
 udp://@225.1.2.96:30120
-#EXTINF:-1 tvg-id="vtv8hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/RyBxx0F/VTV8-cc.webp",❤️| VTV8 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtv8hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/RyBxx0F/VTV8-cc.webp",❤️| VTV8 ᴴᴰ
 udp://@225.1.2.166:30120
-#EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/SV2FccD/vtv9.png",❤️| VTV9 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/SV2FccD/vtv9.png",❤️| VTV9 ᴴᴰ
 udp://@225.1.1.128:30120
 #EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV HD" tvg-logo="https://cdn.hqth.me/logo/thumbs/5.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/379/hd/dvr-${start}-${end}.m3u8", VTV5 | 50fps
 https://live-ali2.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-65M.m3u8
@@ -92,48 +92,48 @@ https://vstv.broadpeak-aas.com/bpk-tv/prod_klive3/default/i.mpd
 
 #-------------------Hoạt hình HD-------------------#
 
-#EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",HappyKids
+#EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",HappyKids ᴴᴰ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://dl.dropboxusercontent.com/s/yuvlsc5blzeulax/																						 #EXTVLCOPT:http-referer=https://sctvonline.vn/
 https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8?cc|Referer=http://sctvonline.vn/
 
-#EXTINF:-1 tvg-id="animaxhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/RTgouGo.png",Animax
+#EXTINF:-1 tvg-id="animaxhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/RTgouGo.png",Animax ᴴᴰ
 udp://@225.1.1.135:30120
-#EXTINF:-1 tvg-id="babytvhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/HaxHhx2.png",Baby TV (HD 8Mbps)
+#EXTINF:-1 tvg-id="babytvhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/HaxHhx2.png",Baby TV ᴴᴰ
 udp://@225.1.2.146:30120
-#EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/THfL7QS/Dream-Works-cc.png",Dreamworks (HD 8Mbps)
+#EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/THfL7QS/Dream-Works-cc.png",Dreamworks ᴴᴰ
 udp://@225.1.1.136:30120
-#EXTINF:-1 tvg-id="cartoonhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/QyOuOmc.png",CARTOON NETWORK (HD 8Mbps)
+#EXTINF:-1 tvg-id="cartoonhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/QyOuOmc.png",CARTOON NETWORK ᴴᴰ
 udp://@225.1.2.231:30120
-#EXTINF:-1 tvg-id="cbeebies" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/ePT0YZ4.png",BBC CbeeBies (HD 8Mbps)
+#EXTINF:-1 tvg-id="cbeebies" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/ePT0YZ4.png",BBC CbeeBies ᴴᴰ
 udp://@225.1.1.134:30120
-#EXTINF:-1 tvg-id="boomerang" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/iNUMohA.png",BOOMERANG (HD 8Mbps)
+#EXTINF:-1 tvg-id="boomerang" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/iNUMohA.png",BOOMERANG ᴴᴰ
 udp://@225.1.1.138:30120
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-chno="2360" tvg-id="Anime All Day" tvg-name="Anime All Day" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png", Anime All Day
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=2360&deviceId=5812b7d3249444e05d09cc49&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-#EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel
+#EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel ᴴᴰ
 http://raw.bitnode.pm:81/giorgi/giorgi/20652
-#EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior
+#EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
 http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/418042
-#EXTINF:-1 tvg-id="disneyxd.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xGXxC8X/Disney-XD.png" ,Disney XD
+#EXTINF:-1 tvg-id="disneyxd.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xGXxC8X/Disney-XD.png" ,Disney XD ᴴᴰ
 http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/419273
-#EXTINF:-1 tvg-id="nicktoons.us" group-title="🌈| Hoạt hình" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Nicktoons.png",NickToons
+#EXTINF:-1 tvg-id="nicktoons.us" group-title="🌈| Hoạt hình" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Nicktoons.png",NickToons ᴴᴰ
 http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/418032
-#EXTINF:-1 tvg-id="skykids.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/wMnp5tV/Sky-Kids.png" group-title="🌈| Hoạt hình",Sky Kids FHD
+#EXTINF:-1 tvg-id="skykids.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/wMnp5tV/Sky-Kids.png" group-title="🌈| Hoạt hình",Sky Kids ᴴᴰ
 http://rogermellie.xyz:80/richay/richay/3399211
 #EXTINF:-1 tvg-id="SkyCinemaAnimation.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/Bw4M2xJ/Sky-Cinema-Animation.png" group-title="🌈| Hoạt hình", Sky Cinema Animation ᴴᴰ
 http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/508114
-#EXTINF:-1 tvg-id="thelegochannel.us" tvg-name="LEGO Kids TV" tvg-logo="https://i.ibb.co/z2kWh2P/Lego.png" group-title="🌈| Hoạt hình",LEGO Kids TV
+#EXTINF:-1 tvg-id="thelegochannel.us" tvg-name="LEGO Kids TV" tvg-logo="https://i.ibb.co/z2kWh2P/Lego.png" group-title="🌈| Hoạt hình",LEGO Kids TV ᴴᴰ
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22549d5eeee0f5a4094ba/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVKidsUK.uk" tvg-logo="https://i.ibb.co/WPDX5j7/bluto.png" group-title="🌈| Hoạt hình",Pluto TV Kids
 https://service-stitcher-ipv4.clusters.pluto.tv/stitch/hls/channel/5ad8d54be738977e2c310940/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=71421972-6e5b-11ed-90a5-d115a2edefb3&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=dd4a266f-a725-45bd-a00e-5694c5ade9a7&serverSideAds=false
 #EXTINF:-1 tvg-id="MoonbugKids.us" tvg-logo="https://i.imgur.com/nuzIBbN.png" group-title="🌈| Hoạt hình",Moonbug Kids (1080p)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="PinkfongBabyShark" tvg-logo="https://i.ibb.co/RzTcgsy/Pinkfong-Baby-Shark.png" group-title="🌈| Hoạt hình",Pinkfong Baby Shark (1080p)
+#EXTINF:-1 tvg-id="PinkfongBabyShark" tvg-logo="https://i.ibb.co/RzTcgsy/Pinkfong-Baby-Shark.png" group-title="🌈| Hoạt hình",Pinkfong Baby Shark ᴴᴰ
 https://fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_BabySharkTV/playlist.m3u8
-#EXTINF:-1 tvg-id="pbskids.us" tvg-logo="https://i.ibb.co/56P6wP0/i-fixed-the-new-pbs-kids-logo-by-myktm250-df8zjcw-fullview.png" group-title="🌈| Hoạt hình", PBS KIDS
+#EXTINF:-1 tvg-id="pbskids.us" tvg-logo="https://i.ibb.co/56P6wP0/i-fixed-the-new-pbs-kids-logo-by-myktm250-df8zjcw-fullview.png" group-title="🌈| Hoạt hình", PBS KIDS ᴴᴰ
 http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/418040
-#EXTINF:-1 tvg-id="Tom&Jerryhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xDbxGR0/Picsart-22-12-20-22-48-34-852.png",Tom&Jerry HD
+#EXTINF:-1 tvg-id="Tom&Jerryhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xDbxGR0/Picsart-22-12-20-22-48-34-852.png",Tom&Jerry ᴴᴰ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/13078/index.m3u8
 #EXTINF:-1 tvg-id="bcukids" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/zFNJkbh/bcu-kids-4k.png",BCU Kids ⁴ᴷ
@@ -146,58 +146,58 @@ http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/430738
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/18044/index.m3u8
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="6206" tvg-logo="http://epg.it999.ru/img/6206.png" tvg-rec="0",Liberty Anime ENG ⁴ᴷ
 http://31a3668c.edmonst.net/iptv/SNDQ67NSW6PYEG/17061/index.m3u8
-#EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="universalkids.us" tvg-logo="https://i.ibb.co/KKLqkZZ/dfd69j9-9fbcf4d0-3609-48cd-9606-364121091bf9.png",UNIVERSAL KIDS
+#EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="universalkids.us" tvg-logo="https://i.ibb.co/KKLqkZZ/dfd69j9-9fbcf4d0-3609-48cd-9606-364121091bf9.png",UNIVERSAL KIDS ᴴᴰ
 http://humiptv.live:8080/live/0473936210/8252829362/5855.ts
-#EXTINF:0 group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/t4RKYBK/yossokids.png",YOSSO TV Kids
+#EXTINF:0 group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/t4RKYBK/yossokids.png",YOSSO TV Kids ᴴᴰ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/14173/index.m3u8
-#EXTINF:0 group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/NxHzz2R/Liberty.png",Liberty Disney FHD
+#EXTINF:0 group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/NxHzz2R/Liberty.png",Liberty Disney ᴴᴰ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15093/index.m3u8
 
 #-------------------Thiết yếu-------------------#
-#EXTINF:-1 tvg-id="antvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6jYdfaQAID5lX?format=png",❤️| ANTV HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="antvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6jYdfaQAID5lX?format=png",❤️| ANTV ᴴᴰ
 udp://@225.1.2.169:30120
-#EXTINF:-1 tvg-id="nhandan" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/82zXj85/1576489-nhan-dan.png",❤️| Nhân Dân TV (HD 8Mbps)
+#EXTINF:-1 tvg-id="nhandan" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/82zXj85/1576489-nhan-dan.png",❤️| Nhân Dân TV ᴴᴰ
 udp://@225.1.1.91:30120
-#EXTINF:-1 tvg-id="quochoi" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/n02rRKY/quoc-huy.png",❤️| QUỐC HỘI (HD 8Mbps)
+#EXTINF:-1 tvg-id="quochoi" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/n02rRKY/quoc-huy.png",❤️| QUỐC HỘI ᴴᴰ
 udp://@225.1.2.148:30120
-#EXTINF:-1 tvg-id="qpvnhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/N9zkzV2/Quoc-Phong-cc.webp",❤️| QPVN (HD 8Mbps)
+#EXTINF:-1 tvg-id="qpvnhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/N9zkzV2/Quoc-Phong-cc.webp",❤️| QPVN ᴴᴰ
 udp://@225.1.2.217:30120
-#EXTINF:-1 tvg-id="ttxvnhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6-tcfacAA0WFd?format=png",❤️| VNEWS (HD 8Mbps)
+#EXTINF:-1 tvg-id="ttxvnhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6-tcfacAA0WFd?format=png",❤️| VNEWS ᴴᴰ
 https://vips-livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vovtvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/tY8jbSB/VOV-cc.webp",❤️| VOV TV
+#EXTINF:-1 tvg-id="vovtvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/tY8jbSB/VOV-cc.webp",❤️| VOV TV ᴴᴰ
 http://cdn.vovtv.mediatech.vn/vovlive/tv1live.m3u8
-#EXTINF:-1 tvg-id="hanoi1"group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/ajnzMuj.png",❤️| Hà Nội1 (HD 8Mbps)
+#EXTINF:-1 tvg-id="hanoi1"group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/ajnzMuj.png",❤️| Hà Nội1 ᴴᴰ
 udp://@225.1.2.186:30120
-#EXTINF:-1 tvg-id="hanoi2" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hanoi2 HD
+#EXTINF:-1 tvg-id="hanoi2" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hanoi2 ᴴᴰ
 https://1028513096.vnns.net/tv2-abr/hntvlive/tv2_1080p/chunks.m3u8
-#EXTINF:-1 tvg-id="hungyen" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/wWQtTwr/HUNGYEN-BEARTV.png",❤️| Hưng Yên HD
+#EXTINF:-1 tvg-id="hungyen" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/wWQtTwr/HUNGYEN-BEARTV.png",❤️| Hưng Yên ᴴᴰ
 https://live.hungyentv.vn/hytvlive/tv1live.m3u8
 
-#EXTINF:-1 tvg-id="anvienhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/F08gVbK/BTV9-BEARTV.png",❤️| An Viên HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="anvienhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/F08gVbK/BTV9-BEARTV.png",❤️| An Viên HD ᴴᴰ
 udp://@225.1.2.189:30120
-#EXTINF:-1 tvg-id="vinhlong1hd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/PGxCzX8/ccVL1.webp",❤️| Vĩnh Long1 (HD 8Mbps)
+#EXTINF:-1 tvg-id="vinhlong1hd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/PGxCzX8/ccVL1.webp",❤️| Vĩnh Long1 ᴴᴰ
 udp://@225.1.1.155:30120
-#EXTINF:-1 tvg-id="vinhlong2hd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/0FDCSbz/ccVL2.webp",❤️| Vĩnh Long2 (HD 8Mbps)
+#EXTINF:-1 tvg-id="vinhlong2hd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/0FDCSbz/ccVL2.webp",❤️| Vĩnh Long2 ᴴᴰ
 udp://@225.1.1.154:30120
 #-------------------VTC-------------------#
-#EXTINF:-1 tvg-id="vtc1hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/o70uxdn.png",VTC1 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtc1hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/o70uxdn.png",VTC1 HD ᴴᴰ
 udp://@225.1.2.254:30120
 #EXTINF:-1 tvg-id="vtc2" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZTWeaAAEdIn6?format=png", VTC2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://livecdn.fptplay.net/sdb/vtc2_hls.smil/chunklist_b2500000.m3u8
 
-#EXTINF:-1 tvg-id="vtc3hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/iJ0haYq.png",VTC3 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtc3hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/iJ0haYq.png",VTC3 ᴴᴰ
 udp://@225.1.2.251:30120
-#EXTINF:-1 tvg-id="vtc4hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/1qxHnSG/VTC4.png",VTC4 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtc4hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/1qxHnSG/VTC4.png",VTC4 ᴴᴰ
 udp://@225.1.2.200:30120
 
-#EXTINF:-1 tvg-id="vtc5hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZWy1aUAErHpL?format=png" , VTC5 FHD
+#EXTINF:-1 tvg-id="vtc5hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZWy1aUAErHpL?format=png" , VTC5 ᴴᴰ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://livecdn.fptplay.net/sdb/vtc5_hls.smil/chunklist_b2500000.m3u8
 
-#EXTINF:-1 tvg-id="vtc6hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW0DacAEhukR?format=png", VTC6
+#EXTINF:-1 tvg-id="vtc6hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW0DacAEhukR?format=png", VTC6 ᴴᴰ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://livecdn.fptplay.net/sdb/vtc6_hls.smil/chunklist_b2500000.m3u8
 
@@ -208,7 +208,7 @@ https://code.vthanhtivi.pw/getlink/mytv/398/hd.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://livecdn.fptplay.net/sdb/vtc8_hls.smil/chunklist_b2500000.m3u8
 
-#EXTINF:-1 tvg-id="vtc9hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaROakAAjK6t?format=png" , VTC9 FHD
+#EXTINF:-1 tvg-id="vtc9hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaROakAAjK6t?format=png" , VTC9 ᴴᴰ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://livecdn.fptplay.net/sdb/vtc9_hls.smil/chunklist_b2500000.m3u8
 
@@ -223,19 +223,19 @@ https://livecdn.fptplay.net/sdb/vtc11_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="vtc12" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaUGacAAR-2X?format=png", VTC12
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://livecdn.fptplay.net/sdb/vtc12_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="vtc13hd" group-title="💙| VTC" tvg-logo="https://imgur.com/2RRt2M4.png",VTC13 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtc13hd" group-title="💙| VTC" tvg-logo="https://imgur.com/2RRt2M4.png",VTC13 ᴴᴰ
 udp://@225.1.2.250:30120
 #EXTINF:-1 tvg-id="vtc13hd" tvg-logo="https://i.ibb.co/289kmYq/VTC13-4K.png" group-title="🎶| Music",VTC13 4K
 http://vcdn1.vtc.gov.vn:1935/m_4k/smil:4k.smil/playlist.m3u8?$3840x2160
-#EXTINF:-1 tvg-id="vtc14hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/pD5HCal.png",VTC14 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtc14hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/pD5HCal.png",VTC14 ᴴᴰ
 udp://@225.1.2.88:30120
-#EXTINF:-1 tvg-id="vtc16hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/Az8QejV.png",VTC16 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="vtc16hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/Az8QejV.png",VTC16 ᴴᴰ
 udp://@225.1.2.190:30120
 
 #----VTVCAB----#
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf 50fps
 http://code.vthanhtivi.pw/getlink/onplus/THETHAO_GOLF_HD/m401_index.m3u8
-#EXTINF:-1 tvg-id="btv5hd" group-title="💗| VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png", BTV5 - ON Sports Action
+#EXTINF:-1 tvg-id="btv5hd" group-title="💗| VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png", BTV5 - ON Sports Action ᴴᴰ
 https://code.vthanhtivi.pw/getlink/onplus/BTV5/m30_index.m3u8
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png", VTVcab 3 - ON Sports (50fps)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -250,9 +250,9 @@ http://code.vthanhtivi.pw/getlink/onplus/ONSPORTNEWSTA/m30_index.m3u8
 #EXTINF:-1 tvg-id="" group-title="💗| VTVcab" tvg-logo="https://stvinaprod.vtvcab.vn/720X405/ad12aa62-1d69-4141-8852-18d65ab3be64.jpg", ON Golf ENG
 http://code.vthanhtivi.pw/getlink/onplus/ONGOLFTA/m30_index.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/9cgCxM6/bongdaviet.png", Bóng đá Việt
+#EXTINF:-1 tvg-id="" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/9cgCxM6/bongdaviet.png", Bóng đá Việt ᴴᴰ
 http://code.vthanhtivi.pw/getlink/onplus/ONVFFTV/m30_index.m3u8
-#EXTINF:-1 tvg-id="" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/ygPLR6S/thethaoviet.png", Thể thao Việt
+#EXTINF:-1 tvg-id="" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/ygPLR6S/thethaoviet.png", Thể thao Việt ᴴᴰ
 http://code.vthanhtivi.pw/getlink/onplus/ONVOLLEYBALL/m30_index.m3u8
 
 #EXTINF:-1 group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/4KXXXK6/On-Sports.png" tvg-id="onsportjungo", ON Sport (Jungo)
@@ -518,29 +518,29 @@ http://rogermellie.xyz:80/richay/richay/3157685
 #EXTINF:-1 tvg-name="BTV-8KSDR" tvg-logo="https://cdn.jsdelivr.net/gh/youshandefeiyang/IPTV/logo/6b43dea36f823761380072013ab25d1594f58aad.jpg" group-title="🌏| 4K 🇺 🇭 🇩",BTV-8KSDR
 http://159.75.85.63:6798
 #-------------------HTV/HTVC-------------------#
-#EXTINF:-1 tvg-id="htv2hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJNacAI1x1L?format=png",HTV2 Vie Channel (HD 8Mbps)
+#EXTINF:-1 tvg-id="htv2hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJNacAI1x1L?format=png",HTV2 Vie Channel ᴴᴰ
 udp://@225.1.1.193:30120
-#EXTINF:-1 tvg-id="htv7hd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/C9r5gwM/HTV7-cc.webp",HTV7 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="htv7hd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/C9r5gwM/HTV7-cc.webp",HTV7 HD ᴴᴰ
 udp://@225.1.1.192:30120
-#EXTINF:-1 tvg-id="htv9hd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/tqvWY3q/HTV9-cc.webp",HTV9 HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="htv9hd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/tqvWY3q/HTV9-cc.webp",HTV9 HD ᴴᴰ
 udp://@225.1.1.190:30120
-#EXTINF:-1 tvg-id="htvthethaohd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ad0GakAcX1g2?format=png",HTV THỂ THAO (HD 8Mbps)
+#EXTINF:-1 tvg-id="htvthethaohd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ad0GakAcX1g2?format=png",HTV THỂ THAO ᴴᴰ
 udp://@225.1.1.165:30120
-#EXTINF:-1 tvg-id="htvcanhachd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ag-GaUAAwOv0?format=png",HTVC Ca Nhạc (HD 8Mbps)
+#EXTINF:-1 tvg-id="htvcanhachd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ag-GaUAAwOv0?format=png",HTVC Ca Nhạc ᴴᴰ
 udp://@225.1.1.185:30120
-#EXTINF:-1 tvg-id="htvcdulichhd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ag_9akAA0XZ7?format=png",HTVC Du Lịch và Cuộc Sống (HD 8Mbps)
+#EXTINF:-1 tvg-id="htvcdulichhd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ag_9akAA0XZ7?format=png",HTVC Du Lịch và Cuộc Sống ᴴᴰ
 udp://@225.1.1.166:30120
-#EXTINF:-1 tvg-id="htvcgiadinhhd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7ApjxaAAUSY5A?format=png",HTVC Gia Đình (HD 8Mbps)
+#EXTINF:-1 tvg-id="htvcgiadinhhd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7ApjxaAAUSY5A?format=png",HTVC Gia Đình ᴴᴰ
 udp://@225.1.1.170:30120
-#EXTINF:-1 tvg-id="htvcphimhd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/n3QhGdm/HTVCPhim-cc.webp",HTVC Phim (HD 8Mbps)
+#EXTINF:-1 tvg-id="htvcphimhd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/n3QhGdm/HTVCPhim-cc.webp",HTVC Phim ᴴᴰ
 udp://@225.1.1.184:30120
-#EXTINF:-1 tvg-id="htvcphunuhd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ad2qaUAkzPDI?format=png",HTVC Phụ Nữ (HD 8Mbps)
+#EXTINF:-1 tvg-id="htvcphunuhd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ad2qaUAkzPDI?format=png",HTVC Phụ Nữ ᴴᴰ
 udp://@225.1.1.171:30120
-#EXTINF:-1 tvg-id="htvcthuanviethd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ar9_aQAAJGk2?format=png",HTVC Thuần Việt (HD 8Mbps)
+#EXTINF:-1 tvg-id="htvcthuanviethd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ar9_aQAAJGk2?format=png",HTVC Thuần Việt ᴴᴰ
 udp://@225.1.1.174:30120
-#EXTINF:-1 tvg-id="htvthuanviethd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ar9_aQAAJGk2?format=png",Thuần Việt HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="htvthuanviethd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ar9_aQAAJGk2?format=png",Thuần Việt ᴴᴰ
 udp://@225.1.1.186:30120
-#EXTINF:-1 tvg-id="htvcplushd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/7QjqVJP/HTVCPlus-cc.webp",HTVC Plus (HD 8Mbps)
+#EXTINF:-1 tvg-id="htvcplushd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/7QjqVJP/HTVCPlus-cc.webp",HTVC Plus ᴴᴰ
 udp://@225.1.1.181:30120
 #EXTINF:-1 tvg-id="htv1hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png",HTV1
 udp://@225.1.1.180:30120
@@ -687,7 +687,7 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15516/index.m3u8
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/14179/index.m3u8
 
 #-------------------Minh Đức Giải Trí-------------------#
-#EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO (HD 8Mbps)
+#EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO ᴴᴰ
 udp://@225.1.4.90:30120
 #EXTINF:-1 tvg-id="HBO2West.us" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/gM2rDGW/1265677.png",▶️| HBO 2
 http://raw.bitnode.pm:81/giorgi/giorgi/121725
@@ -699,17 +699,17 @@ http://nv1connect.com:80/12345678/87654321/3797
 http://nv1connect.com:80/12345678/87654321/3798
 #EXTINF:-1 tvg-id="HBOZone.us" tvg-name="USA | HBO ZONE" tvg-logo="https://static.epg.best/us/HBOZone.us.png" group-title="📽️| Minh Đức Giải Trí",USA | HBO ZONE
 http://nv1connect.com:80/12345678/87654321/3800
-#EXTINF:-1 tvg-id="axnhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp",▶️| AXN (HD 8Mbps)
+#EXTINF:-1 tvg-id="axnhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp",▶️| AXN ᴴᴰ
 udp://@225.1.2.225:30120
-#EXTINF:-1 tvg-id="cinemaworld" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/ss7qbgg/Cinema-World-cc.png",▶️| Cinema World (HD 8Mbps)
+#EXTINF:-1 tvg-id="cinemaworld" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/ss7qbgg/Cinema-World-cc.png",▶️| Cinema World ᴴᴰ
 udp://@225.1.1.142:30120
-#EXTINF:-1 tvg-id="cinemaxhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/pjnAxys.png",▶️| CINEMAX (HD 8Mbps)
+#EXTINF:-1 tvg-id="cinemaxhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/pjnAxys.png",▶️| CINEMAX ᴴᴰ
 udp://@225.1.2.86:30120
-#EXTINF:-1 tvg-id="kix" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/EIpDxnQ.png",▶️| KIX (HD 8Mbps)
+#EXTINF:-1 tvg-id="kix" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/EIpDxnQ.png",▶️| KIX ᴴᴰ
 udp://@225.1.2.144:30120
-#EXTINF:-1 tvg-id="warnertvhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/myLbZ8m/8124486-new-wtv-logo.png",▶️| WBTV (HD 8Mbps)
+#EXTINF:-1 tvg-id="warnertvhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/myLbZ8m/8124486-new-wtv-logo.png",▶️| WBTV ᴴᴰ
 udp://@225.1.1.139:30120
-#EXTINF:-1 tvg-id="kbsworld" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/s1Dxmd5/KBSWorld.png",▶️| KBS WORLD (HD 8Mbps)
+#EXTINF:-1 tvg-id="kbsworld" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/s1Dxmd5/KBSWorld.png",▶️| KBS WORLD ᴴᴰ
 udp://@225.1.1.196:30120
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
@@ -745,15 +745,15 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:0 group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0B4fDqs/fashion-one-logo-3481715-C90-seeklogo-com.png",▶️|Fashion One
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/2412/index.m3u8
-#EXTINF:-1 tvg-id="fashionhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/XL02Bpx/pngwing-com.png",▶️| Fashion TV (HD 8Mbps)
+#EXTINF:-1 tvg-id="fashionhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/XL02Bpx/pngwing-com.png",▶️| Fashion TV ᴴᴰ
 udp://@225.1.2.227:30120
-#EXTINF:-1 tvg-id="FashionTVUHD.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/FTV_Logo.png" group-title="📽️| Minh Đức Giải Trí",▶️| Fashion TV UHD (2160p)
+#EXTINF:-1 tvg-id="FashionTVUHD.fr" tvg-logo="https://i.ibb.co/Vxk95xf/Miss-FTV-FINAL.png" group-title="📽️| Minh Đức Giải Trí",▶️| Fashion TV UHD ⁴ᴷ
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FashionTVMidnightSecrets.fr" tvg-logo="https://i.imgur.com/lMSp60D.png" group-title="📽️| Minh Đức Giải Trí",▶️| Fashion TV Midnight Secrets
 https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="blueantent" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/g6zym2b/Blue-Ant-Ent-cc.webp",▶️| BLUE ANT ENTERTAINMENT (HD 8Mbps)
+#EXTINF:-1 tvg-id="blueantent" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/g6zym2b/Blue-Ant-Ent-cc.webp",▶️| BLUE ANT ENTERTAINMENT ᴴᴰ
 udp://@225.1.1.203:30120
-#EXTINF:-1 tvg-id="blueantext" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/3TyW9DX/Blue-Ant-Etx-cc.png",▶️| BLUE ANT EXTREME (HD 8Mbps)
+#EXTINF:-1 tvg-id="blueantext" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/3TyW9DX/Blue-Ant-Etx-cc.png",▶️| BLUE ANT EXTREME ᴴᴰ
 udp://@225.1.1.204:30120
 
 #EXTINF:0 tvg-id="NatureRelax4K" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/BN7RnsB/5190d-Op8zt-L.png",🍀| NatureRelax FHD+
@@ -764,19 +764,19 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/993/index.m3u8
 #EXTINF:0 tvg-id="englishclub" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/JC3cdvS/logo.png",🍀| English Club 
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15190/index.m3u8
-#EXTINF:-1 tvg-id="davinci" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/aIAaCce.png",🍀| Da Vinci (HD 8Mbps)
+#EXTINF:-1 tvg-id="davinci" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/aIAaCce.png",🍀| Da Vinci ᴴᴰ
 udp://@225.1.1.197:30120
-#EXTINF:-1 tvg-id="discoveryasiahd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/mRVV3WI.png",🍀|Discovery Asia (HD 8Mbps)
+#EXTINF:-1 tvg-id="discoveryasiahd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/mRVV3WI.png",🍀|Discovery Asia ᴴᴰ
 udp://@225.1.2.223:30120
-#EXTINF:-1 tvg-id="afnhd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/B8zA2gc.png",🍀|Asian Food Network (HD 8Mbps)
+#EXTINF:-1 tvg-id="afnhd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/B8zA2gc.png",🍀|Asian Food Network ᴴᴰ
 udp://@225.1.1.198:30120
-#EXTINF:-1 tvg-id="discoveryhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/xzpWHLm/Discovery-Channel.webp",🍀|Discovery Channel (HD 8Mbps)
+#EXTINF:-1 tvg-id="discoveryhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/xzpWHLm/Discovery-Channel.webp",🍀|Discovery Channel ᴴᴰ
 udp://@225.1.1.238:30120
-#EXTINF:-1 tvg-id="animalhd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/QNg7ekk.png",🍀|Animal Planet (HD 8Mbps)
+#EXTINF:-1 tvg-id="animalhd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/QNg7ekk.png",🍀|Animal Planet ᴴᴰ
 udp://@225.1.1.231:30120
-#EXTINF:-1 tvg-id="bbcearth" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/bWMMncB/bbcearth-cc.png",🍀|BBC Earth (HD 8Mbps)
+#EXTINF:-1 tvg-id="bbcearth" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/bWMMncB/bbcearth-cc.png",🍀|BBC Earth ᴴᴰ
 udp://@225.1.2.24:30120
-#EXTINF:-1 tvg-id="tlchd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/GTULNgT.png",🍀|TLC (HD 8Mbps)
+#EXTINF:-1 tvg-id="tlchd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/GTULNgT.png",🍀|TLC ᴴᴰ
 udp://@225.1.1.236:30120
 #EXTINF:-1 tvg-id="tv5monde" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/R9P4G9X/TV5-Monde.png",TV5 MONDE ASIE HD
 udp://@225.1.1.200:30120
@@ -788,23 +788,23 @@ https://code.vthanhtivi.pw/getlink/tv360/99/2.m3u8
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"FhP2tARlu+kXQPeFcax5+g","kid":"Z2Xqe3zFTByGVR1rNECzmw"},{"kty":"oct","k":"GIBtY0E5EYKF3LcQgYKdGw","kid":"r6nqe3zFTByGVR1rNECzmw"},{"kty":"oct","k":"IS40VfxHMdCc1N+n++oKFg","kid":"vK0urHzFTByGVR1rNECzmw"},{"kty":"oct","k":"/PQx/UZPB3x4ns924oo2MA","kid":"qLouxMvFTByGVR1rNECzmw"}], "type":"temporary"}
 https://sglivevega.kplus.vn/bpk-tv/prod_history/default/index.mpd
 
-#EXTINF:-1 tvg-id="dw" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/B6jnE9k.png",🍀|DW (HD 8Mbps)
+#EXTINF:-1 tvg-id="dw" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/B6jnE9k.png",🍀|DW ᴴᴰ
 udp://@225.1.1.46:30120
-#EXTINF:-1 tvg-id="ngchd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/j3wTynz/National-Geographic.png",🍀|NATIONAL GEOGRAPHIC HD (HD 8Mbps)
+#EXTINF:-1 tvg-id="ngchd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/j3wTynz/National-Geographic.png",🍀|NATIONAL GEOGRAPHIC HD ᴴᴰ
 udp://@225.1.2.235:30120
-#EXTINF:-1 tvg-id="ngwhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/HgYTRT6/Nat-Geo-Wild.png",🍀|NAT GEO WILD (HD 8Mbps)
+#EXTINF:-1 tvg-id="ngwhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/HgYTRT6/Nat-Geo-Wild.png",🍀|NAT GEO WILD ᴴᴰ
 udp://@225.1.1.211:30120
-#EXTINF:-1 tvg-id="nhkworldjapan" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/f3f3d79.png",🍀|NHK WORLD JAPAN (HD 8Mbps)
+#EXTINF:-1 tvg-id="nhkworldjapan" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/f3f3d79.png",🍀|NHK WORLD JAPAN ᴴᴰ
 udp://@225.1.1.47:30120
-#EXTINF:-1 tvg-id="outdoorhd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bbOifca.png",🍀|Outdoor Channel (HD 8Mbps)
+#EXTINF:-1 tvg-id="outdoorhd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bbOifca.png",🍀|Outdoor Channel ᴴᴰ
 udp://@225.1.2.215:30120
 
 #EXTINF:-1 tvg-id="planetearthhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/9sHfrwj/Planet-Earth.png",🍀| Planet Earth
 https://code.vthanhtivi.pw/getlink/tv360/135/2.m3u8
 #EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" ,BBC Lifestyle
-#EXTINF:-1 tvg-id="bbclifestyle" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bn7ha63.png",🍀|BBC Lifestyle (HD 8Mbps)
+#EXTINF:-1 tvg-id="bbclifestyle" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bn7ha63.png",🍀|BBC Lifestyle ᴴᴰ
 udp://@225.1.2.52:30120
-#EXTINF:-1 tvg-id="bbcworldnews" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/j5jJptz/bbcworldnews-cc.png",🍀| BBC WORLD NEWS (HD 8Mbps)
+#EXTINF:-1 tvg-id="bbcworldnews" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/j5jJptz/bbcworldnews-cc.png",🍀| BBC WORLD NEWS ᴴᴰ
 udp://@225.1.2.74:30120
 #EXTINF:-1 tvg-id="cna" tvg-name="Channel NewsAsia" tvg-logo="https://i.imgur.com/iX9c7AK.png" group-title="🌿| Khám phá",🍀|Channel NewsAsia
 udp://@225.1.1.202:30120
