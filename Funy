@@ -990,6 +990,10 @@ http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/508259
 http://raw.bitnode.pm:81/giorgi/giorgi/20386
 #EXTINF:-1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png",🎖️| Ziggo Sport Racing
 http://nv1connect.com:80/12345678/87654321/28726
+#EXTINF:-1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://dl.dropboxusercontent.com/s/v5rcg62t5a080l0/ziggosport.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/
+http://nv1connect.com:80/12345678/87654321/28726
 #EXTINF:-1 tvg-id="skysportsf1.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/7Q7Nm20/Sky-Sport-F1.png",🎖️| Sky Sports F1
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/10079/index.m3u8
