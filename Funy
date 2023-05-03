@@ -810,13 +810,13 @@ http://raw.bitnode.pm:81/giorgi/giorgi/121628
 udp://@225.1.4.17:30120
 #-------------------Live Bóng Đá-------------------#
 #EXTINF:-1 tvg-id="MUTV.uk" tvg-logo="https://i.ibb.co/87ggMSv/MU.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MU-FC
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/508219
+http://raw.bitnode.pm:81/giorgi/giorgi/20374
 #EXTINF:-1 tvg-id="nowSportsPremierLeague1.hk" tvg-logo="https://i.ibb.co/MhgRjWw/now1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 1
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/425332
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110622&extension=ts
 #EXTINF:-1 tvg-id="nowSportsPremierLeague2.hk" tvg-logo="https://i.ibb.co/vZwRg2M/now2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 2
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/425328
+http://shareext@185.243.7.13/play/live.php?mac=00:1A:79:45:5E:9A&stream=554948&extension=ts&play_token=1kEm8DbZmS
 #EXTINF:-1 tvg-id="nowSportsPremierLeague3.hk" tvg-logo="https://i.ibb.co/NmSPDfJ/now3.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 3
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/425327
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110617&extension=ts
 
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV1" tvg-logo="https://i.imgur.com/EaRVaEX.png",CHAMPIONS TV 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -931,7 +931,7 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=692393&extensi
 #EXTINF:1 tvg-id="skysportsgolf.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/qj4Gcff/Sky-Sport-Golf.png",Sky Sports Golf FHD
 http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/508250
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="laligatv.uk" tvg-name="LA LIGA TV FHD" tvg-logo="https://logo.iptveditor.com/laligatv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ LA LIGA TV
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/501474
+http://rogermellie.xyz:80/richay/richay/65414
 #EXTINF:-1 tvg-id="dazn1.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/2560px-DAZN_1_Logo.svg.png" group-title="🔴| LÂM-PHONG SPORT", DAZN 1
 http://hplay.xyz:80/rtrboofc/pi519pvU9R/303780
 #EXTINF:-1 tvg-id="dazn2.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/2560px-DAZN_2.svg.png" group-title="🔴| LÂM-PHONG SPORT", DAZN 2
@@ -996,6 +996,8 @@ http://iptvh2o.com:2082/bestregards/7W88PkMXp4/138356
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19243/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/59b722526996084038c01e1b/colorLogoPNG.png" group-title="🔴| LÂM-PHONG SPORT",IMPACT! Wrestling
 https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 tvg-id="wwenetwork" tvg-logo="http://linear-poster.astro.com.my/prod/logo/WWE_v1.png" group-title="🔴| LÂM-PHONG SPORT",🎖️| WWE Network
+http://humiptv.live:8080/live/0473936210/8252829362/711.ts
 #EXTINF:-1 tvg-id="WWENetwork" tvg-name="Peacock Live | WWE Network" tvg-logo="https://i.ibb.co/z5FfTRm/WWE-Network.png" group-title="🔴| LÂM-PHONG SPORT",Peacock Live | WWE Network
 http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/405955
 #EXTINF:-1 tvg-id="wwe" tvg-logo="https://i.ibb.co/z5FfTRm/WWE-Network.png" group-title="🔴| LÂM-PHONG SPORT", IMPACT PRO WRESTLING
@@ -1009,8 +1011,8 @@ http://raw.bitnode.pm:81/giorgi/giorgi/20396
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15097/index.m3u8
 #EXTINF:-1 tvg-id="UfcNetwork.us" tvg-logo="https://i.ibb.co/nmxL95J/ufc.png" group-title="🔴| LÂM-PHONG SPORT",UFC Fight
 http://ultratv.one:2095/play/live.php?mac=00:1A:79:C9:3F:E3&stream=13259&extension=ts&play_token=yUSi9cDsby
-#EXTINF:-1 tvg-id="wwenetwork" tvg-logo="http://linear-poster.astro.com.my/prod/logo/WWE_v1.png" group-title="🔴| LÂM-PHONG SPORT",🎖️| WWE Network
-http://humiptv.live:8080/live/0473936210/8252829362/711.ts
+#EXTINF:-1  tvg-logo="https://i.postimg.cc/c4pTS21q/Champion-Tv-SHAREext-Group.jpg" group-title="🔴| LÂM-PHONG SPORT",Hard_Knock
+https://d3uyzhwvmemdyf.cloudfront.net/scheduler/scheduleMaster/109/variant/22099396/52e53bec-21f1-4caf-86ce-a502b6cc8520.m3u8
 #EXTINF:-1 tvg-id="fightsports" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/VqskkPL/FIGHT-SPORTS-2018.png",🎖️| FIGHT SPORTS
 http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/508840
 #EXTINF:-1 tvg-id="fightnetwork.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/qrWHqLb/fight.png",🎖️| Fight Network
