@@ -736,7 +736,7 @@ https://code.vthanhtivi.pw/getlink/tv360/163/2.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #https://code.vthanhtivi.pw/getlink/cliptv/823/chunklist_b5128000.m3u8
 https://code.vthanhtivi.pw/getlink/tv360/162/2.m3u8
-#EXTINF:-1 tvg-id="GlobalFashionChannel.us" tvg-logo="https://i.imgur.com/s4eGYEP.jpg" group-title="📽️| Minh Đức Giải Trí",▶️| Global Fashion Channel
+#EXTINF:-1 tvg-id="GlobalFashionChannel.us" tvg-logo="https://i.ibb.co/vL5BM2N/GLOBAL-FASHION.png" group-title="📽️| Minh Đức Giải Trí",▶️| Global Fashion Channel
 https://fashiontv-fashiontv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CodeFashionTV.bg" tvg-logo="https://i.imgur.com/R8UaNsX.png" group-title="📽️| Minh Đức Giải Trí",▶️| Code Fashion TV
 https://cdn3.invivo.bg/Codefashion_5500/index.m3u8
