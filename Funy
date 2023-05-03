@@ -19,7 +19,8 @@ udp://@225.1.2.96:30120
 udp://@225.1.2.166:30120
 #EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/SV2FccD/vtv9.png",❤️| VTV9 HD (HD 8Mbps)
 udp://@225.1.1.128:30120
-
+#EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV HD" tvg-logo="https://cdn.hqth.me/logo/thumbs/5.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/mytv/379/hd/dvr-${start}-${end}.m3u8", VTV5 | 50fps
+https://live-ali2.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-65M.m3u8
 #-------------------K+-------------------#
 
 
@@ -546,78 +547,78 @@ udp://@225.1.1.180:30120
 
 #-------------------SCTV-------------------#
 
-#EXTINF:0 tvg-id="sctv1hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/67.png",SCTV 1 HD - Hài
+#EXTINF:0 tvg-id="sctv1hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/fnTNmGf/SCTV1.webp",SCTV 1 HD - Hài
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv1/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv2hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/68.png" ,SCTV2
+#EXTINF:0 tvg-id="sctv2hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/2qPDn0t/SCTV2.webp" ,SCTV2
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv2/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv3hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/69.png" ,SCTV 3 HD - SEE TV
+#EXTINF:0 tvg-id="sctv3hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/wNWbJKL/SCTV3.webp" ,SCTV 3 HD - SEE TV
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv3/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv4hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/70.png" ,SCTV 4 HD - Giải trí tổng hợp
+#EXTINF:0 tvg-id="sctv4hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/HP0f1Bb/SCTV4.webp" ,SCTV 4 HD - Giải trí tổng hợp
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv4/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv11hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/71.png" ,SCTV5 HD
+#EXTINF:0 tvg-id="sctv11hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/SN3gRZk/SCTV5.webp" ,SCTV5 HD
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv5/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:-1 tvg-id="sctv6hd" group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/72.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/film360_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",SCTV6 - Fim 360
+#EXTINF:-1 tvg-id="sctv6hd" group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/FHWGnnz/SCTV6.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/film360_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",SCTV6 - Fim 360
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://vips-livecdn.fptplay.net/hda3/film360_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:0 tvg-id="sctv7hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/73.png" ,SCTV 7 HD - Sân Khấu
+#EXTINF:0 tvg-id="sctv7hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/QM75wdn/SCTV7.webp" ,SCTV 7 HD - Sân Khấu
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv7/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv8hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/74.png" ,SCTV8-VITV - Kinh Tế Tài Chính
+#EXTINF:0 tvg-id="sctv8hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/s3Kkgw7/SCTV8.webp" ,SCTV8-VITV - Kinh Tế Tài Chính
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv8/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv9hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/75.png" ,SCTV9 HD
+#EXTINF:0 tvg-id="sctv9hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/jLHmbXs/SCTV9.webp" ,SCTV9 HD
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv9/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv11hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/76.png" ,SCTV10 HD
+#EXTINF:0 tvg-id="sctv11hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/M9rfCP9/SCTV10.webp" ,SCTV10 HD
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv11/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv11hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/77.png" ,SCTV11 HD
+#EXTINF:0 tvg-id="sctv11hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/cX6nSNF/SCTV11.webp" ,SCTV11 HD
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv11/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv12hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/78.png" ,SCTV 12 HD - Du Lịch
+#EXTINF:0 tvg-id="sctv12hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/Fn08B2G/SCTV12.webp" ,SCTV 12 HD - Du Lịch
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv12/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv13hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/79.png" ,SCTV13 HD - Phụ nữ & Gia đình
+#EXTINF:0 tvg-id="sctv13hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/QKpFThG/SCTV13.webp" ,SCTV13 HD - Phụ nữ & Gia đình
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv13/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv14hd" group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/80.png",SCTV14 HD - Kênh Phim Việt
+#EXTINF:0 tvg-id="sctv14hd" group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/VtxJP6M/SCTV14.webp",SCTV14 HD - Kênh Phim Việt
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv14/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv15hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/81.png" ,SCTV15 HD - SSPORT 2
+#EXTINF:0 tvg-id="sctv15hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/WGGWyv9/SCTV15.webp" ,SCTV15 HD - SSPORT 2
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv15/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv16hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/82.png" ,SCTV16 HD - Phim Nước Ngoài
+#EXTINF:0 tvg-id="sctv16hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/xfGq1GY/SCTV16.webp" ,SCTV16 HD - Phim Nước Ngoài
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv16/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv17hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/83.png" ,SCTV17 HD - SSPORT 
+#EXTINF:0 tvg-id="sctv17hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/cy1D7NX/SCTV17.webp" ,SCTV17 HD - SSPORT 
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv17/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv18hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/84.png" ,SCTV18 HD
+#EXTINF:0 tvg-id="sctv18hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/5jCVgmv/SCTV18.webp" ,SCTV18 HD
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv18/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv19hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/85.png" ,SCTV19 HD
+#EXTINF:0 tvg-id="sctv19hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/XWLdBXJ/SCTV19.webp" ,SCTV19 HD
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv19/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv20hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/86.png" ,SCTV20 HD
+#EXTINF:0 tvg-id="sctv20hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/BrM18dN/SCTV20.webp" ,SCTV20 HD
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv20/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv21hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/87.png" ,SCTV21 HD
+#EXTINF:0 tvg-id="sctv21hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/Jy1cBs4/SCTV21.webp" ,SCTV21 HD
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv21/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctv22hd"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/88.png" ,SCTV22 HD - SSPORT1
+#EXTINF:0 tvg-id="sctv22hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/zGyB6xr/SCTV22.webp" ,SCTV22 HD - SSPORT1
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv22/index.m3u8|Referer=http://sctvonline.vn/
-#EXTINF:0 tvg-id="sctvhdpth"group-title="🌐| SCTV" tvg-logo="http://logo.vagroup.pw/239.png" ,SCTV PHIM TỔNG HỢP 
+#EXTINF:0 tvg-id="sctvhdpth"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/B2cKf4w/SCTVPhim.webp" ,SCTV PHIM TỔNG HỢP 
 #EXTVLCOPT:http-user-agent="VAgroup"
 https://e1.endpoint.cdn.sctvonline.vn/playlist/sctvphimtonghop/index.m3u8|Referer=http://sctvonline.vn/
 
 #----Music----#
-#EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="http://logo.vagroup.pw/240.png",💿| Music Box
+#EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
 https://code.vthanhtivi.pw/getlink/mytv/69/hd.m3u8
 #EXTINF:-1 tvg-id="mtv.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
 http://rogermellie.xyz:80/richay/richay/1462
