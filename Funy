@@ -687,6 +687,8 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15516/index.m3u8
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/14179/index.m3u8
 
 #-------------------Minh Đức Giải Trí-------------------#
+#EXTINF:-1 tvg-id="" group-title="📽️| Minh Đức Giải Trí" tvg-logo="http://img-zlr2.tv360.vn/tv360-static/static/web/images/logo.png" ,TV360
+http://livestream-zlr1.tv360.vn/origin01/fast-channel/manifest/test/playlist_1080p.m3u8
 #EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO ᴴᴰ
 udp://@225.1.4.90:30120
 #EXTINF:-1 tvg-id="HBO2West.us" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/gM2rDGW/1265677.png",▶️| HBO 2
@@ -778,11 +780,11 @@ udp://@225.1.1.231:30120
 udp://@225.1.2.24:30120
 #EXTINF:-1 tvg-id="tlchd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/GTULNgT.png",🍀|TLC ᴴᴰ
 udp://@225.1.1.236:30120
-#EXTINF:-1 tvg-id="tv5monde" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/R9P4G9X/TV5-Monde.png",TV5 MONDE ASIE HD
+#EXTINF:-1 tvg-id="tv5monde" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/R9P4G9X/TV5-Monde.png",TV5 MONDE ASIE ᴴᴰ
 udp://@225.1.1.200:30120
 #EXTINF:-1 tvg-id="hgtv" tvg-logo="https://i.ibb.co/kB91Qgx/HGTV.png" group-title="🌿| Khám phá",🍀| HGTV
 https://code.vthanhtivi.pw/getlink/tv360/99/2.m3u8
-#EXTINF:-1 tvg-id="historyhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",🍀|History HD
+#EXTINF:-1 tvg-id="historyhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",🍀|History ᴴᴰ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"FhP2tARlu+kXQPeFcax5+g","kid":"Z2Xqe3zFTByGVR1rNECzmw"},{"kty":"oct","k":"GIBtY0E5EYKF3LcQgYKdGw","kid":"r6nqe3zFTByGVR1rNECzmw"},{"kty":"oct","k":"IS40VfxHMdCc1N+n++oKFg","kid":"vK0urHzFTByGVR1rNECzmw"},{"kty":"oct","k":"/PQx/UZPB3x4ns924oo2MA","kid":"qLouxMvFTByGVR1rNECzmw"}], "type":"temporary"}
@@ -966,9 +968,9 @@ http://176.222.190.76/btv/SWM/setantasports2hdkz/setantasports2hdkz.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/Byqcf30/Trace-SSLogo.png" group-title="🔴| LÂM-PHONG SPORT",🎖️| Trace Sports Stars
 https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="eurosport1.uk" tvg-logo="https://i.ibb.co/ryZ3jb0/euro1.png" group-title="🔴| LÂM-PHONG SPORT", EuroSport 1
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/508205
+http://nv1connect.com:80/12345678/87654321/21959
 #EXTINF:-1 tvg-id="eurosport2.uk" tvg-logo="https://i.ibb.co/D10K97K/euro2.png" group-title="🔴| LÂM-PHONG SPORT", EuroSport 2
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/508207
+http://nv1connect.com:80/12345678/87654321/21960
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/t4PRwF6/china.png", Sport China
 https://live.v1.mk/api/bestv.php?id=cctv16hd4k/15000000
 #EXTINF:-1 tvg-id="edgesport.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/PTnQPdp/ccEdge.png",🎖️| Edge Sport
