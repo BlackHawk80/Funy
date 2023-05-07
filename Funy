@@ -111,6 +111,8 @@ udp://@225.1.1.134:30120
 udp://@225.1.1.138:30120
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-chno="2360" tvg-id="Anime All Day" tvg-name="Anime All Day" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png", Anime All Day
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=2360&deviceId=5812b7d3249444e05d09cc49&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+#EXTINF:-1 tvg-id="aniplus,id" group-title="🌈| Hoạt hình" tvg-logo="https://d1i01wkzwiao45.cloudfront.net/wp-content/uploads/2018/08/Aniplus-Logo-News-Black_RE.jpg", Aniplus
+http://live.vthanhtivi.pw/aniplus
 #EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel ᴴᴰ
 http://raw.bitnode.pm:81/giorgi/giorgi/20652
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
@@ -918,7 +920,8 @@ http://mag.you24.online:80/smarttverz/72p44x7OkNDDLd/696636
 #EXTINF:1 tvg-id="premiersports.uk" tvg-logo="https://i.ibb.co/hDw5FSg/v-sport1.png" group-title="🔴| LÂM-PHONG SPORT",⚽| V-Premium Sports
 http://87c576b1.cbilant.com/iptv/6GXDRQ5GNUAXH7/12079/index.m3u8
 
-#EXTINF:-1 tvg-id="Hub.Premier.1.(HD).sg" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qoerty1659622111.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 1
+#EXTINF:-1 tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qoerty1659622111.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 1
+http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348097&extension=ts&play_token=FzoklzfqN1
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032529&extension=ts&play_token=
 #EXTINF:-1 tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/sdvs4u1659622094.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 2
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032528&extension=ts&play_token=
