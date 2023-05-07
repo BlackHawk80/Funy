@@ -22,7 +22,7 @@ udp://@225.1.1.128:30120
 
 #-------------------K+-------------------#
 
-#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png",K+SPORT1 
+#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png",K+ SPORT 1 MyTV
 http://103.82.24.168:5544/play/sport1tn/index.m3u8
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -945,7 +945,7 @@ http://new.ivue.co:25461/play/live.php?mac=00:1A:79:38:78:38&stream=1896&extensi
 http://new.ivue.co:25461/play/live.php?mac=00:1A:79:38:78:38&stream=1894&extension=ts&play_token=Vogu1ADsiO
 #EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=83450&extension=ts&play_token=
-#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-logo="https://i.ibb.co/QrGSRc7/Sky-Sport-Mix.png" group-title="🔴| LÂM-PHONG SPORT", Sky Sports Mix
+#EXTINF:-1 tvg-id="SkySportsMix" tvg-logo="https://i.ibb.co/QrGSRc7/Sky-Sport-Mix.png" group-title="🔴| LÂM-PHONG SPORT", Sky Sports Mix
 http://raw.bitnode.pm:81/giorgi/giorgi/20701
 #EXTINF:0 tvg-id="Sky.Sport.Calcio.HD.it" tvg-logo="https://i.ibb.co/NK2PrnL/Sky-Sport-Calcio.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORT CALCIO
 #EXTVLCOPT:network-caching=1000
