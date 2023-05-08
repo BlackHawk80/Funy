@@ -479,7 +479,7 @@ http://theking365tv.ws:2103/play/live.php?mac=00:1A:79:5c:f4:67&stream=37744&ext
 #EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="SkySportsF1UHD" tvg-logo="https://i.ibb.co/gTd6Hnn/1280px-Sky-Sport-F1-Logo-2018-svg.png" group-title="🌏| 4K 🇺 🇭 🇩",Sky Sports F1 ⁴ᴷ
 http://nv1connect.com:80/12345678/87654321/73791
 
-#EXTINF:0 tvg-logo="https://i.ibb.co/44KZ1yK/elevensports1-4k-1-632x221-1.png" group-title="🌏| 4K 🇺 🇭 🇩",⚽ ElevenSport ⁴ᴷ
+#EXTINF:0 tvg-logo="https://i.ibb.co/sv0KsR2/RAI4K.png" group-title="🌏| 4K 🇺 🇭 🇩",Rai ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20068/index.m3u8
 
@@ -506,7 +506,7 @@ http://humiptv.live:8080/live/0473936210/8252829362/121874.ts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://streamservicehd.click/
 http://raw.bitnode.pm:81/giorgi/giorgi/1555715
-#EXTINF:0 tvg-logo="https://i.ibb.co/Zx2FgHZ/TVP-4K.png" group-title="🌏| 4K 🇺 🇭 🇩",⚽ TVP ⁴ᴷ
+#EXTINF:0 tvg-logo="https://i.ibb.co/44KZ1yK/elevensports1-4k-1-632x221-1.png" group-title="🌏| 4K 🇺 🇭 🇩",⚽ ElevenSport ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20078/index.m3u8
 #EXTINF:0 tvg-logo="" group-title="🌏| 4K 🇺 🇭 🇩",RTL UHD
@@ -940,6 +940,10 @@ http://humiptv.live:8080/live/0473936210/8252829362/5483.ts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://streamservicehd.click/
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19158/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/Q9VkNQh/eleven1.png" group-title="🔴| LÂM-PHONG SPORT",Eleven Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/
+https://webudit.salamus1.lol/lb/premium71/index.m3u8
 #EXTINF:-1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ Peacock•PremierLeague
 http://shareext@185.243.7.13/play/live.php?mac=00:1A:79:45:5E:9A&stream=1032457&extension=ts&play_token=1kEm8DbZmS
 #EXTINF:1 tvg-id="SkySportsFootball.uk" tvg-logo="https://i.ibb.co/pvt00Xj/Sky-Sport-Football.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Sky Sports Football FHD
@@ -1018,6 +1022,10 @@ http://raw.bitnode.pm:81/gomez3419@gmail.com/0124986/1115953
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
 #EXTVLCOPT:http-referrer=https://streamservicehd.click/
 https://webudit.salamus1.lol/lb/premium537/playlist.m3u8
+#EXTINF:-1 tvg-id="RMCSport2.fr" tvg-name="RMC Sport 2" tvg-logo="https://i.ibb.co/47Bdd2n/rmc-sport-2.png" group-title="🔴| LÂM-PHONG SPORT",RMC Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/
+https://webudit.salamus1.lol/lb/premium120/index.m3u8
 #EXTINF:-1 tvg-id="unbeaten" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/RP0yMGv/unbeaten.png",🎖️| Unbeaten
 #EXTVLCOPT:network-caching=1000
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
