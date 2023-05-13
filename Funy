@@ -22,8 +22,6 @@ udp://@225.1.1.128:30120
 
 #-------------------K+-------------------#
 
-#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png",K+ SPORT 1 MyTV
-http://103.82.24.168:5544/play/sport1tn/index.m3u8
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -724,15 +722,15 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/14179/index.m3u8
 http://livestream-zlr1.tv360.vn/origin01/fast-channel/manifest/test/playlist_1080p.m3u8
 #EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO ¹⁰⁸⁰
 udp://@225.1.4.90:30120
-#EXTINF:-1 tvg-id="HBO2West.us" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/gM2rDGW/1265677.png",▶️| HBO 2 ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="HBO2.West.us" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/gM2rDGW/1265677.png",▶️| HBO 2 ¹⁰⁸⁰
 http://raw.bitnode.pm:81/giorgi/giorgi/121725
-#EXTINF:-1 tvg-id="HBOComedy.us" tvg-name="USA | HBO COMEDY" tvg-logo="https://static.epg.best/us/HBOComedy.us.png" group-title="📽️| Minh Đức Giải Trí",USA | HBO COMEDY ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="HBO.Comedy.us" tvg-name="USA | HBO COMEDY" tvg-logo="https://static.epg.best/us/HBOComedy.us.png" group-title="📽️| Minh Đức Giải Trí",USA | HBO COMEDY ¹⁰⁸⁰
 http://nv1connect.com:80/12345678/87654321/638
-#EXTINF:-1 tvg-id="HBOFamily.us" tvg-name="USA | HBO FAMILY" tvg-logo="https://static.epg.best/us/HBOFamily.us.png" group-title="📽️| Minh Đức Giải Trí",USA | HBO FAMILY ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="hbo.family.us" tvg-name="USA | HBO FAMILY" tvg-logo="https://static.epg.best/us/HBOFamily.us.png" group-title="📽️| Minh Đức Giải Trí",USA | HBO FAMILY ¹⁰⁸⁰
 http://nv1connect.com:80/12345678/87654321/3797
-#EXTINF:-1 tvg-id="HBOSignature.us" tvg-name="USA | HBO SIGNATURE" tvg-logo="https://static.epg.best/us/HBOSignature.us.png" group-title="📽️| Minh Đức Giải Trí",USA | HBO SIGNATURE ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="HBO.Signature.us" tvg-name="USA | HBO SIGNATURE" tvg-logo="https://static.epg.best/us/HBOSignature.us.png" group-title="📽️| Minh Đức Giải Trí",USA | HBO SIGNATURE ¹⁰⁸⁰
 http://nv1connect.com:80/12345678/87654321/3798
-#EXTINF:-1 tvg-id="HBOZone.us" tvg-name="USA | HBO ZONE" tvg-logo="https://static.epg.best/us/HBOZone.us.png" group-title="📽️| Minh Đức Giải Trí",USA | HBO ZONE ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="HBO.Zone.us" tvg-name="USA | HBO ZONE" tvg-logo="https://static.epg.best/us/HBOZone.us.png" group-title="📽️| Minh Đức Giải Trí",USA | HBO ZONE ¹⁰⁸⁰
 http://nv1connect.com:80/12345678/87654321/3800
 #EXTINF:-1 tvg-id="axnhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp",▶️| AXN ¹⁰⁸⁰
 udp://@225.1.2.225:30120
@@ -1022,9 +1020,9 @@ https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8
 https://dai.google.com/linear/hls/event/V9h-iyOxRiGp41ppQScDSQ/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/KKj9PWh/Sony-Sports-Ten-3.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN3 HD
 https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/bKSJqyS/SONY-Sports-Ten4.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN4 HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen4_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN4 HD
 https://dai.google.com/linear/hls/event/smYybI_JToWaHzwoxSE9qA/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/R9ftvKC/SonyTen5.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN5 HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN5 HD
 https://dai.google.com/linear/hls/event/Sle_TR8rQIuZHWzshEXYjQ/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/Byqcf30/Trace-SSLogo.png" group-title="🔴| LÂM-PHONG SPORT",🎖️| Trace Sports Stars
 https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
@@ -1034,7 +1032,7 @@ http://nv1connect.com:80/12345678/87654321/21959
 http://nv1connect.com:80/12345678/87654321/21960
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/t4PRwF6/china.png", Sport China
 https://live.v1.mk/api/bestv.php?id=cctv16hd4k/15000000
-#EXTINF:-1 tvg-id="edgesports.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/PTnQPdp/ccEdge.png",🎖️| Edge Sport
+#EXTINF:-1 tvg-id="edgesports" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/PTnQPdp/ccEdge.png",🎖️| Edge Sport
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://edgesport-samsunguk.amagi.tv/playlist1080p.m3u8?cc
 #EXTINF:-1 tvg-id="AllSports.br" tvg-logo="https://i.imgur.com/wULpnYR.png" group-title="🔴| LÂM-PHONG SPORT",All Sports (720p)
