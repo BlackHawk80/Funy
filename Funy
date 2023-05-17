@@ -122,7 +122,7 @@ http://raw.bitnode.pm:81/giorgi/giorgi/20652
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
 http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=16770&extension=ts&play_token=ercn0JhXQO
 #EXTINF:-1 tvg-id="disneyxd.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xGXxC8X/Disney-XD.png" ,Disney XD ᴴᴰ
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/419273
+http://raw.bitnode.pm:81/giorgi/giorgi/20619
 #EXTINF:-1 tvg-id="nicktoons.us" group-title="🌈| Hoạt hình" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Nicktoons.png",NickToons ᴴᴰ
 http://mytv.fun:8080/qmoy6sepeq/c6vnvjzpvq/13744
 #EXTINF:-1 tvg-id="skykids.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/wMnp5tV/Sky-Kids.png" group-title="🌈| Hoạt hình",Sky Kids ᴴᴰ
@@ -138,7 +138,7 @@ https://moonbug-rokuus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PinkfongBabyShark" tvg-logo="https://i.ibb.co/RzTcgsy/Pinkfong-Baby-Shark.png" group-title="🌈| Hoạt hình",Pinkfong Baby Shark ᴴᴰ
 https://fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_BabySharkTV/playlist.m3u8
 #EXTINF:-1 tvg-id="pbskids.us" tvg-logo="https://i.ibb.co/56P6wP0/i-fixed-the-new-pbs-kids-logo-by-myktm250-df8zjcw-fullview.png" group-title="🌈| Hoạt hình", PBS KIDS ᴴᴰ
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/418040
+http://raw.bitnode.pm:81/giorgi/giorgi/31890
 #EXTINF:-1 tvg-id="Tom&Jerryhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xDbxGR0/Picsart-22-12-20-22-48-34-852.png",Tom&Jerry ᴴᴰ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/13078/index.m3u8
@@ -963,9 +963,7 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032528&extens
 #EXTINF:-1 tvg-id="HubPremier3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032527&extension=ts&play_token= 
 #EXTINF:0 tvg-id="astrosupersport" tvg-name="AstroSuperSport" tvg-logo="https://i.ibb.co/ZJvBYyx/Astro-Super-Sport-UHD.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Astro SuperSport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://streamservicehd.click/
-https://webudit.salamus1.lol/lb/premium123/index.m3u8
+http://raw.bitnode.pm:81/giorgi/giorgi/38186
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="AstroSuperSport2" tvg-name="MY: ASTRO SUPERSPORT 2 FHD" tvg-logo="https://i.ibb.co/QPqdLxk/astro2.png" group-title="🔴| LÂM-PHONG SPORT",ASTRO SUPERSPORT 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://streamservicehd.click/
@@ -1112,7 +1110,7 @@ http://ultratv.one:2095/play/live.php?mac=00:1A:79:C9:3F:E3&stream=13259&extensi
 #EXTINF:-1  tvg-logo="https://i.ibb.co/d22d4qh/Hard-Kock.png" group-title="🔴| LÂM-PHONG SPORT",Hard_Knock
 https://d3uyzhwvmemdyf.cloudfront.net/scheduler/scheduleMaster/109/variant/22099396/52e53bec-21f1-4caf-86ce-a502b6cc8520.m3u8
 #EXTINF:-1 tvg-id="fightsports" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/VqskkPL/FIGHT-SPORTS-2018.png",🎖️| FIGHT SPORTS
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/508840
+https://shls-fight-sports-ak.akamaized.net/out/v1/ee7e6475b12e484bbfa5c31461ad4306/index.m3u8
 #EXTINF:-1 tvg-id="fightnetwork.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/qrWHqLb/fight.png",🎖️| Fight Network
 #EXTVLCOPT:network-caching=1000
 https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
@@ -1123,21 +1121,21 @@ https://a.dl.dropboxusercontent.com/s/mt3jxpkua8t5u5f/./
 https://a.dl.dropboxusercontent.com/s/mt3jxpkua8t5u5f/./   																						 ㅤ  																						 ㅤ
 #EXTINF:-1,TV
 #EXTINF:-1 tvg-id="" tvg-name="CS:GO" tvg-logo="https://i.imgur.com/rDzfSJQ.png" group-title="GAMEPLAY P2S",CS:GO
-http://gameplay.p2sweb.me:80/angoliveira/x254637/251312
+http://gameplay.p2sweb.me:80/2498893/2383592/251312
 #EXTINF:-1 tvg-id="" tvg-name="CS:GO 2" tvg-logo="https://i.imgur.com/rDzfSJQ.png" group-title="GAMEPLAY P2S",CS:GO 2
-http://gameplay.p2sweb.me:80/angoliveira/x254637/251313
+http://gameplay.p2sweb.me:80/2498893/2383592/251313
 #EXTINF:-1 tvg-id="" tvg-name="CS:GO ESL" tvg-logo="https://i.imgur.com/rDzfSJQ.png" group-title="GAMEPLAY P2S",CS:GO ESL
-http://gameplay.p2sweb.me:80/angoliveira/x254637/251314
+http://gameplay.p2sweb.me:80/2498893/2383592/251314
 #EXTINF:-1 tvg-id="" tvg-name="Call of Duty" tvg-logo="https://images.pluto.tv/channels/5f5bd666c0a7600007af6c20/colorLogoPNG.png" group-title="GAMEPLAY P2S",Call of Duty
 http://rogermellie.xyz:80/richay/richay/1035036
 #EXTINF:-1 tvg-id="" tvg-name="FORTNITE" tvg-logo="https://i.imgur.com/kIwMZEG.png" group-title="GAMEPLAY P2S",FORTNITE
 http://gameplay.p2sweb.me:80/angoliveira/x254637/251325
 #EXTINF:-1 tvg-id="" tvg-name="DOTA 2" tvg-logo="https://i.imgur.com/yjlsNPn.png" group-title="GAMEPLAY P2S",DOTA 2
-http://gameplay.p2sweb.me:80/angoliveira/x254637/251319
+http://gameplay.p2sweb.me:80/2498893/2383592/251319
 #EXTINF:-1 tvg-id="" tvg-name="DOTA ESL" tvg-logo="https://i.imgur.com/W5XbD9q.png" group-title="GAMEPLAY P2S",DOTA ESL
-http://gameplay.p2sweb.me:80/angoliveira/x254637/251318
+http://gameplay.p2sweb.me:80/2498893/2383592/251318
 #EXTINF:-1 tvg-id="" tvg-name="LOL LEAGUE OF LEGEND" tvg-logo="https://i.imgur.com/5aBpnxG.png" group-title="GAMEPLAY P2S",LOL LEAGUE OF LEGEND
-http://gameplay.p2sweb.me:80/angoliveira/x254637/251316
+http://gameplay.p2sweb.me:80/2498893/2383592/251316
 #EXTINF:-1 tvg-id="" tvg-name="MOBILE LEGENDS" tvg-logo="https://i.imgur.com/0ebjCZF.png" group-title="GAMEPLAY P2S",MOBILE LEGENDS
 http://159.75.85.63:35455/huya/wzgxs1
 
