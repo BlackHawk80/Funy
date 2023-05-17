@@ -861,7 +861,12 @@ http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110622&extension
 http://shareext@185.243.7.13/play/live.php?mac=00:1A:79:45:5E:9A&stream=554948&extension=ts&play_token=1kEm8DbZmS
 #EXTINF:-1 tvg-id="nowSportsPremierLeague3.hk" tvg-logo="https://i.ibb.co/NmSPDfJ/now3.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 3
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110617&extension=ts
-
+#EXTINF:-1 tvg-id="vtvcab16hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",FPT Play
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win63; x63) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+http://103.75.186.169/b4tv/b4tv/3.m3u8
+#EXTINF:-1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",FPT Play 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win63; x63) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+http://103.75.186.169/b4tv/b4tv/4.m3u8
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV1" tvg-logo="https://i.imgur.com/EaRVaEX.png", CHAMPIONS TV 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1028,8 +1033,10 @@ https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8
 https://dai.google.com/linear/hls/event/smYybI_JToWaHzwoxSE9qA/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN5 HD
 https://dai.google.com/linear/hls/event/Sle_TR8rQIuZHWzshEXYjQ/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/Byqcf30/Trace-SSLogo.png" group-title="🔴| LÂM-PHONG SPORT",🎖️| Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/USA-Network-Logo.svg/1200px-USA-Network-Logo.svg.png",USA Network
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://olacast.live/
+https://webudit.salamus1.lol/lb/premium343/index.m3u8?
 #EXTINF:-1 tvg-id="eurosport1.uk" tvg-logo="https://i.ibb.co/ryZ3jb0/euro1.png" group-title="🔴| LÂM-PHONG SPORT", EuroSport 1
 http://nv1connect.com:80/12345678/87654321/21959
 #EXTINF:-1 tvg-id="eurosport2.uk" tvg-logo="https://i.ibb.co/D10K97K/euro2.png" group-title="🔴| LÂM-PHONG SPORT", EuroSport 2
