@@ -21,7 +21,7 @@ udp://@225.1.2.166:30120
 udp://@225.1.1.128:30120
 
 #-------------------K+-------------------#
-#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://logo.vagroup.pw/95.png", K+ Cine (MyK+) 
+#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://i.ibb.co/g7y1npq/Kplus-Cine.png", K+ Cine (MyK+) 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"mZ0rdk3sNZFYK/PvDP5Tlg","kid":"reHed7wXHBCdLGoRE+lU+w"},{"kty":"oct","k":"cAmVNV/JFJbkVEHYAXUFRA","kid":"9SXed7wXHBCdLGoRE+lU+w"},{"kty":"oct","k":"vMSH1j0Oi2RSQm2Y+i95Sg","kid":"AikiqLwXHBCdLGoRE+lU+w"},{"kty":"oct","k":"PS2ajJ4BNt8nVEAbloFXsg","kid":"7jYiwAsXHBCdLGoRE+lU+w"}], "type":"temporary"}
@@ -29,14 +29,14 @@ udp://@225.1.1.128:30120
 https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
 
 
-#EXTINF:-1 tvg-id="klifehd" group-title="K+" tvg-logo="http://logo.vagroup.pw/96.png", K+ Life (MyK+)
+#EXTINF:-1 tvg-id="klifehd" group-title="K+" tvg-logo="https://i.imgur.com/PPpEIBP.png", K+ Life (MyK+)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"SLypwzL4MArhC5juXLkLpA","kid":"MQHlAXLsiM/dXA9fPUDkoA"},{"kty":"oct","k":"659ME0J7EwTN2ohqyLHHjQ","kid":"eUXlAXLsiM/dXA9fPUDkoA"},{"kty":"oct","k":"whaUWrC+FgEtzbaPjj+HkA","kid":"hkkpMnLsiM/dXA9fPUDkoA"},{"kty":"oct","k":"OYDznnY5wNKwFvhWqsThYA","kid":"clYpSsHsiM/dXA9fPUDkoA"}], "type":"temporary"}
 
 https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
 
-#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="http://logo.vagroup.pw/97.png", K+ Sport1 (MyK+)
+#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/pPhLGqn/k1.png", K+ Sport1 (MyK+)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"yILW+pp+rpgB82nuT0Z4Jw","kid":"P96tCC5wKuD3kWCooKfn1A"},{"kty":"oct","k":"cggATCPAgJolcOZ40ndtpQ","kid":"hyKtCC5wKuD3kWCooKfn1A"},{"kty":"oct","k":"um84tBCQUdYjPdeSe1TAYA","kid":"lCbxOS5wKuD3kWCooKfn1A"},{"kty":"oct","k":"T1e26P0MauHN6K4mK3Hgsw","kid":"gDPxUX1wKuD3kWCooKfn1A"}], "type":"temporary"}
@@ -45,14 +45,14 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
 
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
 
-#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="http://logo.vagroup.pw/98.png", K+ Sport2 (MyK+)
+#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.ibb.co/smmzvfX/k2.png", K+ Sport2 (MyK+)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"AZmxNs3t9QkInRlHLUzp1A","kid":"24Gnox5BKm3B/DliZqrlyw"},{"kty":"oct","k":"lykZcEb9ik8RREKA8VN+4A","kid":"I8Wnox5BKm3B/DliZqrlyw"},{"kty":"oct","k":"1OT2Lk+GTqUgkA9ohsP7Ug","kid":"MMnr1B5BKm3B/DliZqrlyw"},{"kty":"oct","k":"SgYe+XS2cXPHZxqEZ7fxCg","kid":"HNbr7G1BKm3B/DliZqrlyw"}], "type":"temporary"}
 
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
 
-#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://logo.vagroup.pw/188.png", K+ Kids FHD (MyK+)
+#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.ibb.co/rm4Kykp/K-Kids-HD-2021.webp", K+ Kids FHD (MyK+)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"SMZMPvuMgTGbxHrsDMVfRA","kid":"+2Hl5XwHwIleyztiXybARg"},{"kty":"oct","k":"MzhgHfUgflwK8g/BjwDm5Q","kid":"Q6Xl5XwHwIleyztiXybARg"},{"kty":"oct","k":"MW0oDa+TjGH7Z6tvC6Ekfg","kid":"UKkpFnwHwIleyztiXybARg"},{"kty":"oct","k":"Evvu4F4YpeWFDaAixPKCng","kid":"PLYpLssHwIleyztiXybARg"}], "type":"temporary"}
@@ -724,6 +724,8 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15516/index.m3u8
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/14179/index.m3u8
 
 #-------------------Minh Đức Giải Trí-------------------#
+#EXTINF:-1 tvg-id="fpt" tvg-logo="https://images.fptplay.net/media/channels/icon_channel_fpt-play_16564756306.png" group-title="📽️| Minh Đức Giải Trí",FPT PLAY
+https://1117979683.vnns.net/hda1/f-channel1_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="tv360hd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="http://img-zlr2.tv360.vn/tv360-static/static/web/images/logo.png" ,▶️| TV360 ¹⁰⁸⁰
 http://livestream-zlr1.tv360.vn/origin01/fast-channel/manifest/test/playlist_1080p.m3u8
 #EXTINF:-1,group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/1920px-ITV2_logo_2022.svg.png",ITV 2 FHD
@@ -1040,9 +1042,9 @@ https://dai.google.com/linear/hls/event/Sle_TR8rQIuZHWzshEXYjQ/master.m3u8
 #EXTVLCOPT:http-referrer=https://olacast.live/
 https://webudit.salamus1.lol/lb/premium343/index.m3u8?
 #EXTINF:-1 tvg-id="eurosport1.uk" tvg-logo="https://i.ibb.co/ryZ3jb0/euro1.png" group-title="🔴| LÂM-PHONG SPORT", EuroSport 1
-http://nv1connect.com:80/12345678/87654321/21959
+http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=8339&extension=ts&play_token=clIor7Ker2
 #EXTINF:-1 tvg-id="eurosport2.uk" tvg-logo="https://i.ibb.co/D10K97K/euro2.png" group-title="🔴| LÂM-PHONG SPORT", EuroSport 2
-http://nv1connect.com:80/12345678/87654321/21960
+http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=9852&extension=ts&play_token=cwdRdihniL
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/t4PRwF6/china.png", Sport China
 https://live.v1.mk/api/bestv.php?id=cctv16hd4k/15000000
 #EXTINF:-1 tvg-id="edgesports.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/PTnQPdp/ccEdge.png",🎖️| Edge Sport
@@ -1058,8 +1060,6 @@ https://webudit.salamus1.lol/lb/premium318/index.m3u8
 http://203.80.165.14:9981/stream/channelid/2019055245?profile=pass
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/yR44dVB/Picsart-23-04-16-08-02-36-599.png",🎖️| Billard TV
 https://a1a69a13b68f44f4aff604dd4cdee5cd.mediatailor.us-west-2.amazonaws.com/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/billiard-tv/4127a852-d384-4351-b003-29bfa8882ccf/4.m3u8?cc
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://epg.112114.xyz/logo/CCTV5+.png" group-title="🔴| LÂM-PHONG SPORT",CCTV5+
-https://live.v1.mk/api/bestv.php?id=cctv5phd8m/8000000
 #EXTINF:-1 tvg-id="RedBullTV.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/MSSKTB9/redbull.png",🎖️| RedBull
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8?cc
