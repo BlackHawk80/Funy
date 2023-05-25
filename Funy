@@ -36,21 +36,17 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/i.mpd
 
 https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/i.mpd
 
-#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/pPhLGqn/k1.png", K+ Sport1 (MyK+)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"yILW+pp+rpgB82nuT0Z4Jw","kid":"P96tCC5wKuD3kWCooKfn1A"},{"kty":"oct","k":"cggATCPAgJolcOZ40ndtpQ","kid":"hyKtCC5wKuD3kWCooKfn1A"},{"kty":"oct","k":"um84tBCQUdYjPdeSe1TAYA","kid":"lCbxOS5wKuD3kWCooKfn1A"},{"kty":"oct","k":"T1e26P0MauHN6K4mK3Hgsw","kid":"gDPxUX1wKuD3kWCooKfn1A"}], "type":"temporary"}
-
+#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/pPhLGqn/k1.png", K+ Sport1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-
-https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/i.mpd
-
-#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.ibb.co/smmzvfX/k2.png", K+ Sport2 (MyK+)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"aCn6RuQBRKzgJsXejhAKUA","kid":"9OzdoHsdQ+aZ/xxCOiJmLA"}],"type":"temporary"}
+http://vas-mobiletv3.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
 
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"AZmxNs3t9QkInRlHLUzp1A","kid":"24Gnox5BKm3B/DliZqrlyw"},{"kty":"oct","k":"lykZcEb9ik8RREKA8VN+4A","kid":"I8Wnox5BKm3B/DliZqrlyw"},{"kty":"oct","k":"1OT2Lk+GTqUgkA9ohsP7Ug","kid":"MMnr1B5BKm3B/DliZqrlyw"},{"kty":"oct","k":"SgYe+XS2cXPHZxqEZ7fxCg","kid":"HNbr7G1BKm3B/DliZqrlyw"}], "type":"temporary"}
-
-https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/i.mpd
+#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.ibb.co/smmzvfX/k2.png", K+ Sport2
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"aCn6RuQBRKzgJsXejhAKUA","kid":"9OzdoHsdQ+aZ/xxCOiJmLA"}],"type":"temporary"}
+http://s70132.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.ibb.co/rm4Kykp/K-Kids-HD-2021.webp", K+ Kids FHD (MyK+)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -724,7 +720,7 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15516/index.m3u8
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/14179/index.m3u8
 
 #-------------------Minh Đức Giải Trí-------------------#
-#EXTINF:-1 tvg-id="fpt" tvg-logo="https://images.fptplay.net/media/channels/icon_channel_fpt-play_16564756306.png" group-title="📽️| Minh Đức Giải Trí",FPT PLAY
+#EXTINF:-1 tvg-id="fptplay" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png" group-title="📽️| Minh Đức Giải Trí",FPT PLAY
 https://1117979683.vnns.net/hda1/f-channel1_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="tv360hd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="http://img-zlr2.tv360.vn/tv360-static/static/web/images/logo.png" ,▶️| TV360 ¹⁰⁸⁰
 http://livestream-zlr1.tv360.vn/origin01/fast-channel/manifest/test/playlist_1080p.m3u8
