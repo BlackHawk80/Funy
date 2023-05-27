@@ -147,7 +147,7 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/13078/index.m3u8
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/17023/index.m3u8
 #EXTINF:-1 tvg-id="cineboxanimation.uk" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/S0Z2crr/CineBox.png", Cinebox Animation ᴴᴰ
-http://griffsuperstreamz.com:8080/dennispjohnson84@yahoo.com/3RZIBX3xSo/430738
+http://tvmate.icu:8080/Sjohnson352/352Sjohnson/119420
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/NZSkvfW/Liberty-Kids.png",LIBERTY Kids ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/18044/index.m3u8
@@ -472,6 +472,11 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19283/index.m3u8
 #EXTINF:0 tvg-logo="http://epg.it999.ru/img2/6707.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 BOX Music ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19282/index.m3u8
+#EXTINF:-1 tvg-name="Clarity4K Korean music" tvg-id="korean_music_4k" group-title="🌏| 4K 🇺 🇭 🇩", Korean Music ⁴ᴷ
+http://clarity4k.ru/korean_music_4k/mpegts?token=test
+#EXTINF:-1 tvg-name="Clarity4k Concert" tvg-id="concert_4k" group-title="🌏| 4K 🇺 🇭 🇩",Clarity4k Concert
+http://clarity4k.ru/concert_4k/mpegts?token=test
+
 #EXTINF:0 tvg-rec="0" tvg-logo="https://i.ibb.co/bF7PxPw/Skydance-New-Media.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 SKY HIGH DANCE ⁴ᴷ
 http://87c576b1.cbilant.com/iptv/6GXDRQ5GNUAXH7/14250/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/SJCJmPt/Picsart-22-12-22-21-22-28-690.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 Klip ⁴ᴷ
