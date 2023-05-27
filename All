@@ -1130,6 +1130,8 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/6258/index.m3u8
 #EXTINF:0 tvg-logo="https://i.postimg.cc/tRxq17Yg/adults-only2.png" group-title="💋| LiveChannels_Angel", Extasy 4K
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/5014/index.m3u8
+#EXTINF:-1 tvg-name="Clarity4K Angel XXX" tvg-id="angel_xxx_4K" group-title="💋| LiveChannels_Angel",Clarity4K Angel
+http://clarity4k.ru/angel_xxx_4K/mpegts?token=test
 #EXTINF:0 tvg-rec="0" tvg-logo="https://anal4k.org/logo.png" group-title="💋| LiveChannels_Angel",Anan 4K
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/12190/index.m3u8
