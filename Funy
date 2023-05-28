@@ -916,7 +916,7 @@ http://humiptv.live:8080/live/0473936210/8252829362/143772.ts
 #EXTINF:-1 tvg-id="CanalPlusFoot.fr" tvg-name="Canal+ Foot" tvg-logo="https://i.ibb.co/sJ1vpZr/Canal-Foot.png" group-title="🔴| LÂM-PHONG SPORT",Canal+ Foot
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://streamservicehd.click/
-http://m3u.sea-iptv.com:80/82ofdhp7te/so61asxt/343398
+http://37.49.230.42:8080/iptvepic4/DzbGTtATy4DzmK8c/297371
 #EXTINF:-1 tvg-id="Canal+Sports1" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png",Canal+ Sport 1
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880461&extension=ts
 #EXTINF:-1 tvg-id="canal+sports2" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/Canal%2B_Sport_2_PL.png",Canal+ Sport 2
