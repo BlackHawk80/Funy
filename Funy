@@ -92,9 +92,9 @@ https://vstv.broadpeak-aas.com/bpk-tv/prod_klive3/default/i.mpd
 #-------------------Hoạt hình HD-------------------#
 
 #EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",HappyKids ᴴᴰ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#https://dl.dropboxusercontent.com/s/yuvlsc5blzeulax/																						 #EXTVLCOPT:http-referer=https://sctvonline.vn/
-https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8?cc|Referer=http://sctvonline.vn/
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#https://code.vthanhtivi.pw/getlink/cliptv/824/chunklist_b5128000.m3u8
+https://code.vthanhtivi.pw/getlink/tv360/212/2.m3u8
 
 #EXTINF:-1 tvg-id="animaxhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/RTgouGo.png",Animax ᴴᴰ
 udp://@225.1.1.135:30120
@@ -134,14 +134,16 @@ https://moonbug-rokuus.amagi.tv/playlist.m3u8
 https://fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_BabySharkTV/playlist.m3u8
 #EXTINF:-1 tvg-id="pbskids.us" tvg-logo="https://i.ibb.co/56P6wP0/i-fixed-the-new-pbs-kids-logo-by-myktm250-df8zjcw-fullview.png" group-title="🌈| Hoạt hình", PBS KIDS ᴴᴰ
 http://raw.bitnode.pm:81/giorgi/giorgi/31890
+#EXTINF:-1 tvg-id="Ben10UltimateAlien" tvg-name="24/7 Ben 10 Ultimate Alien" tvg-logo="https://i.ibb.co/d0RKbmT/Ben-10.png" group-title="🌈| Hoạt hình",24/7 Ben 10 Ultimate Alien
+http://ultrontv.xyz:80/Darko123/Darko78/129510
 #EXTINF:-1 tvg-id="Tom&Jerryhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xDbxGR0/Picsart-22-12-20-22-48-34-852.png",Tom&Jerry ᴴᴰ
 #EXTVLCOPT:network-caching=1000
-http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/13078/index.m3u8
+http://ultrontv.xyz:80/Darko123/Darko78/129554
 #EXTINF:-1 tvg-id="bcukids" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/zFNJkbh/bcu-kids-4k.png",BCU Kids ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/17023/index.m3u8
 #EXTINF:-1 tvg-id="cineboxanimation.uk" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/S0Z2crr/CineBox.png", Cinebox Animation ᴴᴰ
-http://tvmate.icu:8080/Sjohnson352/352Sjohnson/119420
+http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/297178
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/NZSkvfW/Liberty-Kids.png",LIBERTY Kids ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/18044/index.m3u8
@@ -996,7 +998,7 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032528&extens
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032527&extension=ts&play_token= 
 #EXTINF:0 tvg-id="astrosupersport" tvg-name="AstroSuperSport" tvg-logo="https://i.ibb.co/ZJvBYyx/Astro-Super-Sport-UHD.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Astro SuperSport
 http://raw.bitnode.pm:81/giorgi/giorgi/38186
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="AstroSuperSport2" tvg-name="MY: ASTRO SUPERSPORT 2 FHD" tvg-logo="https://i.ibb.co/QPqdLxk/astro2.png" group-title="🔴| LÂM-PHONG SPORT",ASTRO SUPERSPORT 2
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="AstroSuperSport2" tvg-logo="https://i.ibb.co/QPqdLxk/astro2.png" group-title="🔴| LÂM-PHONG SPORT",ASTRO SUPERSPORT 2
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918985&extension=ts
 #EXTINF:0 tvg-id="astrosupersport3" tvg-name="Astro SuperSport 3" tvg-logo="https://i.ibb.co/BZ80zs5/astro3.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -1072,9 +1074,7 @@ https://edgesport-samsunguk.amagi.tv/playlist1080p.m3u8?cc
 #EXTINF:-1 tvg-id="AllSports.br" tvg-logo="https://i.imgur.com/wULpnYR.png" group-title="🔴| LÂM-PHONG SPORT",All Sports (720p)
 https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8
 #EXTINF:-1 tvg-id="GolfChannel.us" tvg-name="Golf Channel" tvg-logo="https://i.ibb.co/Fz64cqv/Gofl.png" group-title="🔴| LÂM-PHONG SPORT",Golf Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://streamservicehd.click/
-https://webudit.salamus1.lol/lb/premium318/index.m3u8
+http://raw.bitnode.pm:81/giorgi/giorgi/121723
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/9skv8CD/snooker.png",Snooker TV
 http://203.80.165.14:9981/stream/channelid/2019055245?profile=pass
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/yR44dVB/Picsart-23-04-16-08-02-36-599.png",🎖️| Billard TV
@@ -1088,9 +1088,7 @@ http://raw.bitnode.pm:81/play/live.php?mac=00:1A:79:C5:08:F9&stream=255097&exten
 http://raw.bitnode.pm:81/giorgi/giorgi/20386
 
 #EXTINF:-1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://streamservicehd.click/
-http://nv1connect.com:80/12345678/87654321/28726
+http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/4515
 #EXTINF:-1 tvg-id="SkySportsF1.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/7Q7Nm20/Sky-Sport-F1.png",🎖️| Sky Sports F1
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/10079/index.m3u8
@@ -1112,7 +1110,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="combate.br" tvg-name="BR: COMBATE FHD" tvg-logo="https://i.ibb.co/4JKFQtQ/combat.png" group-title="🔴| LÂM-PHONG SPORT",COMBAT FHDR
 http://newstvc.tech:8080/528186/844789/628994
 #EXTINF:0 tvg-id="FIGHTBOX" tvg-name="FIGHT BOX" tvg-logo="https://i.ibb.co/CbFCs0D/fightbox.png" group-title="🔴| LÂM-PHONG SPORT",FIGHT BOX
-http://2hubs.ddns.net:25461/crAig1s/myG32Vd2nc/62009
+http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/530
 #EXTINF:0 tvg-id="mmatvhd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/x1m29yh/MMAtv.png",🎖️| MMA-TV.com HD
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19243/index.m3u8
