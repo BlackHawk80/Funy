@@ -42,15 +42,10 @@ https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/index.mpd
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/pPhLGqn/k1.png", K+ Sport1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"aCn6RuQBRKzgJsXejhAKUA","kid":"9OzdoHsdQ+aZ/xxCOiJmLA"}],"type":"temporary"}
-http://vas-mobiletv3.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
-
-#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.ibb.co/smmzvfX/k2.png", K+ Sport2
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"aCn6RuQBRKzgJsXejhAKUA","kid":"9OzdoHsdQ+aZ/xxCOiJmLA"}],"type":"temporary"}
-http://s70132.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"hLiXhSzJDCICJtZ8fCyFmg", "kid":"OxTrEFw8Z4i3kog4PgNcpA" },{ "kty":"oct", "k":"hLiXhSzJDCICJtZ8fCyFmg", "kid":"OxTrEFw8Z4i3kog4PgNcpA" },{ "kty":"oct", "k":"X31OcNDhCRxC8dmyDykM8g", "kid":"+r+nxw08Z4i3kog4PgNcpA" },{ "kty":"oct", "k":"hVGlPs4HNB96d/npD5y+xw", "kid":"QgOnxw08Z4i3kog4PgNcpA" }], "type":"temporary" }
+https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/index.mpd
 
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/pPhLGqn/k1.png", K+ Sport1 FHD 360
@@ -143,7 +138,7 @@ http://ultrontv.xyz:80/Darko123/Darko78/129554
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/17023/index.m3u8
 #EXTINF:-1 tvg-id="cineboxanimation.uk" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/S0Z2crr/CineBox.png", Cinebox Animation ᴴᴰ
-http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/297178
+http://myserveriptv.com:2082/7wOd6fH332c1/8Skfy98Fd74f/159933
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/NZSkvfW/Liberty-Kids.png",LIBERTY Kids ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/18044/index.m3u8
