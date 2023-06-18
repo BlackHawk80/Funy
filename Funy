@@ -28,10 +28,12 @@ udp://@225.1.1.128:30120
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"T/rjQphu+C/ZZIN5ZjB+Ow", "kid":"jy3LjTgg9tO2LL714NOGCA" },{ "kty":"oct", "k":"T/rjQphu+C/ZZIN5ZjB+Ow", "kid":"jy3LjTgg9tO2LL714NOGCA" },{ "kty":"oct", "k":"bT9sHra39YxE/6LsdwiqkQ", "kid":"TtiHROkg9tO2LL714NOGCA" },{ "kty":"oct", "k":"yAGA418TzDbJKV5QdH2rig", "kid":"lhyHROkg9tO2LL714NOGCA" }], "type":"temporary" }
 https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/index.mpd
 
-#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.ibb.co/rm4Kykp/K-Kids-HD-2021.webp", K+ Kids FHD
+#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.ibb.co/rm4Kykp/K-Kids-HD-2021.webp", K+ Kids
+EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeykidshd?key18/9000029912/12kidskeokey
-https://hqth.me/kpluskidshd?id=kids10/seasonid:5552666172/kids.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"x9df+5DcmqQgqTtPBoFDow", "kid":"1r4ocgV8eIl1Lpuv/dnrmw" },{ "kty":"oct", "k":"x9df+5DcmqQgqTtPBoFDow", "kid":"1r4ocgV8eIl1Lpuv/dnrmw" },{ "kty":"oct", "k":"O5cRWXpSoUdatsJzKvRDMA", "kid":"lWnkKbZ8eIl1Lpuv/dnrmw" },{ "kty":"oct", "k":"IFh35VaZgSHgEgjZxQnk6A", "kid":"3a3kKbZ8eIl1Lpuv/dnrmw" }], "type":"temporary" }
+https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/index.mpd
 
 #EXTINF:-1 tvg-id="klifehd" group-title="K+" tvg-logo="https://i.imgur.com/PPpEIBP.png", K+ Life (MyK+)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
