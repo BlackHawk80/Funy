@@ -21,26 +21,28 @@ udp://@225.1.2.166:30120
 udp://@225.1.1.128:30120
 
 #-------------------K+-------------------#
-#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://i.ibb.co/g7y1npq/Kplus-Cine.png", K+ Cine (MyK+) 
+#EXTINF:-1 tvg-id="klifehd" group-title="K+" tvg-logo="https://i.imgur.com/TckrCog.png", K+ Life
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"j+bf8RANsYh4XEgKqJMkDA", "kid":"4ZBZx6mloMTCw91sngeDyw" },{ "kty":"oct", "k":"j+bf8RANsYh4XEgKqJMkDA", "kid":"4ZBZx6mloMTCw91sngeDyw" },{ "kty":"oct", "k":"Q+/lgbGD4Vp25ZpUWiyJ0w", "kid":"oDsVflqloMTCw91sngeDyw" },{ "kty":"oct", "k":"ykWcQU7KBjEJu5LGlrCPkA", "kid":"6H8VflqloMTCw91sngeDyw" }], "type":"temporary" }
+https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/index.mpd
+//K+ Cine //FHD
+#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://i.imgur.com/AKxe4e5.png", K+ Cine
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"T/rjQphu+C/ZZIN5ZjB+Ow", "kid":"jy3LjTgg9tO2LL714NOGCA" },{ "kty":"oct", "k":"T/rjQphu+C/ZZIN5ZjB+Ow", "kid":"jy3LjTgg9tO2LL714NOGCA" },{ "kty":"oct", "k":"bT9sHra39YxE/6LsdwiqkQ", "kid":"TtiHROkg9tO2LL714NOGCA" },{ "kty":"oct", "k":"yAGA418TzDbJKV5QdH2rig", "kid":"lhyHROkg9tO2LL714NOGCA" }], "type":"temporary" }
 https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/index.mpd
 
-#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.ibb.co/rm4Kykp/K-Kids-HD-2021.webp", K+ Kids
+//K+ Kids //FHD
+#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.imgur.com/qRkelUM.png", K+ Kids
 EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"x9df+5DcmqQgqTtPBoFDow", "kid":"1r4ocgV8eIl1Lpuv/dnrmw" },{ "kty":"oct", "k":"x9df+5DcmqQgqTtPBoFDow", "kid":"1r4ocgV8eIl1Lpuv/dnrmw" },{ "kty":"oct", "k":"O5cRWXpSoUdatsJzKvRDMA", "kid":"lWnkKbZ8eIl1Lpuv/dnrmw" },{ "kty":"oct", "k":"IFh35VaZgSHgEgjZxQnk6A", "kid":"3a3kKbZ8eIl1Lpuv/dnrmw" }], "type":"temporary" }
 https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/index.mpd
 
-#EXTINF:-1 tvg-id="klifehd" group-title="K+" tvg-logo="https://i.imgur.com/PPpEIBP.png", K+ Life (MyK+)
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"j+bf8RANsYh4XEgKqJMkDA", "kid":"4ZBZx6mloMTCw91sngeDyw" },{ "kty":"oct", "k":"j+bf8RANsYh4XEgKqJMkDA", "kid":"4ZBZx6mloMTCw91sngeDyw" },{ "kty":"oct", "k":"Q+/lgbGD4Vp25ZpUWiyJ0w", "kid":"oDsVflqloMTCw91sngeDyw" },{ "kty":"oct", "k":"ykWcQU7KBjEJu5LGlrCPkA", "kid":"6H8VflqloMTCw91sngeDyw" }], "type":"temporary" }
-https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/index.mpd
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/pPhLGqn/k1.png", K+ Sport1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -701,7 +703,7 @@ http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
 https://dai.google.com/linear/hls/event/5bqbG8j7T_6_qMONC1SDsg/master.m3u8
 #EXTINF:-1 tvg-id="StingrayHolidayHits" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/518a9541-fade-45ec-9d64-5b0a65806270-small3x1_stirr_1219_epg_stingraygreatesthits_1920x1080.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="🎶| Music",Stingray Holiday Hits
 #EXTVLCOPT:network-caching=1000
-http://line.4k-ott.com:80/655367/587437/361500
+http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15003/index.m3u8
 #EXTINF:-1 tvg-name="K-Pop" tvg-logo="https://i.ibb.co/LtpYRqp/6835979e3f611277056e386883832986.png" group-title="🎶| Music",💿| Korea Pop
 https://ytm2.yuanhsing.cf/TheKPOP.m3u8
 #EXTINF:-1 tvg-name="KPop" tvg-logo="https://i.ibb.co/vJ5sQNG/d5qk7xl-c2d79eae-935a-4336-bf93-e6a6d5ace6fe.png" group-title="🎶| Music",💿| Korea Pop 2
@@ -728,7 +730,7 @@ http://ultrontv.xyz:80/Darko123/Darko78/144102
 
 #EXTINF:-1 tvg-id="vevopop.us" group-title="🎶| Music" tvg-logo="https://logo.iptveditor.com/vevopop.png",💿| VEVO Pop
 #EXTVLCOPT:network-caching=1000
-https://5f3491c50b093e00015a3c4c-samsung.eu.ssai.zype.com/5f3491c50b093e00015a3c4c_samsung_eu/manifest.m3u8
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvevo/CDN/playlist.m3u8
 
 #EXTINF:-1 group-title="🎶| Music" tvg-logo="https://i.ibb.co/DK1tk8d/vevor-b.jpg",💿| VEVO R&B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
