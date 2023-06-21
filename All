@@ -2,7 +2,7 @@
 
 # VTV
 #EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/ySDjzg0/VTV1-cc.webp",❤️| VTV1 ¹⁰⁸⁰
-https://vips-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
+https://code.vthanhtivi.pw/getlink/mytv/210/hd.m3u8
 #EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/G0PXW8r/VTV2-cc.webp",❤️| VTV2 ¹⁰⁸⁰
 https://code.vthanhtivi.pw/getlink/mytv/377/hd.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VNHdbry/VTV3-cc.png",❤️| VTV3 ¹⁰⁸⁰
@@ -19,7 +19,6 @@ https://code.vthanhtivi.pw/getlink/mytv/459/hd.m3u8
 https://code.vthanhtivi.pw/getlink/mytv/380/hd.m3u8
 #EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/SV2FccD/vtv9.png",❤️| VTV9 ¹⁰⁸⁰
 https://code.vthanhtivi.pw/getlink/mytv/381/hd.m3u8
-
 #--*-Thiết yếu-*--#
 #EXTINF:-1 tvg-id="vovtvhd" group-title="🌐| Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6-tc0aIAAH4cM?format=png",❤️| VOVTV HD
 http://cdn.vovtv.mediatech.vn/vovlive/tv1live.m3u8
