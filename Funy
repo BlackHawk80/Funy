@@ -531,6 +531,8 @@ https://7pal.short.gy/bein-uhd
 http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560
 #EXTINF:0 tvg-id="SkySportBundesligaUHD.de" group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga ⁴ᴷ
 http://kungtv.net:2095/play/live.php?mac=10:27:BE:2D:2D:81&stream=242541&extension=ts&play_token=Vrv3McCZfa
+#EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="http://gg.gg/foxsport4kkkk",1.Fox Sports ⁴ᴷ
+http://thespectrummag.sytes.net:80/play/live.php?mac=00:1A:79:7B:61:99&stream=1124346&extension=ts&play_token=qLA6gy8fnj
 
 #EXTINF:-1  group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/vVv56Kj/TF1.png", TF1 ⁴ᴷ UHD
 http://theking365tv.ws:2103/play/live.php?mac=00:1A:79:5c:f4:67&stream=37744&extension=ts&play_token=bTOyO83d8Z
@@ -1015,6 +1017,10 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19129/index.m3u8
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=692393&extension=ts&play_token=
 #EXTINF:1 tvg-id="SkySportsGolf.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/qj4Gcff/Sky-Sport-Golf.png",Sky Sports Golf FHD
 http://raw.bitnode.pm:81/giorgi/giorgi/20681
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://gg.gg/fox1fhdkkk",2.Fox Sports 1 FHD
+http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=42904&extension=ts&play_token=GVc9Vgbarl
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://gg.gg/fox2fhdkkk",2.Fox Sports 2 FHD
+http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=42903&extension=ts&play_token=qJLmnIu5AJ
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="laligatv.uk" tvg-name="LA LIGA TV FHD" tvg-logo="https://logo.iptveditor.com/laligatv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ LA LIGA TV
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=163611&extension=ts
 #EXTINF:-1 tvg-id="dazn1.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/2560px-DAZN_1_Logo.svg.png" group-title="🔴| LÂM-PHONG SPORT", DAZN 1
