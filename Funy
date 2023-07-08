@@ -22,18 +22,10 @@ udp://@225.1.1.128:30120
 
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksports1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"w0kuZY+0LBvDK5gQLTt43A", "kid":"9itAeb9TQ5XLbDVxR376RQ" },{ "kty":"oct", "k":"w0kuZY+0LBvDK5gQLTt43A", "kid":"9itAeb9TQ5XLbDVxR376RQ" },{ "kty":"oct", "k":"L/rL5l5HbVKjaL9Ov7gYiw", "kid":"tdb8MHBTQ5XLbDVxR376RQ" },{ "kty":"oct", "k":"bLbOLuZpJkFjVn+ADHcNOA", "kid":"/Rr8MHBTQ5XLbDVxR376RQ" }], "type":"temporary" }
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
-//K+ Sports 2//FHD
+https://iplogger.com/C1B4TV
+
 #EXTINF:-1 tvg-id="ksports2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Fcv15rSkJ5ytoPrij5MG/Q", "kid":"hRhUaZp+a+ag+FJEX9Rq7g" },{ "kty":"oct", "k":"4g+JWHg/tynVLS0oeijl5Q", "kid":"RMMQIEt+a+ag+FJEX9Rq7g" },{ "kty":"oct", "k":"OGB2bFPvLAqUc2gI2Or1Yw", "kid":"jAcQIEt+a+ag+FJEX9Rq7g" }], "type":"temporary" }
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
 http://gg.gg/MYCINE
@@ -875,7 +867,7 @@ http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110617&extension
 http://b4tv.live/b4tv/b4tv/3.m3u8
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",FPT Play 2
 http://b4tv.live/b4tv/b4tv/4.m3u8
-#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://www.goal2sport.com/wp-content/uploads/2018/06/HI.png",Chọi Gà
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/d55Y9qr/G.png",Chọi Gà
 http://donglao.duckdns.org:9981/stream/channelid/1016978242?auth=PE0jwVl-RV1EmGGqGGNdLT.TvDb0
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV1" tvg-logo="https://i.imgur.com/EaRVaEX.png", CHAMPIONS TV 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
