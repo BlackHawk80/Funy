@@ -36,16 +36,10 @@ https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
 https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
 
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"8suAg7WXFGR1eN3kMBp0CA", "kid":"ahbb9Uk1U9t+xU/cGEuApA" },{ "kty":"oct", "k":"hSlLl8WWLQ0to3dgcR19Ig", "kid":"KcGXrPo1U9t+xU/cGEuApA" },{ "kty":"oct", "k":"LEHirXldF/d3t/PSzZA3xw", "kid":"cQWXrPo1U9t+xU/cGEuApA" }], "type":"temporary" }
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_cinehd/default/index.mpd
-#http://nhamngfpt.ddns.me/thongbaongungphat.m3u8
+http://gg.gg/MYCINE
 
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="http://gg.gg/klifekkk" group-title="K+",1.K+ LIFE
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"GPWACV2Iw9nhLvuuWACd4w", "kid":"iE5vri/tGZJLE1HRSgaw6Q" },{ "kty":"oct", "k":"GPWACV2Iw9nhLvuuWACd4w", "kid":"iE5vri/tGZJLE1HRSgaw6Q" },{ "kty":"oct", "k":"WiFa+sDmkcPwmt8unrEUww", "kid":"R/krZeDtGZJLE1HRSgaw6Q" },{ "kty":"oct", "k":"dbdCVr9TQC4kgotq5sS7bw", "kid":"jz0rZeDtGZJLE1HRSgaw6Q" }], "type":"temporary" }
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_lifehd/default/index.mpd
-#http://nhamngfpt.ddns.me/thongbaongungphat.m3u8
+http://gg.gg/MYLIFEPLUS
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
 EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -492,10 +486,6 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19283/index.m3u8
 #EXTINF:0 tvg-logo="http://epg.it999.ru/img2/6707.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 BOX Music ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19282/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/fDGqhYH/Kpop4K.png" tvg-id="korean_music_4k" group-title="🌏| 4K 🇺 🇭 🇩", Korean Music ⁴ᴷ
-http://clarity4k.ru/korean_music_4k/mpegts?token=test
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5Y4NSvm/Concert.png" tvg-id="concert_4k" group-title="🌏| 4K 🇺 🇭 🇩",Clarity4k Concert
-http://clarity4k.ru/concert_4k/mpegts?token=test
 
 #EXTINF:0 tvg-rec="0" tvg-logo="https://i.ibb.co/bF7PxPw/Skydance-New-Media.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 SKY HIGH DANCE ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
@@ -707,7 +697,7 @@ https://ytm2.yuanhsing.cf/TheKPOP2.m3u8
 https://srv1.zcast.com.br/kpoptv/kpoptv/.m3u8
 #EXTINF:-1 tvg-name="K-Pop – Pluto TV" tvg-logo="https://i.ibb.co/gr4Bfp8/Kpop.png" group-title="🎶| Music",💿| K-Pop
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60c8b75fb0a68400074b86fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
-#EXTINF:-1 tvg-id="newkpop" group-title="🎶| Music" tvg-logo="https://i.ibb.co/17JZ5D3/unnamed.png",New-Kpop
+#EXTINF:-1 tvg-id="newkpop" group-title="🎶| Music" tvg-logo="https://i.ibb.co/fDGqhYH/Kpop4K.png",New-Kpop
 https://tinyurl.com/TiviMe-NewKPop
 #EXTINF:0 group-title="🎶| Music" tvg-logo="https://i.ibb.co/4K4mWsy/modern.png",💿| Modern Talking
 #EXTVLCOPT:network-caching=1000
@@ -885,6 +875,8 @@ http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110617&extension
 http://b4tv.live/b4tv/b4tv/3.m3u8
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",FPT Play 2
 http://b4tv.live/b4tv/b4tv/4.m3u8
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://www.goal2sport.com/wp-content/uploads/2018/06/HI.png",Chọi Gà
+http://donglao.duckdns.org:9981/stream/channelid/1016978242?auth=PE0jwVl-RV1EmGGqGGNdLT.TvDb0
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV1" tvg-logo="https://i.imgur.com/EaRVaEX.png", CHAMPIONS TV 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
