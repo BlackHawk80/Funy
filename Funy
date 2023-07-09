@@ -21,10 +21,10 @@ udp://@225.1.2.166:30120
 udp://@225.1.1.128:30120
 
 #-------------------K+-------------------#
-#EXTINF:-1 tvg-id="ksports1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
+#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
 https://iplogger.com/C1B4TV
 
-#EXTINF:-1 tvg-id="ksports2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
+#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
