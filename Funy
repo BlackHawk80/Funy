@@ -440,7 +440,7 @@ https://vips-livecdn.fptplay.net/epzsport/thethao05_vhls.smil/chunklist_b5500000
 
 #--------4K---------#
 #EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/RCSG4wy/nature.png" ,🍀| FLYING OVER SWEDEN ⁴ᴷ
-http://clientsportals.tv:2095/play/live.php?mac=00:1A:79:B7:20:F3&stream=217671&extension=ts&play_token=
+http://pure8k.top:80/play/live.php?mac=00:1A:79:4D:EF:AA&stream=279619&extension=ts&play_token=WNSbwlSMxT
 #EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-id="5120" tvg-logo="http://epg.it999.ru/img/5120.png" tvg-rec="0",Rai Ultra Nature⁴ᴷ
 http://185.236.229.31:9981/play/a01d
 #EXTVLCOPT:network-caching=1000
@@ -525,7 +525,8 @@ http://89.45.13.153:25461/play/live.php?mac=00:1A:79:AA:E0:62&stream=1566281&ext
 #EXTINF:0 tvg-logo="https://i.ibb.co/sv0KsR2/RAI4K.png" group-title="🌏| 4K 🇺 🇭 🇩",Rai ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20068/index.m3u8
-
+#EXTINF:-1 group-title="USA Channel" tvg-logo="http://gg.gg/dvdeurosport",1.EuroSport ⁴ᴷ
+http://safe.avivainsur.com:8080/live/lidas/kzAtmnHq2v/10510.m3u8
 #EXTINF:-1  group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/tHKPnLK/rmc.png", RMC Sport ⁴ᴷ|UHD
 http://theking365tv.ws:2103/play/live.php?mac=00:1A:79:5c:f4:67&stream=6976&extension=ts&play_token=zr6tSzbIDy
 
@@ -539,7 +540,8 @@ http://theking365tv.ws:2103/play/live.php?mac=00:1A:79:5c:f4:67&stream=24083&ext
 http://trx.p13.one:80/live/Willow123/Willow123/1836060.ts
 #EXTINF:-1 tvg-name="SPORT5" tvg-logo="https://i.ibb.co/fFB348B/sport5.png" group-title="🌏| 4K 🇺 🇭 🇩",SPORT 5 ⁴ᴷ
 https://7pal.short.gy/5sport
-
+#EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="http://gg.gg/live4kkkkk",SPOTV ⁴ᴷ
+http://kungtv.net:2095/play/live.php?mac=10:27:BE:15:A7:1A&stream=348094&extension=ts&play_token=4bpG5l7h9F
 #EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://i.ibb.co/wyTQ46t/NBA-TV.png" group-title="🌏| 4K 🇺 🇭 🇩",NBA TV ⁴ᴷ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://streamservicehd.click/
@@ -554,7 +556,7 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20076/index.m3u8
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20071/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBCSPORT" tvg-logo="https://i.ibb.co/mFymsQV/BBC-Sport.png" group-title="🌏| 4K 🇺 🇭 🇩",BBC SPORT ⁴ᴷ UHD (Events Only)
-http://rogermellie.xyz:80/richay/richay/3157685
+http://trx.p13.one/live/Americo/Americo/1872119.m3u8
 
 #-------------------HTV/HTVC-------------------#
 #EXTINF:-1 tvg-id="htv2hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJNacAI1x1L?format=png",HTV2 Vie Channel ᴴᴰ
