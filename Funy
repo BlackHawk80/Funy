@@ -742,8 +742,7 @@ udp://@225.1.1.139:30120
 udp://@225.1.1.196:30120
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://code.vthanhtivi.pw/getlink/cliptv/825/chunklist_b5128000.m3u8
+http://sg.tinchuanchuaanh.com:8080/HOLLYWOOD_CLASSICS/index.m3u8
 
 #EXTINF:-1 tvg-id="inthebox" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png",▶️| In The Box
 http://gg.gg/HaNoiIPTV-In_The_Box_Channel
@@ -757,8 +756,7 @@ http://gg.gg/HaNoiIPTV-BOX_Hits_HD
 #https://code.vthanhtivi.pw/getlink/cliptv/837/chunklist_b5128000.m3u8
 https://code.vthanhtivi.pw/getlink/tv360/237/2.m3u8
 #EXTINF:-1 tvg-id="woman" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
-https://code.vthanhtivi.pw/getlink/tv360/163/2.m3u8
-
+http://gg.gg/HaNoiIPTV-WOMAN_HD
 #EXTINF:-1 tvg-id="drfithd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #https://code.vthanhtivi.pw/getlink/cliptv/823/chunklist_b5128000.m3u8
