@@ -24,8 +24,7 @@ http://gg.gg/HaNoiIPTV-VTV9_HD
 http://cdn.vovtv.mediatech.vn/vovlive/tv1live.m3u8
 
 #EXTINF:-1 tvg-id="antvhd" group-title="🌐| Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6jYdfaQAID5lX?format=png",❤️| ANTV FHD
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://vips-livecdn.fptplay.net/hda2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
+https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
 
 #EXTINF:-1 tvg-id="ttxvnhd" group-title="🌐| Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6-tcfacAA0WFd?format=png",❤️| VNews FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
@@ -39,8 +38,7 @@ http://gg.gg/HaNoiIPTV-THND-Truyen_hinh_Nhan_Dan_HD
 https://vips-livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="qpvnhd" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/N9zkzV2/Quoc-Phong-cc.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/quocphongvnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",❤️| QPVN HD
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
+https://code.hqth.xyz/getlink/mytv/227/hd.m3u8
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/PGxCzX8/ccVL1.webp",❤️| THVL1 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://vips-livecdn.fptplay.net/hda1/vinhlong1_vhls.smil/chunklist_b5000000.m3u8
@@ -436,13 +434,10 @@ http://gg.gg/HaNoiIPTV-HTVC_Phim_HD
 https://vips-livecdn.fptplay.net/hda3/htvcplus_vhls.smil/chunklist_b5000000.m3u8
 
 #---Giải Trí---#
-#EXTINF:-1 group-title="🎞| Giải trí" tvg-logo="https://i.imgur.com/iuGGPYy.png",Pladio
-http://vnesech2.duckdns.org:4022/udp/225.1.2.244:30120
 #EXTINF:-1 tvg-id="hbohd" tvg-logo="https://i.imgur.com/w5u4IrO.png" group-title="🎞| Giải trí",HBO
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://152.69.217.167/vn360sport/keyhbo.php?c=hbo_mykplus
-https://sglive.akamaized.net/msky-live/live_kplus/hbo.smil/manifest.mpd
+https://iplogger.com/HBOVN4M
+#EXTINF:-1 tvg-id="cinemaworldhd" group-title="🎞| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/231.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemawork_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", CinemaWorld
+http://gg.gg/cinemaworld8M
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🎞| Giải trí", CINEMAX HD
 http://gg.gg/HaNoiIPTV-Cinemax_HD
 #EXTINF:-1  tvg-id="https://code.vthanhtivi.pw/getlink/tv360/107/2.m3u8" group-title="🎞| Giải trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/HITS%20HD.png",HITS HD
@@ -450,11 +445,9 @@ http://gg.gg/HaNoiIPTV-HITS_HD
 #EXTINF:-1 tvg-id="warnertvhd" tvg-name="Warner TV" tvg-logo="https://i.ibb.co/xJ6MN0M/warner.png" group-title="🎞| Giải trí",▶️| Warner TV
 http://gg.gg/HaNoiIPTV-Warner_TV_HD
 #EXTINF:-1 tvg-id="axnhd" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
-http://cdn-cf.vthanhtivi.pw/fptplay/axn/bitrate_5000.m3u8
+http://sg.tinchuanchuaanh.com:8080/AXN_HD/index.m3u8
 #EXTINF:-1 tvg-id="kix" tvg-name="KIX" tvg-logo="https://i.imgur.com/EIpDxnQ.png" group-title="🎞| Giải trí",▶️| KIX HD
 http://gg.gg/HaNoiIPTV-Kix_HD
-#EXTINF:-1 tvg-id="tlchd" group-title="🎞| Giải trí" tvg-logo="https://i.imgur.com/GTULNgT.png",▶️| TLC
-http://cdn-cf.vthanhtivi.pw/fptplay/travel-living/bitrate_5000.m3u8
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
 http://sg.tinchuanchuaanh.com:8080/HOLLYWOOD_CLASSICS/index.m3u8
  
@@ -471,7 +464,8 @@ http://gg.gg/HaNoiIPTV-BOX_Hits_HD
  
 #EXTINF:-1 tvg-id="woman" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
 http://gg.gg/HaNoiIPTV-WOMAN_HD
- 
+#EXTINF:-1 tvg-id="" group-title="🎞| Giải trí" tvg-logo="http://img-zlr2.tv360.vn/tv360-static/static/web/images/logo.png" ,TV360 MIỀN TÂY
+http://livestream-zlr1.tv360.vn/origin01/fast-channel/manifest/test/playlist_1080p.m3u8 
 #EXTINF:-1 tvg-id="drfithd" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
 https://api.anttv.xyz/get/cliptv/823/playlist.m3u8
 #EXTINF:-1 tvg-id="GlobalFashionChannel.us" tvg-logo="https://i.imgur.com/s4eGYEP.jpg" group-title="🎞| Giải trí",▶️| Global Fashion Channel
@@ -575,11 +569,10 @@ http://livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
 https://code.vthanhtivi.pw/getlink/tv360/99/2.m3u8
 
 #EXTINF:-1 tvg-id="bbcearth" tvg-name="BBC Earth" tvg-logo="https://i.ibb.co/bWMMncB/bbcearth-cc.png" group-title="🌿| Khám phá",BBC Earth
-http://cdn-cf.vthanhtivi.pw/fptplay/bbc-earth/bitrate_5000.m3u8
+http://sg.tinchuanchuaanh.com:8080/BBC_EARTH_HD/index.m3u8
 
 #EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" tvg-logo="https://i.imgur.com/bn7ha63.png" group-title="🌿| Khám phá",BBC Lifestyle
-http://cdn-cf.vthanhtivi.pw/fptplay/bbc-lifestyle/bitrate_5000.m3u8
-
+http://gg.gg/BBCLifeStyleMYHD
 #EXTINF:-1 tvg-id="bbcworldnews" tvg-name="BBC News" tvg-logo="https://i.ibb.co/j5jJptz/bbcworldnews-cc.png" group-title="🌿| Khám phá",BBC News
 http://cdn-cf.vthanhtivi.pw/fptplay/bbc-news/bitrate_5000.m3u8
 #EXTINF:-1 tvg-id="cna" tvg-name="Channel NewsAsia" tvg-logo="https://i.imgur.com/iX9c7AK.png" group-title="🌿| Khám phá",Channel NewsAsia
@@ -594,10 +587,10 @@ http://cdn-cf.vthanhtivi.pw/fptplay/cnn/bitrate_5000.m3u8
 http://gg.gg/HaNoiIPTV-Da_Vinci_HD
 
 #EXTINF:-1 tvg-id="discoveryhd" tvg-name="Discovery" tvg-logo="https://i.ibb.co/xzpWHLm/Discovery-Channel.webp" group-title="🌿| Khám phá",Discovery
-http://cdn-cf.vthanhtivi.pw/fptplay/discovery/bitrate_5000.m3u8
+http://sg.tinchuanchuaanh.com:8080/DISCOVERY_HD/index.m3u8
 
 #EXTINF:-1 tvg-id="discoveryasiahd" tvg-name="Discovery Asia" tvg-logo="https://i.imgur.com/mRVV3WI.png" group-title="🌿| Khám phá",Discovery Asia
-http://cdn-cf.vthanhtivi.pw/fptplay/discovery-asia/bitrate_5000.m3u8
+http://sg.tinchuanchuaanh.com:8080/DISCOVERY_ASIA_HD/index.m3u8
 
 #EXTINF:-1 tvg-id="dw" tvg-name="DW" tvg-logo="https://i.imgur.com/B6jnE9k.png" group-title="🌿| Khám phá",DW
 http://livecdn.fptplay.net/hda2/dwenglish_vhls.smil/chunklist_b5000000.m3u8
@@ -611,10 +604,9 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8?cc
 https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8?cc
 
 #EXTINF:-1 tvg-id="ngwhd" tvg-name="Nat Geo Wild" tvg-logo="https://i.ibb.co/HgYTRT6/Nat-Geo-Wild.png" group-title="🌿| Khám phá",Nat Geo Wild
-http://2hubs.ddns.net:25461/BabNour/telegrramm/57460
-
+https://iplogger.com/NATGEOWILD
 #EXTINF:-1 tvg-id="ngchd" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/j3wTynz/National-Geographic.png" group-title="🌿| Khám phá",National Geographic
-http://cdn-cf.vthanhtivi.pw/fptplay/national-geographic-hd/bitrate_5000.m3u8
+https://iplogger.com/NATGEO8M
 #EXTINF:-1 tvg-id="tv5monde" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/R9P4G9X/TV5-Monde.png", TV5MONDE
 #EXTVLCOPT:http-user-agent="KIIP"
 https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
@@ -624,11 +616,7 @@ http://livecdn.fptplay.net/hda2/nhkworld_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="outdoorhd" tvg-name="Outdoor Channel" tvg-logo="https://i.ibb.co/x3hpmQ9/Outdoor-Channel.png" group-title="🌿| Khám phá",Outdoor Channel
 http://gg.gg/HaNoiIPTV-Outdoor_Channel_HD
 #EXTINF:-1 tvg-id="histtoryhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",History HD
-#EXTINF:-1 tvg-id="historyhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp",History
-#KODIPROP:inputstream.adaptive.license_type=clearkey #EXTVLCOPT:http-user-agent=AppleWebKit/537.36 ( Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://vstv.broadpeak-aas.com/bpk-tv/prod_history/default/i.mpd?cc
-#https:///dl.dropboxusercontent.com/s/29h8399q6wuus8z//   																						 ㅤ
-#KODIPROP:inputstream.adaptive.license_key=https:///dl.dropboxusercontent.com/s/dnu913y34gzfj8s//
+http://sg.tinchuanchuaanh.com:8080/HISTORY_HD/index.m3u8
 #--------4K---------#
 #EXTINF:0 tvg-logo="https://i.ibb.co/nCJ8dtt/Picsart-22-12-22-21-42-09-506.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| TravelXP ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
