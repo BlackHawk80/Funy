@@ -2,23 +2,23 @@
 
 # VTV
 #EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/ySDjzg0/VTV1-cc.webp",❤️| VTV1 ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/mytv/210/hd.m3u8
+http://gg.gg/HaNoiIPTV-VTV1_HD
 #EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/G0PXW8r/VTV2-cc.webp",❤️| VTV2 ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/mytv/377/hd.m3u8
+http://gg.gg/HaNoiIPTV-VTV2_HD
 #EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VNHdbry/VTV3-cc.png",❤️| VTV3 ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/mytv/211/hd.m3u8
+http://gg.gg/HaNoiIPTV-VTV3_HD
 #EXTINF:-1 tvg-id="vtv4hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VCBW4W8/VTV4-cc.webp",❤️| VTV4 ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/mytv/378/hd.m3u8
+http://gg.gg/HaNoiIPTV-VTV4_HD
 #EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Hnyb8Cr/VTV5-cc.webp",❤️| VTV5 ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/mytv/379/hd.m3u8
+http://gg.gg/HaNoiIPTV-VTV5_HD
 #EXTINF:-1 tvg-id="vtv6hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/PtJKgHX/vtvcantho.webp",❤️| VTV6 ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/mytv/212/hd.m3u8
+http://gg.gg/HaNoiIPTV-VTV_Can_Tho_HD
 #EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Z89vrHX/VTV7-cc.webp",❤️| VTV7 ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/mytv/459/hd.m3u8
+http://gg.gg/HaNoiIPTV-VTV7_HD
 #EXTINF:-1 tvg-id="vtv8hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/RyBxx0F/VTV8-cc.webp",❤️| VTV8 ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/mytv/380/hd.m3u8
+http://gg.gg/HaNoiIPTV-VTV8_HD
 #EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/SV2FccD/vtv9.png",❤️| VTV9 ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/mytv/381/hd.m3u8
+http://gg.gg/HaNoiIPTV-VTV9_HD
 #--*-Thiết yếu-*--#
 #EXTINF:-1 tvg-id="vovtvhd" group-title="🌐| Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6-tc0aIAAH4cM?format=png",❤️| VOVTV HD
 http://cdn.vovtv.mediatech.vn/vovlive/tv1live.m3u8
@@ -29,11 +29,10 @@ https://vips-livecdn.fptplay.net/hda2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="ttxvnhd" group-title="🌐| Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6-tcfacAA0WFd?format=png",❤️| VNews FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://vips-livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8
+https://zjizeoupprliv.vcdn.cloud/live/vnews/playlist.m3u8
 
 #EXTINF:-1 tvg-id="nhandan" group-title="🌐| Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6_BNjaMAU9YYO?format=png",❤️| Nhân Dân TV FHD
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://video.nhandan.thienvietjsc.net/live/nhandan720/chunklist_w1915921234.m3u8
+http://gg.gg/HaNoiIPTV-THND-Truyen_hinh_Nhan_Dan_HD
 
 #EXTINF:-1 tvg-id="quochoi" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/n02rRKY/quoc-huy.png",❤️| Quốc Hội FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
@@ -46,7 +45,7 @@ https://livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://vips-livecdn.fptplay.net/hda1/vinhlong1_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="hanoi1" group-title="🌐| Thiết yếu" tvg-logo="https://i.imgur.com/ajnzMuj.png",❤️| Hanoi1 HD
-https://1028513096.vnns.net/tv1-abr/hntvlive/tv1_1080p/chunks.m3u8
+http://gg.gg/HaNoiIPTV-Truyen_hinh_Ha_Noi_1_HD
 #EXTINF:-1 tvg-id="hanoi2" group-title="🌐| Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hanoi2 HD
 http://gg.gg/HaNoiIPTV-Truyen_hinh_Ha_Noi_2_HD
 #EXTINF:-1 tvg-id="hungyen" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/wWQtTwr/HUNGYEN-BEARTV.png",❤️| Hưng Yên HD
@@ -171,20 +170,20 @@ https://vips-livecdn.fptplay.net/schedule/wbc02_vhls.smil/chunklist_b5000000.m3u
 
 # VTC
 #EXTINF:-1 tvg-id="vtc1hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZTVIagAE_LiP?format=png", VTC1 FHD
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://vips-livecdn.fptplay.net/hda1/vtc1_vhls.smil/chunklist_b5000000.m3u8
+#EXTVLCOPT:http-user-agent="Bear TV"
+https://live-zlr1.tv360.vn/manifest/VTC1_HD/playlist_1080p.m3u8
 
 #EXTINF:-1 tvg-id="vtc2" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZTWeaAAEdIn6?format=png", VTC2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc2_hls.smil/chunklist_b2500000.m3u8
+https://1117141481.vnns.net/VTC2/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc3hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZTXEaMAIppZC?format=png", VTC3 FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://vips-livecdn.fptplay.net/hda1/vtc3hd_vhls.smil/chunklist_b5000000.m3u8
+https://1117141481.vnns.net/VTC3/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc4hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZTXtaIAM8Y43?format=png" , VTC4 FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdc/vtc4_hls.smil/chunklist_b2500000.m3u8
+https://1117141481.vnns.net/VTC4/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc5hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZWy1aUAErHpL?format=png" , VTC5 FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
@@ -192,22 +191,20 @@ https://livecdn.fptplay.net/sdb/vtc5_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="vtc6hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW0DacAEhukR?format=png", VTC6
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc6_hls.smil/chunklist_b2500000.m3u8
-
+https://1117141481.vnns.net/VTC6/chunks.m3u8
 #EXTINF:-1 tvg-id="vtc7hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/g3F0GsF/Picsart-22-12-19-00-36-38-473.png" , VTC7 - TodayTV
-https://code.vthanhtivi.pw/getlink/mytv/398/hd.m3u8
-
+https://1117141481.vnns.net/VTC7/chunks.m3u8
 #EXTINF:-1 tvg-id="vtc8hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW1UaIAAAKB_?format=png" , VTC8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc8_hls.smil/chunklist_b2500000.m3u8
+https://1117141481.vnns.net/VTC8/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc9hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaROakAAjK6t?format=png" , VTC9 FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc9_hls.smil/chunklist_b2500000.m3u8
+https://1117141481.vnns.net/VTC9/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc10" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaSnacAEyzdQ?format=png", VTC10
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc10_hls.smil/chunklist_b2500000.m3u8
+https://1117141481.vnns.net/VTC10/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc11" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaTfaMAEtEGN?format=png", VTC11
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
@@ -215,19 +212,19 @@ https://livecdn.fptplay.net/sdb/vtc11_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="vtc12hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaUGacAAR-2X?format=png", VTC12
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc12_hls.smil/chunklist_b2500000.m3u8
+https://1117141481.vnns.net/VTC12/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc13hd" group-title="🎶| Music" tvg-logo="https://pbs.twimg.com/media/Fa6Zc0IaQAIFxLG?format=png", VTC13 FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://vips-livecdn.fptplay.net/hda1/vtc13_vhls.smil/chunklist_b5000000.m3u8
+https://1117141481.vnns.net/VTC13/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc14hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6Zc1hagAI6YG2?format=png" , VTC14 FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://vips-livecdn.fptplay.net/hda1/vtc14_vhls.smil/chunklist_b5000000.m3u8
+https://1117141481.vnns.net/VTC14/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc16" group-title="💙| VTC" tvg-logo="https://i.imgur.com/Az8QejV.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vtc16-hd/${start}/${offset}", VTC16 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.vthanhtivi.pw/v1/getlink/vieon/vtc16-hd
+https://1117141481.vnns.net/VTC16/chunks.m3u8
 
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png",K+ LIVE 1
@@ -389,31 +386,25 @@ https://hqth.me/ontrethaoviet?secure=7USmu7MBLJw0mGLlo4v7aQ/ondrm/ONVOLLEYBALL/m
 
 #----HTV----#
 #EXTINF:-1 tvg-id="htv1" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png", HTV1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/htv1_hls.smil/chunklist_b2500000.m3u8
+http://gg.gg/HaNoiIPTV-HTV1
 
 #EXTINF:0 tvg-id="htv2hd" group-title="💛| HTV"tvg-logo="https://i.ibb.co/q99PxTH/cchtv2.webp",HTV2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://vips-livecdn.fptplay.net/hda1/htv2hd_vhls.smil/chunklist_b5000000.m3u8
+http://gg.gg/HaNoiIPTV-HTV2_HD
 
 #EXTINF:-1 tvg-id="htv2hd" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7AbJNacAI1x1L?format=png", HTV2 FHD - Vie Channel
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTV2-HD-1080p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="htv3" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7AbJOaUAE6JoO?format=png", HTV3 - Heo TV
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/htv3_hls.smil/chunklist_b2500000.m3u8
+http://gg.gg/HaNoiIPTV-HTV3
 
 #EXTINF:-1 tvg-id="htv4" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7AbJNaAAAR2sm?format=png", HTV Key
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/htv4_hls.smil/chunklist_b2500000.m3u8
+http://gg.gg/HaNoiIPTV-HTV4
 
 #EXTINF:-1 tvg-id="htv7hd" group-title="💛| HTV" tvg-logo="https://i.ibb.co/C9r5gwM/HTV7-cc.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htv7hd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTV7 HD
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hda1/htv7hd_vhls.smil/chunklist_b5000000.m3u8
+http://gg.gg/HaNoiIPTV-HTV7_HD
 #EXTINF:-1 tvg-id="htv9hd" group-title="💛| HTV" tvg-logo="https://i.ibb.co/tqvWY3q/HTV9-cc.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htv9hd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTV9 HD
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hda1/htv9hd_vhls.smil/chunklist_b5000000.m3u8
+http://gg.gg/HaNoiIPTV-HTV9_HD
 #EXTINF:-1 tvg-id="htvthethaohd" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7Ad0GakAcX1g2?format=png", HTV Thể Thao FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 https://livecdn.fptplay.net/sdb/htvcthethao_hls.smil/chunklist_b2500000.m3u8
@@ -439,7 +430,7 @@ https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-DULICH-HD-1080p/chunks.m3u8
 https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-CANHAC-HD-1080p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="htvcphimhd" group-title="💛| HTV" tvg-logo="https://i.ibb.co/n3QhGdm/HTVCPhim-cc.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcmovieshd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTVC Phim HD
-https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-PHIM-HD-1080p/chunks.m3u8
+http://gg.gg/HaNoiIPTV-HTVC_Phim_HD
 #EXTINF:-1 tvg-id="htvcplushd" group-title="💛| HTV" tvg-logo="https://i.ibb.co/7QjqVJP/HTVCPlus-cc.webp" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/htvc-plus/${start}/${offset}", HTVC Plus HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
 https://vips-livecdn.fptplay.net/hda3/htvcplus_vhls.smil/chunklist_b5000000.m3u8
@@ -453,40 +444,33 @@ http://vnesech2.duckdns.org:4022/udp/225.1.2.244:30120
 #KODIPROP:inputstream.adaptive.license_key=http://152.69.217.167/vn360sport/keyhbo.php?c=hbo_mykplus
 https://sglive.akamaized.net/msky-live/live_kplus/hbo.smil/manifest.mpd
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🎞| Giải trí", CINEMAX HD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://152.69.217.167/vn360sport/keyhbo.php?c=cinemax_mykplus
-https://sglive.akamaized.net/msky-live/live_kplus/max.smil/manifest.mpd
-
+http://gg.gg/HaNoiIPTV-Cinemax_HD
+#EXTINF:-1  tvg-id="https://code.vthanhtivi.pw/getlink/tv360/107/2.m3u8" group-title="🎞| Giải trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/HITS%20HD.png",HITS HD
+http://gg.gg/HaNoiIPTV-HITS_HD
 #EXTINF:-1 tvg-id="warnertvhd" tvg-name="Warner TV" tvg-logo="https://i.ibb.co/xJ6MN0M/warner.png" group-title="🎞| Giải trí",▶️| Warner TV
-http://cdn-cf.vthanhtivi.pw/fptplay/warner-tv/bitrate_5000.m3u8
+http://gg.gg/HaNoiIPTV-Warner_TV_HD
 #EXTINF:-1 tvg-id="axnhd" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
 http://cdn-cf.vthanhtivi.pw/fptplay/axn/bitrate_5000.m3u8
 #EXTINF:-1 tvg-id="kix" tvg-name="KIX" tvg-logo="https://i.imgur.com/EIpDxnQ.png" group-title="🎞| Giải trí",▶️| KIX HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#EXTVLCOPT:network-caching=1000
-https://vips-livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8?cc
+http://gg.gg/HaNoiIPTV-Kix_HD
 #EXTINF:-1 tvg-id="tlchd" group-title="🎞| Giải trí" tvg-logo="https://i.imgur.com/GTULNgT.png",▶️| TLC
 http://cdn-cf.vthanhtivi.pw/fptplay/travel-living/bitrate_5000.m3u8
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://code.vthanhtivi.pw/getlink/cliptv/825/chunklist_b5128000.m3u8
+http://sg.tinchuanchuaanh.com:8080/HOLLYWOOD_CLASSICS/index.m3u8
  
 #EXTINF:-1 tvg-id="inthebox" group-title="🎞| Giải trí" tvg-logo="http://logo.vagroup.pw/241.png",▶️| In The Box
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://code.vthanhtivi.pw/getlink/cliptv/838/chunklist_b5128000.m3u8
+http://sg.tinchuanchuaanh.com:8080/IN_THE_BOX/index.m3u8
 #EXTINF:-1 tvg-id="boxmovie1" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",▶️| BOX Movie¹
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://code.vthanhtivi.pw/getlink/cliptv/822/chunklist_b5128000.m3u8
+http://sg.tinchuanchuaanh.com:8080/BOX_MOVIE_1/index.m3u8
 #EXTINF:-1 tvg-id="boxhits" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",▶️| Box Hits
-https://code.vthanhtivi.pw/getlink/mytv/105/hd.m3u8
+http://gg.gg/HaNoiIPTV-BOX_Hits_HD
  
 #EXTINF:-1 tvg-id="man" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/0CPzK4F/Man-150x901j3.png",▶️| Man
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #https://code.vthanhtivi.pw/getlink/cliptv/837/chunklist_b5128000.m3u8
  
 #EXTINF:-1 tvg-id="woman" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
-https://code.vthanhtivi.pw/getlink/tv360/163/2.m3u8
+http://gg.gg/HaNoiIPTV-WOMAN_HD
  
 #EXTINF:-1 tvg-id="drfithd" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
 https://api.anttv.xyz/get/cliptv/823/playlist.m3u8
@@ -510,7 +494,7 @@ https://livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b5000000.m3u8
 #-*--Music-*--#
 
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="http://logo.vagroup.pw/240.png",💿| Music Box
-https://code.vthanhtivi.pw/getlink/mytv/69/hd.m3u8
+http://gg.gg/HaNoiIPTV-Music_BOX_HD
 #EXTINF:-1 tvg-id="mtv.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
 http://rogermellie.xyz:80/richay/richay/1462
 #EXTINF:-1 group-title="🎶| Music" tvg-logo="https://i.ibb.co/9T6trsL/MTV-00s.png",MTV 00s FHD
@@ -580,7 +564,7 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/14179/index.m3u8
 
 #-*--Khám Phá-*--#
 #EXTINF:-1 tvg-id="animalhd" tvg-name="Animal Planet" tvg-logo="https://i.imgur.com/QNg7ekk.png" group-title="🌿| Khám phá",Animal Planet
-http://cdn-cf.vthanhtivi.pw/fptplay/animal-planet/bitrate_5000.m3u8
+http://gg.gg/HaNoiIPTV-Animal_Planet_HD
 
 #EXTINF:-1 tvg-id="planetearthhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/9sHfrwj/Planet-Earth.png", Planet Earth
 https://code.vthanhtivi.pw/getlink/tv360/135/2.m3u8
@@ -607,7 +591,7 @@ http://cdn-cf.vthanhtivi.pw/fptplay/cnbc/bitrate_2500.m3u8
 http://cdn-cf.vthanhtivi.pw/fptplay/cnn/bitrate_5000.m3u8
 
 #EXTINF:-1 tvg-id="davinci" tvg-name="Da Vinci" tvg-logo="https://i.imgur.com/aIAaCce.png" group-title="🌿| Khám phá",Da Vinci
-http://livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u8
+http://gg.gg/HaNoiIPTV-Da_Vinci_HD
 
 #EXTINF:-1 tvg-id="discoveryhd" tvg-name="Discovery" tvg-logo="https://i.ibb.co/xzpWHLm/Discovery-Channel.webp" group-title="🌿| Khám phá",Discovery
 http://cdn-cf.vthanhtivi.pw/fptplay/discovery/bitrate_5000.m3u8
@@ -638,7 +622,7 @@ https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
 http://livecdn.fptplay.net/hda2/nhkworld_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1 tvg-id="outdoorhd" tvg-name="Outdoor Channel" tvg-logo="https://i.ibb.co/x3hpmQ9/Outdoor-Channel.png" group-title="🌿| Khám phá",Outdoor Channel
-http://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
+http://gg.gg/HaNoiIPTV-Outdoor_Channel_HD
 #EXTINF:-1 tvg-id="histtoryhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",History HD
 #EXTINF:-1 tvg-id="historyhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp",History
 #KODIPROP:inputstream.adaptive.license_type=clearkey #EXTVLCOPT:http-user-agent=AppleWebKit/537.36 ( Gecko) Chrome/81.0.4044.138 Safari/537.36
