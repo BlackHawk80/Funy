@@ -144,13 +144,13 @@ udp://@225.1.2.148:30120
 #EXTINF:-1 tvg-id="qpvnhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/N9zkzV2/Quoc-Phong-cc.webp",❤️| QPVN ¹⁰⁸⁰
 udp://@225.1.2.217:30120
 #EXTINF:-1 tvg-id="ttxvnhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6-tcfacAA0WFd?format=png",❤️| VNEWS ¹⁰⁸⁰
-https://vips-livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8
+https://zjizeoupprliv.vcdn.cloud/live/vnews/playlist.m3u8
 #EXTINF:-1 tvg-id="vovtvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/tY8jbSB/VOV-cc.webp",❤️| VOV TV ¹⁰⁸⁰
 http://cdn.vovtv.mediatech.vn/vovlive/tv1live.m3u8
 #EXTINF:-1 tvg-id="hanoi1"group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/ajnzMuj.png",❤️| Hà Nội1 ¹⁰⁸⁰
 udp://@225.1.2.186:30120
 #EXTINF:-1 tvg-id="hanoi2" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hanoi2 ¹⁰⁸⁰
-https://1028513096.vnns.net/tv2-abr/hntvlive/tv2_1080p/chunks.m3u8
+http://gg.gg/HaNoiIPTV-Truyen_hinh_Ha_Noi_2_HD
 #EXTINF:-1 tvg-id="hungyen" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/wWQtTwr/HUNGYEN-BEARTV.png",❤️| Hưng Yên ¹⁰⁸⁰
 https://live.hungyentv.vn/hytvlive/tv1live.m3u8
 
@@ -164,8 +164,7 @@ udp://@225.1.1.154:30120
 #EXTINF:-1 tvg-id="vtc1hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/o70uxdn.png",VTC1 HD ᴴᴰ
 udp://@225.1.2.254:30120
 #EXTINF:-1 tvg-id="vtc2" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZTWeaAAEdIn6?format=png", VTC2
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc2_hls.smil/chunklist_b2500000.m3u8
+https://1117141481.vnns.net/VTC2/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc3hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/iJ0haYq.png",VTC3 ᴴᴰ
 udp://@225.1.2.251:30120
@@ -173,35 +172,28 @@ udp://@225.1.2.251:30120
 udp://@225.1.2.200:30120
 
 #EXTINF:-1 tvg-id="vtc5hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZWy1aUAErHpL?format=png" , VTC5 ᴴᴰ
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc5_hls.smil/chunklist_b2500000.m3u8
+udp://@225.1.2.199:30120
 
 #EXTINF:-1 tvg-id="vtc6hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW0DacAEhukR?format=png", VTC6 ᴴᴰ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc6_hls.smil/chunklist_b2500000.m3u8
+https://1117141481.vnns.net/VTC6/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc7hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/g3F0GsF/Picsart-22-12-19-00-36-38-473.png" , VTC7 - TodayTV
-http://gg.gg/HaNoiIPTV-VTC7-Today_TV_HD
+https://1117141481.vnns.net/VTC7/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc8" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW1UaIAAAKB_?format=png" , VTC8
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc8_hls.smil/chunklist_b2500000.m3u8
+udp://@225.1.2.196:30120
 
 #EXTINF:-1 tvg-id="vtc9hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaROakAAjK6t?format=png" , VTC9 ᴴᴰ
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc9_hls.smil/chunklist_b2500000.m3u8
+udp://@225.1.2.195:30120
 
 #EXTINF:-1 tvg-id="vtc10" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaSnacAEyzdQ?format=png", VTC10
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc10_hls.smil/chunklist_b2500000.m3u8
+udp://@225.1.2.194:30120
 
 #EXTINF:-1 tvg-id="vtc11" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaTfaMAEtEGN?format=png", VTC11
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc11_hls.smil/chunklist_b2500000.m3u8
-
+udp://@225.1.2.193:30120
 #EXTINF:-1 tvg-id="vtc12" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaUGacAAR-2X?format=png", VTC12
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://livecdn.fptplay.net/sdb/vtc12_hls.smil/chunklist_b2500000.m3u8
+udp://@225.1.2.51:30120
 #EXTINF:-1 tvg-id="vtc13hd" group-title="💙| VTC" tvg-logo="https://imgur.com/2RRt2M4.png",VTC13 ᴴᴰ
 udp://@225.1.2.250:30120
 #EXTINF:-1 tvg-id="vtc13hd" tvg-logo="https://i.ibb.co/289kmYq/VTC13-4K.png" group-title="🎶| Music",VTC13 4K
@@ -543,6 +535,8 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20071/index.m3u8
 http://trx.p13.one/live/Americo/Americo/1872119.m3u8
 
 #-------------------HTV/HTVC-------------------#
+#EXTINF:-1 tvg-id="htv1hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png",HTV1
+udp://@225.1.1.180:30120
 #EXTINF:-1 tvg-id="htv2hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJNacAI1x1L?format=png",HTV2 Vie Channel ᴴᴰ
 udp://@225.1.1.193:30120
 #EXTINF:-1 tvg-id="htv7hd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/C9r5gwM/HTV7-cc.webp",HTV7 HD ᴴᴰ
@@ -561,14 +555,10 @@ udp://@225.1.1.170:30120
 udp://@225.1.1.184:30120
 #EXTINF:-1 tvg-id="htvcphunuhd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ad2qaUAkzPDI?format=png",HTVC Phụ Nữ ᴴᴰ
 udp://@225.1.1.171:30120
-#EXTINF:-1 tvg-id="htvcthuanviethd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ar9_aQAAJGk2?format=png",HTVC Thuần Việt ᴴᴰ
-udp://@225.1.1.174:30120
-#EXTINF:-1 tvg-id="htvthuanviethd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ar9_aQAAJGk2?format=png",Thuần Việt ᴴᴰ
+#EXTINF:-1 tvg-id="htvcthuanviethd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7Ar9_aQAAJGk2?format=png",Thuần Việt ᴴᴰ
 udp://@225.1.1.186:30120
 #EXTINF:-1 tvg-id="htvcplushd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/7QjqVJP/HTVCPlus-cc.webp",HTVC Plus ᴴᴰ
 udp://@225.1.1.181:30120
-#EXTINF:-1 tvg-id="htv1hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png",HTV1
-udp://@225.1.1.180:30120
 
 #-------------------SCTV-------------------#
 
