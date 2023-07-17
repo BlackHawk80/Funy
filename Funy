@@ -182,7 +182,8 @@ https://1117141481.vnns.net/VTC6/chunks.m3u8
 https://1117141481.vnns.net/VTC7/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc8" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW1UaIAAAKB_?format=png" , VTC8
-udp://@225.1.2.196:30120
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
+https://1117141481.vnns.net/VTC8/chunks.m3u8
 
 #EXTINF:-1 tvg-id="vtc9hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaROakAAjK6t?format=png" , VTC9 ᴴᴰ
 udp://@225.1.2.195:30120
@@ -193,7 +194,8 @@ udp://@225.1.2.194:30120
 #EXTINF:-1 tvg-id="vtc11" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaTfaMAEtEGN?format=png", VTC11
 udp://@225.1.2.193:30120
 #EXTINF:-1 tvg-id="vtc12" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaUGacAAR-2X?format=png", VTC12
-udp://@225.1.2.51:30120
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
+https://1117141481.vnns.net/VTC12/chunks.m3u8
 #EXTINF:-1 tvg-id="vtc13hd" group-title="💙| VTC" tvg-logo="https://imgur.com/2RRt2M4.png",VTC13 ᴴᴰ
 udp://@225.1.2.250:30120
 #EXTINF:-1 tvg-id="vtc13hd" tvg-logo="https://i.ibb.co/289kmYq/VTC13-4K.png" group-title="🎶| Music",VTC13 4K
