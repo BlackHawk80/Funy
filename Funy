@@ -41,29 +41,17 @@ https://iplogger.com/LIFEB4TV
 https://akaviettel.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.ifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluslivekey1
-https://cocc.me/kpluslive1hd?id=kplus01/seasonid=21/i.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://www.dropbox.com/scl/fi/rbue9l01ssqfrx8ca6sj4/live1.-oqeiqwosad?rlkey=hppq63qx5zpmbzp9zchxp1b38&dl=1
+https://akaviettel.kplus.vn/bpk-tv/prod_klive1/default/index.mpd
 #EXTINF:-1  tvg-id="klive2hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png", K+ LIVE 2
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/kpluskeylive2
-https://cocc.me/kpluslive2hd?id=kplus02/seasonid=32/i.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dDne6KZ62B+Zto18e/p50g", "kid":"QXSdPAX5TOyqmN8rMVrTCQ" } ], "type":"temporary" }
+https://akaviettel.kplus.vn/bpk-tv/prod_klive2/default/index.mpd
 #EXTINF:-1  tvg-id="klive3hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_3.png", K+ LIVE 3
-#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1080x720,AUDIO="audiod"
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://cocc.me/livekpluskey3
-https://cocc.me/kpluslive3hd?id=kplus03/seasonid=46/i.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jhwqqk/xL0jngyEDMeCguQ", "kid":"jcHanGFdRuGVteyGkVB4hw" } ], "type":"temporary" }
+https://akaviettel.kplus.vn/bpk-tv/prod_klive3/default/index.mpd
 
 #-------------------Hoạt hình HD-------------------#
 
@@ -747,7 +735,7 @@ http://b4tv.live/b4tv/b4tv/3.m3u8
 http://b4tv.live/b4tv/b4tv/4.m3u8
 #EXTINF:-1 tvg-id="quochoi" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/n02rRKY/quoc-huy.png",❤️| QUỐC HỘI ¹⁰⁸⁰ FIFA WOMEN WORLD CUP 2023
 http://128.199.214.24/QHTV/mpegts
-#EXTINF:-1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://cdn.hqth.me/logo/thumbs/26.png", ON Sports News FIFA WOMEN WORLD CUP 2023
+#EXTINF:-1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/ON%20Sports%20News%20HD.png", ON Sports News FIFA WOMEN WORLD CUP 2023
 http://128.199.214.24/OSN/mpegts
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/d55Y9qr/G.png",Chọi Gà
 http://donglao.duckdns.org:9981/stream/channelid/1016978242?auth=PE0jwVl-RV1EmGGqGGNdLT.TvDb0
