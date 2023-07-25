@@ -836,17 +836,23 @@ http://nordicone.tv:80/play/live.php?mac=00:1a:79:67:52:6c&stream=115618&extensi
 http://memotv.xyz:8080/TeslaVision@Exch/eqXemnNAECa7/96344
 #EXTINF:-1 tvg-id="Eleven1Portugal.pt" tvg-name="Eleven 1 Portugal" tvg-logo="https://i.ibb.co/Q9VkNQh/eleven1.png" group-title="🔴| LÂM-PHONG SPORT",Eleven Sports 1
 http://37.49.230.42:8080/iptvepic4/DzbGTtATy4DzmK8c/347
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/Q9VkNQh/eleven1.png" group-title="🔴| LÂM-PHONG SPORT",Eleven Sports
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://streamservicehd.click/
-https://webudit.cdnhks.lol/lb/premium71/index.m3u8?
+#EXTINF: -1 tvg-id="elevensports1.pt" tvg-name="ELEVEN SPORTS 1 PORTUGAL" tvg-logo="https://logo.iptveditor.com/elevensport1.png" group-title="🔴| LÂM-PHONG SPORT", ELEVEN SPORTS 1 PORTUGAL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099184
+#EXTINF: -1 tvg-id="elevensports2.pt" tvg-name="ELEVEN SPORTS 2 PORTUGAL" tvg-logo="https://logo.iptveditor.com/elevensport2.png" group-title="🔴| LÂM-PHONG SPORT", ELEVEN SPORTS 2 PORTUGAL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099185
 #EXTINF:-1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ Peacock•PremierLeague
 http://shareext@185.243.7.13/play/live.php?mac=00:1A:79:45:5E:9A&stream=1032457&extension=ts&play_token=1kEm8DbZmS
-#EXTINF:1 tvg-id="SkySportsFootball.uk" tvg-logo="https://i.ibb.co/pvt00Xj/Sky-Sport-Football.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Sky Sports Football FHD
+#EXTINF:- 1 tvg-id="skysportsfootball.uk" tvg-logo="https://i.ibb.co/pvt00Xj/Sky-Sport-Football.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Sky Sports Football FHD
 https://6oclock.xyz:8443/oVTsSvYjZu/cAXDNm9LY9/20829
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="SkySportsPremierLeague.uk" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT",S.K.Y SPORTS PREMIER LEAGUE
-https://6oclock.xyz:8443/oVTsSvYjZu/cAXDNm9LY9/20831
-#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
+#EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS PREMIER LEAGUE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099150
+#EXTINF: -1 tvg-id="skysportsmainevent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=83450&extension=ts&play_token=
 #EXTINF:-1 tvg-id="skysportsmix.uk" tvg-logo="https://i.ibb.co/QrGSRc7/Sky-Sport-Mix.png" group-title="🔴| LÂM-PHONG SPORT", Sky Sports Mix
 http://raw.bitnode.pm:81/giorgi/giorgi/20701
@@ -857,13 +863,26 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19129/index.m3u8
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=692393&extension=ts&play_token=
 #EXTINF:1 tvg-id="SkySportsGolf.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/qj4Gcff/Sky-Sport-Golf.png",Sky Sports Golf FHD
 http://raw.bitnode.pm:81/giorgi/giorgi/20681
-#EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-id="6585" tvg-logo="http://epg.it999.ru/img2/6585.png" tvg-rec="0",SPORT TV
-#EXTVLCOPT:network-caching=1000
-http://37403135.cbilant.com/iptv/ZP6CPSLL6GVWT2/19161/index.m3u8
-#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://gg.gg/fox1fhdkkk",2.Fox Sports 1 FHD
-http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=42904&extension=ts&play_token=GVc9Vgbarl
-#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://gg.gg/fox2fhdkkk",2.Fox Sports 2 FHD
-http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=42903&extension=ts&play_token=qJLmnIu5AJ
+#EXTINF: -1 tvg-name="SPORT TV 1 HD" tvg-logo="https://logo.iptveditor.com/sporttv1.png" group-title="🔴| LÂM-PHONG SPORT", SPORT TV 1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099178
+#EXTINF: -1 tvg-id="foxsports1.us" tvg-name="FOX SPORTS 1" tvg-logo="https://logo.iptveditor.com/foxsports1.png" group-title="🔴| LÂM-PHONG SPORT", FOX SPORTS 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099152
+#EXTINF: -1 tvg-id="foxsports2.us" tvg-name="FOX SPORTS 2" tvg-logo="https://logo.iptveditor.com/foxsports2.png" group-title="🔴| LÂM-PHONG SPORT", FOX SPORTS 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099153
+#EXTINF: -1 tvg-id="tsn.us" tvg-name="TSN 1" tvg-logo="https://logo.iptveditor.com/tsn1.png" group-title="🔴| LÂM-PHONG SPORT", TSN 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099209
+#EXTINF: -1 tvg-id="tsn.us" tvg-name="TSN 2" tvg-logo="https://logo.iptveditor.com/tsn2.png" group-title="🔴| LÂM-PHONG SPORT", TSN 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099210
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="laligatv.uk" tvg-name="LA LIGA TV FHD" tvg-logo="https://logo.iptveditor.com/laligatv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ LA LIGA TV
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=163611&extension=ts
 #EXTINF:-1 tvg-id="dazn1.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/2560px-DAZN_1_Logo.svg.png" group-title="🔴| LÂM-PHONG SPORT", DAZN 1
@@ -899,16 +918,20 @@ https://webudit.cdnhks.lol/lb/premium343/playlist.m3u8
 http://raw.bitnode.pm:81/giorgi/giorgi/20057
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="bbctwo.uk" tvg-name="BBC TWO FHD" tvg-logo="https://logo.iptveditor.com/bbctwo.png" group-title="🔴| LÂM-PHONG SPORT",BBC TWO FHD
 http://raw.bitnode.pm:81/giorgi/giorgi/20139
-#EXTINF:-1 tvg-id="eurosport1.uk" tvg-logo="https://i.ibb.co/ryZ3jb0/euro1.png" group-title="🔴| LÂM-PHONG SPORT", EuroSport 1
-http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=8339&extension=ts&play_token=clIor7Ker2
-#EXTINF:-1 tvg-id="eurosport2.uk" tvg-logo="https://i.ibb.co/D10K97K/euro2.png" group-title="🔴| LÂM-PHONG SPORT", EuroSport 2
-http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=9852&extension=ts&play_token=cwdRdihniL
+#EXTINF: -1 tvg-id="eurosport1.uk" tvg-name="EUROSPORT 1 HD" tvg-logo="https://logo.iptveditor.com/eurosport1.png" group-title="S🔴| LÂM-PHONG SPORT", EUROSPORT 1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099160
+#EXTINF: -1 tvg-id="eurosport2.uk" tvg-name="EUROSPORT 2 HD" tvg-logo="https://logo.iptveditor.com/eurosport2.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 2 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099161
 #EXTINF:-1 tvg-id="edgesport" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/PTnQPdp/ccEdge.png",🎖️| Edge Sport
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://edgesport-samsunguk.amagi.tv/playlist1080p.m3u8?cc
 #EXTINF:-1 tvg-id="AllSports.br" tvg-logo="https://i.imgur.com/wULpnYR.png" group-title="🔴| LÂM-PHONG SPORT",All Sports (720p)
 https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8
-#EXTINF:-1 tvg-id="GolfChannel.us" tvg-name="Golf Channel" tvg-logo="https://i.ibb.co/Fz64cqv/Gofl.png" group-title="🔴| LÂM-PHONG SPORT",Golf Channel
+#EXTINF:-1 tvg-id="skysportsgolf.uk" tvg-name="Golf Channel" tvg-logo="https://i.ibb.co/Fz64cqv/Gofl.png" group-title="🔴| LÂM-PHONG SPORT",Golf Channel
 http://raw.bitnode.pm:81/giorgi/giorgi/121723
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/9skv8CD/snooker.png",Snooker TV
 http://203.80.165.14:9981/stream/channelid/2019055245?profile=pass
@@ -950,8 +973,10 @@ http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/350
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/19243/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/59b722526996084038c01e1b/colorLogoPNG.png" group-title="🔴| LÂM-PHONG SPORT",IMPACT! Wrestling
 https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 tvg-id="WWENetwork.us" tvg-name="WWE Network" tvg-logo="http://linear-poster.astro.com.my/prod/logo/WWE_v1.png" group-title="🔴| LÂM-PHONG SPORT",WWE Network
-http://rogermellie.xyz:80/richay/richay/268653
+#EXTINF: -1 tvg-id="wwenetwork.us" tvg-name="WWE NETWORK" tvg-logo="https://logo.iptveditor.com/wwenetwork.png" group-title="🔴| LÂM-PHONG SPORT", WWE NETWORK
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
+https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099247
 #EXTINF:-1 tvg-id="WWENetwork" tvg-name="Peacock Live | WWE Network" tvg-logo="https://i.ibb.co/z5FfTRm/WWE-Network.png" group-title="🔴| LÂM-PHONG SPORT",Peacock Live | WWE Network
 http://rogermellie.xyz:80/richay/richay/3413100
 #EXTINF:-1 tvg-id="wwe" tvg-logo="https://i.ibb.co/J2vjZCV/Picsart-23-06-12-20-13-16-488.png" group-title="🔴| LÂM-PHONG SPORT", FightKlub
