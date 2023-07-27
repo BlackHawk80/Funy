@@ -901,7 +901,7 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20065/index.m3u8
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/270/index.m3u8
 #EXTINF:-1 tvg-id="SONYSPORTSTEN1" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN1 HD
-http://37.49.230.48:8080/pachaman/W63X36m5G97cj7Lf/16622
+http://xiaozeng.hk3.345888.xyz.cdn.cloudflare.net/ww/tv/smt.php?id=ten1_raj
 #EXTINF:-1 tvg-id="SONYSPORTSTEN2" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN2 HD
 http://37.49.230.42:8080/iptvepic4/DzbGTtATy4DzmK8c/16621
 #EXTINF:-1 tvg-id="SONYSPORTSTEN3" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen3_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN3 HD
@@ -918,7 +918,7 @@ https://webudit.cdnhks.lol/lb/premium343/playlist.m3u8
 http://raw.bitnode.pm:81/giorgi/giorgi/20057
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="bbctwo.uk" tvg-name="BBC TWO FHD" tvg-logo="https://logo.iptveditor.com/bbctwo.png" group-title="🔴| LÂM-PHONG SPORT",BBC TWO FHD
 http://raw.bitnode.pm:81/giorgi/giorgi/20139
-#EXTINF: -1 tvg-id="eurosport1.uk" tvg-name="EUROSPORT 1 HD" tvg-logo="https://logo.iptveditor.com/eurosport1.png" group-title="S🔴| LÂM-PHONG SPORT", EUROSPORT 1 HD
+#EXTINF: -1 tvg-id="eurosport1.uk" tvg-name="EUROSPORT 1 HD" tvg-logo="https://logo.iptveditor.com/eurosport1.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 #EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
 https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099160
