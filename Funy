@@ -89,7 +89,7 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d0
 #EXTINF:-1 tvg-id="aniplus,id" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/KwR5cMy/Aniplus.png", Aniplus
 http://live.vthanhtivi.pw/aniplus
 #EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel ᴴᴰ
-http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/1113
+http://premiumultra.xyz:8080/56977775111/5111x/23626
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
 http://37.49.230.42:8080/iptvepic4/DzbGTtATy4DzmK8c/1112
 #EXTINF:-1 tvg-id="disneyxd.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xGXxC8X/Disney-XD.png" ,Disney XD ᴴᴰ
@@ -349,7 +349,7 @@ http://185.236.229.31:9981/play/a01d
 http://37403135.cbilant.com/iptv/ZP6CPSLL6GVWT2/19091/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/nCJ8dtt/Picsart-22-12-22-21-42-09-506.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| TravelXP ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
-http://37403135.cbilant.com/iptv/ZP6CPSLL6GVWT2/14026/index.m3u8
+https://iplogger.com/TRAVELXP4K
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="http://gg.gg/travelkkk",1.TRAVEL MIX 4K-Canada VPN
 http://safe.avivainsur.com:8080/ionut.luca/xRuanWsZdYaU/45721
 #EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/VLd5vpb/Quadro4k.png",🍀| Quadro ⁴ᴷ
@@ -366,7 +366,7 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8?cc
 https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8?cc
 #EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/pLr9bX3/Sky-Nature.png",🍀| SKY HIGH NATURE ⁴ᴷ HDR
 #EXTVLCOPT:network-caching=1000
-http://37403135.cbilant.com/iptv/ZP6CPSLL6GVWT2/14248/index.m3u8
+https://iplogger.com/SKYHIGHNATURE4K
 
 #EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/pLr9bX3/Sky-Nature.png",🍀| SKY HIGH NATURE ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
@@ -378,10 +378,10 @@ http://185.236.229.31:9981/play/a01d
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/14016/index.m3u8
 #EXTINF:0 tvg-logo="http://epg.it999.ru/img2/6708.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| BOX Relax ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
-http://37403135.cbilant.com/iptv/ZP6CPSLL6GVWT2/19283/index.m3u8
+https://iplogger.com/BOXRELAX4K
 #EXTINF:0 tvg-logo="http://epg.it999.ru/img2/6707.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 BOX Music ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
-http://37403135.cbilant.com/iptv/ZP6CPSLL6GVWT2/19282/index.m3u8
+https://iplogger.com/BOXMUSIC4K
 
 #EXTINF:0 tvg-rec="0" tvg-logo="https://i.ibb.co/bF7PxPw/Skydance-New-Media.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 SKY HIGH DANCE ⁴ᴷ
 http://m.tvfalco.com:8080/play/live.php?mac=00:1A:79:A0:FF:D2&stream=683911&extension=ts&play_token=XSEasUc2Ih
@@ -392,8 +392,7 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/18163/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/1ngTT1j/Picsart-22-12-22-21-30-54-478.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 Muzzik ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/16044/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/NSc59dP/Mezzo.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 MEZZO ⁴ᴷ
-http://starshare.live:8080/live/524594796468/697620653578/143651.ts
+
 #EXTINF:-1 tvg-id="BloombergTVPlus.us" tvg-logo="https://i.ibb.co/7JGXSC5/Bloomberg-Television.png" group-title="🌏| 4K 🇺 🇭 🇩",Bloomberg ⁴ᴷ
 https://bloomberg-bloombergtv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="digi" tvg-name="digi" tvg-logo="https://i.ibb.co/7QcdPTM/Digi.png" group-title="🌏| 4K 🇺 🇭 🇩",DIGI ⁴ᴷ
@@ -403,7 +402,7 @@ http://rogermellie.xyz:80/richay/richay/1042160
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/308_144.png" group-title="🌏| 4K 🇺 🇭 🇩",Astro SuperSport ⁴ᴷ UHD
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1016544&extension=ts
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://i.postimg.cc/RZM2vqmM/Star-Hub-2021.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR STARHUB
-http://raw.bitnode.pm:81/giorgi/giorgi/1124634
+http://line.iptveros.com:80/play/live.php?mac=00:1A:79:52:94:40&stream=1032518&extension=ts&play_token=J1qCbmrUDN
 #EXTINF:-1 tvg-id="BT.Sport.Ultimate.uk" tvg-logo="https://i.ibb.co/WFM2j9q/TNT-Ultimate.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR TNT SPORT
 http://89.45.13.153:25461/play/live.php?mac=00:1A:79:4b:c9:aa&stream=1300442&extension=ts&play_token=6H190jzhqk
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="English.-.Now.Sports.4K.1.hk" tvg-logo="https://i.ibb.co/xsK3Jd4/now4k.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR NOW SPORTS
@@ -418,7 +417,7 @@ http://45.12.1.14:80/live/DrZpz9YdTHxy556/7885eS0931/88667.m3u8
 http://thespectrummag.sytes.net:80/play/live.php?mac=00:1A:79:7B:61:99&stream=1124346&extension=ts&play_token=qLA6gy8fnj
 
 #EXTINF:-1  group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/vVv56Kj/TF1.png", TF1 ⁴ᴷ UHD
-http://theking365tv.ws:2103/play/live.php?mac=00:1A:79:5c:f4:67&stream=37744&extension=ts&play_token=bTOyO83d8Z
+http://apbest.re:80/live/18220704922642218/1593574628/99360.ts
 
 #EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="SkySportsF1UHD" tvg-logo="https://i.ibb.co/gTd6Hnn/1280px-Sky-Sport-F1-Logo-2018-svg.png" group-title="🌏| 4K 🇺 🇭 🇩",Sky Sports F1 ⁴ᴷ
 http://89.45.13.153:25461/play/live.php?mac=00:1A:79:AA:E0:62&stream=1566281&extension=ts&play_token=9xQzo8bZoK
@@ -428,7 +427,7 @@ http://my1esilil.ddns.net:80/k67jdKb3TR86188/jIEuZgnrU0/179589
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/yX1WWbL/Euro4k.png", EuroSport ⁴ᴷ
 http://safe.avivainsur.com:8080/live/lidas/kzAtmnHq2v/10510.m3u8
 #EXTINF:-1  group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/tHKPnLK/rmc.png", RMC Sport ⁴ᴷ|UHD
-http://theking365tv.ws:2103/play/live.php?mac=00:1A:79:5c:f4:67&stream=6976&extension=ts&play_token=zr6tSzbIDy
+http://apbest.re:80/live/18220704922642218/1593574628/15420.ts
 
 #EXTINF:1 tvg-id="viasatsport.fi" group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/vvmq4zv/Vsport-Uhd.png",⚽ V Sport Ultra ⁴ᴷ
 http://connect.proxytx.cloud:80/play/live.php?mac=00:1A:79:f3:15:70&stream=294070&extension=ts&play_token=xFfYpvVel5
@@ -447,9 +446,6 @@ http://trx.p13.one/live/Manan123/Manan123/1836060.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/44KZ1yK/elevensports1-4k-1-632x221-1.png" group-title="🌏| 4K 🇺 🇭 🇩",⚽ ElevenSport ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://thespectrummag.sytes.net:80/play/live.php?mac=00:1A:79:7B:61:99&stream=905665&extension=ts&play_token=0jUPfyTJIv
-#EXTINF:0 tvg-logo="" group-title="🌏| 4K 🇺 🇭 🇩",RTL UHD
-#EXTVLCOPT:network-caching=1000
-http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20076/index.m3u8
 #EXTINF:0 tvg-logo="" group-title="🌏| 4K 🇺 🇭 🇩",Pro7Sat UHD
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20071/index.m3u8
@@ -549,7 +545,7 @@ https://code.vthanhtivi.pw/getlink/mytv/69/hd.m3u8
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
 http://rogermellie.xyz:80/richay/richay/1462
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
-http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/9009/index.m3u8
+http://51.89.67.79:25461/stalker348574985793/stalker348574985793/172
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mtvhits.uk" tvg-name="MTV HITS" tvg-logo="https://logo.iptveditor.com/mtvhits.png" group-title="🎶| Music",MTV HITS
 http://raw.bitnode.pm:81/giorgi/giorgi/20502
 #EXTINF:-1 tvg-id="vmahd" group-title="🎶| Music" tvg-logo="https://i.ibb.co/xDBqbxQ/mtvWMA.png",💿| MTV VMA
@@ -830,7 +826,7 @@ http://dc62c084.ottolok.net/iptv/8E52MW5BS9BCE7/12074/index.m3u8
 #EXTINF:1 tvg-id="viasatSportPremierLeague.fi" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/3ChDTNL/vsportpremier2.png",⚽| V Sport Premier League
 http://mag.you24.online:80/smarttverz/72p44x7OkNDDLd/696636
 #EXTINF:1 tvg-id="premiersports.uk" tvg-logo="https://i.ibb.co/hDw5FSg/v-sport1.png" group-title="🔴| LÂM-PHONG SPORT",⚽| V-Premium Sports
-http://mag.you24.online:80/smarttverz/72p44x7OkNDDLd/696637
+http://rogermellie.xyz:80/richay/richay/3414717
 
 #EXTINF:-1 tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qoerty1659622111.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 1
 http://tvt3.xyz:2095/play/live.php?mac=00:1A:79:00:04:02&stream=348097&extension=ts&play_token=FzoklzfqN1
@@ -840,9 +836,9 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032528&extens
 #EXTINF:-1 tvg-id="HubPremier3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032527&extension=ts&play_token= 
 #EXTINF:0 tvg-id="astrosupersport" tvg-name="AstroSuperSport" tvg-logo="https://i.ibb.co/ZJvBYyx/Astro-Super-Sport-UHD.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Astro SuperSport
-http://fuzzyunicorns.net:80/live/austin/austin/689877.ts
+http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/146068
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="AstroSuperSport2" tvg-logo="https://i.ibb.co/QPqdLxk/astro2.png" group-title="🔴| LÂM-PHONG SPORT",ASTRO SUPERSPORT 2
-http://fuzzyunicorns.net:80/live/austin/austin/689878.ts
+http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/157556
 #EXTINF:0 tvg-id="astrosupersport3" tvg-name="Astro SuperSport 3" tvg-logo="https://i.ibb.co/BZ80zs5/astro3.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 3
 http://nordicone.tv:80/play/live.php?mac=00:1a:79:67:52:6c&stream=115617&extension=ts&play_token=57f1B5QsEy
 #EXTINF:0 tvg-id="astrosupersport4" tvg-name="Astro SuperSport 4" tvg-logo="https://i.ibb.co/BwWQnk8/astro4.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 4
@@ -901,9 +897,9 @@ https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099210
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="laligatv.uk" tvg-name="LA LIGA TV FHD" tvg-logo="https://logo.iptveditor.com/laligatv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ LA LIGA TV
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=163611&extension=ts
 #EXTINF:-1 tvg-id="dazn1.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/2560px-DAZN_1_Logo.svg.png" group-title="🔴| LÂM-PHONG SPORT", DAZN 1
-http://hplay.xyz:80/rtrboofc/pi519pvU9R/303780
+http://mag.you24.online:80/smarttverz/72p44x7OkNDDLd/661090
 #EXTINF:-1 tvg-id="dazn2.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/2560px-DAZN_2.svg.png" group-title="🔴| LÂM-PHONG SPORT", DAZN 2
-http://hplay.xyz:80/rtrboofc/pi519pvU9R/303782
+http://mag.you24.online:80/smarttverz/72p44x7OkNDDLd/661089
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://hqth.me/3D4", TVPub
 https://hqth.me/tvpublive2
 #EXTINF:0 tvg-id="setanta" tvg-logo="https://i.ibb.co/fCVBWBL/Setanta-Sports.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Setanta HD
@@ -959,7 +955,8 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8?cc
 http://raw.bitnode.pm:81/play/live.php?mac=00:1A:79:C5:08:F9&stream=255097&extension=ts&play_token=25c4inW4wg
 #EXTINF:-1 tvg-id="racingtv.uk" tvg-logo="https://i.ibb.co/Nm670rg/racingtv.png" group-title="🔴| LÂM-PHONG SPORT",RACING TV HD
 http://raw.bitnode.pm:81/giorgi/giorgi/20386
-
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://gg.gg/logo2kkkk",1.Sky Sport F1 QHD
+http://89.45.13.201:8080/play/live.php?mac=00:1A:79:07:BB:04&stream=646892&extension=ts&play_token=iNBWntk9W7
 #EXTINF:-1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
 http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/4515
 #EXTINF:-1 tvg-id="SkySportsF1.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/7Q7Nm20/Sky-Sport-F1.png",🎖️| Sky Sports F1
@@ -979,8 +976,8 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=508156&extensi
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BoxingTV" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/5sQz1fj/boxing-tv.png", Boxing TV
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/boxing-tv/BOXINGTV_SCTE.m3u8
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="combate.br" tvg-name="BR: COMBATE FHD" tvg-logo="https://i.ibb.co/4JKFQtQ/combat.png" group-title="🔴| LÂM-PHONG SPORT",COMBAT FHDR
-http://newstvc.tech:8080/528186/844789/628994
+#EXTINF:-1 tvg-id="combate.br" tvg-name="BR: COMBATE FHD" tvg-logo="https://i.ibb.co/4JKFQtQ/combat.png" group-title="🔴| LÂM-PHONG SPORT",COMBAT FHDR
+http://gameplay.p2sweb.me:80/2498893/2383592/203547
 #EXTINF:0 tvg-id="FIGHTBOX" tvg-name="FIGHT BOX" tvg-logo="https://i.ibb.co/CbFCs0D/fightbox.png" group-title="🔴| LÂM-PHONG SPORT",FIGHT BOX
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/350
 #EXTINF:0 tvg-id="mmatvhd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/x1m29yh/MMAtv.png",🎖️| MMA-TV.com HD
