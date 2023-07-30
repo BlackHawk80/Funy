@@ -23,7 +23,18 @@ udp://@225.1.1.128:30120
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
 https://iplogger.com/C1B4TV
-
+#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com//scl/fi/rf8wzhmnli5z52rrfbyth/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=5flwrfz5gkoi3lb1jthvv9kgf&mykplus&id=ksports1
+https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
+#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com/scl/fi/ftqk4dar06k279ybn91iq/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=srmjegzonczwgpp7ci2sqcvl0&mykplus&id=ksports2
+https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
 https://iplogger.com/C2B4TV
 
@@ -41,9 +52,13 @@ https://iplogger.com/LIFEB4TV
 https://akaviettel.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
+#EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1920x1080,AUDIO="audiod"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.ifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://www.dropbox.com/scl/fi/rbue9l01ssqfrx8ca6sj4/live1.-oqeiqwosad?rlkey=hppq63qx5zpmbzp9zchxp1b38&dl=1
-https://akaviettel.kplus.vn/bpk-tv/prod_klive1/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com/scl/fi/2i2pye2e2bmdf63ejhgpb/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=gt80pd8l5h4dyy21x1bibv122&mykplus&id=klive1
+https://vngvnpt.kplus.vn/bpk-tv/prod_klive1/default/i.mpd
 #EXTINF:-1  tvg-id="klive2hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png", K+ LIVE 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dDne6KZ62B+Zto18e/p50g", "kid":"QXSdPAX5TOyqmN8rMVrTCQ" } ], "type":"temporary" }
