@@ -912,15 +912,11 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/20065/index.m3u8
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/270/index.m3u8
 #EXTINF:-1 tvg-id="SONYSPORTSTEN1" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN1 HD
-http://xiaozeng.hk3.345888.xyz.cdn.cloudflare.net/ww/tv/smt.php?id=ten1_raj
+http://103.61.73.220:4000/play/a03p
 #EXTINF:-1 tvg-id="SONYSPORTSTEN2" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN2 HD
-http://37.49.230.42:8080/iptvepic4/DzbGTtATy4DzmK8c/16621
+http://103.61.73.220:4000/play/a05g
 #EXTINF:-1 tvg-id="SONYSPORTSTEN3" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen3_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN3 HD
-http://37.49.230.42:8080/iptvepic4/DzbGTtATy4DzmK8c/56191
-#EXTINF:-1 tvg-id="SONYSPORTSTEN4" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen4_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN4 HD
-https://dai.google.com/linear/hls/event/smYybI_JToWaHzwoxSE9qA/master.m3u8
-#EXTINF:-1 tvg-id="SONYSPORTSTEN5" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN5 HD
-https://dai.google.com/linear/hls/event/Sle_TR8rQIuZHWzshEXYjQ/master.m3u8
+http://103.61.73.220:4000/play/a046
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="UsaNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/USA-Network-Logo.svg/1200px-USA-Network-Logo.svg.png",USA Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
 #EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=343
