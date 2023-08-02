@@ -650,8 +650,7 @@ https://ytm2.yuanhsing.cf/NatureRelax4K.m3u8
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/993/index.m3u8
 #EXTINF:0 tvg-id="englishclub" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/JC3cdvS/logo.png",🍀| English Club 
-#EXTVLCOPT:network-caching=1000
-http://37403135.cbilant.com/iptv/ZP6CPSLL6GVWT2/15190/index.m3u8
+http://1903.full57.us:8000/ibrahimtan49/9FDpxkNSm9GU/78314
 #EXTINF:-1 tvg-id="davinci" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/aIAaCce.png",🍀| Da Vinci ¹⁰⁸⁰
 udp://@225.1.1.197:30120
 #EXTINF:-1 tvg-id="discoveryasiahd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/mRVV3WI.png",🍀|Discovery Asia ¹⁰⁸⁰
