@@ -120,7 +120,7 @@ http://myserveriptv.com:2082/7wOd6fH332c1/8Skfy98Fd74f/159933
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="6206" tvg-logo="http://epg.it999.ru/img/6206.png" tvg-rec="0",Liberty Anime ENG ⁴ᴷ
 http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/17061/index.m3u8
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="universalkids.us" tvg-logo="https://i.ibb.co/KKLqkZZ/dfd69j9-9fbcf4d0-3609-48cd-9606-364121091bf9.png",UNIVERSAL KIDS ᴴᴰ
-http://raw.bitnode.pm:81/giorgi/giorgi/32033
+http://gameplay.p2sweb.me:80/2498893/2383592/248183
 
 #-------------------Thiết yếu-------------------#
 #EXTINF:-1 tvg-id="antvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/LkKzBb8/Anninh.png",❤️| ANTV ¹⁰⁸⁰
@@ -901,7 +901,7 @@ http://raw.bitnode.pm:81/giorgi/giorgi/121723
 http://203.80.165.14:9981/stream/channelid/2019055245?profile=pass
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/yR44dVB/Picsart-23-04-16-08-02-36-599.png",🎖️| Billard TV
 https://a1a69a13b68f44f4aff604dd4cdee5cd.mediatailor.us-west-2.amazonaws.com/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/billiard-tv/4127a852-d384-4351-b003-29bfa8882ccf/4.m3u8?cc
-#EXTINF:-1 tvg-id="RedBullTV.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/MSSKTB9/redbull.png",🎖️| RedBull
+#EXTINF:-1 tvg-id="RedBull.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/MSSKTB9/redbull.png",🎖️| RedBull
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8?cc
 #EXTINF:-1 tvg-id="SkySportsRacing.uk" tvg-logo="https://i.ibb.co/P1qgzvx/Sky-Sports-Racing.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS RACING
@@ -944,7 +944,7 @@ https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099247
 #EXTINF:-1 tvg-id="WWENetwork" tvg-name="Peacock Live | WWE Network" tvg-logo="https://i.ibb.co/z5FfTRm/WWE-Network.png" group-title="🔴| LÂM-PHONG SPORT",Peacock Live | WWE Network
 http://rogermellie.xyz:80/richay/richay/3413100
-#EXTINF:-1 tvg-id="wwe" tvg-logo="https://i.ibb.co/J2vjZCV/Picsart-23-06-12-20-13-16-488.png" group-title="🔴| LÂM-PHONG SPORT", FightKlub
+#EXTINF:-1 tvg-id="FightKlub" tvg-logo="https://i.ibb.co/J2vjZCV/Picsart-23-06-12-20-13-16-488.png" group-title="🔴| LÂM-PHONG SPORT", FightKlub
 http://51.89.67.79:25461/stalker348574985793/stalker348574985793/324
 #EXTINF:-1 tvg-id="boxnation" tvg-logo="https://logo.iptveditor.com/boxnation.png" group-title="🔴| LÂM-PHONG SPORT",BOXNATION FHD
 http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/4719
@@ -974,8 +974,6 @@ http://gameplay.p2sweb.me:80/2498893/2383592/251313
 http://gameplay.p2sweb.me:80/2498893/2383592/251314
 #EXTINF:-1 tvg-id="" tvg-name="Call of Duty" tvg-logo="https://images.pluto.tv/channels/5f5bd666c0a7600007af6c20/colorLogoPNG.png" group-title="GAMEPLAY P2S",Call of Duty
 http://rogermellie.xyz:80/richay/richay/1035036
-#EXTINF:-1 tvg-id="" tvg-name="FORTNITE" tvg-logo="https://i.imgur.com/kIwMZEG.png" group-title="GAMEPLAY P2S",FORTNITE
-http://gameplay.p2sweb.me:80/angoliveira/x254637/251325
 #EXTINF:-1 tvg-id="" tvg-name="DOTA 2" tvg-logo="https://i.imgur.com/yjlsNPn.png" group-title="GAMEPLAY P2S",DOTA 2
 http://gameplay.p2sweb.me:80/2498893/2383592/251319
 #EXTINF:-1 tvg-id="" tvg-name="DOTA ESL" tvg-logo="https://i.imgur.com/W5XbD9q.png" group-title="GAMEPLAY P2S",DOTA ESL
@@ -983,7 +981,7 @@ http://gameplay.p2sweb.me:80/2498893/2383592/251318
 #EXTINF:-1 tvg-id="" tvg-name="LOL LEAGUE OF LEGEND" tvg-logo="https://i.imgur.com/5aBpnxG.png" group-title="GAMEPLAY P2S",LOL LEAGUE OF LEGEND
 http://gameplay.p2sweb.me:80/2498893/2383592/251316
 #EXTINF:-1 tvg-id="" tvg-name="MOBILE LEGENDS" tvg-logo="https://i.imgur.com/0ebjCZF.png" group-title="GAMEPLAY P2S",MOBILE LEGENDS
-http://159.75.85.63:35455/huya/wzgxs1
+http://gameplay.p2sweb.me:80/2498893/2383592/251317
 
 #-------------------RADIO VIETNAM-------------------#
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://i.ibb.co/JKNzw75/ccpladio.png",F• Pladio
