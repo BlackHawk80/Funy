@@ -376,10 +376,7 @@ https://iplogger.com/BOXMUSIC4K
 http://m.tvfalco.com:8080/play/live.php?mac=00:1A:79:A0:FF:D2&stream=683911&extension=ts&play_token=XSEasUc2Ih
 #EXTINF:0 tvg-logo="https://i.ibb.co/SJCJmPt/Picsart-22-12-22-21-22-28-690.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 Klip ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
-http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/18163/index.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/1ngTT1j/Picsart-22-12-22-21-30-54-478.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 Muzzik ⁴ᴷ
-#EXTVLCOPT:network-caching=1000
-http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/16044/index.m3u8
+http://1aeb91e0.akadatel.com/iptv/RUAY96UF3MMEL2/18163/index.m3u8
 
 #EXTINF:-1 tvg-id="BloombergTVPlus.us" tvg-logo="https://i.ibb.co/7JGXSC5/Bloomberg-Television.png" group-title="🌏| 4K 🇺 🇭 🇩",Bloomberg ⁴ᴷ
 https://bloomberg-bloombergtv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
@@ -532,9 +529,9 @@ https://e8.endpoint.cdn.sctvonline.vn/channel/sctvphimtonghop/index.m3u8|Referer
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
 https://code.vthanhtivi.pw/getlink/mytv/69/hd.m3u8
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
-http://rogermellie.xyz:80/richay/richay/1462
+http://1aeb91e0.akadatel.com/iptv/RUAY96UF3MMEL2/19192/index.m3u8
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
-http://51.89.67.79:25461/stalker348574985793/stalker348574985793/172
+https://rr2.1ott.net/~10934d96ec025911fde80f876f07f4a4aab/607/hls/pl.m3u8
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mtvhits.uk" tvg-name="MTV HITS" tvg-logo="https://logo.iptveditor.com/mtvhits.png" group-title="🎶| Music",MTV HITS
 http://raw.bitnode.pm:81/giorgi/giorgi/20502
 
