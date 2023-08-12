@@ -30,17 +30,15 @@ udp://@225.1.1.128:30120
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
 https://iplogger.com/C1B4TV
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com//scl/fi/rf8wzhmnli5z52rrfbyth/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=5flwrfz5gkoi3lb1jthvv9kgf&mykplus&id=ksports1
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6NnbJegnMKcm6KZlqWdlKBlXmln&time=1691859519&mykplus&id=ksport1
 https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://dl.dropboxusercontent.com/scl/fi/ftqk4dar06k279ybn91iq/token=zcrcyc/WvN3f34nA2OrmjaGtr6SYmqSgqaDVmqSapqxfnqinopqUpg%3D%3D&time=1690096857?rlkey=srmjegzonczwgpp7ci2sqcvl0&mykplus&id=ksports2
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6NnbJegnMKcm6KZlqWdlKBlXmln&time=1691859519&mykplus&id=ksport2
+https://akafpt.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
 https://iplogger.com/C2B4TV
 
@@ -51,11 +49,10 @@ https://iplogger.com/CINEB4TV
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"kwAYUr/wCSV2ZXc1laATvA","kid":"pRjxLikZBptdiE4ryF6wTg"},{"kty":"oct","k":"ur2jrzVRTsK4HFYvh9H5/w","kid":"7VzxLikZBptdiE4ryF6wTg"},{"kty":"oct","k":"zno/k3//E6vEwzg5ReYhFA","kid":"+mA1XykZBptdiE4ryF6wTg"},{"kty":"oct","k":"6JaIssGFoclnvC59GVMTSw","kid":"5m01d3gZBptdiE4ryF6wTg"}],"type":"temporary"}
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvY6NnbJegnMKcm6KZlqWdlKBlXmln&time=1691859519&mykplus&id=kkids
+https://akafpt.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1920x1080,AUDIO="audiod"
