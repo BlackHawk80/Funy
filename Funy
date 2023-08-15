@@ -793,9 +793,9 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=811933&extensi
 #EXTINF: -1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ Peacock•PremierLeague
 http://shareext@185.243.7.13/play/live.php?mac=00:1A:79:45:5E:9A&stream=1032457&extension=ts&play_token=1kEm8DbZmS
 #EXTINF: -1 tvg-id="skysportsfootball.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
-http://obsfullhd.tv:25461/Exchnico0237/A2KaDRoOI3/2090
+http://raw.bitnode.pm:81/giorgi/giorgi/255104
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
-http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/263
+http://raw.bitnode.pm:81/giorgi/giorgi/255098
 #EXTINF: -1 tvg-id="skysportsmainevent" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=83450&extension=ts&play_token=
 #EXTINF: -1 tvg-id="skysportsmix.uk" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.iptveditor.com/skysportsmix.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS MIX
@@ -911,7 +911,7 @@ https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099247
 #EXTINF: -1 tvg-id="WWENetwork" tvg-name="Peacock Live | WWE Network" tvg-logo="https://i.ibb.co/z5FfTRm/WWE-Network.png" group-title="🔴| LÂM-PHONG SPORT",Peacock Live | WWE Network
 http://rogermellie.xyz:80/richay/richay/3413100
 #EXTINF: -1 tvg-id="FightKlub" tvg-logo="https://i.ibb.co/J2vjZCV/Picsart-23-06-12-20-13-16-488.png" group-title="🔴| LÂM-PHONG SPORT", FightKlub
-http://51.89.67.79:25461/stalker348574985793/stalker348574985793/324
+http://premium-ks.ddns.net:88/muminiptv/FRQT2rUpXv/25532
 #EXTINF: -1 tvg-id="boxnation.uk" tvg-logo="https://logo.iptveditor.com/boxnation.png" group-title="🔴| LÂM-PHONG SPORT",BOXNATION FHD
 http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/4719
 #EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/9WDS1Vk/logo.png",🎖️|SKY HIGH FIGHT +
