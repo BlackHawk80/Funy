@@ -6,21 +6,21 @@
 #EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/ySDjzg0/VTV1-cc.webp",❤️| VTV1 ¹⁰⁸⁰
 http://gg.gg/HaNoiIPTV-VTV1_HD
 #EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/G0PXW8r/VTV2-cc.webp",❤️| VTV2 ¹⁰⁸⁰
-http://gg.gg/HaNoiIPTV-VTV2_HD
+https://livecdn-vthn-vnw.vieon.vn/livetv/65e4e2cd4a6cd1c07682cc9d1830fd3f/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VNHdbry/VTV3-cc.png",❤️| VTV3 ¹⁰⁸⁰
-http://gg.gg/HaNoiIPTV-VTV3_HD
+https://livecdn-vthn-vnw.vieon.vn/livetv/00f4aa36b8d034b5e8569b77d1675c1e/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv4hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VCBW4W8/VTV4-cc.webp",❤️| VTV4 ¹⁰⁸⁰
-http://gg.gg/HaNoiIPTV-VTV4_HD
+https://livecdn-vthn-vnw.vieon.vn/livetv/c9e89fdf42233e52a57a312baa4e9da0/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Hnyb8Cr/VTV5-cc.webp",❤️| VTV5 ¹⁰⁸⁰
-http://gg.gg/HaNoiIPTV-VTV5_HD
+https://livecdn-vthn-vnw.vieon.vn/livetv/53a3ed9b2879dc2dcc2051bff6060b37/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv6hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/PtJKgHX/vtvcantho.webp",❤️| VTV6 ¹⁰⁸⁰
-http://gg.gg/HaNoiIPTV-VTV_Can_Tho_HD
+https://livecdn-vthn-vnw.vieon.vn/livetv/fdb7f91923323e646a69ce149f95f6cd/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Z89vrHX/VTV7-cc.webp",❤️| VTV7 ¹⁰⁸⁰
-http://gg.gg/HaNoiIPTV-VTV7_HD
+https://livecdn-vthn-vnw.vieon.vn/livetv/67d1c84cac97171d714848c4c34c2b3a/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv8hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/RyBxx0F/VTV8-cc.webp",❤️| VTV8 ¹⁰⁸⁰
-http://gg.gg/HaNoiIPTV-VTV8_HD
+https://livecdn-vthn-vnw.vieon.vn/livetv/fd6b24e22924ecd153258819ba2049b8/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/SV2FccD/vtv9.png",❤️| VTV9 ¹⁰⁸⁰
-http://gg.gg/HaNoiIPTV-VTV9_HD
+https://livecdn-vthn-vnw.vieon.vn/livetv/6f34d2d2b930641beddae9c9480005a7/playlist.m3u8
 #--*-Thiết yếu-*--#
 #EXTINF:-1 tvg-id="vovtvhd" group-title="🌐| Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6-tc0aIAAH4cM?format=png",❤️| VOVTV HD
 http://gg.gg/HaNoiIPTV-VOVTV-Truyen_hinh_VOV_HD
@@ -33,7 +33,7 @@ https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
 https://zjizeoupprliv.vcdn.cloud/live/vnews/playlist.m3u8
 
 #EXTINF:-1 tvg-id="nhandan" group-title="🌐| Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6_BNjaMAU9YYO?format=png",❤️| Nhân Dân TV FHD
-http://gg.gg/HaNoiIPTV-THND-Truyen_hinh_Nhan_Dan_HD
+https://code.vthanhtivi.pw/getlink/vieon/nhan-dan-hd/playlist.m3u8
 
 #EXTINF:-1 tvg-id="quochoi" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/n02rRKY/quoc-huy.png",❤️| Quốc Hội FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
@@ -1066,13 +1066,10 @@ https://stream.zeno.fm/hvtxgd85rm0uv
 
 #EXTINF:-1 group-title="💋| LiveChannels_Angel" tvg-logo="https://images.squarespace-cdn.com/content/v1/55a44f9ce4b09a5577ad69df/1436833733301-WW7P6UWSAAZYCM5279ZW/long%2Blogo_kaloopy.jpg?format=1500w", 𝑲𝑨𝑳𝑶𝑶𝑷𝒀
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/federator/mhgf2xE/-0800/c.m3u8
-#EXTINF:-1 group-title="💋| LiveChannels_Angel" tvg-logo="https://mobile.coolstreaming.us/blog/diretta-tv/resize.php?src=https://www.coolstreaming.us/img/ch/image94385599345.jpg&h=60&w=130&q=50", 𝑨𝟑 𝑩𝑰𝑲𝑰𝑵𝑰
-http://mag.you24.online:80/viktorijapetrova/2rtYcEtu14864/6173
 https://vcnbikininetwork.teleosmedia.com/stream/bikininetwork/a3bikini/seglist_720p.m3u8
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/PlayboyLogo.svg/225px-PlayboyLogo.svg.png" group-title="💋| LiveChannels_Angel",PLAYBOY TV
-#EXTVLCOPT:network-caching=1000
-http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/12135/index.m3u8
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/PlayboyLogo.svg/225px-PlayboyLogo.svg.png" group-title="💋| LiveChannels_Angel",PlayBoy Plus
+#EXTINF:0 tvg-logo="https://i.ibb.co/Jcq729G/Picsart-23-08-06-22-58-22-534.png" group-title="💋| LiveChannels_Angel",PLAYBOY TV
+http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/12135/index.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/VYjn6jY/Picsart-23-08-06-22-48-13-110.png" group-title="💋| LiveChannels_Angel",PlayBoy Plus
 #EXTVLCOPT:network-caching=1000
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/6242/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/tRxq17Yg/adults-only2.png" group-title="💋| LiveChannels_Angel", PORNBOX 4K BAEB
@@ -1444,8 +1441,6 @@ http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/12132/index.m3u8
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/12133/index.m3u8
 #EXTINF:-1 group-title="💋| LiveChannels_Angel",FREE X TV
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/12134/index.m3u8
-#EXTINF:-1 group-title="💋| LiveChannels_Angel",PLAYBOY TV
-http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/12135/index.m3u8
 #EXTINF:-1 group-title="💋| LiveChannels_Angel",PASSIE TV
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/12136/index.m3u8
 #EXTINF:-1 group-title="💋| LiveChannels_Angel",VERAPORN 4K
