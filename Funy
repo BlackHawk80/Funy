@@ -34,18 +34,26 @@ https://iplogger.com/C1B4TV
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="ksports1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"2RtEqQhJeqA5NDBg6xyRaQ", "kid":"ax2pmk/Gkb+FXyWpZqIZng" },{ "kty":"oct", "k":"2RtEqQhJeqA5NDBg6xyRaQ", "kid":"ax2pmk/Gkb+FXyWpZqIZng" },{ "kty":"oct", "k":"7tJeCwn0Tg2O/VKCz06xkg", "kid":"KshlUQDGkb+FXyWpZqIZng" },{ "kty":"oct", "k":"GRN3e2D2bvL0FTCm3SaXlQ", "kid":"cgxlUQDGkb+FXyWpZqIZng" }], "type":"temporary" }
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
+
+#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"tR8yWkoC2Yh8qE6w6+uAzA", "kid":"Jl1e2h/2RWa2oaY+qyR/nQ" } ], "type":"temporary"}
+
+http://s7267.cdn.mytvnet.vn:80/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
 
 #EXTINF:-1 tvg-id="ksports2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"15cpQr621RwuL9ocFWU/Rw", "kid":"jRLL2yqNSHtaePqPKkwtqQ" },{ "kty":"oct", "k":"sS7SoTVO5JsDCtQUYeYC7g", "kid":"Rc7L2yqNSHtaePqPKkwtqQ" },{ "kty":"oct", "k":"9fnHQzlIxQ6MxmooRojMuw", "kid":"hiMPJHmNSHtaePqPKkwtqQ" },{ "kty":"oct", "k":"9fnHQzlIxQ6MxmooRojMuw", "kid":"hiMPJHmNSHtaePqPKkwtqQ" } ], "type":"temporary" }
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+
+#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"QaXhw9lcVZV0JJ7bYkW8Qw", "kid":"2t/kWLARQyK1389+GUZgSw" } ], "type":"temporary"}
+
+http://s7267.cdn.mytvnet.vn:80/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
 
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
 https://iplogger.com/CINEB4TV
@@ -788,7 +796,6 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=971682&extensi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://webudit.cdnhks.lol/lb/premium455/index.m3u8|referer=https://widevine.licenses4.me/
 #EXTINF: -1 tvg-id="elevensports1.pt" tvg-name="ELEVEN SPORTS 1 PORTUGAL" tvg-logo="https://logo.iptveditor.com/elevensport1.png" group-title="🔴| LÂM-PHONG SPORT", ELEVEN SPORTS 1 PORTUGAL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=811933&extension=ts&play_token=
 #EXTINF: -1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ Peacock•PremierLeague
 http://shareext@185.243.7.13/play/live.php?mac=00:1A:79:45:5E:9A&stream=1032457&extension=ts&play_token=1kEm8DbZmS
@@ -837,13 +844,10 @@ https://iplogger.com/SetantaEurasia_1
 https://iplogger.com/SetantaEurasia_2
 #EXTINF: -1 tvg-id="SONYSPORTSTEN1" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN1 HD
 http://myserveriptv.com:2082/7jW4c1mKr8Nfh/I9Snf6E3hVf7B0eG/240546
-http://gg.gg/SONYSPORT1IN
 #EXTINF: -1 tvg-id="SONYSPORTSTEN2" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN2 HD
 http://myserveriptv.com:2082/7jW4c1mKr8Nfh/I9Snf6E3hVf7B0eG/240547
-http://gg.gg/SONYSPORT2IN
 #EXTINF: -1 tvg-id="SONYSPORTSTEN3" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen3_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN3 HD
 http://myserveriptv.com:2082/7jW4c1mKr8Nfh/I9Snf6E3hVf7B0eG/240695
-http://gg.gg/SONYSPORT3IN
 #EXTINF: -1 tvg-id="usanetwork.us" tvg-name="USA NETWORK" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/USA-Network-Logo.svg/1200px-USA-Network-Logo.svg.png",USA Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
 #EXTVLCOPT:http-referrer=https://streamservicehd.click/premiumtv/daddy.php?id=343
