@@ -39,7 +39,6 @@ https://iplogger.com/C2B4TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"T6eVHzfGgn7f1hPxBH0Kbw", "kid":"FTunSvd0nv9Y2pmrgAQEmg" },{ "kty":"oct", "k":"T6eVHzfGgn7f1hPxBH0Kbw", "kid":"FTunSvd0nv9Y2pmrgAQEmg" },{ "kty":"oct", "k":"CCLwU9MtsUZZtOaVh24sgw", "kid":"1OZjAah0nv9Y2pmrgAQEmg" },{ "kty":"oct", "k":"eqAzVhpVPooMgvFLsWu8kw", "kid":"HCpjAah0nv9Y2pmrgAQEmg" }], "type":"temporary" }
 https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
-
 #EXTINF:-1 tvg-id="ksports2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 
