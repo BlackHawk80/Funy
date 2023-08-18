@@ -62,11 +62,11 @@ https://iplogger.com/CINEB4TV
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"hGYEMg1nHbNQXA1ltZUs5Q", "kid":"gSnislxQgjvPvnREqq7IoA" },{ "kty":"oct", "k":"JQaRokrhVv81ZBtFzurdfQ", "kid":"OeXislxQgjvPvnREqq7IoA" },{ "kty":"oct", "k":"H2kfCLBu5w7rplZpmXIkFQ", "kid":"ejom+6tQgjvPvnREqq7IoA" },{ "kty":"oct", "k":"H2kfCLBu5w7rplZpmXIkFQ", "kid":"ejom+6tQgjvPvnREqq7IoA" }], "type":"temporary" }
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"ZUxqhPLuwSj9QaKDthzVzg","kid":"XKvwAdnld9d+wpp76pDfyA"},{"kty":"oct","k":"DdZIo3t6qpmenEaezbUzTA","kid":"pO/wAdnld9d+wpp76pDfyA"},{"kty":"oct","k":"1c7aqIzFwPuhXzLYX05ijA","kid":"sfM0Mtnld9d+wpp76pDfyA"},{"kty":"oct","k":"xQ1gvm52zxkqr6pSBDEDAw","kid":"nQA0Sijld9d+wpp76pDfyA"}],"type":"temporary"}
+https://akafpt.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 #EXT-X-STREAM-INF:BANDWIDTH=3803560,AVERAGE-BANDWIDTH=3803560,CODECS="avc1.640028,mp4a.40.2",PROGRAM-ID=1,RESOLUTION=1920x1080,AUDIO="audiod"
@@ -705,7 +705,7 @@ udp://@225.1.4.17:30120
 #-------------------Live Bóng Đá-------------------#
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
 http://raw.bitnode.pm:81/giorgi/giorgi/20374
-#EXTINF: -1 tvg-id="nowSportsPremierLeague1.hk" tvg-logo="https://i.ibb.co/MhgRjWw/now1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 1
+#EXTINF: -1 tvg-id="English.-.Now.Sports.1.hk" tvg-logo="https://i.ibb.co/MhgRjWw/now1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 1
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110622&extension=ts
 #EXTINF: -1 tvg-id="nowSportsPremierLeague2.hk" tvg-logo="https://i.ibb.co/vZwRg2M/now2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 2
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110616&extension=ts
@@ -796,7 +796,9 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=971682&extensi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://webudit.cdnhks.lol/lb/premium455/index.m3u8|referer=https://widevine.licenses4.me/
 #EXTINF: -1 tvg-id="elevensports1.pt" tvg-name="ELEVEN SPORTS 1 PORTUGAL" tvg-logo="https://logo.iptveditor.com/elevensport1.png" group-title="🔴| LÂM-PHONG SPORT", ELEVEN SPORTS 1 PORTUGAL
-http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=811933&extension=ts&play_token=
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://streamservicehd.click/
+https://webudit.cdndac.lol/lb/premium71/index.m3u8
 #EXTINF: -1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ Peacock•PremierLeague
 http://shareext@185.243.7.13/play/live.php?mac=00:1A:79:45:5E:9A&stream=1032457&extension=ts&play_token=1kEm8DbZmS
 #EXTINF: -1 tvg-id="skysportsfootball.hd.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
