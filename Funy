@@ -40,16 +40,9 @@ https://iplogger.com/C2B4TV
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"T6eVHzfGgn7f1hPxBH0Kbw", "kid":"FTunSvd0nv9Y2pmrgAQEmg" },{ "kty":"oct", "k":"T6eVHzfGgn7f1hPxBH0Kbw", "kid":"FTunSvd0nv9Y2pmrgAQEmg" },{ "kty":"oct", "k":"CCLwU9MtsUZZtOaVh24sgw", "kid":"1OZjAah0nv9Y2pmrgAQEmg" },{ "kty":"oct", "k":"eqAzVhpVPooMgvFLsWu8kw", "kid":"HCpjAah0nv9Y2pmrgAQEmg" }], "type":"temporary" }
 https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
 #EXTINF:-1 tvg-id="ksports2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-
-#KODIPROP:inputstream.adaptive.license_key={"keys":[ { "kty":"oct", "k":"QaXhw9lcVZV0JJ7bYkW8Qw", "kid":"2t/kWLARQyK1389+GUZgSw" } ], "type":"temporary"}
-
-http://s7267.cdn.mytvnet.vn:80/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
-
+#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/maicacong/keysport2.php?id=13082023
+https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
 https://iplogger.com/CINEB4TV
 
