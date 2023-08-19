@@ -379,7 +379,7 @@ http://rogermellie.xyz:80/richay/richay/1042160
 #EXTINF:-1 tvg-id="Astro.SuperSport.UHD.1.my" tvg-name="" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/308_144.png" group-title="🌏| 4K 🇺 🇭 🇩",Astro SuperSport ⁴ᴷ UHD
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1016544&extension=ts
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://i.postimg.cc/RZM2vqmM/Star-Hub-2021.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR STARHUB
-http://line.iptveros.com:80/play/live.php?mac=00:1A:79:52:94:40&stream=1032518&extension=ts&play_token=J1qCbmrUDN
+http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=670352&extension=ts&play_token=ku2AAPhUqV
 #EXTINF:-1 tvg-id="BT.Sport.Ultimate.uk" tvg-logo="https://i.ibb.co/WFM2j9q/TNT-Ultimate.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR TNT SPORT
 http://89.45.13.153:25461/play/live.php?mac=00:1A:79:4b:c9:aa&stream=1300442&extension=ts&play_token=6H190jzhqk
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="English.-.Now.Sports.4K.1.hk" tvg-logo="https://i.ibb.co/xsK3Jd4/now4k.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR NOW SPORTS
@@ -389,7 +389,7 @@ http://pure8k.top:80/play/live.php?mac=00:1A:79:4D:EF:AA&stream=466959&extension
 #EXTINF:-1 tvg-id="ZiggoSport.nl" tvg-logo="https://i.ibb.co/zb84wJh/ziggo.png" group-title="🌏| 4K 🇺 🇭 🇩",Ziggo Sport ⁴ᴷ
 http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560
 #EXTINF:0 tvg-id="SkySportBundesligaUHD.de" group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga ⁴ᴷ
-http://45.12.1.14:80/live/DrZpz9YdTHxy556/7885eS0931/88667.m3u8
+http://89.45.13.201:8080/play/live.php?mac=00:1A:79:07:BB:04&stream=482837&extension=ts&play_token=uKaKQYZPoJ
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="http://gg.gg/foxsport4kkkk",1.Fox Sports ⁴ᴷ
 http://thespectrummag.sytes.net:80/play/live.php?mac=00:1A:79:7B:61:99&stream=1124346&extension=ts&play_token=qLA6gy8fnj
 
@@ -576,7 +576,7 @@ http://b4tv.live/b4tv/b4tv/2.m3u8
 #EXTINF:-1 tvg-id="tv360hd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="http://img-zlr2.tv360.vn/tv360-static/static/web/images/logo.png" ,▶️| TV360 ¹⁰⁸⁰
 http://livestream-zlr1.tv360.vn/origin01/fast-channel/manifest/test/playlist_1080p.m3u8
 #EXTINF:-1 tvg-id="itv2.us" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/ITV2_logo_2022.svg/1920px-ITV2_logo_2022.svg.png",ITV 2 FHD
-http://portal.zebratv.one:2095/play/live.php?mac=00:1A:79:bf:85:ba&stream=11113&extension=ts&play_token=1h8z8Nq126
+http://89.45.13.201:8080/play/live.php?mac=00:1A:79:C6:A7:D1&stream=566121&extension=ts&play_token=zpEko1ctul
 #EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO ¹⁰⁸⁰
 udp://@225.1.4.90:30120
 #EXTINF:-1 tvg-id="HBO2.West.us" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/gM2rDGW/1265677.png",▶️| HBO 2 ¹⁰⁸⁰
@@ -764,7 +764,7 @@ http://mag.you24.online:80/smarttverz/72p44x7OkNDDLd/696636
 http://rogermellie.xyz:80/richay/richay/3414717
 
 #EXTINF: -1 tvg-id="Hub.Premier.1.(HD).sg" tvg-name="HubPremier1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qoerty1659622111.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 1
-http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032529&extension=ts&play_token=
+http://nordicone.tv:80/play/live.php?mac=00:1a:79:67:52:6c&stream=348097&extension=ts&play_token=mJHzGozKrt
 #EXTINF: -1 tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/sdvs4u1659622094.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 2
 http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=1032528&extension=ts&play_token=
 #EXTINF: -1 tvg-id="Hub.Premier.3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
