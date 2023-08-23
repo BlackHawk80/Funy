@@ -40,8 +40,10 @@ https://iplogger.com/C2B4TV
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"T6eVHzfGgn7f1hPxBH0Kbw", "kid":"FTunSvd0nv9Y2pmrgAQEmg" },{ "kty":"oct", "k":"T6eVHzfGgn7f1hPxBH0Kbw", "kid":"FTunSvd0nv9Y2pmrgAQEmg" },{ "kty":"oct", "k":"CCLwU9MtsUZZtOaVh24sgw", "kid":"1OZjAah0nv9Y2pmrgAQEmg" },{ "kty":"oct", "k":"eqAzVhpVPooMgvFLsWu8kw", "kid":"HCpjAah0nv9Y2pmrgAQEmg" }], "type":"temporary" }
 https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
 #EXTINF:-1 tvg-id="ksports2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tiemnhazunn.click/key/maicacong/keysport2.php?id=13082023
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"O4O+X+EK8O/Wz+n6eo7iJg", "kid":"6vS3BWM9VjSv+lyu0zLj8Q" },{ "kty":"oct", "k":"2YXpHKjn4Pk7THpkX5fpvw", "kid":"qZ9zvBQ9VjSv+lyu0zLj8Q" },{ "kty":"oct", "k":"O4O+X+EK8O/Wz+n6eo7iJg", "kid":"6vS3BWM9VjSv+lyu0zLj8Q" },{ "kty":"oct", "k":"92pXkxQezg0SthdDpdxCPg", "kid":"8eNzvBQ9VjSv+lyu0zLj8Q" }], "type":"temporary" } 	
 https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
 https://iplogger.com/CINEB4TV
@@ -240,7 +242,7 @@ https://code.vthanhtivi.pw/getlink/vieon2/vtvcab5-e-channel/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon2/vtvcab7/playlist.m3u8
 #EXTINF:-1 tvg-id="vtvcab8hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/61RhmVc/VCab8-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/0327f7ef-4c0f-4e66-a240-819452590d40/dvr-${start}-${offset}.m3u8", ON BiBi
-https://code.vthanhtivi.pw/getlink/mytv/205/hd.m3u8
+http://gg.gg/HaNoiIPTV-ON_BiBi_HD
 #EXTINF:-1 tvg-id="vtvcab9hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/17c1dp7/cccab9.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/6c7701f5-7ea6-4168-a245-3be82065ae58/dvr-${start}-${offset}.m3u8", ON Info TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://code.vthanhtivi.pw/getlink/vieon2/vtvcab9-info-tv/playlist.m3u8
@@ -704,8 +706,6 @@ http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110617&extension
 http://b4tv.live/b4tv/b4tv/3.m3u8
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",FPT Play 2
 http://b4tv.live/b4tv/b4tv/4.m3u8
-#EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/ON%20Sports%20News%20HD.png", ON Sports News FIFA WOMEN WORLD CUP 2023
-http://128.199.214.24/OSN/mpegts
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/d55Y9qr/G.png",Chọi Gà
 http://donglao.duckdns.org:9981/stream/channelid/1016978242?auth=PE0jwVl-RV1EmGGqGGNdLT.TvDb0
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV1" tvg-logo="https://i.imgur.com/EaRVaEX.png", CHAMPIONS TV 1
@@ -832,7 +832,7 @@ https://iplogger.com/SetantaEurasia_2
 #EXTINF: -1 tvg-id="SONYSPORTSTEN1.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN1 HD
 http://myserveriptv.com:2082/7jW4c1mKr8Nfh/I9Snf6E3hVf7B0eG/240546
 #EXTINF: -1 tvg-id="SONYSPORTSTEN2.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN2 HD
-http://myserveriptv.com:2082/7jW4c1mKr8Nfh/I9Snf6E3hVf7B0eG/240547
+http://myserveriptv.com:2082/7jW4c1mKr8Nfh/I9Snf6E3hVf7B0eG/240694
 #EXTINF: -1 tvg-id="SONYSPORTSTEN3.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen3_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN3 HD
 http://myserveriptv.com:2082/7jW4c1mKr8Nfh/I9Snf6E3hVf7B0eG/240695
 #EXTINF: -1 tvg-id="usanetwork.us" tvg-name="USA NETWORK" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/USA-Network-Logo.svg/1200px-USA-Network-Logo.svg.png",USA Network
@@ -872,7 +872,7 @@ http://89.45.13.201:8080/play/live.php?mac=00:1A:79:07:BB:04&stream=646892&exten
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
 http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/4515
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/1872
+http://raw.bitnode.pm:81/giorgi/giorgi/20684
 #http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=898099&extension=ts&play_token=
 #EXTINF: -1 xui-id="{XUI_ID}" tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://45.12.1.14:80/7JvIck488/meAqNw5218/3639
