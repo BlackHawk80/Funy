@@ -41,7 +41,7 @@ https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
 https://zjizeoupprliv.vcdn.cloud/live/vnews/playlist.m3u8
 
 #EXTINF:-1 tvg-id="nhandan" group-title="🌐| Thiết yếu" tvg-logo="https://pbs.twimg.com/media/Fa6_BNjaMAU9YYO?format=png",❤️| Nhân Dân TV FHD
-https://code.vthanhtivi.pw/getlink/vieon/nhan-dan-hd/playlist.m3u8
+https://video.nhandan.thienvietjsc.net/live/nhandan720/playlist.m3u8
 #EXTINF:-1 tvg-id="quochoi" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/n02rRKY/quoc-huy.png",❤️| Quốc Hội FHD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 http://113.164.225.140:1935/live/quochoitvlive.stream/chunklist.m3u8
@@ -56,7 +56,8 @@ http://gg.gg/HaNoiIPTV-Truyen_hinh_Ha_Noi_2_HD
 #EXTINF:-1 tvg-id="hungyen" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/wWQtTwr/HUNGYEN-BEARTV.png",❤️| Hưng Yên HD
 https://cdn.hungyentv.vn/live/285f5449d7d7d2946e0bd2d54b7e60f25a4/chunklist.m3u8
 #EXTINF:-1 tvg-id="anvienhd" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/F08gVbK/BTV9-BEARTV.png",❤️| An Viên TV
-https://code.vthanhtivi.pw/getlink/vieon/an-vien-hd/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://livecdn-vthn-vnw.vieon.vn/livetv/45ef7f63082488218aa1a8c93bb7c185/playlist.m3u8
 
 
 
