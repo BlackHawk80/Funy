@@ -476,7 +476,7 @@ https://e8.endpoint.cdn.sctvonline.vn/channel/sctvphimtonghop/index.m3u8|Referer
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
 https://code.vthanhtivi.pw/getlink/cliptv/9dbd996e28571a24042f5c332f433ea7/1692932476/music-box/chunklist_b5128000.m3u8
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
-http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/282262
+http://37.49.230.42:8080/iptvepic4/DzbGTtATy4DzmK8c/15452
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
 http://acsb.sh:80/ns6C6G/phantomiptv/103489.ts
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mtvhits.uk" tvg-name="MTV HITS" tvg-logo="https://logo.iptveditor.com/mtvhits.png" group-title="🎶| Music",MTV HITS
@@ -825,7 +825,7 @@ http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/4515
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
 http://raw.bitnode.pm:81/giorgi/giorgi/255105
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
-http://45.12.1.14:80/7JvIck488/meAqNw5218/3639
+http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/9880
 #EXTINF: -1 tvg-id="daznf1.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DAZN_F1_logo.svg/2560px-DAZN_F1_logo.svg.png", DAZN F1 
 http://rogermellie.xyz:80/richay/richay/3413557
 #EXTINF: -1 tvg-id="motowizja" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/pbpqpYr/Motowizja.png", Motowizja FHD
