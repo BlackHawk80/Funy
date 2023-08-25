@@ -50,10 +50,9 @@ https://iplogger.com/CINEB4TV
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"ZUxqhPLuwSj9QaKDthzVzg","kid":"XKvwAdnld9d+wpp76pDfyA"},{"kty":"oct","k":"DdZIo3t6qpmenEaezbUzTA","kid":"pO/wAdnld9d+wpp76pDfyA"},{"kty":"oct","k":"1c7aqIzFwPuhXzLYX05ijA","kid":"sfM0Mtnld9d+wpp76pDfyA"},{"kty":"oct","k":"xQ1gvm52zxkqr6pSBDEDAw","kid":"nQA0Sijld9d+wpp76pDfyA"}],"type":"temporary"}
+#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZKRlZZammcKcm6KZlqadlqFgZ2Q=&time=1692932476&mykplus&id=kkids
 https://akafpt.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
 
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
@@ -277,46 +276,6 @@ https://live-zlr1.tv360.vn/manifest/Su_Kien_4/playlist_1080p.m3u8
 https://live-zlr1.tv360.vn/manifest/Su_Kien_3/playlist_1080p.m3u8
 #EXTINF:-1 group-title="Event💚| VN" tvg-logo="http://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_480_270.png", TV360+ 4
 https://live-zlr1.tv360.vn/manifest/Su_Kien_4/playlist_1080p.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://liquipedia.net/commons/images/thumb/c/ce/BLAST_Premier_Fall_Groups_lightmode.png/600px-BLAST_Premier_Fall_Groups_lightmode.png", BLAST Fall Groups 2023
-https://tiemnhazunn.click/tv360/tv360.php?id=9811
-#F Sport-FPTPlay
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", WBC 01
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://vips-livecdn.fptplay.net/schedule/wbc01_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", WBC 02
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://vips-livecdn.fptplay.net/schedule/wbc02_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", FPT Play Event 1
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/schedule/sukien01_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", FPT Play Event 2
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/schedule/sukien02_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", FPT Play Event 3
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/schedule/sukien03_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png", FPT Play Event 4
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/schedule/sukien04_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_pladio_163947930147.png", FPT Play Pladio
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://fbvip88.com/fptplay/getfpt.php?id=pladio
-
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", F Sports 1
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://vips-livecdn.fptplay.net/epzsport/thethao01_vhls.smil/chunklist_b5500000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", F Sports 2
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://vips-livecdn.fptplay.net/epzsport/thethao02_vhls.smil/chunklist_b5500000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", F Sports 3
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://vips-livecdn.fptplay.net/epzsport/thethao03_vhls.smil/chunklist_b5500000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", F Sports 4
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://vips-livecdn.fptplay.net/epzsport/thethao04_vhls.smil/chunklist_b5500000.m3u8
-#EXTINF:-1 group-title="Event💚| VN" tvg-logo="https://i.ibb.co/FsC8nJD/channels4-profile.jpg", F Sports 5
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://vips-livecdn.fptplay.net/epzsport/thethao05_vhls.smil/chunklist_b5500000.m3u8
 
 #--------4K---------#
 #EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/RCSG4wy/nature.png" ,🍀| FLYING OVER SWEDEN ⁴ᴷ
@@ -377,7 +336,7 @@ http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=670352&exten
 #EXTINF:-1 tvg-id="BT.Sport.Ultimate.uk" tvg-logo="https://i.ibb.co/WFM2j9q/TNT-Ultimate.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR TNT SPORT
 http://89.45.13.153:25461/play/live.php?mac=00:1A:79:4b:c9:aa&stream=1300442&extension=ts&play_token=6H190jzhqk
 #EXTINF:-1 tvg-id="English.-.Now.Sports.4K.1.hk" tvg-logo="https://i.ibb.co/xsK3Jd4/now4k.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR NOW SPORTS
-http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142784
+http://raw.bitnode.pm:81/giorgi/giorgi/1122720
 #EXTINF:-1 tvg-id="beIN4K.qa" tvg-logo="https://i.ibb.co/CQtjqCk/Be-IN-SPORTS-4-K-Logo.jpg" group-title="🌏| 4K 🇺 🇭 🇩",⚽ BeIN UHD ⁴ᴷ HDR
 https://7pal.short.gy/bein-uhd
 #EXTINF:-1 tvg-id="ZiggoSport.nl" tvg-logo="https://i.ibb.co/zb84wJh/ziggo.png" group-title="🌏| 4K 🇺 🇭 🇩",Ziggo Sport ⁴ᴷ
@@ -527,10 +486,6 @@ http://raw.bitnode.pm:81/giorgi/giorgi/20502
 http://ultrontv.xyz:80/Darko123/Darko78/144084
 #EXTINF:-1 tvg-id="" tvg-name="USA Music Choice Video | Pop Hits" tvg-logo="https://i.ibb.co/5Fx8FjZ/MC-Plus-Homepage-Logo-1024x497.png" group-title="🎶| Music",USA Music Choice | Pop Hits
 http://ultrontv.xyz:80/Darko123/Darko78/144098
-#EXTINF:-1 tvg-id="mtvyo.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/DGWR1fm/mtvyo.png",💿| MTV Yo!
-#EXTVLCOPT:http-user-agent=TB-Sport
-#EXTVLCOPT:network-caching=1000
-http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Stingray Karaoke" tvg-logo="https://i.ibb.co/z28Gs8G/stingray-karaoke.png" group-title="🎶| Music",Stingray Karaoke 🎤
 https://dai.google.com/linear/hls/event/5bqbG8j7T_6_qMONC1SDsg/master.m3u8
 #EXTINF:-1 tvg-id="StingrayHolidayHits" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/518a9541-fade-45ec-9d64-5b0a65806270-small3x1_stirr_1219_epg_stingraygreatesthits_1920x1080.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="🎶| Music",Stingray Holiday Hits
@@ -601,14 +556,14 @@ udp://@225.1.1.196:30120
 https://code.vthanhtivi.pw/getlink/tv360/107/2.m3u8
 #http://gg.gg/HaNoiIPTV-HITS_HD
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
-https://code.vthanhtivi.pw/getlink/cliptv/icHRxqCZhKGonNDd25FiZnFkaaCinmNnj2lja5uglmBiaWpgbKA=/1692639916/hollywood-classics-hd/chunklist_b5128000.m3u8
+https://code.vthanhtivi.pw/getlink/cliptv/9dbd996e28571a24042f5c332f433ea7/1692932476/hollywood-classics-hd/chunklist_b5128000.m3u8
 #http://live-vnp.vthanhtivi.pw:18001/HOLLYWOOD_CLASSICS/index.m3u8
 #EXTINF:-1 tvg-id="inthebox" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png",▶️| In The Box
-https://code.vthanhtivi.pw/getlink/cliptv/icHRxqCZhKGonNDd25FiZnFkaaCinmNnj2lja5uglmBiaWpgbKA=/1692639916/in-the-box-channel/chunklist_b5128000.m3u8
+https://code.vthanhtivi.pw/getlink/cliptv/9dbd996e28571a24042f5c332f433ea7/1692932476/in-the-box-channel/chunklist_b5128000.m3u8
 #http://live-vnp.vthanhtivi.pw:18001/IN_THE_BOX/index.m3u8
 #http://gg.gg/HaNoiIPTV-In_The_Box_Channel
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",▶️| BOX Movie¹
-https://code.vthanhtivi.pw/getlink/cliptv/icHRxqCZhKGonNDd25FiZnFkaaCinmNnj2lja5uglmBiaWpgbKA=/1692639916/box-movie-1-hd/chunklist_b5128000.m3u8
+https://code.vthanhtivi.pw/getlink/cliptv/9dbd996e28571a24042f5c332f433ea7/1692932476/box-movie-1-hd/chunklist_b5128000.m3u8
 #http://live-vnp.vthanhtivi.pw:18001/BOX_MOVIE_1/index.m3u8
 #http://gg.gg/HaNoiIPTV-Box_Movie_1_HD
 #EXTINF:-1 tvg-id="boxhits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",▶️| Box Hits
@@ -860,7 +815,7 @@ https://a1a69a13b68f44f4aff604dd4cdee5cd.mediatailor.us-west-2.amazonaws.com/v1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8?cc
 #EXTINF: -1 tvg-id="SkySportsRacing.uk" tvg-logo="https://i.ibb.co/P1qgzvx/Sky-Sports-Racing.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS RACING
-http://raw.bitnode.pm:81/play/live.php?mac=00:1A:79:C5:08:F9&stream=255097&extension=ts&play_token=25c4inW4wg
+http://raw.bitnode.pm:81/giorgi/giorgi/255097
 #EXTINF:-1 tvg-id="racingtv.uk" tvg-logo="https://i.ibb.co/Nm670rg/racingtv.png" group-title="🔴| LÂM-PHONG SPORT",RACING TV HD
 http://raw.bitnode.pm:81/giorgi/giorgi/20386
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://gg.gg/logo2kkkk",1.Sky Sport F1 QHD
@@ -868,8 +823,8 @@ http://89.45.13.201:8080/play/live.php?mac=00:1A:79:07:BB:04&stream=646892&exten
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
 http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/4515
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-https://6oclock.xyz:8443/oVTsSvYjZu/cAXDNm9LY9/20828
-#EXTINF: -1 xui-id="{XUI_ID}" tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
+http://raw.bitnode.pm:81/giorgi/giorgi/255105
+#EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://45.12.1.14:80/7JvIck488/meAqNw5218/3639
 #EXTINF: -1 tvg-id="daznf1.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DAZN_F1_logo.svg/2560px-DAZN_F1_logo.svg.png", DAZN F1 
 http://rogermellie.xyz:80/richay/richay/3413557
