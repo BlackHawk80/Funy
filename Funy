@@ -328,7 +328,7 @@ https://bloomberg-bloombergtv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="digi" tvg-name="digi" tvg-logo="https://i.ibb.co/7QcdPTM/Digi.png" group-title="🌏| 4K 🇺 🇭 🇩",DIGI ⁴ᴷ
 http://ultratv.one:2095/play/live.php?mac=00:1A:79:C9:3F:E3&stream=90814&extension=ts&play_token=RJwDuBm3Hj
 #EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-name="Sky Sports Main Event UHD" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/Sky_Sport_UHD.png" group-title="🌏| 4K 🇺 🇭 🇩",Sky Sports Main Event ⁴ᴷ
-http://new.ivue.co:25461/play/live.php?mac=00:1A:79:17:14:FF&stream=1299719&extension=ts&play_token=zKDdvDT4pU
+http://89.45.13.153:25461/play/live.php?mac=00:1A:79:5D:EB:29&stream=1299719&extension=ts&play_token=XnnvGedGed
 #EXTINF:-1 tvg-id="Astro.SuperSport.UHD.1.my" tvg-name="" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/308_144.png" group-title="🌏| 4K 🇺 🇭 🇩",Astro SuperSport ⁴ᴷ UHD
 http://sverigeplay.tv:2095/play/live.php?mac=00:1A:79:ae:c6:b8&stream=348094&extension=ts&play_token=sFD5pWlz1e
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://i.postimg.cc/RZM2vqmM/Star-Hub-2021.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR STARHUB
@@ -336,13 +336,13 @@ http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=670352&exten
 #EXTINF:-1 tvg-id="BT.Sport.Ultimate.uk" tvg-logo="https://i.ibb.co/WFM2j9q/TNT-Ultimate.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR TNT SPORT
 http://89.45.13.153:25461/play/live.php?mac=00:1A:79:4b:c9:aa&stream=1300442&extension=ts&play_token=6H190jzhqk
 #EXTINF:-1 tvg-id="English.-.Now.Sports.4K.1.hk" tvg-logo="https://i.ibb.co/xsK3Jd4/now4k.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR NOW SPORTS
-http://raw.bitnode.pm:81/giorgi/giorgi/1122720
+http://happydays2022.click:80/play/9-XhcHOivvKhFyAIS1nGOKxFRJZ1IaAOQBQmBAoddDSuQGUGU1qAQ5sm7EOcbErYYDuWwVvyrd26waz-cgjGo4sXOJ1-4hUQX1-i0tdAit8?ext=.ts
 #EXTINF:-1 tvg-id="beIN4K.qa" tvg-logo="https://i.ibb.co/CQtjqCk/Be-IN-SPORTS-4-K-Logo.jpg" group-title="🌏| 4K 🇺 🇭 🇩",⚽ BeIN UHD ⁴ᴷ HDR
 https://7pal.short.gy/bein-uhd
 #EXTINF:-1 tvg-id="ZiggoSport.nl" tvg-logo="https://i.ibb.co/zb84wJh/ziggo.png" group-title="🌏| 4K 🇺 🇭 🇩",Ziggo Sport ⁴ᴷ
 http://live.iptvtotaal.com:8000/awpreneniptv/09HZaVeOmh/20560
 #EXTINF:0 tvg-id="SkySportBundesligaUHD.de" group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga ⁴ᴷ
-http://89.45.13.201:8080/play/live.php?mac=00:1A:79:07:BB:04&stream=482837&extension=ts&play_token=uKaKQYZPoJ
+http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=484209&extension=ts&play_token=5XWDuAhsnf
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="http://gg.gg/foxsport4kkkk",1.Fox Sports ⁴ᴷ
 http://thespectrummag.sytes.net:80/play/live.php?mac=00:1A:79:7B:61:99&stream=1124346&extension=ts&play_token=qLA6gy8fnj
 
@@ -817,7 +817,7 @@ http://raw.bitnode.pm:81/giorgi/giorgi/255097
 #EXTINF:-1 tvg-id="racingtv.uk" tvg-logo="https://i.ibb.co/Nm670rg/racingtv.png" group-title="🔴| LÂM-PHONG SPORT",RACING TV HD
 http://raw.bitnode.pm:81/giorgi/giorgi/20386
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://gg.gg/logo2kkkk",1.Sky Sport F1 QHD
-http://89.45.13.201:8080/play/live.php?mac=00:1A:79:07:BB:04&stream=646892&extension=ts&play_token=iNBWntk9W7
+http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=646892&extension=ts&play_token=1Xq8f1Qfwv
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
 http://aca3b.tk:8080/Crashiptv/U3VHDU7YkC/2477
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
