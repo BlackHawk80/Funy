@@ -34,16 +34,9 @@ https://iplogger.com/C1B4TV
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"bvnukuDbf44AjVtYl8n2OA", "kid":"VP/jLV2PVCr+jEHIOdC5QQ" } ], "type":"temporary" }
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
+http://b4tv.live:80/play/fxlsRGCS782CDQDKrGBYfcpj-08aG9dVkulvtijY2VYzpdGOANh6NuHl1XlprWYY/m3u8
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ9jZZeglsKcm6KZlqWdlKBqXmZm&time=1693412513&mykplus&id=ksport2
-https://akafpt.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+http://b4tv.live:80/play/fxlsRGCS782CDQDKrGBYfcpj-08aG9dVkulvtijY2VblNbqAUg2ONUmwmOxcSt7A/m3u8
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
 https://iplogger.com/CINEB4TV
 
@@ -51,10 +44,7 @@ https://iplogger.com/CINEB4TV
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ9jZZeglsKcm6KZlqWdlKBqXmZm&time=1693412513&mykplus&id=kkids
-https://akafpt.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
+http://b4tv.live:80/play/fxlsRGCS782CDQDKrGBYfcpj-08aG9dVkulvtijY2Va_mwQpHcY4FBmfLYeLBUl8/m3u8
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dmp6prmr4QliOzzggkupjQ", "kid":"lyUbdnxAQ3GgzwzyX//fNg" } ], "type":"temporary" }
@@ -656,7 +646,7 @@ http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110617&extension
 #EXTINF: -1 tvg-id="fptplay" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",FPT Play
 http://b4tv.live/b4tv/b4tv/3.m3u8
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",FPT Play 2
-http://b4tv.live/b4tv/b4tv/4.m3u8
+http://b4tv.live:80/play/fxlsRGCS782CDQDKrGBYfcpj-08aG9dVkulvtijY2VZefjknMP1fNGWLR3ObqCHy/m3u8
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/d55Y9qr/G.png",Chọi Gà
 http://donglao.duckdns.org:9981/stream/channelid/1016978242?auth=PE0jwVl-RV1EmGGqGGNdLT.TvDb0
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV1" tvg-logo="https://i.imgur.com/EaRVaEX.png", CHAMPIONS TV 1
