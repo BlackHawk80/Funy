@@ -705,6 +705,18 @@ http://mag.you24.online:80/smarttverz/72p44x7OkNDDLd/696636
 #EXTINF: -1 tvg-id="premiersports.uk" tvg-logo="https://i.ibb.co/hDw5FSg/v-sport1.png" group-title="🔴| LÂM-PHONG SPORT",⚽| V-Premium Sports
 http://rogermellie.xyz:80/richay/richay/3414717
 
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://sport1.maariv.co.il/app/uploads/2020/04/logo.png",SPORT 1 HD IL
+#EXTGRP:Sport Israel HD
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12249/index.m3u8
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/27uvm51627494269.png",SPORT 2 HD IL
+#EXTGRP:Sport Israel HD
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12250/index.m3u8
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/irxvmy1627494303.png",SPORT 3 HD IL
+#EXTGRP:Sport Israel HD
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12251/index.m3u8
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/km8o4f1627494329.png",SPORT 4 HD IL
+#EXTGRP:Sport Israel HD
+http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12252/index.m3u8
 #EXTINF: -1 tvg-id="Hub.Premier.1.(HD).sg" tvg-name="HubPremier1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qoerty1659622111.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 1
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142809
 #EXTINF: -1 tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/sdvs4u1659622094.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 2
@@ -732,11 +744,11 @@ https://webudit.cdndac.lol/lb/premium71/index.m3u8
 #EXTINF: -1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ OPTUS 2
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142770
 #EXTINF: -1 tvg-id="skysportsfootball.hd.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
-http://raw.bitnode.pm:81/giorgi/giorgi/255104
+http://tigerfights.xyz:80/moms/moms123/2485225
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
-http://raw.bitnode.pm:81/giorgi/giorgi/255098
+http://tigerfights.xyz:80/moms/moms123/2485224
 #EXTINF: -1 tvg-id="skysportsmainevent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
-http://raw.bitnode.pm:81/giorgi/giorgi/255102
+http://tigerfights.xyz:80/moms/moms123/2485223
 #EXTINF: -1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.iptveditor.com/skysportsmix.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS MIX
 http://raw.bitnode.pm:81/play/live.php?mac=00:1A:79:5C:90:68&stream=255101&extension=m3u8
 #EXTINF:0 tvg-id="Sky.Sport.Calcio.HD.it" tvg-logo="https://i.ibb.co/NK2PrnL/Sky-Sport-Calcio.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORT CALCIO
@@ -787,7 +799,7 @@ http://raw.bitnode.pm:81/giorgi/giorgi/20139
 #EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
 https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099160
 #EXTINF: -1 tvg-id="eurosport2.uk" tvg-name="EUROSPORT 2 HD" tvg-logo="https://logo.iptveditor.com/eurosport2.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 2 HD
-http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/1989
+http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/1555
 #EXTINF: -1 tvg-id="edgesport" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/PTnQPdp/ccEdge.png",🎖️| Edge Sport
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://edgesport-samsunguk.amagi.tv/playlist1080p.m3u8?cc
@@ -809,13 +821,15 @@ http://raw.bitnode.pm:81/giorgi/giorgi/20386
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://gg.gg/logo2kkkk",1.Sky Sport F1 QHD
 http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=646892&extension=ts&play_token=1Xq8f1Qfwv
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
-http://aca3b.tk:8080/Crashiptv/U3VHDU7YkC/2477
+http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/4515
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-http://raw.bitnode.pm:81/giorgi/giorgi/255105
+http://tigerfights.xyz:80/moms/moms123/2476557
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/9880
 #EXTINF: -1 tvg-id="daznf1.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DAZN_F1_logo.svg/2560px-DAZN_F1_logo.svg.png", DAZN F1 
-http://rogermellie.xyz:80/richay/richay/3413557
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-016/stream.mpd
 #EXTINF: -1 tvg-id="motowizja" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/pbpqpYr/Motowizja.png", Motowizja FHD
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/3216
 #EXTINF: -1 tvg-id="RMCSport2.fr" tvg-name="RMC Sport 2" tvg-logo="https://i.ibb.co/47Bdd2n/rmc-sport-2.png" group-title="🔴| LÂM-PHONG SPORT",RMC Sport 2
