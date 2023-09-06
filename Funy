@@ -727,9 +727,7 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=971682&extensi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://webudit.cdnhks.lol/lb/premium455/index.m3u8|referer=https://widevine.licenses4.me/
 #EXTINF: -1 tvg-id="elevensports1.pt" tvg-name="ELEVEN SPORTS 1 PORTUGAL" tvg-logo="https://logo.iptveditor.com/elevensport1.png" group-title="🔴| LÂM-PHONG SPORT", ELEVEN SPORTS 1 PORTUGAL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://streamservicehd.click/
-https://webudit.cdndac.lol/lb/premium71/index.m3u8
+http://37.49.230.42:8080/iptvepic4/DzbGTtATy4DzmK8c/347
 #EXTINF: -1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ OPTUS 2
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142770
 #EXTINF: -1 tvg-id="skysportsfootball.hd.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
@@ -782,9 +780,7 @@ http://raw.bitnode.pm:81/giorgi/giorgi/20057
 #EXTINF: -1 xui-id="{XUI_ID}" tvg-id="bbctwo.uk" tvg-name="BBC TWO FHD" tvg-logo="https://logo.iptveditor.com/bbctwo.png" group-title="🔴| LÂM-PHONG SPORT",BBC TWO FHD
 http://raw.bitnode.pm:81/giorgi/giorgi/20139
 #EXTINF: -1 tvg-id="eurosport1.uk" tvg-name="EUROSPORT 1 HD" tvg-logo="https://logo.iptveditor.com/eurosport1.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 1 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#EXTVLCOPT:http-referrer=https://widevine.licenses4.me/
-https://m3u-editor.com/serve/c224f7a0-cbe7-11ed-b3a0-51b43ddb2078/806099160
+http://gameplay.p2sweb.me:80/2498893/2383592/263325
 #EXTINF: -1 tvg-id="eurosport2.uk" tvg-name="EUROSPORT 2 HD" tvg-logo="https://logo.iptveditor.com/eurosport2.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 2 HD
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/1555
 #EXTINF: -1 tvg-id="edgesport" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/PTnQPdp/ccEdge.png",🎖️| Edge Sport
