@@ -6,8 +6,7 @@
 #EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/ySDjzg0/VTV1-cc.webp",❤️| VTV1 ¹⁰⁸⁰
 http://gg.gg/HaNoiIPTV-VTV1_HD
 #EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/G0PXW8r/VTV2-cc.webp",❤️| VTV2 ¹⁰⁸⁰
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://livecdn-vthn-vnw.vieon.vn/livetv/65e4e2cd4a6cd1c07682cc9d1830fd3f/playlist.m3u8
+http://live-zlr1.tv360.vn/manifest/vtv2/playlist_1080p.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VNHdbry/VTV3-cc.png",❤️| VTV3 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://livecdn-vthn-vnw.vieon.vn/livetv/00f4aa36b8d034b5e8569b77d1675c1e/playlist.m3u8
@@ -15,11 +14,9 @@ https://livecdn-vthn-vnw.vieon.vn/livetv/00f4aa36b8d034b5e8569b77d1675c1e/playli
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://livecdn-vthn-vnw.vieon.vn/livetv/c9e89fdf42233e52a57a312baa4e9da0/playlist.m3u8
 #EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Hnyb8Cr/VTV5-cc.webp",❤️| VTV5 ¹⁰⁸⁰
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://livecdn-vthn-vnw.vieon.vn/livetv/53a3ed9b2879dc2dcc2051bff6060b37/playlist.m3u8
+http://live-ali4.tv360.vn/manifest/VTV5_HD_50fps/playlist_VTV5-HD-50fps-1080P-65M.m3u8
 #EXTINF:-1 tvg-id="vtv6hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/PtJKgHX/vtvcantho.webp",❤️| VTV6 ¹⁰⁸⁰
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://livecdn-vthn-vnw.vieon.vn/livetv/fdb7f91923323e646a69ce149f95f6cd/playlist.m3u8
+http://live-zlr1.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
 #EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Z89vrHX/VTV7-cc.webp",❤️| VTV7 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://livecdn-vthn-vnw.vieon.vn/livetv/67d1c84cac97171d714848c4c34c2b3a/playlist.m3u8
