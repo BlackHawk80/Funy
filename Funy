@@ -636,7 +636,7 @@ udp://@225.1.4.17:30120
 
 #-------------------Live Bóng Đá-------------------#
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
-http://raw.bitnode.pm:81/giorgi/giorgi/20374
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_0/chunklist.m3u8
 #EXTINF: -1 tvg-id="English.-.Now.Sports.1.hk" tvg-logo="https://i.ibb.co/MhgRjWw/now1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 1
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110622&extension=ts
 #EXTINF: -1 tvg-id="NowPremierSports 2.hk" tvg-logo="https://i.ibb.co/vZwRg2M/now2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 2
@@ -649,17 +649,11 @@ http://b4tv.live/b4tv/b4tv/3.m3u8
 http://b4tv.live:80/play/fxlsRGCS782CDQDKrGBYfcpj-08aG9dVkulvtijY2VZefjknMP1fNGWLR3ObqCHy/m3u8
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/d55Y9qr/G.png",Chọi Gà
 http://donglao.duckdns.org:9981/stream/channelid/1016978242?auth=PE0jwVl-RV1EmGGqGGNdLT.TvDb0
-#EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV1" tvg-logo="https://i.imgur.com/EaRVaEX.png", CHAMPIONS TV 1
-http://gamsgo.cyou:8080/adastream/J2DVrYWnpTu3Sk4W/298512
 
-#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV2" tvg-logo="https://i.imgur.com/IgGVlgI.png", CHAMPIONS TV 2 
-http://gamsgo.cyou:8080/adastream/J2DVrYWnpTu3Sk4W/298513
-
-#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV3" tvg-logo="https://i.imgur.com/1MBBBBN.png", CHAMPIONS TV 3
-http://www.premiumiptvmk.com:8080/myhdosama/cjydA4ncmMqx55pf/298514
-
-#EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV5" tvg-logo="https://i.ibb.co/tZ1rKtf/vidio.png", CHAMPIONS TV 5 (Live EPL)
-http://gamsgo.cyou:8080/adastream/J2DVrYWnpTu3Sk4W/298491
+#EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV5" tvg-logo="https://i.ibb.co/tZ1rKtf/vidio.png", ⚽ CHAMPIONS TV 5 (Live EPL)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"yGGRr8NyxQBuurbovfYeFA","kid":"eSybOCYVxH_fuEDf0jh7iw"}],"type": "temporary"}
+https://drm-epl-vidio-com-epl-1.akamaized.net/out/v1/1b34ee57680f49229adaa19b74a9b60d/index.mpd
 
 #EXTINF: -1 tvg-id="canal+premierleague.fr" tvg-name="FR: CANAL+ PREMIERE LEAGUE FHD" tvg-logo="https://logo.iptveditor.com/canal+premierleague.png" group-title="🔴| LÂM-PHONG SPORT",⚽ CANAL+ PREMIERE LEAGUE FHD
 http://gg.gg/CANAL-PremierLeagueFR
@@ -703,7 +697,7 @@ http://dc62c084.ottolok.net/iptv/8E52MW5BS9BCE7/12074/index.m3u8
 #EXTINF: -1 tvg-id="viasatSportPremierLeague.fi" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/3ChDTNL/vsportpremier2.png",⚽| V Sport Premier League
 http://mag.you24.online:80/smarttverz/72p44x7OkNDDLd/696636
 #EXTINF: -1 tvg-id="premiersports.uk" tvg-logo="https://i.ibb.co/hDw5FSg/v-sport1.png" group-title="🔴| LÂM-PHONG SPORT",⚽| V-Premium Sports
-http://rogermellie.xyz:80/richay/richay/3414717
+http://allm4f1x.russtv.net/iptv/XVGY7MPHN39K6P/12079/index.m3u8
 
 #EXTINF:-1 tvg-id="" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://sport1.maariv.co.il/app/uploads/2020/04/logo.png",SPORT 1 HD IL
 http://28b304f4.edemist.com/iptv/NMCWA9PDLXUCX4/12249/index.m3u8
