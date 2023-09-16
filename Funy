@@ -34,9 +34,17 @@ https://iplogger.com/C1B4TV
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-http://b4tv.live:80/play/fxlsRGCS782CDQDKrGBYfcpj-08aG9dVkulvtijY2VYzpdGOANh6NuHl1XlprWYY/m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"tY1XhZcsgB8KuO4iKyO8SA","kid":"cZgmzot2lOns8sHr2VKsxA"},{"kty":"oct","k":"toyPmTeLV31QO5joVX8dtg","kid":"udwmzot2lOns8sHr2VKsxA"},{"kty":"oct","k":"JOjAGolENzU9KflTVZZcRQ","kid":"xuBq/4t2lOns8sHr2VKsxA"},{"kty":"oct","k":"/mB19Q0Wy0vellxOLLLm6A","kid":"su1qF9p2lOns8sHr2VKsxA"}],"type":"temporary"}
+https://akafpt.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-http://b4tv.live:80/play/fxlsRGCS782CDQDKrGBYfcpj-08aG9dVkulvtijY2VblNbqAUg2ONUmwmOxcSt7A/m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"KV8Kyn5hiiqQ1yMdQH6iiA","kid":"Lsds9WIZo3T44g5j0dfpRQ"},{"kty":"oct","k":"aDfZMXYsOEraGOnW360KRQ","kid":"dgts9WIZo3T44g5j0dfpRQ"},{"kty":"oct","k":"HykBZCbP8Cljt/7gpFQsSg","kid":"gw+wJmIZo3T44g5j0dfpRQ"},{"kty":"oct","k":"PvUk/yoiZp17WEM3Qd+DGw","kid":"bxywPrEZo3T44g5j0dfpRQ"}],"type":"temporary"}
+https://akafpt.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
 https://iplogger.com/CINEB4TV
 
