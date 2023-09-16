@@ -649,7 +649,7 @@ udp://@225.1.4.17:30120
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_0/chunklist.m3u8
 #EXTINF: -1 tvg-id="English.-.Now.Sports.1.hk" tvg-logo="https://i.ibb.co/MhgRjWw/now1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 1
-http://servi-teevee.net:80/BigBoB747475564765Hgdr/GhyT82FaS2828Mas/754587
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110622&extension=ts
 #EXTINF: -1 tvg-id="NowPremierSports 2.hk" tvg-logo="https://i.ibb.co/vZwRg2M/now2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 2
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110616&extension=ts
 #EXTINF: -1 tvg-id="NowPremierSports3.hk" tvg-logo="https://i.ibb.co/NmSPDfJ/now3.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 3
@@ -734,7 +734,7 @@ http://exchange.jinbox.nl:80/play/live.php?mac=00:1a:79:59:53:0f&stream=21904_&e
 #EXTINF: -1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ OPTUS 2
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142770
 #EXTINF: -1 tvg-id="skysportsfootball.hd.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
-http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/1873
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880457&extension=ts
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
 http://geckohost.bid:8080/play/UpCkua7LeZfNKF1IkNXfrNpKqmrfMFyBP4_zZiuWphQXIhWtWNbe-yuaYs7_0CmW7VmXTYj8suAcih0GvTTvm-Qa9dOxGb1CVlKKW4RD5zWQ_M8t3IxrT8hHTPnGPP34OoK3EDAF1WHXTctlY4kpxWtsf8uczkD88GSB5Byc-6Q?ext=.ts
 #EXTINF: -1 tvg-id="skysportsmainevent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
@@ -776,12 +776,8 @@ http://14.102.123.50:4000/play/a05g
 http://14.102.123.50:4000/play/a046
 #EXTINF: -1 tvg-id="usanetwork.us" tvg-name="USA NETWORK" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/USA-Network-Logo.svg/1200px-USA-Network-Logo.svg.png",USA Network
 http://realsport.scalecdn.co:8080/live/111222/111222/3694.m3u8
-#EXTINF: -1 xui-id="{XUI_ID}" tvg-id="bbcone.uk" tvg-name="BBC ONE FHD" tvg-logo="https://logo.iptveditor.com/bbcone.png" group-title="🔴| LÂM-PHONG SPORT",BBC ONE FHD
-http://raw.bitnode.pm:81/giorgi/giorgi/20057
-#EXTINF: -1 xui-id="{XUI_ID}" tvg-id="bbctwo.uk" tvg-name="BBC TWO FHD" tvg-logo="https://logo.iptveditor.com/bbctwo.png" group-title="🔴| LÂM-PHONG SPORT",BBC TWO FHD
-http://raw.bitnode.pm:81/giorgi/giorgi/20139
 #EXTINF: -1 tvg-id="eurosport1.uk" tvg-name="EUROSPORT 1 HD" tvg-logo="https://logo.iptveditor.com/eurosport1.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 1 HD
-http://gameplay.p2sweb.me:80/2498893/2383592/263325
+http://acsb.sh:80/ns6C6G/phantomiptv/191301.ts
 #EXTINF: -1 tvg-id="eurosport2.uk" tvg-name="EUROSPORT 2 HD" tvg-logo="https://logo.iptveditor.com/eurosport2.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 2 HD
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/1555
 #EXTINF: -1 tvg-id="edgesport" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/PTnQPdp/ccEdge.png",🎖️| Edge Sport
@@ -839,7 +835,7 @@ http://rogermellie.xyz:80/richay/richay/3413100
 #EXTINF: -1 tvg-id="FightKlub" tvg-logo="https://i.ibb.co/J2vjZCV/Picsart-23-06-12-20-13-16-488.png" group-title="🔴| LÂM-PHONG SPORT", FightKlub
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/67638
 #EXTINF: -1 tvg-id="boxnation.uk" tvg-logo="https://logo.iptveditor.com/boxnation.png" group-title="🔴| LÂM-PHONG SPORT",BOXNATION FHD
-http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/4719
+https://6oclock.xyz:8443/oVTsSvYjZu/cAXDNm9LY9/20826
 #EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/9WDS1Vk/logo.png",🎖️|SKY HIGH FIGHT +
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15097/index.m3u8
