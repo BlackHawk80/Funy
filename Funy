@@ -52,7 +52,11 @@ https://iplogger.com/CINEB4TV
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-http://b4tv.live:80/play/fxlsRGCS782CDQDKrGBYfcpj-08aG9dVkulvtijY2Va_mwQpHcY4FBmfLYeLBUl8/m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"9kwcwTecPHnuCJK1JrZvKA","kid":"mIuqBS+qAonbATIavAH4ug"},{"kty":"oct","k":"TCwyx3yQouPntsn7ZiPrgg","kid":"4M+qBS+qAonbATIavAH4ug"},{"kty":"oct","k":"gi1p/srXkf3XStzMUxIExw","kid":"7dPuNi+qAonbATIavAH4ug"},{"kty":"oct","k":"eDSx/EVmJPe14BjWYMD3xQ","kid":"2eDuTn6qAonbATIavAH4ug"}],"type":"temporary"}
+https://akafpt.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dmp6prmr4QliOzzggkupjQ", "kid":"lyUbdnxAQ3GgzwzyX//fNg" } ], "type":"temporary" }
