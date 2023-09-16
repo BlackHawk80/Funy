@@ -649,7 +649,7 @@ udp://@225.1.4.17:30120
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_0/chunklist.m3u8
 #EXTINF: -1 tvg-id="English.-.Now.Sports.1.hk" tvg-logo="https://i.ibb.co/MhgRjWw/now1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 1
-http://raptor-tv.com:80/play/live.php?mac=00:1a:79:c1:da:5b&stream=1032487&extension=ts&play_token=Y0Fv9Nv97I
+http://servi-teevee.net:80/BigBoB747475564765Hgdr/GhyT82FaS2828Mas/754587
 #EXTINF: -1 tvg-id="NowPremierSports 2.hk" tvg-logo="https://i.ibb.co/vZwRg2M/now2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 2
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110616&extension=ts
 #EXTINF: -1 tvg-id="NowPremierSports3.hk" tvg-logo="https://i.ibb.co/NmSPDfJ/now3.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 3
@@ -725,7 +725,7 @@ http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142810
 #EXTINF: -1 tvg-id="Hub.Premier.3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142811 
 #EXTINF:0 tvg-id="astrosupersport" tvg-name="AstroSuperSport" tvg-logo="https://i.ibb.co/ZJvBYyx/Astro-Super-Sport-UHD.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Astro SuperSport
-http://protv.fun:80/play/live.php?mac=00:1A:79:73:BF:36&stream=571245&extension=ts&play_token=oatD6LI1Qd
+http://tv.trexiptv.com/play/live.php?mac=00:1A:79:5A:1C:B8&stream=571245&extension=m3u8&play_token=19lN2YqIw2
 #EXTINF: -1 xui-id="{XUI_ID}" tvg-id="AstroSuperSport2" tvg-logo="https://i.ibb.co/QPqdLxk/astro2.png" group-title="🔴| LÂM-PHONG SPORT",ASTRO SUPERSPORT 2
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918985&extension=ts
 #EXTINF:0 tvg-id="astrosupersport3" tvg-name="Astro SuperSport 3" tvg-logo="https://i.ibb.co/BZ80zs5/astro3.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 3
