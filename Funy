@@ -46,17 +46,17 @@ https://iplogger.com/C1B4TV
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"DpPMIxPZuWn+NjPIEDiKhA","kid":"XWfOesB6k0vuhC5YwpTiIQ"},{"kty":"oct","k":"iMoPeVJX1ei14QiWNs9bDw","kid":"pavOesB6k0vuhC5YwpTiIQ"},{"kty":"oct","k":"cUEQhs5+DSQZFcN81gNREg","kid":"sq8Sq8B6k0vuhC5YwpTiIQ"},{"kty":"oct","k":"LC+IzI0L/00McuHqNn+NLg","kid":"nrwSww96k0vuhC5YwpTiIQ"}],"type":"temporary"}
-https://akafpt.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"sU1Fq+Zjt7GxznYr42BbXg", "kid":"SqrhGwI/QtsUlgTkb+qJBw" } ], "type":"temporary" } 
+https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport1hd/default/index.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"YBEe+4WYBtlkwxJaLCnr3A","kid":"8u3K+LS6beYWTovXPoGXeg"},{"kty":"oct","k":"BsJ6h+WgH1uXkXwhVLYc/A","kid":"OjHK+LS6beYWTovXPoGXeg"},{"kty":"oct","k":"+s8efSTDosGDTyPwKIXE+Q","kid":"RzUOKbS6beYWTovXPoGXeg"},{"kty":"oct","k":"GN0mxMwTcZJR+KWJpEeDFw","kid":"M0IOQQO6beYWTovXPoGXeg"}],"type":"temporary"}
-https://akafpt.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ljf99Xa20TNG+l5eyiJqFA", "kid":"2CMiUnn59ugsolg9i93l+g" } ], "type":"temporary" } 
+https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
 https://iplogger.com/CINEB4TV
 
@@ -64,11 +64,11 @@ https://iplogger.com/CINEB4TV
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"bfCFPt4XPWcjft+CpoDBlw","kid":"/+zd0aXdxnZUCbWeWwmszw"},{"kty":"oct","k":"DZ9TuzIsilLKsUfj00w0dA","kid":"RzDd0aXdxnZUCbWeWwmszw"},{"kty":"oct","k":"G+NZUFmFc0d/abbA6Bo79A","kid":"VDQhAqXdxnZUCbWeWwmszw"},{"kty":"oct","k":"Hl1C7CSS15CDq3oQLq6EAw","kid":"QEEhGvTdxnZUCbWeWwmszw"}],"type":"temporary"}
-https://akafpt.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"4gyETqkPalZ3f0etddlvDQ", "kid":"tFG1qW+6ka0I68mUCyIgAQ" },{ "kty":"oct", "k":"HyrYYAeDef24aZMiT8CLSQ", "kid":"c/xxYCC6ka0I68mUCyIgAQ" },{ "kty":"oct", "k":"rtUGgCKdxgCmM0aWjILVuQ", "kid":"u0BxYCC6ka0I68mUCyIgAQ" }], "type":"temporary" } 
+https://akaviettel.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dmp6prmr4QliOzzggkupjQ", "kid":"lyUbdnxAQ3GgzwzyX//fNg" } ], "type":"temporary" }
@@ -369,7 +369,7 @@ http://89.45.13.153:25461/play/live.php?mac=00:1A:79:AA:E0:62&stream=1566281&ext
 #EXTINF:0 tvg-logo="https://i.ibb.co/sv0KsR2/RAI4K.png" group-title="🌏| 4K 🇺 🇭 🇩",Rai ⁴ᴷ
 http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/4003/index.m3u8
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/yX1WWbL/Euro4k.png", EuroSport ⁴ᴷ
-http://safe.avivainsur.com:8080/live/lidas/kzAtmnHq2v/10510.m3u8
+http://airmaxxtv.com:8080/play/live.php?mac=00:1A:79:B2:58:2B&stream=242996&extension=ts&play_token=8Wn7wM2Vrs
 #EXTINF:-1  group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/tHKPnLK/rmc.png", RMC Sport ⁴ᴷ|UHD
 http://apbest.re:80/live/18220704922642218/1593574628/15420.ts
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/WHWvZLz/Prima-4-K-2022.png",1.PRIMA ⁴ᴷ
@@ -697,7 +697,7 @@ http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=483919&extensi
 http://new.ivue.co:25461/play/live.php?mac=00:1A:79:27:BC:58&stream=2126&extension=ts&play_token=a0K8UcWHUw
 
 #EXTINF: -1 tvg-id="BTSport2.uk" tvg-name="BT Sport 2" tvg-logo="https://i.ibb.co/2PM7v3G/TNT2.png" group-title="🔴| LÂM-PHONG SPORT", TNT Sports 2
-http://new.ivue.co:25461/play/live.php?mac=00:1A:79:27:BC:58&stream=2125&extension=ts&play_token=JTbRVK6IVJ
+https://webudit.webdicdn.lol/lb/premium32/index.m3u8|User-Agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42&Origin=https://ntuplay.xyz&verifypeer=false&Referer=https://ntuplay.xyz/
 
 #EXTINF: -1 tvg-id="BTSport3.uk" tvg-name="BT Sport 3" tvg-logo="https://i.ibb.co/98FWcZr/TNT3.png" group-title="🔴| LÂM-PHONG SPORT", TNT Sports 3
 http://new.ivue.co:25461/play/live.php?mac=00:1A:79:27:BC:58&stream=2124&extension=ts&play_token=zX9ooz43zd
@@ -746,7 +746,7 @@ http://exchange.jinbox.nl:80/play/live.php?mac=00:1a:79:59:53:0f&stream=21904_&e
 #EXTINF: -1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ OPTUS 2
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142770
 #EXTINF: -1 tvg-id="skysportsfootball.hd.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880457&extension=ts
+http://ipgurl.xyz:80/live/Globe/qxi0sjvYJs!@/9402.m3u8
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
 http://geckohost.bid:8080/play/UpCkua7LeZfNKF1IkNXfrNpKqmrfMFyBP4_zZiuWphQXIhWtWNbe-yuaYs7_0CmW7VmXTYj8suAcih0GvTTvm-Qa9dOxGb1CVlKKW4RD5zWQ_M8t3IxrT8hHTPnGPP34OoK3EDAF1WHXTctlY4kpxWtsf8uczkD88GSB5Byc-6Q?ext=.ts
 #EXTINF: -1 tvg-id="skysportsmainevent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
