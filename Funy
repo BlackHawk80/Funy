@@ -25,19 +25,7 @@ udp://@225.1.2.96:30120
 udp://@225.1.2.166:30120
 #EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/SV2FccD/vtv9.png",❤️| VTV9 ¹⁰⁸⁰
 udp://@225.1.1.128:30120
-#-*--asiad-*--#
-#EXTINF:-1 group-title="Asiad 19" tvg-logo="https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2023-09/S__185475076.jpg.webp?itok=zbnvoIFI" group-logo="https://cdn.antmediatv.xyz/group/ASIAD.png", Asiad Event 1
-https://asia.vthanhtivi.pw/asiad1/mpegts
-#EXTINF:-1 group-title="Asiad 19" tvg-logo="https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2023-09/S__185475076.jpg.webp?itok=zbnvoIFI", Asiad Event 2
-https://asia.vthanhtivi.pw/asiad2/mpegts
-#EXTINF:-1 group-title="Asiad 19" tvg-logo="https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2023-09/S__185475076.jpg.webp?itok=zbnvoIFI", Asiad Event 3
-https://asia.vthanhtivi.pw/asiad3/mpegts
-#EXTINF:-1 group-title="Asiad 19" tvg-logo="https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2023-09/S__185475076.jpg.webp?itok=zbnvoIFI", Asiad Event 4
-https://asia.vthanhtivi.pw/asiad4/mpegts
-#EXTINF:-1 group-title="Asiad 19" tvg-logo="https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2023-09/S__185475076.jpg.webp?itok=zbnvoIFI", Asiad Event 5
-https://asia.vthanhtivi.pw/asiad5/mpegts
-#EXTINF:-1 group-title="Asiad 19" tvg-logo="https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2023-09/S__185475076.jpg.webp?itok=zbnvoIFI", Asiad Event 6
-https://asia.vthanhtivi.pw/asiad6/mpegts
+
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
 https://iplogger.com/C1B4TV
@@ -48,11 +36,7 @@ https://iplogger.com/C2B4TV
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
 https://asia.vthanhtivi.pw/test/index.m3u8
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ljf99Xa20TNG+l5eyiJqFA", "kid":"2CMiUnn59ugsolg9i93l+g" } ], "type":"temporary" } 
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+https://asia.vthanhtivi.pw/ksport2/index.m3u8
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
 https://iplogger.com/CINEB4TV
 
@@ -60,11 +44,7 @@ https://iplogger.com/CINEB4TV
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"4gyETqkPalZ3f0etddlvDQ", "kid":"tFG1qW+6ka0I68mUCyIgAQ" },{ "kty":"oct", "k":"HyrYYAeDef24aZMiT8CLSQ", "kid":"c/xxYCC6ka0I68mUCyIgAQ" },{ "kty":"oct", "k":"rtUGgCKdxgCmM0aWjILVuQ", "kid":"u0BxYCC6ka0I68mUCyIgAQ" }], "type":"temporary" } 
-https://akaviettel.kplus.vn/bpk-tv/prod_kplus_kidshd/default/index.mpd
+https://asia.vthanhtivi.pw/kkids/index.m3u8
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dmp6prmr4QliOzzggkupjQ", "kid":"lyUbdnxAQ3GgzwzyX//fNg" } ], "type":"temporary" }
@@ -206,7 +186,7 @@ udp://@225.1.2.190:30120
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf 50fps
 https://code.vthanhtivi.pw/getlink/tv360/169/2.m3u8
 #EXTINF:-1 tvg-id="btv5hd" group-title="💗| VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png", BTV5 - ON Sports Action ᴴᴰ
-https://code.vthanhtivi.pw/getlink/tv360/2380/2.m3u8
+https://liveh34.vtvcab.vn/hls/ACTION/01.m3u8
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", ON Sports News 50fps
 https://live2onsport.vtvcab.vn/dash/THETHAO_TINTUC_HD/m30_index.m3u8
 #EXTINF:-1 tvg-id="" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/9cgCxM6/bongdaviet.png", Bóng đá Việt ᴴᴰ
