@@ -77,9 +77,9 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d0
 #EXTINF:-1 tvg-id="aniplus,id" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/KwR5cMy/Aniplus.png", Aniplus
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/298504
 #EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel ᴴᴰ
-http://raw.bitnode.pm:81/giorgi/giorgi/20652
+http://balkanfree.net:25461/02000655489188/02000655489188/157258
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
-http://37.49.230.42:8080/iptvepic4/DzbGTtATy4DzmK8c/1112
+http://balkanfree.net:25461/02000655489188/02000655489188/157259
 #EXTINF:-1 tvg-id="disneyxd.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xGXxC8X/Disney-XD.png" ,Disney XD ᴴᴰ
 http://www.premiumiptvmk.com:8080/F17744/5ot8nAqujISZ7GlMgOniGCqG8hLLj167/6395
 #EXTINF:-1 tvg-id="nicktoons.us" group-title="🌈| Hoạt hình" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Nicktoons.png",NickToons ᴴᴰ
@@ -801,9 +801,10 @@ http://raw.bitnode.pm:81/giorgi/giorgi/20386
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://gg.gg/logo2kkkk",1.Sky Sport F1 QHD
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/1872
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
+http://cpanel.traveliptv.nl:80/bLSQVAMunh/A4Bqh3wk26/305
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/4515
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-http://obshd.tv:25461/K2ree.worldtv@/rf8vn5dv345/2098
+http://cpanel.traveliptv.nl:80/bLSQVAMunh/A4Bqh3wk26/82004
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/9880
 #EXTINF: -1 tvg-id="daznf1.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DAZN_F1_logo.svg/2560px-DAZN_F1_logo.svg.png", DAZN F1 
