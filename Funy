@@ -34,7 +34,7 @@ https://iplogger.com/C1B4TV
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-https://asia.vthanhtivi.pw/test/index.m3u8
+https://live.khanggtivi.xyz/98b9af7cfe37de94cb4f7ff87d9b4588e7ef143e7dd98193d819283d12c572bde095cf/ksport1hd/playlist.m3u8
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
 https://asia.vthanhtivi.pw/ksport2/index.m3u8
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",1.K+ CINE
@@ -637,7 +637,11 @@ http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110617&extension
 #EXTINF: -1 tvg-id="fptplay" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",FPT Play
 http://b4tv.live/b4tv/b4tv/3.m3u8
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",FPT Play 2
-http://b4tv.live:80/play/fxlsRGCS782CDQDKrGBYfcpj-08aG9dVkulvtijY2VZefjknMP1fNGWLR3ObqCHy/m3u8
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=fd2a64c2c31942678a5724843ee5eb3b:bed2c851b5724d23c93e78ee47089452
+#http://hss-live-hd-nowtv.skycdn.it/23483/FHD/skysportmotogp/manifest.mpd
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/d55Y9qr/G.png",Chọi Gà
 http://donglao.duckdns.org:9981/stream/channelid/1016978242?auth=PE0jwVl-RV1EmGGqGGNdLT.TvDb0
 #EXTINF:-1 tvg-id="ChampionsTV1.id" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/EaRVaEX.png", CHAMPIONS TV 1
@@ -666,11 +670,11 @@ http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880460&extension=
 #EXTINF: -1 tvg-id="CanalPlusSport360.fr" tvg-name="Canal+ Sport 360" tvg-logo="https://i.ibb.co/JRCWqbZ/canal-sport-360.png" group-title="🔴| LÂM-PHONG SPORT",Canal+ Sport 360
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/297378
 #EXTINF: -1 tvg-id="beINSportsEnglish1.qa" tvg-logo="https://upload.112114.xyz/logo/BEINENG1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Bein Sport 1
-http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=483921&extension=ts&play_token=
+https://papipapipum.tech/index.php?ch=super-sports4
 #EXTINF: -1 #EXTINF:-1 tvg-id="beINSportsEnglish2.qa" tvg-logo="https://upload.112114.xyz/logo/BEINENG2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Bein Sport 2
-http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=483920&extension=ts&play_token=
+https://papipapipum.tech/index.php?ch=bein-sports2
 #EXTINF: -1 #EXTINF:-1 tvg-id="beINSportsEnglish3.qa" tvg-logo="https://upload.112114.xyz/logo/BEINENG3.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Bein Sport 3
-http://epg.protv.cc:80/play/live.php?mac=00:1A:79:02:9F:0F&stream=483919&extension=ts&play_token=
+https://papipapipum.tech/index.php?ch=bein-sports3
 
 #EXTINF: -1 tvg-id="BTSport1.uk" tvg-name="BT Sport 1" tvg-logo="https://i.ibb.co/K96ZYSN/TNT1.png" group-title="🔴| LÂM-PHONG SPORT", TNT Sports 1
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30567&extension=ts
@@ -707,13 +711,13 @@ http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142810
 #EXTINF: -1 tvg-id="Hub.Premier.3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142811 
 #EXTINF:0 tvg-id="astrosupersport" tvg-name="AstroSuperSport" tvg-logo="https://i.ibb.co/ZJvBYyx/Astro-Super-Sport-UHD.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Astro SuperSport
-http://tv.trexiptv.com/play/live.php?mac=00:1A:79:5A:1C:B8&stream=571245&extension=m3u8&play_token=19lN2YqIw2
+https://papipapipum.tech/index.php?ch=super-sports1
 #EXTINF: -1 xui-id="{XUI_ID}" tvg-id="AstroSuperSport2" tvg-logo="https://i.ibb.co/QPqdLxk/astro2.png" group-title="🔴| LÂM-PHONG SPORT",ASTRO SUPERSPORT 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918985&extension=ts
+https://papipapipum.tech/index.php?ch=super-sports2
 #EXTINF:0 tvg-id="astrosupersport3" tvg-name="Astro SuperSport 3" tvg-logo="https://i.ibb.co/BZ80zs5/astro3.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918984&extension=ts
+https://papipapipum.tech/index.php?ch=super-sports3
 #EXTINF:0 tvg-id="astrosupersport4" tvg-name="Astro SuperSport 4" tvg-logo="https://i.ibb.co/BwWQnk8/astro4.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 4
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918983&extension=ts
+https://papipapipum.tech/index.php?ch=super-sports4
 #EXTINF: -1 tvg-id="SkySportsBundesliga.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/2431
 #EXTINF: -1 tvg-id="Eleven1Portugal.pt" tvg-name="Eleven 1 Portugal" tvg-logo="https://i.ibb.co/Q9VkNQh/eleven1.png" group-title="🔴| LÂM-PHONG SPORT",Eleven 1
@@ -804,7 +808,11 @@ http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/1872
 http://cpanel.traveliptv.nl:80/bLSQVAMunh/A4Bqh3wk26/305
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/4515
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-http://cpanel.traveliptv.nl:80/bLSQVAMunh/A4Bqh3wk26/82004
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0005e9a6b2aa02f2b14eeae8f06f6cde:8870fd83e6421269e8c8dfd37553bf1c
+https://linear004-gb-dash1-prd-ak.cdn.skycdp.com//100e/Content/DASH_003_sm/Live/channel(skysportsf1)/manifest_hd.mpd
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/9880
 #EXTINF: -1 tvg-id="daznf1.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DAZN_F1_logo.svg/2560px-DAZN_F1_logo.svg.png", DAZN F1 
