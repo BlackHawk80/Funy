@@ -34,18 +34,39 @@ https://iplogger.com/C1B4TV
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-http://103.166.184.82:1234/stream/kplus1/master.m3u8?u=khangtv&p=524b08fc0847fefd0b2031103bc5e7971878380c3788b592c87388d61051c4ec
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"JDUgrvDVTP6yYX9f_RDiHw","k":"SbicvN7t2efHe7h4Mi1Q7Q"},{"kty":"oct","kid":"bHkgrvDVTP6yYX9f_RDiHw","k":"uKVp-lB0IsyPeR_flaAjHQ"},{"kty":"oct","kid":"eX1k3_DVTP6yYX9f_RDiHw","k":"XStwsINiWet5tCGvUz472Q"},{"kty":"oct","kid":"ZYpk9z_VTP6yYX9f_RDiHw","k":"qs2mYZNQeDdtVKMdPLBzPA"}],"type":"temporary"}
+https://wintv.fun/ksport1/index.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-http://103.166.184.82:1234/stream/kplus2/master.m3u8?u=khangtv&p=524b08fc0847fefd0b2031103bc5e7971878380c3788b592c87388d61051c4ec
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"V32lz8gsTya-YJptSf5zNQ","k":"xIYaTotpeNVIp5WDFjtFKw"},{"kty":"oct","kid":"n8Glz8gsTya-YJptSf5zNQ","k":"cuQ6hXdOzl8ATg4Z6UEN3Q"},{"kty":"oct","kid":"rMXpAMgsTya-YJptSf5zNQ","k":"Pprn2o4Vg_sKLDg6GzAmFw"},{"kty":"oct","kid":"mNLpGBcsTya-YJptSf5zNQ","k":"YYyaE9yRD2sB6nGdTjqR3w"}],"type":"temporary"}
+https://wintv.fun/ksport2/index.mpd
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"rlohvilzS2V2lxgqO18vCA","k":"Sih1VQW-LvGPKRmXoCMQJA"},{"kty":"oct","kid":"9p4hvilzS2V2lxgqO18vCA","k":"OBO49-WLoKEq1qbFofS_CQ"},{"kty":"oct","kid":"A6Jl7ylzS2V2lxgqO18vCA","k":"sVSoRnhJEgTHrbygz9Wknw"},{"kty":"oct","kid":"769lB3hzS2V2lxgqO18vCA","k":"I7At-dcDIRfRS0y064BnLg"}],"type":"temporary"}
+https://wintv.fun/kcine/index.mpd
 https://iplogger.com/CINEB4TV
 
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
-http://103.166.184.82:1234/stream/kpluslife/master.m3u8?u=khangtv&p=524b08fc0847fefd0b2031103bc5e7971878380c3788b592c87388d61051c4ec
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Iaz0K8zQBBVlYxDrECXBQw","k":"mM563_A4KVc5SGvd7rLYiw"},{"kty":"oct","kid":"afD0K8zQBBVlYxDrECXBQw","k":"qPpYHJiv1q1IcxlJXB3JWQ"},{"kty":"oct","kid":"dvQ4XMzQBBVlYxDrECXBQw","k":"TDx5RFeNTOgRHJCUwW2DSA"},{"kty":"oct","kid":"YgE4dBvQBBVlYxDrECXBQw","k":"8CzccPu90g0oPkGj9ps92A"}],"type":"temporary"}
+https://wintv.fun/klife/index.mpd
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-http://103.166.184.82:1234/stream/kids/master.m3u8?u=khangtv&p=524b08fc0847fefd0b2031103bc5e7971878380c3788b592c87388d61051c4ec
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"thCxVByy1gzh3I3lAIj2KA","k":"ikjepIGn8XNYOh9wait_dA"},{"kty":"oct","kid":"_lSxVByy1gzh3I3lAIj2KA","k":"BHAkAC046BeL5PsEwr2FHg"},{"kty":"oct","kid":"C1j1hRyy1gzh3I3lAIj2KA","k":"dINCOz0xBQzFEvDpIaLGZw"},{"kty":"oct","kid":"92X1nWuy1gzh3I3lAIj2KA","k":"ZULkQbgEoSLGqDlZSzcQAg"}],"type":"temporary"}
+https://wintv.fun/kkids/index.mpd
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 https://drm-livecdn.khanggtivi.xyz/kplus/b37e5b0c73fabd9793940a89d22281bf8a602e439e11a60a0d99f06bff010be09e06d1/47/index.m3u8
 #EXTINF:-1  tvg-id="klive2hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png", K+ LIVE 2
