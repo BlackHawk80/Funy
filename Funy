@@ -400,15 +400,16 @@ https://7pal.short.gy/SSMEuhd
 #KODIPROP:inputstream.adaptive.license_key=22fbef1c1cd725e9397ec16455f08210:7aea43cd93c24aa9834ecb4984f7fd5a
 https://staging-linearjitp-playback.astro.com.my/dash-wv/linear/1601/default_primary.mpd
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://i.postimg.cc/RZM2vqmM/Star-Hub-2021.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR STARHUB
-http://46.175.129.181:80/play/live.php?mac=00:1A:79:4C:5C:7D&stream=482000&extension=ts&play_token=jFOr5ZPwM1
+http://89.45.13.153:25461/play/live.php?mac=00:1A:79:55:7e:c8&stream=1350568&extension=ts&play_token=P6cpmNfavb
 #EXTINF:-1 tvg-id="BT.Sport.Ultimate.uk" tvg-logo="https://i.ibb.co/WFM2j9q/TNT-Ultimate.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR TNT SPORT
+http://nebula.tel:80/live/test/test/1042157.m3u8
 https://7pal.short.gy/BTUltimate
 #EXTINF:-1 tvg-id="English.-.Now.Sports.4K.1.hk" tvg-logo="https://i.ibb.co/xsK3Jd4/now4k.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR NOW SPORTS
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142783
 #EXTINF:-1 tvg-id="beIN4K.qa" tvg-logo="https://i.ibb.co/CQtjqCk/Be-IN-SPORTS-4-K-Logo.jpg" group-title="🌏| 4K 🇺 🇭 🇩",⚽ BeIN UHD ⁴ᴷ HDR
 https://7pal.short.gy/bein-uhd
 #EXTINF:-1 tvg-id="ZiggoSport.nl" tvg-logo="https://i.ibb.co/zb84wJh/ziggo.png" group-title="🌏| 4K 🇺 🇭 🇩",Ziggo Sport ⁴ᴷ
-http://vegasizle.xyz:8080/play/live.php?mac=00:1A:79:59:12:3B&stream=393077&extension=ts&play_token=t40cTTXbXt
+http://titansmart.xyz:8080/play/live.php?mac=00:1A:79:5A:9F:CB&stream=393077&extension=ts&play_token=AR8bZygVgF
 #EXTINF:0 tvg-id="SkySportBundesligaUHD.de" group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga ⁴ᴷ
 http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=484209&extension=ts&play_token=5XWDuAhsnf
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="http://gg.gg/foxsport4kkkk",1.Fox Sports ⁴ᴷ
