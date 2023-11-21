@@ -34,20 +34,35 @@ https://iplogger.com/C1B4TV
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-http://103.166.184.82:1234/stream/kplus1?u=khangtv&p=66c5d16e0a5e90cfecb4679c5de1bf4ba5b909ca80b7bcf4025dc5e1caaadff9&AdaptiveType=HLS&VOD_RequestID=/d14920c171fe6e1d2c9fa02be80846c92fa06c22233047246df861534e9cc575fec07c/0BqRzl1VbsZ/VFgXjcv/zfepp7phXfsWGGTaZc6THa3Q9ABui7WiZad2EFW/2Zi2BJIR3Kb5AsDSNmtDHIEmuQcQ5FeE+knYW0hHExE3RuhXp4pCRv2OZUa57hzHdPWP27fBjJK0Xo9h5qzM3njezTy4botyzqBYj1VGdN6qKo6uwqRyXkI7esc/q2yUyTo/&uid=1698745712
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"4LrHqQOPgFJWDpmolqY80w","k":"2bhXizdDdKRhuGL4B3hGAw"},{"kty":"oct","kid":"KP7HqQOPgFJWDpmolqY80w","k":"MUnFhqFoWqv7QKmS1obgtg"},{"kty":"oct","kid":"NQIL2gOPgFJWDpmolqY80w","k":"0Ty4N9LB5sI919EXfNbPsA"},{"kty":"oct","kid":"IQ8L8lKPgFJWDpmolqY80w","k":"e3TSfEe97LSbpYuPf37-JQ"}],"type":"temporary"}
+https://wintv.fun/ksport1/index.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-http://103.166.184.82:1234/stream/kplus2?u=khangtv&p=66c5d16e0a5e90cfecb4679c5de1bf4ba5b909ca80b7bcf4025dc5e1caaadff9&AdaptiveType=HLS&VOD_RequestID=/d14920c171fe6e1d2c9fa02be80846c92fa06c22233047246df861534e9cc575fec07c/0BqRzl1VbsZ/VFgXjcv/zfepp7phXfsWGGTaZc6THa3Q9ABui7WiZad2EFW/2Zi2BJIR3Kb5AsDSNmtDHIEmuQcQ5FeE+knYW0hHExE3RuhXp4pCRv2OZUa57hzHdPWP27fBjJK0Xo9h5qzM3njezTy4botyzqBYj1VGdN6qKo6uwqRyXkI7esc/q2yUyTo/&uid=1698745712
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"gBHnDj6_evvMywveRDj5bQ","k":"Egt1WyoFMqQQw-AHwyLPBA"},{"kty":"oct","kid":"yFXnDj6_evvMywveRDj5bQ","k":"-xEzAYLmMa81mMeMXTvpSw"},{"kty":"oct","kid":"1VkrPz6_evvMywveRDj5bQ","k":"nMvN_S7t-TUzi6TYOFLbeg"},{"kty":"oct","kid":"wWYrV42_evvMywveRDj5bQ","k":"q_JuxSCWKgkmFPbXTyMdmA"}],"type":"temporary"}
+https://wintv.fun/ksport2/index.mpd
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
 https://iplogger.com/CINEB4TV
 
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
-http://103.166.184.82:1234/stream/kpluslife?u=khangtv&p=66c5d16e0a5e90cfecb4679c5de1bf4ba5b909ca80b7bcf4025dc5e1caaadff9&AdaptiveType=HLS&VOD_RequestID=/d14920c171fe6e1d2c9fa02be80846c92fa06c22233047246df861534e9cc575fec07c/0BqRzl1VbsZ/VFgXjcv/zfepp7phXfsWGGTaZc6THa3Q9ABui7WiZad2EFW/2Zi2BJIR3Kb5AsDSNmtDHIEmuQcQ5FeE+knYW0hHExE3RuhXp4pCRv2OZUa57hzHdPWP27fBjJK0Xo9h5qzM3njezTy4botyzqBYj1VGdN6qKo6uwqRyXkI7esc/q2yUyTo/&uid=1698745712
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-http://103.166.184.82:1234/stream/kids?u=khangtv&p=66c5d16e0a5e90cfecb4679c5de1bf4ba5b909ca80b7bcf4025dc5e1caaadff9&AdaptiveType=HLS&VOD_RequestID=/d14920c171fe6e1d2c9fa02be80846c92fa06c22233047246df861534e9cc575fec07c/0BqRzl1VbsZ/VFgXjcv/zfepp7phXfsWGGTaZc6THa3Q9ABui7WiZad2EFW/2Zi2BJIR3Kb5AsDSNmtDHIEmuQcQ5FeE+knYW0hHExE3RuhXp4pCRv2OZUa57hzHdPWP27fBjJK0Xo9h5qzM3njezTy4botyzqBYj1VGdN6qKo6uwqRyXkI7esc/q2yUyTo/&uid=1698745712
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Nv4hdF03stOzecCSBKr5KA","k":"LkRebeBjIwuPDppIwqERbg"},{"kty":"oct","kid":"fkIhdF03stOzecCSBKr5KA","k":"zLZ_Zh0AeTZrOwDYyqj57w"},{"kty":"oct","kid":"i0ZlpV03stOzecCSBKr5KA","k":"hJKYzNz3eu6g8lrjVp0dfw"},{"kty":"oct","kid":"d1Nlvaw3stOzecCSBKr5KA","k":"cOpgqvJkWSoCQyeUnUQILA"}],"type":"temporary"}
+https://wintv.fun/kkids/index.mpd
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
-https://drm-livecdn.khanggtivi.xyz/kplus/b37e5b0c73fabd9793940a89d22281bf8a602e439e11a60a0d99f06bff010be09e06d1/47/index.m3u8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"lyUbdnxAQ3GgzwzyX__fNg","k":"dmp6prmr4QliOzzggkupjQ"},{"kty":"oct","kid":"32kbdnxAQ3GgzwzyX__fNg","k":"-TCOiAyPnaUkGdOp99iOjA"},{"kty":"oct","kid":"7G1fp3xAQ3GgzwzyX__fNg","k":"I9i6mGzMXKrjePDxNOH9Sw"},{"kty":"oct","kid":"2Hpfv8tAQ3GgzwzyX__fNg","k":"I9j2urVJm71OROxK4gRPsw"}],"type":"temporary"}
+https://wintv.fun/klive1/index.mpd
 #EXTINF:-1  tvg-id="klive2hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png", K+ LIVE 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"dDne6KZ62B+Zto18e/p50g", "kid":"QXSdPAX5TOyqmN8rMVrTCQ" } ], "type":"temporary" }
@@ -785,7 +800,7 @@ http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63300_&extens
 #EXTINF: -1 tvg-id="elevensports1.pt" tvg-name="ELEVEN SPORTS 1 PORTUGAL" tvg-logo="https://logo.iptveditor.com/elevensport1.png" group-title="🔴| LÂM-PHONG SPORT", ELEVEN SPORTS 1 PORTUGAL
 http://exchange.jinbox.nl:80/play/live.php?mac=00:1a:79:59:53:0f&stream=21904_&extension=ts&play_token=W0JcMWGscf
 #EXTINF: -1 tvg-id="PeacockPremierLeague.uk" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.imgur.com/DQ5abQT.png",⚽ OPTUS 2
-http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/2100
+http://proiptvdigic.com:8080/UqFjZ8vhvwdX/34nbjqp69thQ/213755
 #EXTINF: -1 tvg-id="skysportsfootball.hd.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
 http://ipgurl.xyz:80/live/Globe/qxi0sjvYJs!@/9402.m3u8
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
@@ -913,7 +928,7 @@ https://6oclock.xyz:8443/oVTsSvYjZu/cAXDNm9LY9/20826
 #EXTVLCOPT:network-caching=1000
 http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15097/index.m3u8
 #EXTINF: -1 tvg-id="UfcNetwork.us" tvg-logo="http://gg.gg/ufckkk" group-title="🔴| LÂM-PHONG SPORT",UFC Fight
-http://ultratv.one:2095/play/live.php?mac=00:1A:79:C9:3F:E3&stream=13259&extension=ts&play_token=yUSi9cDsby
+http://proiptvdigic.com:8080/UqFjZ8vhvwdX/34nbjqp69thQ/213738
 #EXTINF: -1 tvg-logo="https://i.ibb.co/d22d4qh/Hard-Kock.png" group-title="🔴| LÂM-PHONG SPORT",Hard_Knock
 https://d3uyzhwvmemdyf.cloudfront.net/scheduler/scheduleMaster/109/variant/22099396/52e53bec-21f1-4caf-86ce-a502b6cc8520.m3u8
 #EXTINF: -1 tvg-id="fightsports" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/VqskkPL/FIGHT-SPORTS-2018.png",🎖️| FIGHT SPORTS
