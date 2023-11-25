@@ -34,17 +34,9 @@ https://iplogger.com/C1B4TV
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"4LrHqQOPgFJWDpmolqY80w","k":"2bhXizdDdKRhuGL4B3hGAw"},{"kty":"oct","kid":"KP7HqQOPgFJWDpmolqY80w","k":"MUnFhqFoWqv7QKmS1obgtg"},{"kty":"oct","kid":"NQIL2gOPgFJWDpmolqY80w","k":"0Ty4N9LB5sI919EXfNbPsA"},{"kty":"oct","kid":"IQ8L8lKPgFJWDpmolqY80w","k":"e3TSfEe97LSbpYuPf37-JQ"}],"type":"temporary"}
-https://wintv.fun/ksport1/index.mpd
+http://giaima.vthanhtivi.pw/K_SPORT1/index.m3u8?token=e5527c6121ea7caf37e52adda49a3abd6d21a645-fd75eb3c7c25ac8fd697aea09f8a08f7-1700926687-1700915887
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"gBHnDj6_evvMywveRDj5bQ","k":"Egt1WyoFMqQQw-AHwyLPBA"},{"kty":"oct","kid":"yFXnDj6_evvMywveRDj5bQ","k":"-xEzAYLmMa81mMeMXTvpSw"},{"kty":"oct","kid":"1VkrPz6_evvMywveRDj5bQ","k":"nMvN_S7t-TUzi6TYOFLbeg"},{"kty":"oct","kid":"wWYrV42_evvMywveRDj5bQ","k":"q_JuxSCWKgkmFPbXTyMdmA"}],"type":"temporary"}
-https://wintv.fun/ksport2/index.mpd
+http://giaima.vthanhtivi.pw/K_SPORT2/index.m3u8?token=a06dbae4242bef2273f81891268d36d64357168a-937fc9f36ed37518f45a914357fc3aa8-1700926687-1700915887
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
 https://iplogger.com/CINEB4TV
 
@@ -52,11 +44,7 @@ https://iplogger.com/CINEB4TV
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Nv4hdF03stOzecCSBKr5KA","k":"LkRebeBjIwuPDppIwqERbg"},{"kty":"oct","kid":"fkIhdF03stOzecCSBKr5KA","k":"zLZ_Zh0AeTZrOwDYyqj57w"},{"kty":"oct","kid":"i0ZlpV03stOzecCSBKr5KA","k":"hJKYzNz3eu6g8lrjVp0dfw"},{"kty":"oct","kid":"d1Nlvaw3stOzecCSBKr5KA","k":"cOpgqvJkWSoCQyeUnUQILA"}],"type":"temporary"}
-https://wintv.fun/kkids/index.mpd
+http://giaima.vthanhtivi.pw/K_KIDS/index.m3u8?token=4e514cb7683bfc4ea2def8fa335fb2f980799776-7855b14cfb8e4fc33750e41ee90b7dae-1700926687-1700915887
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
@@ -612,18 +600,13 @@ udp://@225.1.1.196:30120
 https://code.vthanhtivi.pw/getlink/tv360/107/2.m3u8
 #http://gg.gg/HaNoiIPTV-HITS_HD
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
-https://code.vthanhtivi.pw/getlink/cliptv/9dbd996e28571a24042f5c332f433ea7/1692932476/hollywood-classics-hd/chunklist_b5128000.m3u8
-#http://live-vnp.vthanhtivi.pw:18001/HOLLYWOOD_CLASSICS/index.m3u8
+http://stream.vthanhtivi.pw/Hollywood_Classics/mpegts
 #EXTINF:-1 tvg-id="inthebox" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png",▶️| In The Box
-https://code.vthanhtivi.pw/getlink/cliptv/9dbd996e28571a24042f5c332f433ea7/1692932476/in-the-box-channel/chunklist_b5128000.m3u8
-#http://live-vnp.vthanhtivi.pw:18001/IN_THE_BOX/index.m3u8
-#http://gg.gg/HaNoiIPTV-In_The_Box_Channel
+http://stream.vthanhtivi.pw/In_The_Box/mpegts
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",▶️| BOX Movie¹
-https://code.vthanhtivi.pw/getlink/cliptv/9dbd996e28571a24042f5c332f433ea7/1692932476/box-movie-1-hd/chunklist_b5128000.m3u8
-#http://live-vnp.vthanhtivi.pw:18001/BOX_MOVIE_1/index.m3u8
-#http://gg.gg/HaNoiIPTV-Box_Movie_1_HD
+http://stream.vthanhtivi.pw/Box_Movie_1/mpegts
 #EXTINF:-1 tvg-id="boxhits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",▶️| Box Hits
-https://code.vthanhtivi.pw/getlink/cliptv/9dbd996e28571a24042f5c332f433ea7/1692932476/box-hits/chunklist_b5128000.m3u8
+http://stream.vthanhtivi.pw/Box_Hits/mpegts
 #EXTINF:-1 tvg-id="man" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0CPzK4F/Man-150x901j3.png",▶️| Man
 https://code.vthanhtivi.pw/getlink/tv360/237/2.m3u8
 #EXTINF:-1 tvg-id="woman" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
@@ -786,13 +769,13 @@ http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142810
 #EXTINF: -1 tvg-id="Hub.Premier.3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142811 
 #EXTINF:0 tvg-id="astrosupersport" tvg-name="AstroSuperSport" tvg-logo="https://i.ibb.co/ZJvBYyx/Astro-Super-Sport-UHD.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Astro SuperSport
-https://papipapipum.tech/index.php?ch=super-sports1
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918986&extension=ts
 #EXTINF: -1 xui-id="{XUI_ID}" tvg-id="AstroSuperSport2" tvg-logo="https://i.ibb.co/QPqdLxk/astro2.png" group-title="🔴| LÂM-PHONG SPORT",ASTRO SUPERSPORT 2
-https://papipapipum.tech/index.php?ch=super-sports2
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918985&extension=ts
 #EXTINF:0 tvg-id="astrosupersport3" tvg-name="Astro SuperSport 3" tvg-logo="https://i.ibb.co/BZ80zs5/astro3.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 3
-https://papipapipum.tech/index.php?ch=super-sports3
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918984&extension=ts
 #EXTINF:0 tvg-id="astrosupersport4" tvg-name="Astro SuperSport 4" tvg-logo="https://i.ibb.co/BwWQnk8/astro4.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 4
-https://papipapipum.tech/index.php?ch=super-sports4
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918983&extension=ts
 #EXTINF: -1 tvg-id="SkySportsBundesliga.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/2431
 #EXTINF: -1 tvg-id="Eleven1Portugal.pt" tvg-name="Eleven 1 Portugal" tvg-logo="https://i.ibb.co/Q9VkNQh/eleven1.png" group-title="🔴| LÂM-PHONG SPORT",Eleven 1
