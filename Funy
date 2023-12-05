@@ -69,6 +69,7 @@ https://iplogger.com/LIFEB4TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"glIwlsMfcKODwTY-yHCvbQ","k":"Vo689O22b5Ak-WeXkOaACw"},{"kty":"oct","kid":"ypYwlsMfcKODwTY-yHCvbQ","k":"YXS5ieRHtG4ypqi_0ymgtw"},{"kty":"oct","kid":"15p0x8MfcKODwTY-yHCvbQ","k":"C_EbcysE6nHrthV8K9Ydew"},{"kty":"oct","kid":"w6d03xIfcKODwTY-yHCvbQ","k":"9QilN3oipp8hWFYuuRpLOA"}],"type":"temporary"}
 http://wintv.fun/kkids/index.mpd
+https://iplogger.com/KidsK
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 http://cdn.vthanhtivi.pw/K_LIVE1/index.m3u8#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
