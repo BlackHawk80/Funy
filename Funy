@@ -36,19 +36,39 @@ https://iplogger.com/fubol2K
 https://iplogger.com/C2B4TV
 
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-http://stream2.khanggtivi.xyz:1234/stream/kplus/kplus1/master.m3u8?u=khangtv&p=b011bf56fdc43f46c076538b3c1118133439a93951d6881a6545e56c8a66084c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"vAHtDFnthFr4ul_t9Jds-A","k":"-KkG7DwPIHgJT6K0tPXb7A"},{"kty":"oct","kid":"BEXtDFnthFr4ul_t9Jds-A","k":"XluxL5V_7pi2b7jbeXis_g"},{"kty":"oct","kid":"EUkxPVnthFr4ul_t9Jds-A","k":"xi8LrTa48QQdTl3pK-nteg"},{"kty":"oct","kid":"_VYxVajthFr4ul_t9Jds-A","k":"oV6_vLQo1--oHA1QGdLTog"}],"type":"temporary"}
+https://wintv.fun/ksport1/index.mpd
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-http://stream2.khanggtivi.xyz:1234/stream/kplus/kplus2/master.m3u8?u=khangtv&p=b011bf56fdc43f46c076538b3c1118133439a93951d6881a6545e56c8a66084c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"DK6OmdwmF534miqOkA6GVg","k":"QA-WzbwEaznK8z38S-cieQ"},{"kty":"oct","kid":"VPKOmdwmF534miqOkA6GVg","k":"6XkCOtlq6YH0Mg3rR_SyvQ"},{"kty":"oct","kid":"YfbSytwmF534miqOkA6GVg","k":"PIzOZxq4iV6js_O_cG_GqA"},{"kty":"oct","kid":"TQPS4ismF534miqOkA6GVg","k":"AgquGAi2sjHJd0XV4RxFtQ"}],"type":"temporary"}
+https://wintv.fun/ksport2/index.mpd
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
-http://stream2.khanggtivi.xyz:1234/stream/kplus/kcine/master.m3u8?u=khangtv&p=b011bf56fdc43f46c076538b3c1118133439a93951d6881a6545e56c8a66084c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"jcxTvrmA_dRq0s8sBDJZcg","k":"2lb2AeKe0cxRby3AhBsYAA"},{"kty":"oct","kid":"1RBTvrmA_dRq0s8sBDJZcg","k":"O3skad8i3vyeLzo2sv1Iow"},{"kty":"oct","kid":"4hSX77mA_dRq0s8sBDJZcg","k":"LAuuGwWicxMHHfgizGoe1w"},{"kty":"oct","kid":"ziGXBwiA_dRq0s8sBDJZcg","k":"TB9ZCHEHwu7xx-GnxjbrNg"}],"type":"temporary"}
+https://wintv.fun/kcine/index.mpd
 https://iplogger.com/CINEB4TV
 
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
-http://stream2.khanggtivi.xyz:1234/stream/kplus/klife/master.m3u8?u=khangtv&p=b011bf56fdc43f46c076538b3c1118133439a93951d6881a6545e56c8a66084c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"XvmjhjF7ABFmXxwpQ7-BrA","k":"01qC8wCIb6VmT7tzXiDF4Q"},{"kty":"oct","kid":"pj2jhjF7ABFmXxwpQ7-BrA","k":"RwfGdLXaPoAoIwr5iyaX3g"},{"kty":"oct","kid":"s0HntzF7ABFmXxwpQ7-BrA","k":"zDGYpHcdp1s_5RQVjDZdBQ"},{"kty":"oct","kid":"n07nz4B7ABFmXxwpQ7-BrA","k":"yyjIrf-1RqdQ-ALw308YKg"}],"type":"temporary"}
+https://wintv.fun/klife/index.mpd
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-http://sub-livecdn.khanggtivi.xyz/live/loveyou/kkids_vhls.smil/index.fmp4.m3u8?token=OTg5MmYzYzEtZDhmOC1lYjgzLThjNGEtMDBkZWM1NDNhMDg3fHdlYnwyNGIzZDM5ZGI5MDhjZDg3YTE4NDcwNDVkNzQxM2RmMnw1MWFjY2IyYy0xZGUwLTRhNWMtOWQ4YS1iMTM5YTIyYjkwMTJ8bGl2ZXR2fDRBQkE4NXxkODA0YzlhYjIzNzE1YjExNTNlMzZkNTA4MjZjOGQ3NA==
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ANTmedia/20.07
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"GZhY3XEwlmb5-yMez_OlJw","k":"RfVEd2Y4TzQr2dgc-VKQGw"},{"kty":"oct","kid":"YdxY3XEwlmb5-yMez_OlJw","k":"J3OK6ab1Xp7QW1-7j61jWw"},{"kty":"oct","kid":"buCcDnEwlmb5-yMez_OlJw","k":"kQRGvFfPYyZgCL6hq1rDwg"},{"kty":"oct","kid":"Wu2cJsAwlmb5-yMez_OlJw","k":"suQCoB_qJh-3eFwA1nrwQQ"}],"type":"temporary"}
+https://wintv.fun/kkids/index.mpd
 https://iplogger.com/KidsK
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
 http://cdn.vthanhtivi.pw/K_LIVE1/index.m3u8#KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -86,7 +106,7 @@ udp://@225.1.1.138:30120
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-chno="2360" tvg-id="Anime All Day" tvg-name="Anime All Day" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png", Anime All Day
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=2360&deviceId=5812b7d3249444e05d09cc49&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
 #EXTINF:-1 tvg-id="aniplus,id" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/KwR5cMy/Aniplus.png", Aniplus
-http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/298504
+https://code.vthanhtivi.pw/getlink/eazie/241430/playlist.m3u8
 #EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel ᴴᴰ
 http://balkanfree.net:25461/02000655489188/02000655489188/157258
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
