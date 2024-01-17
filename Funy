@@ -28,8 +28,7 @@ udp://@225.1.1.128:30120
 
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
-https://iplogger.com/fubol1K
-https://iplogger.com/C1B4TV
+http://b4tv.live/b4tv/b4tv/76.m3u8
 
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
 https://iplogger.com/fubol2K
@@ -39,55 +38,55 @@ https://iplogger.com/C2B4TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"vAHtDFnthFr4ul_t9Jds-A","k":"-KkG7DwPIHgJT6K0tPXb7A"},{"kty":"oct","kid":"BEXtDFnthFr4ul_t9Jds-A","k":"XluxL5V_7pi2b7jbeXis_g"},{"kty":"oct","kid":"EUkxPVnthFr4ul_t9Jds-A","k":"xi8LrTa48QQdTl3pK-nteg"},{"kty":"oct","kid":"_VYxVajthFr4ul_t9Jds-A","k":"oV6_vLQo1--oHA1QGdLTog"}],"type":"temporary"}
-https://wintv.fun/ksport1/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"-k2sY5rPbZ7MG9w0MH6RfQ","k":"kJAyG4hrwnZo6TaHINJD9A"},{"kty":"oct","kid":"QpGsY5rPbZ7MG9w0MH6RfQ","k":"AbvM6_Z9iyFXcermfivkAg"},{"kty":"oct","kid":"T5XwlJrPbZ7MG9w0MH6RfQ","k":"JsHUn9e2_36mFhQEoNeY5A"},{"kty":"oct","kid":"O6LwrOnPbZ7MG9w0MH6RfQ","k":"0UZQ6TyPK3Kroat8fyC_Pw"}],"type":"temporary"}
+http://api.4gsieutoc.online/myk/myk.php?id=ksport1
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"DK6OmdwmF534miqOkA6GVg","k":"QA-WzbwEaznK8z38S-cieQ"},{"kty":"oct","kid":"VPKOmdwmF534miqOkA6GVg","k":"6XkCOtlq6YH0Mg3rR_SyvQ"},{"kty":"oct","kid":"YfbSytwmF534miqOkA6GVg","k":"PIzOZxq4iV6js_O_cG_GqA"},{"kty":"oct","kid":"TQPS4ismF534miqOkA6GVg","k":"AgquGAi2sjHJd0XV4RxFtQ"}],"type":"temporary"}
-https://wintv.fun/ksport2/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"nK3-JBT3SXJp_zsy3MzZDQ","k":"sCgm-pYjeHBdTIeiQT8nFw"},{"kty":"oct","kid":"5PH-JBT3SXJp_zsy3MzZDQ","k":"r1p9-O5BLIfGZoz7-CyUFA"},{"kty":"oct","kid":"8fVCVRT3SXJp_zsy3MzZDQ","k":"0yfAVXSJn3aZqQo7NNrBSQ"},{"kty":"oct","kid":"3QJCbWP3SXJp_zsy3MzZDQ","k":"TsK7BlY80FHgeVP9j-dBSg"}],"type":"temporary"}
+http://api.4gsieutoc.online/myk/myk.php?id=ksport2
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"jcxTvrmA_dRq0s8sBDJZcg","k":"2lb2AeKe0cxRby3AhBsYAA"},{"kty":"oct","kid":"1RBTvrmA_dRq0s8sBDJZcg","k":"O3skad8i3vyeLzo2sv1Iow"},{"kty":"oct","kid":"4hSX77mA_dRq0s8sBDJZcg","k":"LAuuGwWicxMHHfgizGoe1w"},{"kty":"oct","kid":"ziGXBwiA_dRq0s8sBDJZcg","k":"TB9ZCHEHwu7xx-GnxjbrNg"}],"type":"temporary"}
-https://wintv.fun/kcine/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"GrINtYk3awpNBcvkj-4Gnw","k":"c2BRS4Of3TGjx81yeNuv1g"},{"kty":"oct","kid":"YvYNtYk3awpNBcvkj-4Gnw","k":"XHkD3VacB3LQ04w1HF4m9A"},{"kty":"oct","kid":"b_pR5ok3awpNBcvkj-4Gnw","k":"DWcUWZVIzv9RzwgjqN4a0A"},{"kty":"oct","kid":"WwdR_tg3awpNBcvkj-4Gnw","k":"0u44xmRQnn-7n0AlFvg_tw"}],"type":"temporary"}
+http://api.4gsieutoc.online/myk/myk.php?id=kcine
 https://iplogger.com/CINEB4TV
 
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"XvmjhjF7ABFmXxwpQ7-BrA","k":"01qC8wCIb6VmT7tzXiDF4Q"},{"kty":"oct","kid":"pj2jhjF7ABFmXxwpQ7-BrA","k":"RwfGdLXaPoAoIwr5iyaX3g"},{"kty":"oct","kid":"s0HntzF7ABFmXxwpQ7-BrA","k":"zDGYpHcdp1s_5RQVjDZdBQ"},{"kty":"oct","kid":"n07nz4B7ABFmXxwpQ7-BrA","k":"yyjIrf-1RqdQ-ALw308YKg"}],"type":"temporary"}
-https://wintv.fun/klife/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"70GCaooUFhhzhtXRtnlHvA","k":"AUuKZisZpDtx2mkfd2wFww"},{"kty":"oct","kid":"N4WCaooUFhhzhtXRtnlHvA","k":"VdUBqAQaZevr0ka4lx_UAw"},{"kty":"oct","kid":"RInGm4oUFhhzhtXRtnlHvA","k":"9BvVoILzZAVqh_lmxKDl0g"},{"kty":"oct","kid":"MJbGs9kUFhhzhtXRtnlHvA","k":"CzhTJBuARONtLW7ObnWrNg"}],"type":"temporary"}
+http://api.4gsieutoc.online/myk/myk.php?id=klife
 https://iplogger.com/LIFEB4TV
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"GZhY3XEwlmb5-yMez_OlJw","k":"RfVEd2Y4TzQr2dgc-VKQGw"},{"kty":"oct","kid":"YdxY3XEwlmb5-yMez_OlJw","k":"J3OK6ab1Xp7QW1-7j61jWw"},{"kty":"oct","kid":"buCcDnEwlmb5-yMez_OlJw","k":"kQRGvFfPYyZgCL6hq1rDwg"},{"kty":"oct","kid":"Wu2cJsAwlmb5-yMez_OlJw","k":"suQCoB_qJh-3eFwA1nrwQQ"}],"type":"temporary"}
-https://wintv.fun/kkids/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"AoV1gFaFVkVhcOoTvgqiLQ","k":"zNmfcUnHo9t771L6B0rUGw"},{"kty":"oct","kid":"Ssl1gFaFVkVhcOoTvgqiLQ","k":"uF5zVyNdrk598bfEmfZ4IQ"},{"kty":"oct","kid":"V825sVaFVkVhcOoTvgqiLQ","k":"IuZ4kfW58XIrbCJ0VKy6wQ"},{"kty":"oct","kid":"Q9q5yaWFVkVhcOoTvgqiLQ","k":"f0dUncZmscFoDZ5-EXjGLA"}],"type":"temporary"}
+http://api.4gsieutoc.online/myk/myk.php?id=kkids
 https://iplogger.com/KidsK
 #EXTINF:-1  tvg-id="klive1hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_1.png", K+ LIVE 1
-http://cdn.vthanhtivi.pw/K_LIVE1/index.m3u8#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"lyUbdnxAQ3GgzwzyX__fNg","k":"dmp6prmr4QliOzzggkupjQ"},{"kty":"oct","kid":"32kbdnxAQ3GgzwzyX__fNg","k":"-TCOiAyPnaUkGdOp99iOjA"},{"kty":"oct","kid":"7G1fp3xAQ3GgzwzyX__fNg","k":"I9i6mGzMXKrjePDxNOH9Sw"},{"kty":"oct","kid":"2Hpfv8tAQ3GgzwzyX__fNg","k":"I9j2urVJm71OROxK4gRPsw"}],"type":"temporary"}
-https://wintv.fun/klive1/index.mpd
+http://api.4gsieutoc.online/myk/myk.php?id=klive1
 #EXTINF:-1  tvg-id="klive2hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_2.png", K+ LIVE 2
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"QXSdPAX5TOyqmN8rMVrTCQ","k":"dDne6KZ62B-Zto18e_p50g"},{"kty":"oct","kid":"ibidPAX5TOyqmN8rMVrTCQ","k":"WMcAvoA7wlZrHX--La6QdA"},{"kty":"oct","kid":"lrzhbQX5TOyqmN8rMVrTCQ","k":"6spodc4nCHDLP4ePZkqD7A"},{"kty":"oct","kid":"gsnhhVT5TOyqmN8rMVrTCQ","k":"oCLuUmYfnzsdM7n4hREgpA"}],"type":"temporary"}
-https://wintv.fun/klive2/index.mpd
+http://api.4gsieutoc.online/myk/myk.php?id=klive2
 #EXTINF:-1  tvg-id="klive3hd" group-title="K+" tvg-logo="https://raw.githubusercontent.com/Hannstcott/SunshineTr/main/logo%20k%2B/MyK%252B_Live_3.png", K+ LIVE 3
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"jcHanGFdRuGVteyGkVB4hw","k":"jhwqqk_xL0jngyEDMeCguQ"},{"kty":"oct","kid":"1QXanGFdRuGVteyGkVB4hw","k":"0CMpqYfSyJYc8wUYbey75Q"},{"kty":"oct","kid":"4gkezWFdRuGVteyGkVB4hw","k":"iISnsTUxlCbyPNE0S28YVw"},{"kty":"oct","kid":"zhYe5bBdRuGVteyGkVB4hw","k":"uGhZQ_L3uBQx-zqLZuU5Xw"}],"type":"temporary"}
-https://wintv.fun/klive3/index.mpd
+http://api.4gsieutoc.online/myk/myk.php?id=klive3
 
 #-------------------Hoạt hình HD-------------------#
 
@@ -396,18 +395,14 @@ http://kleineinzeige.com:8080/live/Vasile_Pop/HmCARm543/10402.m3u8
 #EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-name="Sky Sports Main Event UHD" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/Sky_Sport_UHD.png" group-title="🌏| 4K 🇺 🇭 🇩",Sky Sports Main Event ⁴ᴷ
 https://7pal.short.gy/SSMEuhd
 #EXTINF:-1 tvg-id="Astro.SuperSport.UHD.1.my" tvg-name="" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/308_144.png" group-title="🌏| 4K 🇺 🇭 🇩",Astro SuperSport ⁴ᴷ UHD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.chooser_resolution_secure_max=720p
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=22fbef1c1cd725e9397ec16455f08210:7aea43cd93c24aa9834ecb4984f7fd5a
-https://staging-linearjitp-playback.astro.com.my/dash-wv/linear/1601/default_primary.mpd
+https://7pal.short.gy/astrouhd
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://i.postimg.cc/RZM2vqmM/Star-Hub-2021.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR STARHUB
 http://89.45.13.153:25461/play/live.php?mac=00:1A:79:55:7e:c8&stream=1350568&extension=ts&play_token=P6cpmNfavb
 #EXTINF:-1 tvg-id="BT.Sport.Ultimate.uk" tvg-logo="https://i.ibb.co/WFM2j9q/TNT-Ultimate.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR TNT SPORT
-http://nebula.tel:80/live/test/test/1042157.m3u8
+http://89.45.13.153:25461/play/live.php?mac=00:1A:79:2D:84:EB&stream=1300442&extension=ts&play_token=OrwX9CmOUD
 https://7pal.short.gy/BTUltimate
 #EXTINF:-1 tvg-id="English.-.Now.Sports.4K.1.hk" tvg-logo="https://i.ibb.co/xsK3Jd4/now4k.png" group-title="🌏| 4K 🇺 🇭 🇩",EPL ⁴ᴷ ULTRA HDR NOW SPORTS
-http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142783
+https://7pal.short.gy/nowsport4k
 #EXTINF:-1 tvg-id="beIN4K.qa" tvg-logo="https://i.ibb.co/CQtjqCk/Be-IN-SPORTS-4-K-Logo.jpg" group-title="🌏| 4K 🇺 🇭 🇩",⚽ BeIN UHD ⁴ᴷ HDR
 https://7pal.short.gy/bein-uhd
 #EXTINF:-1 tvg-id="ZiggoSport.nl" tvg-logo="https://i.ibb.co/zb84wJh/ziggo.png" group-title="🌏| 4K 🇺 🇭 🇩",Ziggo Sport ⁴ᴷ
