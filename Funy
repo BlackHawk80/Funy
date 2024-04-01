@@ -145,7 +145,7 @@ udp://@225.1.2.186:30120
 #EXTINF:-1 tvg-id="hanoi2" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hanoi2 ¹⁰⁸⁰
 http://gg.gg/HaNoiIPTV-Truyen_hinh_Ha_Noi_2_HD
 #EXTINF:-1 tvg-id="hungyen" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/wWQtTwr/HUNGYEN-BEARTV.png",❤️| Hưng Yên ¹⁰⁸⁰
-https://cdn.hungyentv.vn/live/285f5449d7d7d2946e0bd2d54b7e60f25a4/chunklist.m3u8
+https://live.mediatech.vn/live/285f5449d7d7d2946e0bd2d54b7e60f25a4/chunklist.m3u8
 #EXTINF:-1 tvg-id="anvienhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/F08gVbK/BTV9-BEARTV.png",❤️| An Viên HD ¹⁰⁸⁰
 udp://@225.1.2.189:30120
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/PGxCzX8/ccVL1.webp",❤️| Vĩnh Long1 ¹⁰⁸⁰
@@ -196,71 +196,49 @@ udp://@225.1.2.88:30120
 udp://@225.1.2.190:30120
 
 #----VTVCAB----#
-#EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf 50fps
-https://code.vthanhtivi.pw/getlink/tv360/169/2.m3u8
 #EXTINF:-1 tvg-id="btv5hd" group-title="💗| VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png", BTV5 - ON Sports Action ᴴᴰ
-https://code.vthanhtivi.pw/getlink/tv360/n2fJ90oPgPeKE3B3VFeimg/1704738354/2380/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdW5rK05TU2pKWTZoSVY0ZjlVdFp4S3NQZVliOEt3TXcwdWloQzRMRjFOemc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", ON Sports News 50fps
 http://gg.gg/HaNoiIPTV-ON_Sports_News_HD
-#EXTINF:-1 tvg-id="" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/9cgCxM6/bongdaviet.png", Bóng đá Việt ᴴᴰ
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ9jZZeglsKcm6KZlqWdlKBqXmZm&time=1693412513&onplus&id=s2-onvff
-https://live1onsport.vtvcab.vn/secure=7USmu7MBLJw0mGLlo4v7aQ/ondrm/ONVFFTV/manifest.mpd
-#EXTINF:-1 tvg-id="" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/ygPLR6S/thethaoviet.png", Thể thao Việt ᴴᴰ
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://plus.vthanhtivi.pw/keys/?token=ibbXxNHQvd3ezuXUxuCRYWZvZZ9jZZeglsKcm6KZlqWdlKBqXmZm&time=1693412513&onplus&id=s2-onvolley
-https://live1onsport.vtvcab.vn/secure=7USmu7MBLJw0mGLlo4v7aQ/ondrm/ONVOLLEYBALL/manifest.mpd
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/9fb740a5-d1a0-4068-8d02-0a4d428f46db/dvr-${start}-${offset}.m3u8", ON Sports HD
-http://vthanhtivi.pw/onsports/index.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdGJVNXpUWTJ0Wk5NWnhWYWpQUmZhQjBsYkI2Wmt1cXZMUW1lNWh6SEdZRUtEcyt2NzVndUhKT2xSQk1HWklaYW12UExzS1BCNEMzdWlOM3ZlWldLOFc=/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab6hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/37hkhwk/VCab6-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/vtvcab6-on-sport-plus/dvr-${start}- ${offset}.m3u8", ON Sports+
 https://code.vthanhtivi.pw/getlink/onlive/onsportsplus/20231229.m3u8
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/a30dfe11-536f-4a6e-abca-3df04ca7363a/dvr-${start}-${offset}.m3u8", ON Football HD
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://code.vthanhtivi.pw/getlink/vieon2/vtvcab16-on-football/playlist.m3u8
-#EXTINF:-1 group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/4KXXXK6/On-Sports.png" tvg-id="onsportjungo", ON Sport (Jungo)
-https://hqth.me/onsportjungo
-#EXTINF:-1 group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/MG96xJc/image.png" tvg-id="", ON Biz (Jungo)
-https://hqth.me/onbizjungo
-#EXTINF:-1 group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/DzVp5NH/image.png" tvg-id="", Phim Viet (Jungo)
-https://hqth.me/phimvietjungo
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhczJZRzVvZ01xaTd3VzJnK00rV01ONSszd29DTG5VM2JsaEF2NmhmM1RoWHRJd29zS0RTdDBodDE0OGtDZDJNOGkyNEoranhUcVBSYXhKT3lhOXpiL3g=/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon/vie-giai-tri-hd/dvr-${start}-${offset}.m3u8",  VTVcab 1 - Vie Giải trí HD
-https://code.vthanhtivi.pw/getlink/tv360/eBspCKWEZVkRsCSbulM3Ww/1704738354/180/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbUhlcFdzZU5zYys2ZWlvMlNMd0FtUXc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/ad62967c-f8f2-4bb1-84bc-637282f14799/dvr-${start}-${offset}.m3u8", ON Phim Việt
-https://code.vthanhtivi.pw/getlink/tv360/Lbim0i-NGHJDeosu3WBGdg/1704738354/175/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmovdXFIRFJJbVVmODdRd0ErSitJSFNJakRZZ1FNQW45YVVFU1FnU1J4VkE9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/k2TFx50/ONMovies.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/d49ffe96-d3da-46d6-8e40-6572f2db0645/dvr-${start}-${offset}.m3u8", ON Movies
-https://code.vthanhtivi.pw/getlink/mytv/435/hd.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbTdob2RoNTBZNkdtTXY1NTNTdGZ6SGc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab5hd"  tvg-logo="https://i.ibb.co/x6FrQSw/VCab5-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/f5729e7e-bf42-4e7d-988e-6204f94062b4/dvr-${start}-${offset}.m3u8", ON - E Channel
-https://code.vthanhtivi.pw/getlink/tv360/1h-td3kJUwoCkpDqy1YRFw/1704738354/182/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbVgwM2NrVlVPTzZnU0Vodkl3Qms2c0E9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab7hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/CwLKYLF/vtvcab7-ONO2.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/a374ffd7-9910-4dcc-9c58-cd3f0e803226/dvr-${start}-${offset}.m3u8", ON O2TV
-https://code.vthanhtivi.pw/getlink/vieon2/K270b5m5VFbYgHp0gGh6Aw/1704738354/vtvcab7/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdUFFWnBwM3dwcFh1QnFaNnlJSHFudjBtWkZpUEpGaEZPaHNPTUVFMWxPZmc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab8hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/61RhmVc/VCab8-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/0327f7ef-4c0f-4e66-a240-819452590d40/dvr-${start}-${offset}.m3u8", ON BiBi
-https://code.vthanhtivi.pw/getlink/tv360/0iuI_2uoEjS-8puPQImuRw/1704738354/178/playlist.m3u8
 http://gg.gg/HaNoiIPTV-ON_BiBi_HD
 #EXTINF:-1 tvg-id="vtvcab9hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/17c1dp7/cccab9.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/6c7701f5-7ea6-4168-a245-3be82065ae58/dvr-${start}-${offset}.m3u8", ON Info TV
-https://code.vthanhtivi.pw/getlink/tv360/-2M6_oK0lrP4OsEZzDBh9g/1704738354/189/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbW56NkVJVUczWGk3Wlg0N1FvdVdDWGc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab10hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/4J66cdQ/VCab10-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/f7aaa051-d67c-4131-a486-98699d4c9863/dvr-${start}-${offset}.m3u8", ON Cine
-https://code.vthanhtivi.pw/getlink/tv360/f5nZbwpWiKPoh-9iIipIvg/1704738354/176/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmovdXFIRFJJbVVmODdRd0ErSitJSHY1VE1tZGtaTmFWVmpvdmVhbFpxeVE9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab12hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/M9L1k4D/cccab12.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/34c161ed-e70e-418d-b7a7-885500f8a355/dvr-${start}-${offset}.m3u8", ON Style
-https://code.vthanhtivi.pw/getlink/vieon/pVmxncaO_tsnz8Gqtizcfw/1704738354/vtvcab12-style-tv/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbWVaU3ZRRm4wdkI2d2twSzdLNDZXS1E9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab15hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/D9F5v7M/ONMusic15.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/5aea9637-1080-4f0b-a1b4-a8c9d4c3a536/dvr-${start}-${offset}.m3u8", ON Music
-https://code.vthanhtivi.pw/getlink/vieon/k0nxGCKfNee5rrZPJfWXpA/1704738354/vtvcab15/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbXAybnlwWnJ2eG9yWkEvTUpjdFhkdnc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab17hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/M85FLWM/VCab17-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/1b029a49-b0fe-4ac5-b1cf-a9cb782ed0ec/dvr-${start}-${offset}.m3u8", VTVcab 17 - Yeah1TV
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://live2onsport.vtvcab.vn/dash/YEAH1_TV/m30_index.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbVcyV3piWFdIaXhCNWthZmFxbGtDL0E9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab19hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/n3Z3Qc2/vtvcab19.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon/vie-dramas-hd/dvr-${start}-${offset}.m3u8", VTVcab 19 - Vie Dramas
-https://code.vthanhtivi.pw/getlink/tv360/r-tyR7rXAZncC_z2-9f9fg/1704738354/177/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmovdXFIRFJJbVVmODdRd0ErSitJSHVCZlg4Y1dtcDdpeW50TWp3UlBsa0E9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab20hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/pXfDjBy/cccab20.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/2eb37e8d-2abf-4bce-aa44-b3b9a4460469/dvr-${start}-${offset}.m3u8", ON VFamily
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://live2onsport.vtvcab.vn/dash/VFAMILY/m20_index.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbUV6d1hiL0JJSXI2ZC81MWVGRWJ1OHc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab21hd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/SmvVL96/ON-Kids21.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/005a05b2-14d6-4b94-9318-9e3bb78f6311/dvr-${start}-${offset}.m3u8", ON Kids
-https://code.vthanhtivi.pw/getlink/tv360/I9dTSBk-xXSr3qyCMgxVKg/1704738354/179/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmovdXFIRFJJbVVmODdRd0ErSitJSFhSdnVMQmJwelZSL0U2aGRVdm1zcFE9PQ==/master.m3u8
 http://gg.gg/HaNoiIPTV-ON_Kids_HD
 #EXTINF:-1 tvg-id="vtvcab22hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/qddys4T/ONLife22.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/d65f1df2-54fd-46d8-a958-ae9d6ec2b868/dvr-${start}-${offset}.m3u8", ON Life
-https://code.vthanhtivi.pw/getlink/vieon/JDseRa-_bVLKMArFedYpOQ/1704738354/vtvcab22-life-tv/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbWEyM0FrQ251a0k1eDh1U2xUZzVkcHc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/93fa8edc-c081-43a5-8aad-dd5d4527ccd6/dvr-${start}-${offset}.m3u8", ON Golf
-https://code.vthanhtivi.pw/getlink/tv360/50wCi_xpnu9K2Aw7OXCsyA/1704738354/169/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmtkVW83MkxoejA4THNFVnovUDYzTjk0RXVCZHdNcGpPMEtmY2o4VHpWZnc9PQ==/master.m3u8
 #-------------------Even-------------------#
 
 #--------4K---------#
@@ -467,7 +445,7 @@ https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXc
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
 http://thevdm.xyz:25461/James_axe1@comcast.net/h3hk5H7z6T/39803
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mtvhits.uk" tvg-name="MTV HITS" tvg-logo="https://logo.iptveditor.com/mtvhits.png" group-title="🎶| Music",MTV HITS
-http://raw.bitnode.pm:81/giorgi/giorgi/20502
+https://vnpt.nekocdn.xyz/hls/MTV/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="USA Music Choice Video | Dance/ EDM" tvg-logo="https://i.ibb.co/5Fx8FjZ/MC-Plus-Homepage-Logo-1024x497.png" group-title="🎶| Music",USA Music Choice | Dance/ EDM
 http://ultrontv.xyz:80/Darko123/Darko78/144084
@@ -606,7 +584,8 @@ udp://@225.1.1.47:30120
 udp://@225.1.2.215:30120
 
 #EXTINF:-1 tvg-id="planetearthhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/9sHfrwj/Planet-Earth.png",🍀| Planet Earth
-https://code.vthanhtivi.pw/getlink/tv360/135/2.m3u8
+#EXTVLCOPT:http-user-agent=http://khanggtivi.xyz
+https://ott3.khanggtivi.xyz/source/2405-4802-3e8d-8470-4988-bfab-30d7-e14/TjBKeTlNSnRVUjlBMmdBQ2psMmhZMzZXa3E2QzJqVDZYV3NHenVKbVFVN3VmeGN6U04xZmZuQ3Znbmg5aHlLWDkvTUh1THBRRGROMEN0SWM1ZTVJdVk3MjJKZ1FTRmF1L1Y4ZExPRmN6bUk9/1711930662/tv360/235.m3u8
 #EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" ,BBC Lifestyle
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bn7ha63.png",🍀|BBC Lifestyle ¹⁰⁸⁰
 udp://@225.1.2.52:30120
@@ -699,13 +678,13 @@ http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142810
 #EXTINF: -1 tvg-id="Hub.Premier.3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/142811 
 #EXTINF:0 tvg-id="astrosupersport" tvg-name="AstroSuperSport" tvg-logo="https://i.ibb.co/ZJvBYyx/Astro-Super-Sport-UHD.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Astro SuperSport
-http://shareext@tv.trexiptv.com/play/live.php?mac=00:1A:79:CB:82:FB&stream=918986&extension=ts&play_astro1
+http://muka03.wanicelife.com:8880/3ca7153n01/sdfr34r34/1722
 #EXTINF: -1 xui-id="{XUI_ID}" tvg-id="AstroSuperSport2" tvg-logo="https://i.ibb.co/QPqdLxk/astro2.png" group-title="🔴| LÂM-PHONG SPORT",ASTRO SUPERSPORT 2
-http://shareext@tv.trexiptv.com/play/live.php?mac=00:1A:79:CB:82:FB&stream=918985&extension=ts&play_astro2
+http://muka03.wanicelife.com:8880/3ca7153n01/sdfr34r34/1721
 #EXTINF:0 tvg-id="astrosupersport3" tvg-name="Astro SuperSport 3" tvg-logo="https://i.ibb.co/BZ80zs5/astro3.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 3
-http://shareext@tv.trexiptv.com/play/live.php?mac=00:1A:79:CB:82:FB&stream=918984&extension=ts&play_astro3
+http://muka03.wanicelife.com:8880/3ca7153n01/sdfr34r34/1720
 #EXTINF:0 tvg-id="astrosupersport4" tvg-name="Astro SuperSport 4" tvg-logo="https://i.ibb.co/BwWQnk8/astro4.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 4
-http://shareext@tv.trexiptv.com/play/live.php?mac=00:1A:79:CB:82:FB&stream=918983&extension=ts&play_astro4
+http://muka03.wanicelife.com:8880/3ca7153n01/sdfr34r34/1719
 #EXTINF: -1 tvg-id="SkySportsBundesliga.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga
 http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/2431
 #EXTINF: -1 tvg-id="Eleven1Portugal.pt" tvg-name="Eleven 1 Portugal" tvg-logo="https://i.ibb.co/Q9VkNQh/eleven1.png" group-title="🔴| LÂM-PHONG SPORT",Eleven 1
