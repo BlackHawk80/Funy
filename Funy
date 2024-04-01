@@ -28,24 +28,11 @@ udp://@225.1.1.128:30120
 
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", K+ Sports 1
-http://b4tv.live/b4tv/b4tv/76.m3u8
+https://ctrl.laotv.la/live/K+Sport1/index.m3u8
 
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
-https://iplogger.com/fubol2K
-https://iplogger.com/C2B4TV
+https://ctrl.laotv.la/live/K+Sport2/index.m3u8
 
-#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/LMcFALm.png", MyK+ Sports 1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"-k2sY5rPbZ7MG9w0MH6RfQ","k":"kJAyG4hrwnZo6TaHINJD9A"},{"kty":"oct","kid":"QpGsY5rPbZ7MG9w0MH6RfQ","k":"AbvM6_Z9iyFXcermfivkAg"},{"kty":"oct","kid":"T5XwlJrPbZ7MG9w0MH6RfQ","k":"JsHUn9e2_36mFhQEoNeY5A"},{"kty":"oct","kid":"O6LwrOnPbZ7MG9w0MH6RfQ","k":"0UZQ6TyPK3Kroat8fyC_Pw"}],"type":"temporary"}
-http://api.4gsieutoc.online/myk/myk.php?id=ksport1
-#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", MyK+ Sports 2
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"nK3-JBT3SXJp_zsy3MzZDQ","k":"sCgm-pYjeHBdTIeiQT8nFw"},{"kty":"oct","kid":"5PH-JBT3SXJp_zsy3MzZDQ","k":"r1p9-O5BLIfGZoz7-CyUFA"},{"kty":"oct","kid":"8fVCVRT3SXJp_zsy3MzZDQ","k":"0yfAVXSJn3aZqQo7NNrBSQ"},{"kty":"oct","kid":"3QJCbWP3SXJp_zsy3MzZDQ","k":"TsK7BlY80FHgeVP9j-dBSg"}],"type":"temporary"}
-http://api.4gsieutoc.online/myk/myk.php?id=ksport2
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ANTmedia/20.07
@@ -91,7 +78,7 @@ http://api.4gsieutoc.online/myk/myk.php?id=klive3
 #-------------------Hoạt hình HD-------------------#
 
 #EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp", HappyKids ᴴᴰ
-https://code.vthanhtivi.pw/getlink/tv360/212/2.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQjE5TWQyWW1Rd2RrRWt1WTB2VmNZMXVXQ25RTThjQVpSY2xYWU1VSHZHSnc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="animaxhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/RTgouGo.png",Animax ᴴᴰ
 udp://@225.1.1.135:30120
 #EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/THfL7QS/Dream-Works-cc.png",Dreamworks ᴴᴰ
@@ -105,7 +92,7 @@ udp://@225.1.1.138:30120
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-chno="2360" tvg-id="Anime All Day" tvg-name="Anime All Day" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png", Anime All Day
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=2360&deviceId=5812b7d3249444e05d09cc49&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
 #EXTINF:-1 tvg-id="aniplus,id" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/KwR5cMy/Aniplus.png", Aniplus
-https://code.vthanhtivi.pw/getlink/eazie/241430/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQU8rcUJRaWdSdU5Wa3pldmdudEYxVWdRcVJ3OGUzZjRUOXJIZ0VLbU9DT2c9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel ᴴᴰ
 http://fortv.cc:8080/N0QaDD/625713/2206
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
@@ -169,7 +156,7 @@ udp://@225.1.1.154:30120
 #EXTINF:-1 tvg-id="vtc1hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/o70uxdn.png",VTC1 ¹⁰⁸⁰
 udp://@225.1.2.254:30120
 #EXTINF:-1 tvg-id="vtc2" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZTWeaAAEdIn6?format=png", VTC2 ¹⁰⁸⁰
-https://1117141481.vnns.net/VTC2/chunks.m3u8
+https://1236573804.pop.vnptcdn.com/VTC2/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtc3hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/iJ0haYq.png",VTC3 ¹⁰⁸⁰
 udp://@225.1.2.251:30120
@@ -180,15 +167,13 @@ udp://@225.1.2.200:30120
 udp://@225.1.2.199:30120
 
 #EXTINF:-1 tvg-id="vtc6hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW0DacAEhukR?format=png", VTC6 ¹⁰⁸⁰
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://1117141481.vnns.net/VTC6/chunks.m3u8
+https://1236573804.pop.vnptcdn.com/VTC6/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtc7hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/g3F0GsF/Picsart-22-12-19-00-36-38-473.png" , VTC7 - TodayTV
-https://1117141481.vnns.net/VTC7/chunks.m3u8
+https://1236573804.pop.vnptcdn.com/VTC7/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtc8" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW1UaIAAAKB_?format=png" , VTC8 ¹⁰⁸⁰
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
-https://1117141481.vnns.net/VTC8/chunks.m3u8
+https://1236573804.pop.vnptcdn.com/VTC8/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtc9hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaROakAAjK6t?format=png" , VTC9 ¹⁰⁸⁰
 udp://@225.1.2.195:30120
@@ -278,70 +263,6 @@ https://code.vthanhtivi.pw/getlink/vieon/JDseRa-_bVLKMArFedYpOQ/1704738354/vtvca
 https://code.vthanhtivi.pw/getlink/tv360/50wCi_xpnu9K2Aw7OXCsyA/1704738354/169/playlist.m3u8
 #-------------------Even-------------------#
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c9f3795d0a1d46b505fd5b5d34953dec:ef3bb480e631339ce3690d519f328fbd
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 1
-https://production-drm-vidio-com-event-1.akamaized.net/out/v1/6ae0fdb0f6ee4b10b5497efc10f0ce03/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e34a4f7ba8ccfe3f5e14d8413af8d6f8:20f28eaa8592128da2032a0c05fc7b12
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 2
-https://production-drm-vidio-com-event-2.akamaized.net/out/v1/078b12e86d0a4f75b4c7ce1ed23d82d9/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1bc3e6cc570d8baf7edd5d68b1bea0c9:f91ed9a52cc02e932551c9cc97df0cdc
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 3
-https://production-drm-vidio-com-event-3.akamaized.net/out/v1/ee66c2e0b8784d3d9f9585af6bdf9109/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9aaeb3f74e57ee6d32b2b00359e711c5:8edaf24345beda77edb5430f76153e5d
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 4
-https://production-drm-vidio-com-event-10.akamaized.net/out/v1/194c465439d64a83ba65537ca86180a3/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b7990eaceef137ccf32106593abd33c3:67d835357d1f5b42b91ef27181d04fd4
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 5
-https://production-drm-vidio-com-event-5.akamaized.net/out/v1/b433318b703240799f5940024d113bc6/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=36d6fcd4402da11397ea4182101df094:d0f61dbd6f228467a3e0d7caa7ee8031
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 6
-https://production-drm-vidio-com-event-4.akamaized.net/out/v1/f5e1e4dc70e54d2eb4020b7af8eeb925/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eda23b4a1f3690db6749ce011df05a79:6e3950330986e0ce45cc89472f4198df
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 7
-https://production-drm-vidio-com-event-6.akamaized.net/out/v1/3bc6849cacec416a964c93a7009e7599/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8f9a85ba8cd5d135b9ef7e6bd4721fef:fce827a829e836cc4f93e735a47d8205
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 8
-https://production-drm-vidio-com-event-7.akamaized.net/out/v1/fb3777ee16104dcd8722bb42560cef6f/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3eed2a9bd7a7f4aaf2709e960b4353ae:3913a253cf7557484b88223418a97815
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 14
-https://production-drm-vidio-com-event-9.akamaized.net/out/v1/aaf192224b5d4f6d92b52f9e8987f0e8/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=142b8b882fc06a2e3ec0d0e454a5fa21:c2fae79e079339de27f6a2ace46e303b
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event 15
-https://production-drm-vidio-com-event-8.akamaized.net/out/v1/5bfe18929905440498f6eb7504c4028f/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cbb2857966a3a1c27c3305f68e2e92a4:881eca5eda60de64e4ea1514583869f2
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event EPL 1
-https://drm-epl-vidio-com-epl-4.akamaized.net/out/v1/90396b8cf44f4d20b28f1be94b41b241/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9c188d54b1b585a24c52bdbba5c3f031:2f5c37a723b9c879ec5bbe43cb34c8a3
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event EPL 2
-https://drm-epl-vidio-com-epl-3.akamaized.net/out/v1/71829de864884cb0b831334ac3dc0a2a/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a8eddebc801dbfca167dc077abd1c9dc:5f2fe1b86e14b590249fa9a813821377
-#EXTINF:-1 tvg-logo="https://www.go-globe.com/wp-content/uploads/2023/03/big_thumb_live_streaming.png", group-title="Event💚|CHAMPION", Event EPL 3
-https://drm-epl-vidio-com-epl-5.akamaized.net/out/v1/17b4c59118e74b8d8f5761a7e10d1be2/index.mpd
 #--------4K---------#
 #EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/RCSG4wy/nature.png" ,🍀| FLYING OVER SWEDEN ⁴ᴷ
 http://pure8k.top:80/play/live.php?mac=00:1A:79:4D:EF:AA&stream=279619&extension=ts&play_token=WNSbwlSMxT
@@ -540,9 +461,9 @@ https://code.vthanhtivi.pw/getlink/sctvonline/sctv22/playlist.m3u8
 https://e8.endpoint.cdn.sctvonline.vn/channel/sctvphimtonghop/index.m3u8|Referer=https://sctvonline.vn/
 #----Music----#
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
-https://code.vthanhtivi.pw/getlink/cliptv/9dbd996e28571a24042f5c332f433ea7/1692932476/music-box/chunklist_b5128000.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQjF4OXpvZDMvUUgwMC96dUVuaVlJRW40c2lmR1NsVlZtSFJaWnA4RFIrQ2c9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
-https://code.vthanhtivi.pw/getlink/eazie/243115/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQU8rcUJRaWdSdU5Wa3pldmdudEYxVWdJc2RNZTNlRWhVREtNUjQxNHYxNEE9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
 http://thevdm.xyz:25461/James_axe1@comcast.net/h3hk5H7z6T/39803
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mtvhits.uk" tvg-name="MTV HITS" tvg-logo="https://logo.iptveditor.com/mtvhits.png" group-title="🎶| Music",MTV HITS
@@ -615,19 +536,19 @@ udp://@225.1.1.196:30120
 https://code.vthanhtivi.pw/getlink/tv360/107/2.m3u8
 #http://gg.gg/HaNoiIPTV-HITS_HD
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
-http://fpt.vthanhtivi.pw/Hollywood_Classics/mpegts
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQjlHMGtxcllveXBoSXVvb1hsT213aU5UNWdpc3ZPZjV0L1A3TEJZOHk1a3c9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="inthebox" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png",▶️| In The Box
-http://fpt.vthanhtivi.pw/In_The_Box/mpegts
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQUVRRXpPM2p3ejZETnB5Z3lhV2FPMHZGUlBrYjZQanNSc2tWampPWmxxeEE9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",▶️| BOX Movie¹
-http://fpt.vthanhtivi.pw/Box_Movie_1/mpegts
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQmVQR0VWZ2NIN1FnWXNuVUMybzdQUlQ5QkVlTFhnNmtMZVJqQkNPR1Z6OFE9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="boxhits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",▶️| Box Hits
-http://fpt.vthanhtivi.pw/Box_Hits/mpegts
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQUVRRXpPM2p3ejZETnB5Z3lhV2FPMHdtMnpJU2hqMUFmOSs5cEdFMVY4TGc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="man" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0CPzK4F/Man-150x901j3.png",▶️| Man
-https://code.vthanhtivi.pw/getlink/tv360/VmtrtiwedjK0rvo_50c8CA/1704738354/237/playlist.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQUVRRXpPM2p3ejZETnB5Z3lhV2FPMFNpMzg3cmEvMWhBWUdCb1JzR21wd1E9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="woman" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
-https://code.vthanhtivi.pw/getlink/tv360/163/2.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQjlHMGtxcllveXBoSXVvb1hsT213aXdXNzNVbUM1dHpIcGtXSkxiRmJ0Smc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="drfithd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
-https://code.vthanhtivi.pw/getlink/tv360/162/2.m3u8
+https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQjlHMGtxcllveXBoSXVvb1hsT213aXg5dGdabERjTHdtTWhwaGF4Qk1XVnc9PQ==/master.m3u8
 
 #EXTINF:-1 tvg-id="GlobalFashionChannel.us" tvg-logo="https://i.ibb.co/vL5BM2N/GLOBAL-FASHION.png" group-title="📽️| Minh Đức Giải Trí",▶️| Global Fashion Channel ¹⁰⁸⁰
 https://fashiontv-fashiontv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
