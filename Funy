@@ -78,7 +78,7 @@ http://api.4gsieutoc.online/myk/myk.php?id=klive3
 #-------------------Hoạt hình HD-------------------#
 
 #EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp", HappyKids ᴴᴰ
-https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQjE5TWQyWW1Rd2RrRWt1WTB2VmNZMXVXQ25RTThjQVpSY2xYWU1VSHZHSnc9PQ==/master.m3u8
+https://code.vthanhtivi.pw/channel/NFJyTjhwOVp4ZWM2bExzNTdVa1ZucGNoQmE2WmMwa3Nma0hHNjJodFcvUnRrRlNwNXg5N3Vsd09WNjZTS1oyemFRZU5FUUtoUkc0Z2VjWUxLVTBmY0E9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="animaxhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/RTgouGo.png",Animax ᴴᴰ
 udp://@225.1.1.135:30120
 #EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/THfL7QS/Dream-Works-cc.png",Dreamworks ᴴᴰ
@@ -584,8 +584,7 @@ udp://@225.1.1.47:30120
 udp://@225.1.2.215:30120
 
 #EXTINF:-1 tvg-id="planetearthhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/9sHfrwj/Planet-Earth.png",🍀| Planet Earth
-#EXTVLCOPT:http-user-agent=http://khanggtivi.xyz
-https://ott3.khanggtivi.xyz/source/2405-4802-3e8d-8470-4988-bfab-30d7-e14/TjBKeTlNSnRVUjlBMmdBQ2psMmhZMzZXa3E2QzJqVDZYV3NHenVKbVFVN3VmeGN6U04xZmZuQ3Znbmg5aHlLWDkvTUh1THBRRGROMEN0SWM1ZTVJdVk3MjJKZ1FTRmF1L1Y4ZExPRmN6bUk9/1711930662/tv360/235.m3u8
+https://code.vthanhtivi.pw/channel/NFJyTjhwOVp4ZWM2bExzNTdVa1ZucGNoQmE2WmMwa3Nma0hHNjJodFcvUXZ6M0NIcHZYNGphb0NxWHFpQU55eGJ2MzhXc0RwdzlLS3ZjalV5THkvb1E9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" ,BBC Lifestyle
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bn7ha63.png",🍀|BBC Lifestyle ¹⁰⁸⁰
 udp://@225.1.2.52:30120
