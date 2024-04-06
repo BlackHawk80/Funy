@@ -78,7 +78,7 @@ http://api.4gsieutoc.online/myk/myk.php?id=klive3
 #-------------------Hoạt hình HD-------------------#
 
 #EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp", HappyKids ᴴᴰ
-https://code.vthanhtivi.pw/channel/NFJyTjhwOVp4ZWM2bExzNTdVa1ZucGNoQmE2WmMwa3Nma0hHNjJodFcvUnRrRlNwNXg5N3Vsd09WNjZTS1oyemFRZU5FUUtoUkc0Z2VjWUxLVTBmY0E9PQ==/master.m3u8
+https://code.vthanhtivi.pw/channel/Vnc4OTBQWDI0RVJoUGladjRPd2lvandIUm1TTk56ZGVHbUJ6dDNaL1pjT0R2UGRtMlNKK081aWZHczlPVWJydEEwMWtLSnhaN1duTGFHSmhiaHZkUEE9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="animaxhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/RTgouGo.png",Animax ᴴᴰ
 udp://@225.1.1.135:30120
 #EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/THfL7QS/Dream-Works-cc.png",Dreamworks ᴴᴰ
@@ -142,8 +142,8 @@ https://zjizeoupprliv.vcdn.cloud/live/vnews/playlist.m3u8
 http://gg.gg/HaNoiIPTV-VOVTV-Truyen_hinh_VOV_HD
 #EXTINF:-1 tvg-id="hanoi1"group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/ajnzMuj.png",❤️| Hà Nội1 ¹⁰⁸⁰
 udp://@225.1.2.186:30120
-#EXTINF:-1 tvg-id="hanoi2" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hanoi2 ¹⁰⁸⁰
-http://gg.gg/HaNoiIPTV-Truyen_hinh_Ha_Noi_2_HD
+#EXTINF:-1 tvg-id="hanoi2" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hà Nội2 ¹⁰⁸⁰
+https://hqth.me/F92
 #EXTINF:-1 tvg-id="hungyen" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/wWQtTwr/HUNGYEN-BEARTV.png",❤️| Hưng Yên ¹⁰⁸⁰
 https://live.mediatech.vn/live/285f5449d7d7d2946e0bd2d54b7e60f25a4/chunklist.m3u8
 #EXTINF:-1 tvg-id="anvienhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/F08gVbK/BTV9-BEARTV.png",❤️| An Viên HD ¹⁰⁸⁰
@@ -233,7 +233,7 @@ https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT
 #EXTINF:-1 tvg-id="vtvcab20hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/pXfDjBy/cccab20.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/2eb37e8d-2abf-4bce-aa44-b3b9a4460469/dvr-${start}-${offset}.m3u8", ON VFamily
 https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbUV6d1hiL0JJSXI2ZC81MWVGRWJ1OHc9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="vtvcab21hd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/SmvVL96/ON-Kids21.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/005a05b2-14d6-4b94-9318-9e3bb78f6311/dvr-${start}-${offset}.m3u8", ON Kids
-https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmovdXFIRFJJbVVmODdRd0ErSitJSFhSdnVMQmJwelZSL0U2aGRVdm1zcFE9PQ==/master.m3u8
+https://code.vthanhtivi.pw/channel/Vnc4OTBQWDI0RVJoUGladjRPd2lvandIUm1TTk56ZGVHbUJ6dDNaL1pjTk9xMVUvc3dSNFNudENzMEJSQU5zbnBtd1h1V1JGcVhHSGxtU0NyN0RyS1E9PQ==/master.m3u8
 http://gg.gg/HaNoiIPTV-ON_Kids_HD
 #EXTINF:-1 tvg-id="vtvcab22hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/qddys4T/ONLife22.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/d65f1df2-54fd-46d8-a958-ae9d6ec2b868/dvr-${start}-${offset}.m3u8", ON Life
 https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdmE3bC9SMDlSWUx3b2RzSlF1M0gwbWEyM0FrQ251a0k1eDh1U2xUZzVkcHc9PQ==/master.m3u8
