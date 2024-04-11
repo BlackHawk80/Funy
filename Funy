@@ -248,7 +248,7 @@ http://pure8k.top:80/play/live.php?mac=00:1A:79:4D:EF:AA&stream=279619&extension
 http://185.236.229.31:9981/play/a01d
 #EXTINF:0 tvg-logo="https://i.ibb.co/nCJ8dtt/Picsart-22-12-22-21-42-09-506.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| TravelXP ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
-https://iplogger.com/TRAVELXP4K
+http://ru02.spr24.net/20866/mpegts?token=45UYwCTbAVBazU
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="http://gg.gg/travelkkk",1.TRAVEL MIX 4K-Canada VPN
 http://safe.avivainsur.com:8080/ionut.luca/xRuanWsZdYaU/45721
 #EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/VLd5vpb/Quadro4k.png",🍀| Quadro ⁴ᴷ
@@ -277,18 +277,16 @@ http://185.236.229.31:9981/play/a01d
 http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/5002/index.m3u8
 #EXTINF:0 tvg-logo="http://epg.it999.ru/img2/6708.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| BOX Relax ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
-https://iplogger.com/BOXRELAX4K
+http://ru02.spr24.net/20863/mpegts?token=45UYwCTbAVBazU
 #EXTINF:0 tvg-logo="http://epg.it999.ru/img2/6707.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 BOX Music ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
-https://iplogger.com/BOXMUSIC4K
-#EXTINF:0 tvg-rec="0" tvg-logo="https://i.ibb.co/bF7PxPw/Skydance-New-Media.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 SKY HIGH DANCE ⁴ᴷ
-http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/14250/index.m3u8
+http://ru02.spr24.net/20862/mpegts?token=45UYwCTbAVBazU
 #EXTINF:0 tvg-logo="https://i.ibb.co/SJCJmPt/Picsart-22-12-22-21-22-28-690.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 Klip ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
 http://1aeb91e0.akadatel.com/iptv/RUAY96UF3MMEL2/18163/index.m3u8
 
 #EXTINF:-1 tvg-id="BloombergTVPlus.us" tvg-logo="https://i.ibb.co/7JGXSC5/Bloomberg-Television.png" group-title="🌏| 4K 🇺 🇭 🇩",Bloomberg ⁴ᴷ
-https://bloomberg-bloombergtv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+https://bc20d7c2a7b14dd0ae827a2e3eb99116.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_Bloomberg/playlist.m3u8
 #EXTINF:-1 tvg-id="digi" tvg-name="digi" tvg-logo="https://i.ibb.co/7QcdPTM/Digi.png" group-title="🌏| 4K 🇺 🇭 🇩",DIGI ⁴ᴷ
 http://kleineinzeige.com:8080/live/Vasile_Pop/HmCARm543/10402.m3u8
 #EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-name="Sky Sports Main Event UHD" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/Sky_Sport_UHD.png" group-title="🌏| 4K 🇺 🇭 🇩",Sky Sports Main Event ⁴ᴷ
