@@ -34,20 +34,10 @@ https://ctrl.laotv.la/live/K+Sport1/index.m3u8
 https://ctrl.laotv.la/live/K+Sport2/index.m3u8
 
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"GrINtYk3awpNBcvkj-4Gnw","k":"c2BRS4Of3TGjx81yeNuv1g"},{"kty":"oct","kid":"YvYNtYk3awpNBcvkj-4Gnw","k":"XHkD3VacB3LQ04w1HF4m9A"},{"kty":"oct","kid":"b_pR5ok3awpNBcvkj-4Gnw","k":"DWcUWZVIzv9RzwgjqN4a0A"},{"kty":"oct","kid":"WwdR_tg3awpNBcvkj-4Gnw","k":"0u44xmRQnn-7n0AlFvg_tw"}],"type":"temporary"}
-http://api.4gsieutoc.online/myk/myk.php?id=kcine
-https://iplogger.com/CINEB4TV
+http://is.am/5ngx
 
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ANTmedia/20.07
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"70GCaooUFhhzhtXRtnlHvA","k":"AUuKZisZpDtx2mkfd2wFww"},{"kty":"oct","kid":"N4WCaooUFhhzhtXRtnlHvA","k":"VdUBqAQaZevr0ka4lx_UAw"},{"kty":"oct","kid":"RInGm4oUFhhzhtXRtnlHvA","k":"9BvVoILzZAVqh_lmxKDl0g"},{"kty":"oct","kid":"MJbGs9kUFhhzhtXRtnlHvA","k":"CzhTJBuARONtLW7ObnWrNg"}],"type":"temporary"}
-http://api.4gsieutoc.online/myk/myk.php?id=klife
-https://iplogger.com/LIFEB4TV
+http://is.am/5ngp
 
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -112,9 +102,9 @@ https://service-stitcher-ipv4.clusters.pluto.tv/stitch/hls/channel/5ad8d54be7389
 #EXTINF:-1 tvg-id="MoonbugKids.us" tvg-logo="https://i.imgur.com/nuzIBbN.png" group-title="🌈| Hoạt hình",Moonbug Kids (1080p)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PinkfongBabyShark" tvg-logo="https://i.ibb.co/RzTcgsy/Pinkfong-Baby-Shark.png" group-title="🌈| Hoạt hình",Pinkfong Baby Shark ᴴᴰ
-https://fc2f8d2d3cec45bb9187e8de15532838.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_BabySharkTV/playlist.m3u8
+https://newidco-babysharktv-1-us.roku.wurl.tv/4300.m3u8
 #EXTINF:-1 tvg-id="pbskids.us" tvg-logo="https://i.ibb.co/56P6wP0/i-fixed-the-new-pbs-kids-logo-by-myktm250-df8zjcw-fullview.png" group-title="🌈| Hoạt hình", PBS KIDS ᴴᴰ
-http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/14837
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="Ben10UltimateAlien" tvg-name="24/7 Ben 10 Ultimate Alien" tvg-logo="https://i.ibb.co/d0RKbmT/Ben-10.png" group-title="🌈| Hoạt hình",24/7 Ben 10 Ultimate Alien
 http://ultrontv.xyz:80/Darko123/Darko78/129510
 #EXTINF:-1 tvg-id="Tom&Jerryhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xDbxGR0/Picsart-22-12-20-22-48-34-852.png",Tom&Jerry ᴴᴰ
@@ -566,7 +556,7 @@ udp://@225.1.1.236:30120
 #EXTINF:-1 tvg-id="tv5monde" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/R9P4G9X/TV5-Monde.png",TV5 MONDE ASIE ¹⁰⁸⁰
 udp://@225.1.1.200:30120
 #EXTINF:-1 tvg-id="hgtv" tvg-logo="https://i.ibb.co/kB91Qgx/HGTV.png" group-title="🌿| Khám phá",🍀| HGTV ¹⁰⁸⁰
-https://code.vthanhtivi.pw/getlink/tv360/99/2.m3u8
+https://denver1769.pages.dev/Discovery/hgtv_hd_english.m3u8
 #EXTINF:-1 tvg-id="historyhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",🍀|History ¹⁰⁸⁰
 http://fpt.vthanhtivi.pw/history/mpegts
 
