@@ -671,7 +671,7 @@ http://server.sibfungold.info:8080/zid.maher/hh5N0WzoCLjo7vJCrAPr/348
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19042/index.m3u8
 #EXTINF: -1 tvg-id="dazn2.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/2560px-DAZN_2.svg.png" group-title="🔴| LÂM-PHONG SPORT", DAZN 2
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19043/index.m3u8
-#EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://hqth.me/3D4", Paramuount 
+#EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://hqth.me/3D4", Paramount 
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62d816fcf24d280008762ee9/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 #EXTINF:0 tvg-id="setanta1" tvg-logo="https://i.ibb.co/86rsQyd/Setanta-Sports-1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Setanta 1 HD
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/271/index.m3u8
@@ -716,7 +716,7 @@ http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19133/index.m3u8
 #EXTINF: -1 tvg-id="daznf1.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DAZN_F1_logo.svg/2560px-DAZN_F1_logo.svg.png", DAZN F1 
 http://cdn1host.online:2999/jacobx_179/KUQNVLn9fr/1650
 #EXTINF: -1 tvg-id="motowizja" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/pbpqpYr/Motowizja.png", Motowizja FHD
-https://webudit.webdicdn.lol/lb/premium563/index.m3u8|User-Agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42&Origin=https://ntuplay.xyz&verifypeer=false&Referer=https://ntuplay.xyz/
+http://46.102.100.196:8181/udp/239.239.17.134:1234
 #EXTINF: -1 tvg-id="RMCSport2.fr" tvg-name="RMC Sport 2" tvg-logo="https://i.ibb.co/47Bdd2n/rmc-sport-2.png" group-title="🔴| LÂM-PHONG SPORT",RMC Sport 2
 http://145.239.5.177:8080/525/index.m3u8
 #EXTINF: -1 tvg-id="unbeaten" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/RP0yMGv/unbeaten.png",🎖️| Unbeaten
