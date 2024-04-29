@@ -87,7 +87,7 @@ https://newidco-babysharktv-1-us.roku.wurl.tv/4300.m3u8
 #EXTINF:-1 tvg-id="pbskids.us" tvg-logo="https://i.ibb.co/56P6wP0/i-fixed-the-new-pbs-kids-logo-by-myktm250-df8zjcw-fullview.png" group-title="🌈| Hoạt hình", PBS KIDS ᴴᴰ
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="Ben10UltimateAlien" tvg-name="24/7 Ben 10 Ultimate Alien" tvg-logo="https://i.ibb.co/d0RKbmT/Ben-10.png" group-title="🌈| Hoạt hình",24/7 Ben 10 Ultimate Alien
-http://ultrontv.xyz:80/Darko123/Darko78/129510
+http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/140843.ts
 #EXTINF:-1 tvg-id="Tom&Jerryhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xDbxGR0/Picsart-22-12-20-22-48-34-852.png",Tom&Jerry ᴴᴰ
 #EXTVLCOPT:network-caching=1000
 http://ultrontv.xyz:80/Darko123/Darko78/129554
@@ -96,7 +96,7 @@ http://fortv.cc:8080/N0QaDD/625713/119420
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="6206" tvg-logo="http://epg.it999.ru/img/6206.png" tvg-rec="0",Liberty Anime ENG ⁴ᴷ
 http://ru02.spr24.net/20996/mpegts?token=45UYwCTbAVBazU
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="universalkids.us" tvg-logo="https://i.ibb.co/KKLqkZZ/dfd69j9-9fbcf4d0-3609-48cd-9606-364121091bf9.png",UNIVERSAL KIDS ᴴᴰ
-http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/6399
+http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/140610.ts
 
 #-------------------Thiết yếu-------------------#
 #EXTINF:-1 tvg-id="antvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/LkKzBb8/Anninh.png",❤️| ANTV ¹⁰⁸⁰
@@ -412,9 +412,9 @@ https://e8.endpoint.cdn.sctvonline.vn/channel/sctvphimtonghop/index.m3u8|Referer
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
 https://tthd.site/360/289/index.m3u8
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
-http://server.sibfungold.info:8080/zid.maher/hh5N0WzoCLjo7vJCrAPr/1669
+http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/2079.ts
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
-http://ru02.spr24.net/134/mpegts?token=45UYwCTbAVBazU
+http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/3774.ts
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mtvhits.uk" tvg-name="MTV HITS" tvg-logo="https://logo.iptveditor.com/mtvhits.png" group-title="🎶| Music",MTV HITS
 https://vnpt.nekocdn.xyz/hls/MTV/index.m3u8
 
@@ -594,11 +594,11 @@ http://145.239.5.177:8080/538/index.m3u8
 #EXTINF: -1 tvg-id="CanalPlusSport360.fr" tvg-name="Canal+ Sport 360" tvg-logo="https://i.ibb.co/JRCWqbZ/canal-sport-360.png" group-title="🔴| LÂM-PHONG SPORT",Canal+ Sport 360
 http://server.sibfungold.info:8080/zid.maher/hh5N0WzoCLjo7vJCrAPr/54738
 #EXTINF: -1 tvg-id="BTSport1.uk" tvg-name="BT Sport 1" tvg-logo="https://i.ibb.co/K96ZYSN/TNT1.png" group-title="🔴| LÂM-PHONG SPORT", TNT Sports 1
-https://7pal.short.gy/tntspts1
+http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/134130.ts
 #EXTINF: -1 tvg-id="BTSport2.uk" tvg-name="BT Sport 2" tvg-logo="https://i.ibb.co/2PM7v3G/TNT2.png" group-title="🔴| LÂM-PHONG SPORT", TNT Sports 2
-http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/2506/index.m3u8
+http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/134131.ts
 #EXTINF: -1 tvg-id="BTSport3.uk" tvg-name="BT Sport 3" tvg-logo="https://i.ibb.co/98FWcZr/TNT3.png" group-title="🔴| LÂM-PHONG SPORT", TNT Sports 3
-http://server.sibfungold.info:8080/zid.maher/hh5N0WzoCLjo7vJCrAPr/3602
+http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/134132.ts
 
 #EXTINF: -1 tvg-id="vsportfootball.fi" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/SrgjJjP/Vsportfootball.png" tvg-name="",⚽ V-Football
 #KODIPROP:inputstreamaddon=inputstream.adaptive
