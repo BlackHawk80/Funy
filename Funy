@@ -77,7 +77,7 @@ http://rogermellie.xyz:80/richay/richay/3399211
 #EXTINF:-1 tvg-id="SkyCinemaAnimationHD.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/Bw4M2xJ/Sky-Cinema-Animation.png" group-title="🌈| Hoạt hình", Sky Cinema Animation ᴴᴰ
 http://ios.exodus-1.rocks:8080/crigs/tdsryrhq/572531
 #EXTINF:-1 tvg-id="thelegochannel.us" tvg-name="LEGO Kids TV" tvg-logo="https://i.ibb.co/z2kWh2P/Lego.png" group-title="🌈| Hoạt hình",LEGO Kids TV ᴴᴰ
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22549d5eeee0f5a4094ba/playlist.m3u8
+https://bit.ly/3QpzYFN?profile=inspirationFreetv.m3u8
 #EXTINF:-1 tvg-id="PlutoTVKidsUK.uk" tvg-logo="https://i.ibb.co/WPDX5j7/bluto.png" group-title="🌈| Hoạt hình",Pluto TV Kids
 https://service-stitcher-ipv4.clusters.pluto.tv/stitch/hls/channel/5ad8d54be738977e2c310940/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=71421972-6e5b-11ed-90a5-d115a2edefb3&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=dd4a266f-a725-45bd-a00e-5694c5ade9a7&serverSideAds=false
 #EXTINF:-1 tvg-id="MoonbugKids.us" tvg-logo="https://i.imgur.com/nuzIBbN.png" group-title="🌈| Hoạt hình",Moonbug Kids (1080p)
@@ -533,7 +533,7 @@ udp://@225.1.1.46:30120
 #EXTINF:-1 tvg-id="ngchd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/j3wTynz/National-Geographic.png",🍀|NATIONAL GEOGRAPHIC HD ¹⁰⁸⁰
 udp://@225.1.2.235:30120
 #EXTINF:-1 tvg-id="ngwhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/HgYTRT6/Nat-Geo-Wild.png",🍀|NAT GEO WILD ¹⁰⁸⁰
-udp://@225.1.1.211:30120
+http://124.29.225.205:8000/play/a044/index.m3u8
 #EXTINF:-1 tvg-id="nhkworldjapan" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/f3f3d79.png",🍀|NHK WORLD JAPAN ¹⁰⁸⁰
 udp://@225.1.1.47:30120
 #EXTINF:-1 tvg-id="outdoorhd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bbOifca.png",🍀|Outdoor Channel ¹⁰⁸⁰
@@ -548,8 +548,6 @@ udp://@225.1.2.52:30120
 udp://@225.1.2.74:30120
 #EXTINF:-1 tvg-id="cna" tvg-name="Channel NewsAsia" tvg-logo="https://i.imgur.com/iX9c7AK.png" group-title="🌿| Khám phá",🍀|Channel NewsAsia ¹⁰⁸⁰
 udp://@225.1.1.202:30120
-#EXTINF:-1 tvg-id="cnbc" tvg-name="CNBC" tvg-logo="https://i.imgur.com/EwLawKc.png" group-title="🌿| Khám phá",🍀|CNBC ¹⁰⁸⁰
-http://raw.bitnode.pm:81/giorgi/giorgi/121628
 #EXTINF:-1 tvg-id="cnn" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/vBwWXZZ.png",🍀|CNN ¹⁰⁸⁰
 udp://@225.1.4.17:30120
 
