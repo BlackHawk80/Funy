@@ -73,17 +73,18 @@ http://fortv.cc:8080/N0QaDD/625713/75621
 #EXTINF:-1 tvg-id="nicktoons.us" group-title="🌈| Hoạt hình" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Nicktoons.png",NickToons ᴴᴰ
 http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/14595
 #EXTINF:-1 tvg-id="skykids.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/wMnp5tV/Sky-Kids.png" group-title="🌈| Hoạt hình",Sky Kids ᴴᴰ
-http://rogermellie.xyz:80/richay/richay/3399211
+https://i.mjh.nz/SamsungTVPlus/USBC44000072I.m3u8
 #EXTINF:-1 tvg-id="SkyCinemaAnimationHD.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/Bw4M2xJ/Sky-Cinema-Animation.png" group-title="🌈| Hoạt hình", Sky Cinema Animation ᴴᴰ
 http://ios.exodus-1.rocks:8080/crigs/tdsryrhq/572531
 #EXTINF:-1 tvg-id="thelegochannel.us" tvg-name="LEGO Kids TV" tvg-logo="https://i.ibb.co/z2kWh2P/Lego.png" group-title="🌈| Hoạt hình",LEGO Kids TV ᴴᴰ
-https://bit.ly/3QpzYFN?profile=inspirationFreetv.m3u8
+https://i.mjh.nz/SamsungTVPlus/USBA2300001S8
 #EXTINF:-1 tvg-id="PlutoTVKidsUK.uk" tvg-logo="https://i.ibb.co/WPDX5j7/bluto.png" group-title="🌈| Hoạt hình",Pluto TV Kids
-https://service-stitcher-ipv4.clusters.pluto.tv/stitch/hls/channel/5ad8d54be738977e2c310940/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=71421972-6e5b-11ed-90a5-d115a2edefb3&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=dd4a266f-a725-45bd-a00e-5694c5ade9a7&serverSideAds=false
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267760/ei/UJQ8Zva4ObukkucPuKu7sAw/ip/20.55.14.132/id/7nq4NpeGg1E.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr4---sn-p5qlsn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/b2/mm/44/mn/sn-p5qlsn76/ms/lva/mv/u/mvi/4/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715244149/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRAIgTOjpjrwsq9KiOiqfwrTjUvgRTImrBOvXCrziK4v9fS0CIClmZfYKzStHZuTcWsWju480hAVkcLcJRiOPqVERptjG/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRQIhAKLFFdx6HyS7af7i_fpe1o9Rjs6iYoVnqurwk5_UqBrCAiAHjRGgKUxicc68ydLUlYufLYKMFI0UzMu8vmiivtc5Mw%3D%3D/playlist/index.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.us" tvg-logo="https://i.imgur.com/nuzIBbN.png" group-title="🌈| Hoạt hình",Moonbug Kids (1080p)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PinkfongBabyShark" tvg-logo="https://i.ibb.co/RzTcgsy/Pinkfong-Baby-Shark.png" group-title="🌈| Hoạt hình",Pinkfong Baby Shark ᴴᴰ
 https://newidco-babysharktv-1-us.roku.wurl.tv/4300.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267757/ei/TZQ8ZqKzIOyIkucP4LWS-Aw/ip/20.55.14.132/id/A3DwndiufA4.5/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-4o.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/S0/mm/44/mn/sn-4o/ms/lva/mv/u/mvi/2/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715244149/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRgIhAIdsFDXQEgiJIB-qlDqRES64noOzi-73-nQYZ4XmRe3eAiEAqhg_1bl7tfjaub-43-zqQzRzXXJmlt5ZbI7kE8ZNVEQ%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRAIgTdWEjGzMYWcJSdninVXHRfjCRCFMR-vxB1Q_wxeM2tsCIHgbDZIHSlPd9j6s2mZJfjVP_gFGNHO7sReTehMzilC1/playlist/index.m3u8
 #EXTINF:-1 tvg-id="pbskids.us" tvg-logo="https://i.ibb.co/56P6wP0/i-fixed-the-new-pbs-kids-logo-by-myktm250-df8zjcw-fullview.png" group-title="🌈| Hoạt hình", PBS KIDS ᴴᴰ
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="Ben10UltimateAlien" tvg-name="24/7 Ben 10 Ultimate Alien" tvg-logo="https://i.ibb.co/d0RKbmT/Ben-10.png" group-title="🌈| Hoạt hình",24/7 Ben 10 Ultimate Alien
@@ -93,8 +94,8 @@ http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/140843.ts
 http://ultrontv.xyz:80/Darko123/Darko78/129554
 #EXTINF:-1 tvg-id="cineboxanimation.uk" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/S0Z2crr/CineBox.png", Cinebox Animation ᴴᴰ
 http://fortv.cc:8080/N0QaDD/625713/119420
-#EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="6206" tvg-logo="http://epg.it999.ru/img/6206.png" tvg-rec="0",Liberty Anime ENG ⁴ᴷ
-http://ru02.spr24.net/20996/mpegts?token=45UYwCTbAVBazU
+#EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="6206" tvg-logo="http://epg.it999.ru/img/6206.png" tvg-rec="0",ZooMoo
+https://i.mjh.nz/SamsungTVPlus/USBC2400019EF.m3u8
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="universalkids.us" tvg-logo="https://i.ibb.co/KKLqkZZ/dfd69j9-9fbcf4d0-3609-48cd-9606-364121091bf9.png",UNIVERSAL KIDS ᴴᴰ
 http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/140610.ts
 
@@ -213,48 +214,13 @@ https://tthd.site/360/169/index.m3u8
 #-------------------Even-------------------#
 
 #--------4K---------#
-#EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/RCSG4wy/nature.png" ,🍀| FLYING OVER SWEDEN ⁴ᴷ
-http://pure8k.top:80/play/live.php?mac=00:1A:79:4D:EF:AA&stream=279619&extension=ts&play_token=WNSbwlSMxT
-#EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-id="5120" tvg-logo="http://epg.it999.ru/img/5120.png" tvg-rec="0",Rai Ultra Nature⁴ᴷ
-http://185.236.229.31:9981/play/a01d
-#EXTINF:0 tvg-logo="https://i.ibb.co/nCJ8dtt/Picsart-22-12-22-21-42-09-506.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| TravelXP ⁴ᴷ
-#EXTVLCOPT:network-caching=1000
-http://ru02.spr24.net/20866/mpegts?token=45UYwCTbAVBazU
-#EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="http://gg.gg/travelkkk",1.TRAVEL MIX 4K-Canada VPN
-http://safe.avivainsur.com:8080/ionut.luca/xRuanWsZdYaU/45721
-#EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/VLd5vpb/Quadro4k.png",🍀| Quadro ⁴ᴷ
-#EXTVLCOPT:network-caching=1000
-http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/19262/index.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/k6YFzZK/home.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Home ⁴ᴷ
-#EXTVLCOPT:network-caching=1000
-http://ru02.spr24.net/17445/mpegts?token=45UYwCTbAVBazU
+
 #EXTINF:-1 tvg-id="lovenature" tvg-name="Love Nature ⁴ᵏ" tvg-logo="https://i.ibb.co/Wzm2SCb/51713cb38f60e82562a65727ce7d5493-icon.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Love Nature ⁴ᵏ
 #EXTVLCOPT:network-caching=1000
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8?cc
 #EXTINF:-1 tvg-id="Clarity4K.us" tvg-name="Clarity ⁴ᵏ" tvg-logo="https://i.ibb.co/hHFBv1G/Clarity-cc.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Clarity ⁴ᵏ
 #EXTVLCOPT:network-caching=1000
 https://d6s2o8so4wk28.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-2vzmnn0zl3exh-prod/amgclarity4k/playlist.m3u8
-#EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/pLr9bX3/Sky-Nature.png",🍀| SKY HIGH NATURE ⁴ᴷ HDR
-#EXTVLCOPT:network-caching=1000
-https://iplogger.com/SKYHIGHNATURE4K
-
-#EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/pLr9bX3/Sky-Nature.png",🍀| SKY HIGH NATURE ⁴ᴷ
-#EXTVLCOPT:network-caching=1000
-http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/14247/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TMs0vvK/Ultra-Nature.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| ULTRA NATURE TV ⁴ᴷ
-http://185.236.229.31:9981/play/a01d
-#EXTINF:0 tvg-logo="https://i.ibb.co/qJmWH79/Museum-TV.png" group-title="🌏| 4K 🇺 🇭 🇩",Museum ⁴ᴷ
-#EXTVLCOPT:network-caching=1000
-http://ru02.spr24.net/20901/mpegts?token=45UYwCTbAVBazU
-#EXTINF:0 tvg-logo="http://epg.it999.ru/img2/6708.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| BOX Relax ⁴ᴷ
-#EXTVLCOPT:network-caching=1000
-http://ru02.spr24.net/20863/mpegts?token=45UYwCTbAVBazU
-#EXTINF:0 tvg-logo="http://epg.it999.ru/img2/6707.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 BOX Music ⁴ᴷ
-#EXTVLCOPT:network-caching=1000
-http://ru02.spr24.net/20862/mpegts?token=45UYwCTbAVBazU
-#EXTINF:0 tvg-logo="https://i.ibb.co/SJCJmPt/Picsart-22-12-22-21-22-28-690.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 Klip ⁴ᴷ
-#EXTVLCOPT:network-caching=1000
-http://ru02.spr24.net/20916/mpegts?token=45UYwCTbAVBazU
 
 #EXTINF:-1 tvg-id="BloombergTVPlus.us" tvg-logo="https://i.ibb.co/7JGXSC5/Bloomberg-Television.png" group-title="🌏| 4K 🇺 🇭 🇩",Bloomberg ⁴ᴷ
 https://bc20d7c2a7b14dd0ae827a2e3eb99116.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_Bloomberg/playlist.m3u8
@@ -296,11 +262,6 @@ http://tigerfights.xyz:80/moms/moms123/3151769
 https://7pal.short.gy/5sport
 #EXTINF:-1 tvg-id="Eleven.Sports.1.4K.pl" tvg-logo="https://i.ibb.co/44KZ1yK/elevensports1-4k-1-632x221-1.png" group-title="🌏| 4K 🇺 🇭 🇩",⚽ ElevenSport ⁴ᴷ
 http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/20068/index.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/V9WsqTJ/Pro7.png" group-title="🌏| 4K 🇺 🇭 🇩",Pro7Sat UHD
-#EXTVLCOPT:network-caching=1000
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1124351&extension=ts
-#EXTINF:-1 tvg-id="" tvg-name="BBCSPORT" tvg-logo="https://i.ibb.co/mFymsQV/BBC-Sport.png" group-title="🌏| 4K 🇺 🇭 🇩",BBC SPORT ⁴ᴷ UHD (Events Only)
-http://trx.p13.one/live/Americo/Americo/1872119.m3u8
 
 #-------------------HTV/HTVC-------------------#
 #EXTINF:-1 tvg-id="htv1hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png",HTV1
@@ -409,13 +370,16 @@ https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u
 #EXTINF:-1 tvg-name="K-Pop" tvg-logo="https://i.ibb.co/LtpYRqp/6835979e3f611277056e386883832986.png" group-title="🎶| Music",💿| Korea Pop
 https://raw.githubusercontent.com/AqFad2811/randomlivefromyt/main/TheKPOP.m3u8
 https://i.mjh.nz/SamsungTVPlus/USBD3500016NH.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267769/ei/WZQ8ZsjFDJOGkucPyMmvwA4/ip/20.55.14.132/id/JVocS7Yftw8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr5---sn-4h.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/wS/mm/44/mn/sn-4h/ms/lva/mv/u/mvi/5/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715244149/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRAIgXHVtdyBiHHYowbRJulYGuR2RSZ21hmU77y1HYQ3X7aQCIEVKBr9vMYHwPzXMvql03FihxmuoqvpZ-CrSeqC8fDgS/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRAIgDRy7iW46eOgJY2AYp-O2M0qgQzx-HfMc_bZOm-BsRM4CID1A11THckyl3PnIzFk5iwr3pA-AzuZTThbHgrxijXXZ/playlist/index.m3u8
 #EXTINF:-1 tvg-name="KPop" tvg-logo="https://i.ibb.co/vJ5sQNG/d5qk7xl-c2d79eae-935a-4336-bf93-e6a6d5ace6fe.png" group-title="🎶| Music",💿| Korea Pop 2
 https://raw.githubusercontent.com/AqFad2811/randomlivefromyt/main/TheKPOP2.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267771/ei/W5Q8ZpqqIauqkucPieGB-A8/ip/20.55.14.132/id/91ei4xm8LO8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr1---sn-p5qddn7k.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/FL/mm/44/mn/sn-p5qddn7k/ms/lva/mv/u/mvi/1/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715245973/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRQIhAOdUJ-bCUGO5s5J1s23iAvz-kz6zQ7xF889HXAykBihVAiAD64xGKwgqppPR4fmNkOsvI9hUb2paR68lhdPfNF3mgQ%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRQIhAOjlmTabArdDbX5bT0so-eR3otwssqB_dYKT6aps7iO_AiB0-MXGxrV5sQ32oVrcXcq6XJP5cozAVbfwkrmRwgI03g%3D%3D/playlist/index.m3u8
 #EXTINF:-1 tvg-id="sexykpophd" tvg-logo="https://i.ibb.co/9HyBcHp/sexykpop.png" group-title="🎶| Music",💿| SexyK-Pop
 https://marine2.miplay.cl/kpop/playlist.m3u8
 #EXTINF:-1 tvg-name="K-Pop – Pluto TV" tvg-logo="https://i.ibb.co/gr4Bfp8/Kpop.png" group-title="🎶| Music",💿| K-Pop
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60c8b75fb0a68400074b86fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-id="newkpop" group-title="🎶| Music" tvg-logo="https://i.ibb.co/fDGqhYH/Kpop4K.png",New-Kpop
+https://i.mjh.nz/SamsungTVPlus/USAJ3000013FJ.m3u8
 https://tinyurl.com/TiviMe-NewKPop
 
 #EXTINF:-1 tvg-id="deejaytv" group-title="🎶| Music" tvg-logo="https://i.ibb.co/GTxPjPN/Seek-Png-com-dj-png-347593.png",💿| Deejay TV
@@ -489,8 +453,6 @@ https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_
 https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8
 
 
-#EXTINF:0 tvg-id="NatureRelax4K" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/BN7RnsB/5190d-Op8zt-L.png",🍀| NatureRelax ¹⁰⁸⁰
-https://ytm2.yuanhsing.cf/NatureRelax4K.m3u8
 #EXTINF:-1 tvg-id="davinci" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/aIAaCce.png",🍀| Da Vinci ¹⁰⁸⁰
 udp://@225.1.1.197:30120
 #EXTINF:-1 tvg-id="discoveryasiahd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/mRVV3WI.png",🍀|Discovery Asia ¹⁰⁸⁰
@@ -590,14 +552,7 @@ http://shareext@stalker.ugoiptv.com/play/live.php?mac=00:1A:79:58:29:BA&stream=1
 http://shareext@stalker.ugoiptv.com/play/live.php?mac=00:1A:79:58:29:BA&stream=1032528&extension=ts&play_token=7pY8UHAipV
 #EXTINF: -1 tvg-id="Hub.Premier.3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
 http://shareext@stalker.ugoiptv.com/play/live.php?mac=00:1A:79:58:29:BA&stream=1032527&extension=ts&play_token=7pY8UHAipV
-#EXTINF:0 tvg-id="astrosupersport" tvg-name="AstroSuperSport" tvg-logo="https://i.ibb.co/ZJvBYyx/Astro-Super-Sport-UHD.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Astro SuperSport
-https://tchiphuong.github.io/iptv/channels/sports/astrosport.m3u8
-#EXTINF: -1 xui-id="{XUI_ID}" tvg-id="AstroSuperSport2" tvg-logo="https://i.ibb.co/QPqdLxk/astro2.png" group-title="🔴| LÂM-PHONG SPORT",ASTRO SUPERSPORT 2
-http://muka03.wanicelife.com:8880/3ca7153n01/sdfr34r34/1721
-#EXTINF:0 tvg-id="astrosupersport3" tvg-name="Astro SuperSport 3" tvg-logo="https://i.ibb.co/BZ80zs5/astro3.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 3
-http://muka03.wanicelife.com:8880/3ca7153n01/sdfr34r34/1720
-#EXTINF:0 tvg-id="astrosupersport4" tvg-name="Astro SuperSport 4" tvg-logo="https://i.ibb.co/BwWQnk8/astro4.png" group-title="🔴| LÂM-PHONG SPORT",Astro SuperSport 4
-http://muka03.wanicelife.com:8880/3ca7153n01/sdfr34r34/1719
+
 #EXTINF: -1 tvg-id="SkySportsBundesliga.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/2480/index.m3u8
 #EXTINF: -1 tvg-id="Eleven1Portugal.pt" tvg-name="Eleven 1 Portugal" tvg-logo="https://i.ibb.co/Q9VkNQh/eleven1.png" group-title="🔴| LÂM-PHONG SPORT",Eleven 1
@@ -653,6 +608,8 @@ https://bkm.beetv.kz/btv/live/hls/000002478.m3u8
 https://bkm.beetv.kz/btv/live/hls/000002479.m3u8
 #EXTINF: -1 tvg-id="AllSports.br" tvg-logo="https://i.imgur.com/wULpnYR.png" group-title="🔴| LÂM-PHONG SPORT",All Sports (720p)
 https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8
+#EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/ThWK08S/World-Billiards-TV-Logo-sml.png", World Billiards
+https://i.mjh.nz/SamsungTVPlus/KRBC3200011N3.m3u8
 #EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/cbgY0xm/Kozoom.png", KOZOOM TV
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/9skv8CD/snooker.png",Snooker TV
