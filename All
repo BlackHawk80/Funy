@@ -118,9 +118,7 @@ https://code.vthanhtivi.pw/getlink/cliptv/846/chunklist_b5128000.m3u8
 http://cdn-cf.vthanhtivi.pw/fptplay/babytv-hd/bitrate_5000.m3u8
 
 #EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",HappyKids
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#https://dl.dropboxusercontent.com/s/yuvlsc5blzeulax/																						 #EXTVLCOPT:http-referer=https://sctvonline.vn/
-https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8?cc|Referer=http://sctvonline.vn/
+https://oipf0znpmnliv.vcdn.cloud/hls/happykid/index.m3u8
 
 #EXTINF:0 tvg-id="disneychannel" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/mFHXfdq/disneychannel.webp",Disney Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
@@ -373,7 +371,7 @@ https://code.vthanhtivi.pw/getlink/tv360/135/2.m3u8
 #EXTINF:-1 tvg-id="afnhd" tvg-name="Asian Food Network" tvg-logo="https://i.imgur.com/B8zA2gc.png" group-title="🌿| Khám phá",Asian Food Network
 http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/1354953598?profile=pass
 #EXTINF:0 tvg-id="" tvg-logo="https://i.ibb.co/kB91Qgx/HGTV.png" group-title="🌿| Khám phá", HGTV
-https://tthd.site/360/99/index.m3u8
+https://denver1769.pages.dev/Discovery/hgtv_hd_english.m3u8
 #EXTINF:-1 tvg-id="bbcearth" tvg-name="BBC Earth" tvg-logo="https://i.ibb.co/bWMMncB/bbcearth-cc.png" group-title="🌿| Khám phá",BBC Earth
 http://sg.tinchuanchuaanh.com:8080/BBC_EARTH_HD/index.m3u8
 
@@ -412,13 +410,10 @@ https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8?cc
 #EXTVLCOPT:http-user-agent="KIIP"
 https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="nhkworld" tvg-name="NHK World" tvg-logo="https://i.imgur.com/f3f3d79.png" group-title="🌿| Khám phá",NHK World
-http://livecdn.fptplay.net/hda2/nhkworld_vhls.smil/chunklist_b5000000.m3u8
+https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
 
 #EXTINF:-1 tvg-id="outdoorhd" tvg-name="Outdoor Channel" tvg-logo="https://i.ibb.co/x3hpmQ9/Outdoor-Channel.png" group-title="🌿| Khám phá",Outdoor Channel
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/1450515253?profile=pass
-http://gg.gg/HaNoiIPTV-Outdoor_Channel_HD
-#EXTINF:-1 tvg-id="histtoryhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",History HD
-http://sg.tinchuanchuaanh.com:8080/HISTORY_HD/index.m3u8
+https://oipf0znpmnliv.vcdn.cloud/hls/planetearth/index.m3u8
 #--------4K---------#
 #EXTINF:0 tvg-logo="https://i.ibb.co/nCJ8dtt/Picsart-22-12-22-21-42-09-506.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| TravelXP ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
