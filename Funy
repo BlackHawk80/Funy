@@ -170,14 +170,15 @@ udp://@225.1.2.190:30120
 #----VTVCAB----#
 #EXTINF:-1 tvg-id="btv5hd" group-title="💗| VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png", BTV5 - ON Sports Action ᴴᴰ
 https://tthd.site/360/2380/index.m3u8
-#EXTINF:-1 tvg-id="vtvcab18hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", ON Sports News 50fps
-http://gg.gg/HaNoiIPTV-ON_Sports_News_HD
+#EXTINF:-1 tvg-id="vtvcab18hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", ON Sports News
+https://tth.vn/onsportnews
+#http://gg.gg/HaNoiIPTV-ON_Sports_News_HD
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/9fb740a5-d1a0-4068-8d02-0a4d428f46db/dvr-${start}-${offset}.m3u8", ON Sports HD
-https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhdGJVNXpUWTJ0Wk5NWnhWYWpQUmZhQjBsYkI2Wmt1cXZMUW1lNWh6SEdZRUtEcyt2NzVndUhKT2xSQk1HWklaYW12UExzS1BCNEMzdWlOM3ZlWldLOFc=/master.m3u8
+https://tth.vn/onsport
 #EXTINF:-1 tvg-id="vtvcab6hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/37hkhwk/VCab6-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/vtvcab6-on-sport-plus/dvr-${start}- ${offset}.m3u8", ON Sports+
 https://tth.vn/onsportplus
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/a30dfe11-536f-4a6e-abca-3df04ca7363a/dvr-${start}-${offset}.m3u8", ON Football HD
-https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhadHJjK2tWV3d0SzlYT2hua09PMDFhczJZRzVvZ01xaTd3VzJnK00rV01ONSszd29DTG5VM2JsaEF2NmhmM1RoWHRJd29zS0RTdDBodDE0OGtDZDJNOGkyNEoranhUcVBSYXhKT3lhOXpiL3g=/master.m3u8
+https://tth.vn/onfootball
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon/vie-giai-tri-hd/dvr-${start}-${offset}.m3u8",  VTVcab 1 - Vie Giải trí HD
 http://123.21.223.9:8081/sctv/s1.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s1.edge.cdn.sctvonline.vn/hls/vtvcab1/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/ad62967c-f8f2-4bb1-84bc-637282f14799/dvr-${start}-${offset}.m3u8", ON Phim Việt
@@ -206,11 +207,11 @@ http://123.21.223.9:8081/sctv/s1.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpo
 http://123.21.223.9:8081/sctv/s1.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s1.edge.cdn.sctvonline.vn/hls/vtvcab20/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab21hd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/SmvVL96/ON-Kids21.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/005a05b2-14d6-4b94-9318-9e3bb78f6311/dvr-${start}-${offset}.m3u8", ON Kids
 https://tth.vn/vtvcab21
-http://gg.gg/HaNoiIPTV-ON_Kids_HD
+#http://gg.gg/HaNoiIPTV-ON_Kids_HD
 #EXTINF:-1 tvg-id="vtvcab22hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/qddys4T/ONLife22.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/d65f1df2-54fd-46d8-a958-ae9d6ec2b868/dvr-${start}-${offset}.m3u8", ON Life
-https://tth.vn/vtvcab22
+hhttps://tth.vn/vtvcab22
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/93fa8edc-c081-43a5-8aad-dd5d4527ccd6/dvr-${start}-${offset}.m3u8", ON Golf
-https://tthd.site/360/169/index.m3u8
+https://tth.vn/vtvcab23
 #-------------------Even-------------------#
 
 #--------4K---------#
@@ -596,12 +597,12 @@ http://offshore.lat:8080/armando86/dPCeWVgyHN9j/279226
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62d816fcf24d280008762ee9/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 #EXTINF:0 tvg-id="setanta1" tvg-logo="https://i.ibb.co/86rsQyd/Setanta-Sports-1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Setanta 1 HD
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/16026/index.m3u8
-https://bkm.beetv.kz/btv/live/hls/000006998.m3u8
-http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/271/index.m3u8
+#https://bkm.beetv.kz/btv/live/hls/000006998.m3u8
+#http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/271/index.m3u8
 #EXTINF:0 tvg-id="setanta2" tvg-logo="https://i.ibb.co/XCYT22S/Setanta-Sports-2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Setanta 2 HD
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/16025/index.m3u8
-https://bkm.beetv.kz/btv/live/hls/000006899.m3u8
-http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/270/index.m3u8
+#https://bkm.beetv.kz/btv/live/hls/000006899.m3u8
+#http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/270/index.m3u8
 #EXTINF: -1 tvg-id="SONYSPORTSTEN1.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN1 HD
 http://tigerfights.xyz:80/moms/moms123/2454967
 #EXTINF: -1 tvg-id="SONYSPORTSTEN2.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN2 HD
@@ -654,7 +655,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF: -1 tvg-id="combate.br" tvg-name="BR: COMBATE FHD" tvg-logo="https://i.ibb.co/4JKFQtQ/combat.png" group-title="🔴| LÂM-PHONG SPORT",COMBAT FHDR
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
 #EXTINF:0 tvg-id="FIGHTBOX" tvg-name="FIGHT BOX" tvg-logo="https://i.ibb.co/CbFCs0D/fightbox.png" group-title="🔴| LÂM-PHONG SPORT",FIGHT BOX
-http://stream01.vnet.am/Fightbox/mono.m3u8
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/20027/index.m3u8
+#http://stream01.vnet.am/Fightbox/mono.m3u8
 #EXTINF:0 tvg-id="mmatvhd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/x1m29yh/MMAtv.png",🎖️| MMA-TV.com HD
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19243/index.m3u8
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19243/index.m3u8
