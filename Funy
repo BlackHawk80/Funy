@@ -215,20 +215,35 @@ https://tth.vn/vtvcab23
 #-------------------Even-------------------#
 
 #--------4K---------#
-
+#EXTINF:0 tvg-logo="https://i.ibb.co/hW8G92t/Box.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 BOX Music ⁴ᴷ
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19282/index.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/gm6Cc0q/relax.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| BOX Relax ⁴ᴷ
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19283/index.m3u8
 #EXTINF:-1 tvg-id="lovenature" tvg-name="Love Nature ⁴ᵏ" tvg-logo="https://i.ibb.co/Wzm2SCb/51713cb38f60e82562a65727ce7d5493-icon.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Love Nature ⁴ᵏ
 #EXTVLCOPT:network-caching=1000
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8?cc
+#EXTINF:0 tvg-logo="https://i.ibb.co/nCJ8dtt/Picsart-22-12-22-21-42-09-506.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| TravelXP ⁴ᴷ
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/14026/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TMs0vvK/Ultra-Nature.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| ULTRA NATURE TV ⁴ᴷ
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/20031/index.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/k6YFzZK/home.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Home ⁴ᴷ
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/4002/index.m3u8
 #EXTINF:-1 tvg-id="Clarity4K.us" tvg-name="Clarity ⁴ᵏ" tvg-logo="https://i.ibb.co/hHFBv1G/Clarity-cc.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Clarity ⁴ᵏ
 #EXTVLCOPT:network-caching=1000
 https://d6s2o8so4wk28.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-2vzmnn0zl3exh-prod/amgclarity4k/playlist.m3u8
-
+#EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/pLr9bX3/Sky-Nature.png",🍀| SKY HIGH NATURE ⁴ᴷ HDR
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/14248/index.m3u8
+#EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/pLr9bX3/Sky-Nature.png",🍀| SKY HIGH NATURE ⁴ᴷ
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/14247/index.m3u8
+#EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/VLd5vpb/Quadro4k.png",🍀| Quadro ⁴ᴷ
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19262/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTVPlus.us" tvg-logo="https://i.ibb.co/7JGXSC5/Bloomberg-Television.png" group-title="🌏| 4K 🇺 🇭 🇩",Bloomberg ⁴ᴷ
 https://bc20d7c2a7b14dd0ae827a2e3eb99116.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_Bloomberg/playlist.m3u8
 #EXTINF:-1 tvg-id="digi" tvg-name="digi" tvg-logo="https://i.ibb.co/7QcdPTM/Digi.png" group-title="🌏| 4K 🇺 🇭 🇩",DIGI ⁴ᴷ
 http://kleineinzeige.com:8080/live/Vasile_Pop/HmCARm543/10402.m3u8
 #EXTINF:0 group-title="🌏| 4K 🇺 🇭 🇩" tvg-id="2878" tvg-logo="http://epg.it999.ru/img/2878.png" tvg-rec="0",Sky Sport UHD DE
-http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19044/index.m3u8
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19044/index.m3u8
+#http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19044/index.m3u8
 #EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-name="Sky Sports Main Event UHD" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/Sky_Sport_UHD.png" group-title="🌏| 4K 🇺 🇭 🇩",Sky Sports Main Event ⁴ᴷ
 https://7pal.short.gy/SSMEuhd
 #EXTINF:-1 tvg-id="Astro.SuperSport.UHD.1.my" tvg-name="" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/308_144.png" group-title="🌏| 4K 🇺 🇭 🇩",Astro SuperSport ⁴ᴷ UHD
@@ -262,7 +277,7 @@ http://mol-2.com:8080/play/live.php?mac=00:1A:79:3B:10:00&stream=388877&extensio
 http://tigerfights.xyz:80/moms/moms123/3151769
 https://7pal.short.gy/5sport
 #EXTINF:-1 tvg-id="Eleven.Sports.1.4K.pl" tvg-logo="https://i.ibb.co/44KZ1yK/elevensports1-4k-1-632x221-1.png" group-title="🌏| 4K 🇺 🇭 🇩",⚽ ElevenSport ⁴ᴷ
-http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/20068/index.m3u8
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/20068/index.m3u8
 
 #-------------------HTV/HTVC-------------------#
 #EXTINF:-1 tvg-id="htv1hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png",HTV1
@@ -354,7 +369,7 @@ http://123.21.223.9:8081/sctv/s5.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpo
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
 http://123.21.223.9:8081/sctv/s1.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e4.endpoint.cdn.sctvonline.vn/nginx.s1.edge.cdn.sctvonline.vn/hls/boxmusic/index.m3u8
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
-http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/2079.ts
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19192/index.m3u8
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
 http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/3774.ts
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mtvhits.uk" tvg-name="MTV HITS" tvg-logo="https://logo.iptveditor.com/mtvhits.png" group-title="🎶| Music",MTV HITS
@@ -571,7 +586,8 @@ http://nv1connect.com:80/tamtam/tjfYkCbP3s/73785
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
 http://nv1connect.com:80/tamtam/tjfYkCbP3s/73789
 #EXTINF: -1 tvg-id="skysportsmainevent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
-http://fortv.cc:8080/N0QaDD/625713/35243
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/9308/index.m3u8
+#http://fortv.cc:8080/N0QaDD/625713/35243
 #EXTINF: -1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.iptveditor.com/skysportsmix.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/2478/index.m3u8
 #EXTINF:0 tvg-id="Sky.Sport.Calcio.HD.it" tvg-logo="https://i.ibb.co/NK2PrnL/Sky-Sport-Calcio.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORT CALCIO
