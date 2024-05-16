@@ -115,7 +115,7 @@ https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
 #EXTINF:-1 tvg-id="hanoi1"group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/ajnzMuj.png",❤️| Hà Nội1 ¹⁰⁸⁰
 udp://@225.1.2.186:30120
 #EXTINF:-1 tvg-id="hanoi2" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hà Nội2 ¹⁰⁸⁰
-https://hqth.me/F92
+https://cloudstreamhntv.tek4tv.vn/live/smil:HN2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="hungyen" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/wWQtTwr/HUNGYEN-BEARTV.png",❤️| Hưng Yên ¹⁰⁸⁰
 https://live.mediatech.vn/live/285f5449d7d7d2946e0bd2d54b7e60f25a4/chunklist.m3u8
 #EXTINF:-1 tvg-id="anvienhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/F08gVbK/BTV9-BEARTV.png",❤️| An Viên HD ¹⁰⁸⁰
