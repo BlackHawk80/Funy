@@ -75,7 +75,7 @@ http://ultraflix.uk:8080/Tank2022/D52nZUFbfbHD/14595
 #EXTINF:-1 tvg-id="skykids.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/wMnp5tV/Sky-Kids.png" group-title="🌈| Hoạt hình",Sky Kids ᴴᴰ
 https://i.mjh.nz/SamsungTVPlus/USBC44000072I.m3u8
 #EXTINF:-1 tvg-id="SkyCinemaAnimationHD.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/Bw4M2xJ/Sky-Cinema-Animation.png" group-title="🌈| Hoạt hình", Sky Cinema Animation ᴴᴰ
-http://ios.exodus-1.rocks:8080/crigs/tdsryrhq/572531
+http://tv.premiumplus.tv:80/play/live.php?mac=00:1A:79:B1:94:01&stream=30513&extension=ts
 #EXTINF:-1 tvg-id="thelegochannel.us" tvg-name="LEGO Kids TV" tvg-logo="https://i.ibb.co/z2kWh2P/Lego.png" group-title="🌈| Hoạt hình",LEGO Kids TV ᴴᴰ
 https://i.mjh.nz/SamsungTVPlus/USBA2300001S8
 #EXTINF:-1 tvg-id="PlutoTVKidsUK.uk" tvg-logo="https://i.ibb.co/WPDX5j7/bluto.png" group-title="🌈| Hoạt hình",Pluto TV Kids
@@ -586,7 +586,7 @@ http://nv1connect.com:80/tamtam/tjfYkCbP3s/73785
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
 http://nv1connect.com:80/tamtam/tjfYkCbP3s/73789
 #EXTINF: -1 tvg-id="skysportsmainevent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
-http://185.193.88.10/iptv/AHMQNVLWUTM5PW/9308/index.m3u8
+http://tv.premiumplus.tv:80/play/live.php?mac=00:1A:79:B1:94:01&stream=83450&extension=ts
 #http://fortv.cc:8080/N0QaDD/625713/35243
 #EXTINF: -1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.iptveditor.com/skysportsmix.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/2478/index.m3u8
@@ -628,7 +628,7 @@ http://tigerfights.xyz:80/moms/moms123/2455023
 #EXTINF: -1 tvg-id="usanetwork.us" tvg-name="USA NETWORK" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/USA-Network-Logo.svg/1200px-USA-Network-Logo.svg.png",USA Network
 http://fortv.cc:8080/N0QaDD/625713/10252
 #EXTINF: -1 tvg-id="eurosport1.uk" tvg-name="EUROSPORT 1 HD" tvg-logo="https://logo.iptveditor.com/eurosport1.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 1 HD
-https://bkm.beetv.kz/btv/live/hls/000002478.m3u8
+http://stream01.vnet.am/Eurosport/tracks-v1a2/mono.m3u8
 #EXTINF: -1 tvg-id="eurosport2.uk" tvg-name="EUROSPORT 2 HD" tvg-logo="https://logo.iptveditor.com/eurosport2.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 2 HD
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/6556/index.m3u8
 https://bkm.beetv.kz/btv/live/hls/000002479.m3u8
@@ -703,7 +703,7 @@ https://dai.google.com/linear/hls/event/FK1bjW0AThepH1W7CJrByg/master.m3u8
 #EXTINF: -1 tvg-id="" tvg-name="CS:GO" tvg-logo="https://i.ibb.co/djrCRq6/Esports.png" group-title="GAMEPLAY P2S", ESports 1
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/31311/index.m3u8
 #EXTINF: -1 tvg-id="" tvg-name="Call of Duty" tvg-logo="https://images.pluto.tv/channels/5f5bd666c0a7600007af6c20/colorLogoPNG.png" group-title="GAMEPLAY P2S",Call of Duty
-http://rogermellie.xyz:80/richay/richay/1035036
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff3934600d4c7000733ff49/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5bb1ac3e268cae539bcedb07&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=970&terminate=false&userId=
 
 #-------------------RADIO VIETNAM-------------------#
 #EXTINF:-1 group-title="📻| Radio" tvg-logo="https://i.ibb.co/JKNzw75/ccpladio.png",F• Pladio
