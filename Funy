@@ -142,7 +142,7 @@ udp://@225.1.2.199:30120
 https://1236573804.pop.vnptcdn.com/VTC6/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtc7hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/g3F0GsF/Picsart-22-12-19-00-36-38-473.png" , VTC7 - TodayTV
-https://1236573804.pop.vnptcdn.com/VTC7/playlist.m3u8
+https://tth.vn/VTC7
 
 #EXTINF:-1 tvg-id="vtc8" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW1UaIAAAKB_?format=png" , VTC8 ¹⁰⁸⁰
 https://1236573804.pop.vnptcdn.com/VTC8/playlist.m3u8
@@ -172,17 +172,17 @@ udp://@225.1.2.190:30120
 https://tthd.site/360/2380/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", ON Sports News
 https://api.wintv.me/vtvcab18/index.m3u8
-https://tth.vn/onsportnews
+#https://tth.vn/onsportnews
 #http://gg.gg/HaNoiIPTV-ON_Sports_News_HD
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/9fb740a5-d1a0-4068-8d02-0a4d428f46db/dvr-${start}-${offset}.m3u8", ON Sports HD
 https://api.wintv.me/vtvcab3/index.m3u8
-https://tth.vn/onsport
+#https://tth.vn/onsport
 #EXTINF:-1 tvg-id="vtvcab6hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/37hkhwk/VCab6-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/vtvcab6-on-sport-plus/dvr-${start}- ${offset}.m3u8", ON Sports+
 https://api.wintv.me/vtvcab6/index.m3u8
-https://tth.vn/onsportplus
+#https://tth.vn/onsportplus
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/a30dfe11-536f-4a6e-abca-3df04ca7363a/dvr-${start}-${offset}.m3u8", ON Football HD
 https://api.wintv.me/vtvcab16/index.m3u8
-https://tth.vn/onfootball
+#https://tth.vn/onfootball
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon/vie-giai-tri-hd/dvr-${start}-${offset}.m3u8",  VTVcab 1 - Vie Giải trí HD
 https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab1/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/ad62967c-f8f2-4bb1-84bc-637282f14799/dvr-${start}-${offset}.m3u8", ON Phim Việt
@@ -279,7 +279,7 @@ http://connect.proxytx.cloud:80/play/live.php?mac=00:1A:79:f3:15:70&stream=29407
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:3B:10:00&stream=388877&extension=ts&play_token=QsJ23W8f89&sn2=
 
 #EXTINF:-1 tvg-id="5SPORT.4K.[Sport.5.4K].il" tvg-name="SPORT5" tvg-logo="https://i.ibb.co/fFB348B/sport5.png" group-title="🌏| 4K 🇺 🇭 🇩",SPORT 5 ⁴ᴷ
-http://tigerfights.xyz:80/moms/moms123/3151769
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/16019/index.m3u8
 https://7pal.short.gy/5sport
 #EXTINF:-1 tvg-id="Eleven.Sports.1.4K.pl" tvg-logo="https://i.ibb.co/44KZ1yK/elevensports1-4k-1-632x221-1.png" group-title="🌏| 4K 🇺 🇭 🇩",⚽ ElevenSport ⁴ᴷ
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/20068/index.m3u8
@@ -553,11 +553,7 @@ http://nv1connect.com:80/tamtam/tjfYkCbP3s/628
 http://nv1connect.com:80/tamtam/tjfYkCbP3s/629
 
 #EXTINF: -1 tvg-id="vsportfootball.fi" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/SrgjJjP/Vsportfootball.png" tvg-name="",⚽ V-Football
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=ce37e20374e55be6bb4d26837af27605:52cc532f748fcbf2b806dad4289bf84c
-https://director.streaming.telia.com/tvm-packager-prod/group1/60896dfd47a23d7c065cd68c/manifest.mpd
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/11110/index.m3u8
 #EXTINF: -1 tvg-id="viasatSportPremierLeague.fi" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/3ChDTNL/vsportpremier2.png",⚽| V Sport Premier League
 http://cam.access.ly/play/live.php?mac=00:1a:79:b4:af:19&stream=1001371&extension=m3u8
 #EXTINF: -1 tvg-id="premiersports.uk" tvg-logo="https://i.ibb.co/hDw5FSg/v-sport1.png" group-title="🔴| LÂM-PHONG SPORT",⚽| V-Premium Sports
@@ -594,7 +590,7 @@ http://nv1connect.com:80/tamtam/tjfYkCbP3s/73785
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
 http://nv1connect.com:80/tamtam/tjfYkCbP3s/73789
 #EXTINF: -1 tvg-id="skysportsmainevent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
-http://tv.premiumplus.tv:80/play/live.php?mac=00:1A:79:B1:94:01&stream=83450&extension=ts
+http://185.193.88.10/iptv/AHMQNVLWUTM5PW/7337/index.m3u8
 #http://fortv.cc:8080/N0QaDD/625713/35243
 #EXTINF: -1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.iptveditor.com/skysportsmix.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/2478/index.m3u8
