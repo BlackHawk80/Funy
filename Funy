@@ -168,8 +168,7 @@ udp://@225.1.2.88:30120
 udp://@225.1.2.190:30120
 
 #----VTVCAB----#
-#EXTINF:-1 tvg-id="btv5hd" group-title="💗| VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png", BTV5 - ON Sports Action ᴴᴰ
-https://tthd.site/360/2380/index.m3u8
+
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", ON Sports News
 https://tth.vn/onsportnews
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png" catchup="append" catchup-days="2" catchup-source="https://code.vthanhtivi.pw/xemlai/vieon2/9fb740a5-d1a0-4068-8d02-0a4d428f46db/dvr-${start}-${offset}.m3u8", ON Sports HD
