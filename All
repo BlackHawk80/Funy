@@ -5,22 +5,27 @@
 # VTV
 #EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/ySDjzg0/VTV1-cc.webp",❤️| VTV1 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://hqth.me/X3yb
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.249:30120
+#https://hqth.me/X3yb
 #EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/G0PXW8r/VTV2-cc.webp",❤️| VTV2 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://hqth.me/9Qo
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.13:30120
+#https://hqth.me/9Qo
 #EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VNHdbry/VTV3-cc.png",❤️| VTV3 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://hqth.me/4YLK
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.247:30120
+#https://hqth.me/4YLK
 #EXTINF:-1 tvg-id="vtv4hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VCBW4W8/VTV4-cc.webp",❤️| VTV4 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tth.vn/VTV41080p
 #EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Hnyb8Cr/VTV5-cc.webp",❤️| VTV5 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://hqth.me/8rmzCf
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.131:30120
+#https://hqth.me/8rmzCf
 #EXTINF:-1 tvg-id="vtv6hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/PtJKgHX/vtvcantho.webp",❤️| VTV6 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://hqth.me/Lq3Ie3
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.245:30120
+#https://hqth.me/Lq3Ie3
 #EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/Z89vrHX/VTV7-cc.webp",❤️| VTV7 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tth.vn/VTV71080p
@@ -114,16 +119,16 @@ https://tth.vn/btv5hd
 #-------------------Hoạt hình-------------------#
 
 #EXTINF:-1 tvg-id="animaxhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/RTgouGo.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/animaxport_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Animax HD
-https://vnpt.nekocdn.xyz/hls/Animax/index.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.135:30120
 #EXTINF:-1 tvg-id="boomerang" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/iNUMohA.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/boomerang_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Boomerang HD
 http://cdn-cf.vthanhtivi.pw/fptplay/boomerang/bitrate_5000.m3u8
 #EXTINF:-1 tvg-id="cartoonhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/QyOuOmc.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cartoonnetworkhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Cartoon Network HD
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/560352529?profile=pass
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.231:30120
 #EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/THfL7QS/Dream-Works-cc.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/dreamworks_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Dreamworks
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://code.vthanhtivi.pw/getlink/cliptv/846/chunklist_b5128000.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.136:30120
 #EXTINF:-1 tvg-id="babytvhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/HaxHhx2.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/babytvhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", BabyTV HD
-http://cdn-cf.vthanhtivi.pw/fptplay/babytv-hd/bitrate_5000.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.146:30120
 
 #EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",HappyKids
 https://oipf0znpmnliv.vcdn.cloud/hls/happykid/index.m3u8
@@ -220,9 +225,9 @@ https://1236573804.pop.vnptcdn.com/VTC16/playlist.m3u8
 
 #----HTV----#
 #EXTINF:-1 tvg-id="htv1" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png", HTV1
-
+https://vc.101vn.com/htv/htvcmb.php?id=2631
 #EXTINF:-1 tvg-id="htv2hd" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7AbJNacAI1x1L?format=png", HTV2 FHD - Vie Channel
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/1152420412?profile=pass
+https://vc.101vn.com/htv/htvcmb.php?id=2669
 
 #EXTINF:-1 tvg-id="htv3" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7AbJOaUAE6JoO?format=png", HTV3 - Heo TV
 
@@ -231,9 +236,9 @@ http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/1152420412?pr
 
 
 #EXTINF:-1 tvg-id="htv7hd" group-title="💛| HTV" tvg-logo="https://i.ibb.co/C9r5gwM/HTV7-cc.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htv7hd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTV7 HD
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/903060478?profile=pass
+https://vc.101vn.com/htv/htvcmb.php?id=256
 #EXTINF:-1 tvg-id="htv9hd" group-title="💛| HTV" tvg-logo="https://i.ibb.co/tqvWY3q/HTV9-cc.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htv9hd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTV9 HD
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/1540618647?profile=pass
+https://vc.101vn.com/htv/htvcmb.php?id=2667
 #EXTINF:-1 tvg-id="htvthethaohd" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7Ad0GakAcX1g2?format=png", HTV Thể Thao FHD
 http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/565237982?profile=pass
 #EXTINF:-1 tvg-id="htvcthuanviethd" group-title="💛| HTV" tvg-logo="https://pbs.twimg.com/media/Fa7Ar9_aQAAJGk2?format=png", HTVC Thuần Việt FHD
@@ -258,7 +263,7 @@ https://1011154949.vnns.net/CDN-FPT02/HTVC-PLUS-HD-1080p/playlist.m3u8
 
 #---Giải Trí---#
 #EXTINF:-1 tvg-id="hbohd" tvg-logo="https://i.imgur.com/w5u4IrO.png" group-title="🎞| Giải trí",HBO
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/401989616?profile=pass
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.112:30120
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="🎞| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/231.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemawork_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", CinemaWorld
 http://gg.gg/cinemaworld8M
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🎞| Giải trí", CINEMAX HD
@@ -267,9 +272,9 @@ http://gg.gg/HaNoiIPTV-Cinemax_HD
 #EXTINF:-1  tvg-id="https://code.vthanhtivi.pw/getlink/tv360/107/2.m3u8" group-title="🎞| Giải trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/HITS%20HD.png",HITS HD
 http://gg.gg/HaNoiIPTV-HITS_HD
 #EXTINF:-1 tvg-id="warnertvhd" tvg-name="Warner TV" tvg-logo="https://i.ibb.co/xJ6MN0M/warner.png" group-title="🎞| Giải trí",▶️| Warner TV
-http://gg.gg/HaNoiIPTV-Warner_TV_HD
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.139:30120
 #EXTINF:-1 tvg-id="axnhd" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/84468598?profile=pass
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.225:30120
 #EXTINF:-1 tvg-id="kix" tvg-name="KIX" tvg-logo="https://i.imgur.com/EIpDxnQ.png" group-title="🎞| Giải trí",▶️| KIX HD
 http://gg.gg/HaNoiIPTV-Kix_HD
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
@@ -280,14 +285,16 @@ http://sg.tinchuanchuaanh.com:8080/IN_THE_BOX/index.m3u8
 #EXTINF:-1 tvg-id="boxmovie1" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",▶️| BOX Movie¹
 http://sg.tinchuanchuaanh.com:8080/BOX_MOVIE_1/index.m3u8
 #EXTINF:-1 tvg-id="boxhits" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",▶️| Box Hits
-http://gg.gg/HaNoiIPTV-BOX_Hits_HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://tth.vn/boxhits
  
 #EXTINF:-1 tvg-id="man" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/0CPzK4F/Man-150x901j3.png",▶️| Man
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#https://code.vthanhtivi.pw/getlink/cliptv/837/chunklist_b5128000.m3u8
+https://tth.vn/manhd
  
 #EXTINF:-1 tvg-id="woman" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
-http://gg.gg/HaNoiIPTV-WOMAN_HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://oipf0znpmnliv.vcdn.cloud/hls/woman/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="🎞| Giải trí" tvg-logo="http://img-zlr2.tv360.vn/tv360-static/static/web/images/logo.png" ,TV360 MIỀN TÂY
 http://livestream-zlr1.tv360.vn/origin01/fast-channel/manifest/test/playlist_1080p.m3u8 
 #EXTINF:-1 tvg-id="drfithd" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
@@ -306,7 +313,8 @@ http://fash1043.cloudycdn.services/slive/ftv_pg16_adaptive.smil/chunklist_b47000
 #-*--Music-*--#
 
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="http://logo.vagroup.pw/240.png",💿| Music Box
-https://tthd.site/360/289/index.m3u8
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://tth.vn/musicbox
 #EXTINF:-1 tvg-id="mtv.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
 http://rogermellie.xyz:80/richay/richay/1462
 #EXTINF:-1 group-title="🎶| Music" tvg-logo="https://i.ibb.co/9T6trsL/MTV-00s.png",MTV 00s FHD
@@ -372,39 +380,38 @@ http://4rtnw86d.megatv.fun/iptv/TPZHP2V6ZSGKB3/15516/index.m3u8
 
 #-*--Khám Phá-*--#
 #EXTINF:-1 tvg-id="animalhd" tvg-name="Animal Planet" tvg-logo="https://i.imgur.com/QNg7ekk.png" group-title="🌿| Khám phá",Animal Planet
-https://denver1769.pages.dev/Discovery/animal_planet_hd_english.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.231:30120
 #EXTINF:-1 tvg-id="planetearthhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/9sHfrwj/Planet-Earth.png", Planet Earth
-https://code.vthanhtivi.pw/getlink/tv360/135/2.m3u8
+https://oipf0znpmnliv.vcdn.cloud/hls/planetearth/index.m3u8
 
 #EXTINF:-1 tvg-id="afnhd" tvg-name="Asian Food Network" tvg-logo="https://i.imgur.com/B8zA2gc.png" group-title="🌿| Khám phá",Asian Food Network
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/1354953598?profile=pass
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.198:30120
 #EXTINF:0 tvg-id="" tvg-logo="https://i.ibb.co/kB91Qgx/HGTV.png" group-title="🌿| Khám phá", HGTV
 https://denver1769.pages.dev/Discovery/hgtv_hd_english.m3u8
 #EXTINF:-1 tvg-id="bbcearth" tvg-name="BBC Earth" tvg-logo="https://i.ibb.co/bWMMncB/bbcearth-cc.png" group-title="🌿| Khám phá",BBC Earth
-http://sg.tinchuanchuaanh.com:8080/BBC_EARTH_HD/index.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.24:30120
 
 #EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" tvg-logo="https://i.imgur.com/bn7ha63.png" group-title="🌿| Khám phá",BBC Lifestyle
-http://gg.gg/BBCLifeStyleMYHD
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.52:30120
 #EXTINF:-1 tvg-id="bbcworldnews" tvg-name="BBC News" tvg-logo="https://i.ibb.co/j5jJptz/bbcworldnews-cc.png" group-title="🌿| Khám phá",BBC News
-http://cdn-cf.vthanhtivi.pw/fptplay/bbc-news/bitrate_5000.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.74:30120
 #EXTINF:-1 tvg-id="cna" tvg-name="Channel NewsAsia" tvg-logo="https://i.imgur.com/iX9c7AK.png" group-title="🌿| Khám phá",Channel NewsAsia
 http://livecdn.fptplay.net/sdb/newsasia_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="cnn" tvg-name="CNN" tvg-logo="https://i.imgur.com/vBwWXZZ.png" group-title="🌿| Khám phá",CNN
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/97226816?profile=pass
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.242:30120
 
 #EXTINF:-1 tvg-id="davinci" tvg-name="Da Vinci" tvg-logo="https://i.imgur.com/aIAaCce.png" group-title="🌿| Khám phá",Da Vinci
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/123180608?profile=pass
-http://gg.gg/HaNoiIPTV-Da_Vinci_HD
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.197:30120
 
 #EXTINF:-1 tvg-id="discoveryhd" tvg-name="Discovery" tvg-logo="https://i.ibb.co/xzpWHLm/Discovery-Channel.webp" group-title="🌿| Khám phá",Discovery
-http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/1261967457?profile=pass
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.238:30120
 
 #EXTINF:-1 tvg-id="discoveryasiahd" tvg-name="Discovery Asia" tvg-logo="https://i.imgur.com/mRVV3WI.png" group-title="🌿| Khám phá",Discovery Asia
-
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.223:30120
 
 #EXTINF:-1 tvg-id="dw" tvg-name="DW" tvg-logo="https://i.imgur.com/B6jnE9k.png" group-title="🌿| Khám phá",DW
-http://livecdn.fptplay.net/hda2/dwenglish_vhls.smil/chunklist_b5000000.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.46:30120
 
 #EXTINF:-1 tvg-id="lovenature" tvg-name="Love Nature ⁴ᵏ" tvg-logo="https://i.ibb.co/Wzm2SCb/51713cb38f60e82562a65727ce7d5493-icon.png" group-title="🌿| Khám phá",Love Nature ⁴ᵏ
 #EXTVLCOPT:network-caching=1000
@@ -415,13 +422,12 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8?cc
 https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8?cc
 
 #EXTINF:-1 tvg-id="tv5monde" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/R9P4G9X/TV5-Monde.png", TV5MONDE
-#EXTVLCOPT:http-user-agent="KIIP"
-https://livecdn.fptplay.net/sdb/tv5_hls.smil/chunklist_b2500000.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.200:30120
 #EXTINF:-1 tvg-id="nhkworld" tvg-name="NHK World" tvg-logo="https://i.imgur.com/f3f3d79.png" group-title="🌿| Khám phá",NHK World
-https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.47:30120
 
 #EXTINF:-1 tvg-id="outdoorhd" tvg-name="Outdoor Channel" tvg-logo="https://i.ibb.co/x3hpmQ9/Outdoor-Channel.png" group-title="🌿| Khám phá",Outdoor Channel
-https://oipf0znpmnliv.vcdn.cloud/hls/planetearth/index.m3u8
+http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.215:30120
 #--------4K---------#
 #EXTINF:0 tvg-logo="https://i.ibb.co/nCJ8dtt/Picsart-22-12-22-21-42-09-506.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| TravelXP ⁴ᴷ
 #EXTVLCOPT:network-caching=1000
