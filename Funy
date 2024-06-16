@@ -445,8 +445,7 @@ https://d1jg19cd16tz4s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d2yhuqxy1ky6ij.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bel4aqksrgol2-ssai-prd/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE
 
 #-------------------Minh Đức Giải Trí-------------------#
-#EXTINF:-1 tvg-id="tv360hd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="http://img-zlr2.tv360.vn/tv360-static/static/web/images/logo.png" ,▶️| TV360 ¹⁰⁸⁰
-http://livestream-zlr1.tv360.vn/origin01/fast-channel/manifest/test/playlist_1080p.m3u8
+
 #EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO ¹⁰⁸⁰
 udp://@225.1.4.90:30120
 #EXTINF:-1 tvg-id="HBO2.West.us" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/gM2rDGW/1265677.png",▶️| TVB Viet Nam
@@ -478,8 +477,6 @@ https://tth.vn/boxmovie1hd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tth.vn/boxhits
 #https://hqth.me/hIPQ
-#EXTINF:-1 tvg-id="man" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0CPzK4F/Man-150x901j3.png",▶️| Man
-https://code.vthanhtivi.pw/channel/bXQ2eXB2dmpTcy9iMWZobGh6UDhaa3ZkcHVVNytMcFFXcHhoUWJ4aEJOQUVRRXpPM2p3ejZETnB5Z3lhV2FPMFNpMzg3cmEvMWhBWUdCb1JzR21wd1E9PQ==/master.m3u8
 #EXTINF:-1 tvg-id="woman" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
 https://oipf0znpmnliv.vcdn.cloud/hls/woman/index.m3u8
 #EXTINF:-1 tvg-id="drfithd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
@@ -621,11 +618,9 @@ http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/2518/index.m3u8
 #EXTINF: -1 tvg-id="skysportsfootball.hd.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
 http://nv1connect.com:80/tamtam/tjfYkCbP3s/73785
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
-http://rhsbjv7k.tvclub.xyz/iptv/FAGK589PV9BQAG/9334/index.m3u8
-#http://nv1connect.com:80/tamtam/tjfYkCbP3s/73789
+http://nv1connect.com:80/tamtam/tjfYkCbP3s/73789
 #EXTINF: -1 tvg-id="skysportsmainevent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
-http://185.193.88.10/iptv/AHMQNVLWUTM5PW/7337/index.m3u8
-#http://fortv.cc:8080/N0QaDD/625713/35243
+http://friedbatter.gotdns.ch:80/play/live.php?mac=00:1A:79:40:0C:9A&stream=163951&extension=ts&play_token=CvpT2mFr7S
 #EXTINF: -1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.iptveditor.com/skysportsmix.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/2478/index.m3u8
 #EXTINF:0 tvg-id="Sky.Sport.Calcio.HD.it" tvg-logo="https://i.ibb.co/NK2PrnL/Sky-Sport-Calcio.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORT CALCIO
