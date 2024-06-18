@@ -163,7 +163,7 @@ udp://@225.1.2.88:30120
 #EXTINF:-1 tvg-id="vtc16hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/Az8QejV.png",VTC16 ¹⁰⁸⁰
 udp://@225.1.4.54:30120
 #----VTVCAB----#
-#EXTINF:-1 group-title="VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png",ON Sports Action
+#EXTINF:-1 group-title="💗| VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png",ON Sports Action
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://tth.vn/btv5hd
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", ON Sports News
@@ -554,7 +554,7 @@ http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554623_&extensi
 http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554622_&extension=m3u8
 #http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69856
 #EXTINF: -1 tvg-id="fptplay" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",CCTV5+
-https://api.olelive.com/dis/live/CCTV5PHD/hls.m3u8
+https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",⚽ SkySport Premier League HD+
 http://tigerfights.xyz:80/moms/moms123/3320442
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://vodkom.com:25461/Logo/BEIN/eng-1-HD.png",⚽ BEIN SPORTS 1 ENGLISH
@@ -690,8 +690,7 @@ http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19133/index.m3u8
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19133/index.m3u8
 #EXTINF: -1 tvg-id="daznf1.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DAZN_F1_logo.svg/2560px-DAZN_F1_logo.svg.png", DAZN F1 
 http://zeuspro.xyz:8080/javiermayz1/8An6zmmSgC/355186
-#EXTINF: -1 tvg-id="motowizja" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/pbpqpYr/Motowizja.png", Motowizja FHD
-http://46.102.100.196:8181/udp/239.239.17.134:1234
+
 #EXTINF: -1 tvg-id="RMCSport2.fr" tvg-name="RMC Sport 2" tvg-logo="https://i.ibb.co/47Bdd2n/rmc-sport-2.png" group-title="🔴| LÂM-PHONG SPORT",RMC Sport 2
 http://145.239.5.177:8080/525/index.m3u8
 #EXTINF: -1 tvg-id="unbeaten" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/RP0yMGv/unbeaten.png",🎖️| Unbeaten
