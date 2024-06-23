@@ -10,7 +10,7 @@ http://171.238.181.52:18080/154_2.m3u8?AdaptiveType=HLS
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://tth.vn/VTV2HD
 #EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VNHdbry/VTV3-cc.png",❤️| VTV3 ¹⁰⁸⁰
-http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.247:30120
+http://171.238.181.52:18080/155_2.m3u8?AdaptiveType=HLS
 #EXTINF:-1 tvg-id="vtv4hd" group-title="💕| VTV HD" tvg-logo="https://i.ibb.co/VCBW4W8/VTV4-cc.webp",❤️| VTV4 ¹⁰⁸⁰
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://tth.vn/VTV41080p
@@ -266,17 +266,15 @@ https://tth.vn/htvcplus
 
 #---Giải Trí---#
 #EXTINF:-1 tvg-id="hbohd" tvg-logo="https://i.imgur.com/w5u4IrO.png" group-title="🎞| Giải trí",HBO
-http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.112:30120
+http://103.77.241.152:1234/stream/hbo/stream.m3u8
 #EXTINF:-1 tvg-id="cinemaworldhd" group-title="🎞| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/231.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/cinemawork_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", CinemaWorld
 http://103.77.241.152:1234/stream/cinemaworld/stream.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="🎞| Giải trí", CINEMAX HD
 http://103.77.241.152:1234/stream/cinemaxhd/stream.m3u8
-#EXTINF:-1  tvg-id="https://code.vthanhtivi.pw/getlink/tv360/107/2.m3u8" group-title="🎞| Giải trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/HITS%20HD.png",HITS HD
-http://gg.gg/HaNoiIPTV-HITS_HD
 #EXTINF:-1 tvg-id="warnertvhd" tvg-name="Warner TV" tvg-logo="https://i.ibb.co/xJ6MN0M/warner.png" group-title="🎞| Giải trí",▶️| Warner TV
-http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.139:30120
+http://103.77.241.152:1234/stream/warnertv/stream.m3u8
 #EXTINF:-1 tvg-id="axnhd" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", AXN HD
-http://homelab.nguyenvinh.id.vn:4022/udp/225.1.2.225:30120
+http://103.77.241.152:1234/stream/axnhd/stream.m3u8
 #EXTINF:-1 tvg-id="kix" tvg-name="KIX" tvg-logo="https://i.imgur.com/EIpDxnQ.png" group-title="🎞| Giải trí",▶️| KIX HD
 http://gg.gg/HaNoiIPTV-Kix_HD
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
@@ -287,8 +285,7 @@ https://api.wintv.me/360/235/index.m3u8
 #EXTINF:-1 tvg-id="boxmovie1" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",▶️| BOX Movie¹
 https://api.wintv.me/360/159/index.m3u8
 #EXTINF:-1 tvg-id="boxhits" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",▶️| Box Hits
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.wintv.me/360/239/index.m3u8
+http://103.77.241.166/wseQUBR4GQ/3zxpjdnHrK/38.m3u8
  
 #EXTINF:-1 tvg-id="man" group-title="🎞| Giải trí" tvg-logo="https://i.ibb.co/0CPzK4F/Man-150x901j3.png",▶️| Man
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
