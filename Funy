@@ -408,7 +408,7 @@ http://103.77.241.195/NgBewedPwR/f6yxYCZCKz/21.m3u8
 http://103.77.241.195/NgBewedPwR/f6yxYCZCKz/22.m3u8
 
 #----Music----#
-#EXTINF:-1 group-title="Livestream" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_pladio_163947930147.png", FPT Play Pladio
+#EXTINF:-1 group-title="🎶| Music" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_pladio_163947930147.png", FPT Play Pladio
 #EXTVLCOPT:http-user-agent=VMT
 https://tth.vn/fptpladio
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
@@ -721,8 +721,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF: -1 tvg-id="combate.br" tvg-name="BR: COMBATE FHD" tvg-logo="https://i.ibb.co/4JKFQtQ/combat.png" group-title="🔴| LÂM-PHONG SPORT",COMBAT FHDR
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
 #EXTINF:0 tvg-id="FIGHTBOX" tvg-name="FIGHT BOX" tvg-logo="https://i.ibb.co/CbFCs0D/fightbox.png" group-title="🔴| LÂM-PHONG SPORT",FIGHT BOX
-http://extraott.com:80/live/7921751389/6097373662/153949.m3u8
-#http://stream01.vnet.am/Fightbox/mono.m3u8
+https://stream01.vnet.am/Fightbox/playlist.m3u8
 #EXTINF:0 tvg-id="mmatvhd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/x1m29yh/MMAtv.png",🎖️| MMA-TV.com HD
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19243/index.m3u8
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19243/index.m3u8
