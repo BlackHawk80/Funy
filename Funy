@@ -74,8 +74,6 @@ https://i.mjh.nz/SamsungTVPlus/USBC44000072I.m3u8
 http://tv.premiumplus.tv:80/play/live.php?mac=00:1A:79:B1:94:01&stream=30513&extension=ts
 #EXTINF:-1 tvg-id="thelegochannel.us" tvg-name="LEGO Kids TV" tvg-logo="https://i.ibb.co/z2kWh2P/Lego.png" group-title="🌈| Hoạt hình",LEGO Kids TV ᴴᴰ
 https://i.mjh.nz/SamsungTVPlus/USBA2300001S8
-#EXTINF:-1 tvg-id="PlutoTVKidsUK.uk" tvg-logo="https://i.ibb.co/WPDX5j7/bluto.png" group-title="🌈| Hoạt hình",Pluto TV Kids
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267760/ei/UJQ8Zva4ObukkucPuKu7sAw/ip/20.55.14.132/id/7nq4NpeGg1E.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr4---sn-p5qlsn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/b2/mm/44/mn/sn-p5qlsn76/ms/lva/mv/u/mvi/4/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715244149/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRAIgTOjpjrwsq9KiOiqfwrTjUvgRTImrBOvXCrziK4v9fS0CIClmZfYKzStHZuTcWsWju480hAVkcLcJRiOPqVERptjG/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRQIhAKLFFdx6HyS7af7i_fpe1o9Rjs6iYoVnqurwk5_UqBrCAiAHjRGgKUxicc68ydLUlYufLYKMFI0UzMu8vmiivtc5Mw%3D%3D/playlist/index.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.us" tvg-logo="https://i.imgur.com/nuzIBbN.png" group-title="🌈| Hoạt hình",Moonbug Kids (1080p)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PinkfongBabyShark" tvg-logo="https://i.ibb.co/RzTcgsy/Pinkfong-Baby-Shark.png" group-title="🌈| Hoạt hình",Pinkfong Baby Shark ᴴᴰ
@@ -231,8 +229,27 @@ https://tth.vn/vtvcab22
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tth.vn/vtvcab23
-#-------------------Even-------------------#
-
+#-------------------Live Even-------------------#
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 1
+https://liveh34.vtvcab.vn/hls/ONSPORT01/index.m3u8
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 2
+https://liveh34.vtvcab.vn/hls/ONSPORT02/index.m3u8
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 3
+https://liveh34.vtvcab.vn/hls/ONSPORT03/index.m3u8
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 4
+https://liveh34.vtvcab.vn/hls/ONSPORT04/index.m3u8
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 5
+https://liveh34.vtvcab.vn/hls/ONSPORT05/index.m3u8
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 6
+https://liveh34.vtvcab.vn/hls/ONSPORT06/index.m3u8
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 7
+https://liveh34.vtvcab.vn/hls/ONSPORT07/index.m3u8
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 8
+https://liveh34.vtvcab.vn/hls/ONSPORT08/index.m3u8
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 9
+https://liveh34.vtvcab.vn/hls/ONSPORT09/index.m3u8
+#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 10
+https://liveh34.vtvcab.vn/hls/ONSPORT010/index.m3u8
 #--------4K---------#
 #EXTINF:0 tvg-logo="https://i.ibb.co/hW8G92t/Box.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 BOX Music ⁴ᴷ
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19282/index.m3u8
@@ -391,6 +408,9 @@ http://103.77.241.195/NgBewedPwR/f6yxYCZCKz/21.m3u8
 http://103.77.241.195/NgBewedPwR/f6yxYCZCKz/22.m3u8
 
 #----Music----#
+#EXTINF:-1 group-title="Livestream" tvg-logo="https://static.fptplay.net/static/img/share/channels/icon_channel_pladio_163947930147.png", FPT Play Pladio
+#EXTVLCOPT:http-user-agent=VMT
+https://tth.vn/fptpladio
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
 https://api.wintv.me/360/289/index.m3u8
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
@@ -440,7 +460,9 @@ https://d1jg19cd16tz4s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d2yhuqxy1ky6ij.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bel4aqksrgol2-ssai-prd/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE
 
 #-------------------Minh Đức Giải Trí-------------------#
-
+#EXTINF:-1 tvg-id="hitv" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/98.png", HiTV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tth.vn/HITVFHD
 #EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO ¹⁰⁸⁰
 udp://@225.1.4.90:30120
 #EXTINF:-1 tvg-id="HBO2.West.us" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/gM2rDGW/1265677.png",▶️| TVB Viet Nam
