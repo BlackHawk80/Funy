@@ -501,12 +501,8 @@ https://oipf0znpmnliv.vcdn.cloud/hls/woman/index.m3u8
 #EXTINF:-1 tvg-id="drfithd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
 https://oipf0znpmnliv.vcdn.cloud/hls/drfit/index.m3u8
 
-#EXTINF:-1 tvg-id="CodeFashionTV.bg" tvg-logo="https://i.imgur.com/R8UaNsX.png" group-title="📽️| Minh Đức Giải Trí",▶️| Code Fashion TV ¹⁰⁸⁰
-https://cdn3.invivo.bg/Codefashion_5500/index.m3u8
 #EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="📽️| Minh Đức Giải Trí",▶️| Fashion Show ¹⁰⁸⁰
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:0 group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0B4fDqs/fashion-one-logo-3481715-C90-seeklogo-com.png",▶️| Fashion One ¹⁰⁸⁰
-http://acsb.sh:80/ns6C6G/phantomiptv/103503.ts
 #EXTINF:-1 tvg-id="fashionhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/XL02Bpx/pngwing-com.png",▶️| Fashion TV ¹⁰⁸⁰
 udp://@225.1.2.227:30120
 #EXTINF:-1 tvg-id="FashionTelevision.uk" tvg-logo="https://i.ibb.co/Vxk95xf/Miss-FTV-FINAL.png" group-title="📽️| Minh Đức Giải Trí",▶️| Fashion TV UHD ⁴ᴷ
@@ -580,7 +576,7 @@ https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 http://tigerfights.xyz:80/moms/moms123/3320442
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://vodkom.com:25461/Logo/BEIN/eng-1-HD.png",⚽ BEIN SPORTS 1 ENGLISH
 http://85.237.89.6:9590/ar-s/bein-1-stop-TimeSheft/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c9/IMG_20200801_085604.jpg/revision/latest?cb=20200801005853",One Sport+ HD
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/mBrGKsc/One-Sports-Plus.png",One Sport+ HD
 https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/onesportsplushd_qp.m3u8
 
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV5" tvg-logo="https://i.ibb.co/tZ1rKtf/vidio.png", ⚽ CHAMPIONS TV 5 (Live EPL)
