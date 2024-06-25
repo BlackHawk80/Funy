@@ -45,7 +45,8 @@ http://hodam:87654321@hothanhdam.dsmynas.com:9981/stream/channelid/1556010406?pr
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 
 http://113.164.225.140:1935/live/quochoitvlive.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="qpvnhd" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/N9zkzV2/Quoc-Phong-cc.webp",❤️| QPVN ¹⁰⁸⁰
-https://oipf0znpmnliv.vcdn.cloud/hls/quocphongvn/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://api.wintv.me/quocphong/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="🌐| Thiết yếu" tvg-logo="https://i.ibb.co/PGxCzX8/ccVL1.webp",❤️| THVL1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tth.vn/THVL1
@@ -175,11 +176,6 @@ https://newidco-babysharktv-1-us.roku.wurl.tv/4300.m3u8
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267757/ei/TZQ8ZqKzIOyIkucP4LWS-Aw/ip/20.55.14.132/id/A3DwndiufA4.5/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-4o.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/S0/mm/44/mn/sn-4o/ms/lva/mv/u/mvi/2/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715244149/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRgIhAIdsFDXQEgiJIB-qlDqRES64noOzi-73-nQYZ4XmRe3eAiEAqhg_1bl7tfjaub-43-zqQzRzXXJmlt5ZbI7kE8ZNVEQ%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRAIgTdWEjGzMYWcJSdninVXHRfjCRCFMR-vxB1Q_wxeM2tsCIHgbDZIHSlPd9j6s2mZJfjVP_gFGNHO7sReTehMzilC1/playlist/index.m3u8
 #EXTINF:-1 tvg-id="pbskids.us" tvg-logo="https://i.ibb.co/56P6wP0/i-fixed-the-new-pbs-kids-logo-by-myktm250-df8zjcw-fullview.png" group-title="🌈| Hoạt hình", PBS KIDS ᴴᴰ
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
-#EXTINF:-1 tvg-id="Ben10UltimateAlien" tvg-name="24/7 Ben 10 Ultimate Alien" tvg-logo="https://i.ibb.co/d0RKbmT/Ben-10.png" group-title="🌈| Hoạt hình",24/7 Ben 10 Ultimate Alien
-http://31.42.185.216:8000/live/PichardiRestream/0cm83cx43c2/140843.ts
-#EXTINF:-1 tvg-id="Tom&Jerryhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xDbxGR0/Picsart-22-12-20-22-48-34-852.png",Tom&Jerry ᴴᴰ
-#EXTVLCOPT:network-caching=1000
-http://ultrontv.xyz:80/Darko123/Darko78/129554
 #EXTINF:-1 tvg-id="cineboxanimation.uk" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/S0Z2crr/CineBox.png", Cinebox Animation ᴴᴰ
 http://fortv.cc:8080/N0QaDD/625713/119420
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="6206" tvg-logo="http://epg.it999.ru/img/6206.png" tvg-rec="0",ZooMoo
