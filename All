@@ -551,16 +551,14 @@ https://tth.vn/tv360plus4
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_0/chunklist.m3u8
 #EXTINF: -1 tvg-id="English.-.Now.Sports.1.hk" tvg-logo="https://i.ibb.co/MhgRjWw/now1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 1
-http://ky-iptv.com:80/Ivica5274/juric4005/2695078.ts
+http://tigerfights.xyz:80/moms/moms123/3336125
 #http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69854
 #EXTINF: -1 tvg-id="NowPremierSports 2.hk" tvg-logo="https://i.ibb.co/fD0dJJb/Now-Sports-2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554623_&extension=m3u8
-#http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69855
+http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69855
 #EXTINF: -1 tvg-id="NowPremierSports3.hk" tvg-logo="https://i.ibb.co/6XnWYH4/Now-Sports-3.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554622_&extension=m3u8
-#http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69856
+http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69856
 #EXTINF: -1 tvg-id="fptplay" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",CCTV5+
 https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",⚽ SkySport Premier League HD+
@@ -648,12 +646,10 @@ http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19043/index.m3u8
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/MZSzM6c/epl.png", Paramount ⚽EPL
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62d816fcf24d280008762ee9/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 #EXTINF:0 tvg-id="setanta1" tvg-logo="https://i.ibb.co/86rsQyd/Setanta-Sports-1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Setanta 1 HD
-http://e6ce69f2.kazaktelekom.com/iptv/K4NFFYMLT9ZLUX/271/index.m3u8
-#https://bkm.beetv.kz/btv/live/hls/000006998.m3u8
+https://bkm.beetv.kz/btv/live/hls/000006998.m3u8
 #http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/271/index.m3u8
 #EXTINF:0 tvg-id="setanta2" tvg-logo="https://i.ibb.co/XCYT22S/Setanta-Sports-2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Setanta 2 HD
-http://e6ce69f2.kazaktelekom.com/iptv/K4NFFYMLT9ZLUX/270/index.m3u8
-#https://bkm.beetv.kz/btv/live/hls/000006899.m3u8
+https://bkm.beetv.kz/btv/live/hls/000006899.m3u8
 #http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/270/index.m3u8
 #EXTINF: -1 tvg-id="SONYSPORTSTEN1.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN1 HD
 http://tigerfights.xyz:80/moms/moms123/2454967
@@ -690,7 +686,7 @@ http://fortv.cc:8080/N0QaDD/625713/53741
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
 http://195.154.102.152:8000/live?channelId=264&uid=9690&deviceMac=00:1A:79:42:CD:B8
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-http://rhsbjv7k.tvclub.xyz/iptv/FAGK589PV9BQAG/7342/index.m3u8
+http://tigerfights.xyz:80/moms/moms123/2485229
 #http://fortv.cc:8080/N0QaDD/625713/53704
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19133/index.m3u8
