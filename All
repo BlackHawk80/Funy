@@ -624,7 +624,7 @@ http://extraott.com:80/live/7921751389/6097373662/153718.m3u8
 https://director.streaming.telia.com/tvm-packager-prod/group1/60896dfd47a23d7c065cd68c/manifest.mpd
 #EXTINF: -1 tvg-id="viasatSportPremierLeague.fi" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/3ChDTNL/vsportpremier2.png",⚽| V Sport Premier League
 http://cam.access.ly/play/live.php?mac=00:1a:79:b4:af:19&stream=1001371&extension=m3u8
-#EXTINF:-1 group-title="Thể thao" tvg-id="viasat-sport-se" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/40051-4.png",V SPORT 1
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="viasat-sport-se" tvg-logo="https://cd-static.telenorcdn.net/cdepg/img/ngp/logo/800/40051-4.png",V SPORT 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=04c5eaf62cd75f2d947ab4d621f39256:76967598962e7a7314a2b251e9070725
 https://director.streaming.telia.com/tvm-packager-prod/group1/6089c17d47a23d76645ceaf4/manifest.mpd
@@ -724,8 +724,7 @@ http://fortv.cc:8080/N0QaDD/625713/53741
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
 http://195.154.102.152:8000/live?channelId=264&uid=9690&deviceMac=00:1A:79:42:CD:B8
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-http://tigerfights.xyz:80/moms/moms123/2485229
-#http://fortv.cc:8080/N0QaDD/625713/53704
+http://fortv.cc:8080/N0QaDD/625713/53704
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19133/index.m3u8
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19133/index.m3u8
