@@ -400,7 +400,7 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="fashionmidnightsecrets.fr" tvg-logo="https://i.ibb.co/Vxk95xf/Miss-FTV-FINAL.png" group-title="🎞| Giải trí",▶️| Fashion TV Midnight Secrets
 http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="fashionhd" tvg-name="Fashion TV" tvg-logo="https://i.ibb.co/XL02Bpx/pngwing-com.png" group-title="🎞| Giải trí",▶️| Fashion TV
-https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8
+http://91.247.68.229:8000/play/Fashion/index.m3u8
 
 #-*--Music-*--#
 
@@ -550,7 +550,7 @@ http://extraott.com:80/live/7921751389/6097373662/30405.m3u8
 #EXTINF:-1 tvg-id="beIN4K.qa" tvg-logo="https://i.ibb.co/CQtjqCk/Be-IN-SPORTS-4-K-Logo.jpg" group-title="🌏| 4K 🇺 🇭 🇩",⚽ BeIN UHD ⁴ᴷ HDR
 https://7pal.short.gy/bein-uhd
 #EXTINF:-1 tvg-id="ZiggoSport.nl" tvg-logo="https://i.ibb.co/zb84wJh/ziggo.png" group-title="🌏| 4K 🇺 🇭 🇩",Ziggo Sport ⁴ᴷ
-http://vzdehv1c.siauliairsavlt.pw/iptv/T3P5FCCGLZ8LXZ/31246/index.m3u
+http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/318127.m3u8
 #EXTINF:0 tvg-id="SkySportBundesligaUHD.de" group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga ⁴ᴷ
 http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=484209&extension=ts&play_token=5XWDuAhsnf
 
