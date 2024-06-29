@@ -553,13 +553,12 @@ https://7pal.short.gy/5sport
 #EXTINF:-1 tvg-id="Eleven.Sports.1.4K.pl" tvg-logo="https://i.ibb.co/44KZ1yK/elevensports1-4k-1-632x221-1.png" group-title="🌏| 4K 🇺 🇭 🇩",⚽ ElevenSport ⁴ᴷ
 http://rhsbjv7k.tvclub.xyz/iptv/FAGK589PV9BQAG/20068/index.m3u8
 #http://185.193.88.10/iptv/AHMQNVLWUTM5PW/20068/index.m3u8
-#EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩",Canada: Orange Sport 1 4K
-http://zeuspro.xyz:8080/javiermayz1/8An6zmmSgC/355189
-#EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩",Czech Republic: Prima 4K
-http://zeuspro.xyz:8080/javiermayz1/8An6zmmSgC/355191
-#EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩",FR: RMC Sport 1 4K UHD
-http://clientbox.tv:80/dS9UVq4chH87174/uPuCyuP0Xn/342420
-
+#EXTINF:-1 group-title="4️⃣🇰 🇺 🇭 🇩",FUSSBALL.TV 1ᵁᴴᴰ
+http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/639320.m3u8
+#EXTINF:-1 group-title="4️⃣🇰 🇺 🇭 🇩",FUSSBALL.TV 2ᵁᴴᴰ
+http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/639317.m3u8
+#EXTINF:-1 group-title="4️⃣🇰 🇺 🇭 🇩",FUSSBALL.TV 3ᵁᴴᴰ
+http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/639314.m3u8
 
 #-------------------Live Bóng Đá-------------------#
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
