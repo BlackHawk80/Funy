@@ -400,7 +400,7 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="fashionmidnightsecrets.fr" tvg-logo="https://i.ibb.co/Vxk95xf/Miss-FTV-FINAL.png" group-title="🎞| Giải trí",▶️| Fashion TV Midnight Secrets
 http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="fashionhd" tvg-name="Fashion TV" tvg-logo="https://i.ibb.co/XL02Bpx/pngwing-com.png" group-title="🎞| Giải trí",▶️| Fashion TV
-http://91.247.68.229:8000/play/Fashion/index.m3u8
+http://103.77.241.152:1234/stream/fashiontv/stream.m3u8
 
 #-*--Music-*--#
 
