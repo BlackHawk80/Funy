@@ -233,7 +233,7 @@ https://s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://s8.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s8.edge.cdn.sctvonline.vn/hls/sctv4/index.m3u8
 #EXTINF:-1 tvg-id="sctv6hd" group-title="🍄| SCTV" tvg-logo="https://i.ibb.co/FHWGnnz/SCTV6.webp", SCTV6 HD
-http://homelab.nguyenvinh.id.vn:4022/udp/225.1.1.188:30120
+https://tth.vn/Khi%CC%81ch-TiVi-live.8080-SCTV6-FHD-keyok-playlist.m3u8
 #EXTINF:-1 tvg-id="sctv7hd" group-title="🍄| SCTV" tvg-logo="https://i.ibb.co/QM75wdn/SCTV7.webp", SCTV7 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://s1.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s1.edge.cdn.sctvonline.vn/hls/sctv7/index.m3u8
