@@ -435,8 +435,7 @@ udp://@225.1.1.236:30120
 #EXTINF:-1 tvg-id="tv5monde" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/R9P4G9X/TV5-Monde.png",TV5 MONDE ASIE ¹⁰⁸⁰
 udp://@225.1.1.200:30120
 #EXTINF:-1 tvg-id="hgtv" tvg-logo="https://i.ibb.co/kB91Qgx/HGTV.png" group-title="🌿| Khám phá",🍀| HGTV ¹⁰⁸⁰
-https://denver1769.pages.dev/Discovery/hgtv_hd_english.m3u8
-#https://denver1769.pages.dev/Discovery/hgtv_hd_english.m3u8
+http://gg.gg/HaNoiIPTV-HGTV_HD
 #EXTINF:-1 tvg-id="historyhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",🍀|History ¹⁰⁸⁰
 http://fpt.vthanhtivi.pw/history/mpegts
 
