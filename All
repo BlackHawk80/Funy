@@ -701,7 +701,7 @@ http://nv1connect.com:80/tamtam/tjfYkCbP3s/1135
 http://nv1connect.com:80/tamtam/tjfYkCbP3s/1364
 #EXTINF: -1 tvg-id="eurosport2.uk" tvg-name="EUROSPORT 2 HD" tvg-logo="https://logo.iptveditor.com/eurosport2.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 2 HD
 http://nv1connect.com:80/tamtam/tjfYkCbP3s/43098
-#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT",US| FUBO SPORTS 1 HD
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YRdK5NM/fubo-sports.png" group-title="🔴| LÂM-PHONG SPORT",US| FUBO SPORTS 1 HD
 http://extraott.com:80/live/7921751389/6097373662/2814.m3u8
 #EXTINF: -1 tvg-id="AllSports.br" tvg-logo="https://i.imgur.com/wULpnYR.png" group-title="🔴| LÂM-PHONG SPORT",All Sports (720p)
 https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8
