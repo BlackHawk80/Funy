@@ -367,7 +367,7 @@ https://d1jg19cd16tz4s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d2yhuqxy1ky6ij.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bel4aqksrgol2-ssai-prd/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE
 
 #-------------------Minh Đức Giải Trí-------------------#
-#EXTINF:-1 tvg-id="hitv" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/98.png", HiTV HD
+#EXTINF:-1 tvg-id="hitv" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/yFGyjhW/HiTV.png", HiTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tth.vn/HITVFHD
 #EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO ¹⁰⁸⁰
@@ -571,7 +571,7 @@ http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69855
 #EXTINF: -1 tvg-id="NowPremierSports3.hk" tvg-logo="https://i.ibb.co/6XnWYH4/Now-Sports-3.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69856
-#EXTINF: -1 tvg-id="fptplay" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",CCTV5+
+#EXTINF: -1 tvg-id="fptplay" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/XDVMYVK/CCTV5.png",CCTV5+
 https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",⚽ SkySport Premier League HD+
 http://tigerfights.xyz:80/moms/moms123/3320442
@@ -679,7 +679,7 @@ http://nv1connect.com:80/tamtam/tjfYkCbP3s/43098
 http://extraott.com:80/live/7921751389/6097373662/2814.m3u8
 #EXTINF: -1 tvg-id="AllSports.br" tvg-logo="https://i.imgur.com/wULpnYR.png" group-title="🔴| LÂM-PHONG SPORT",All Sports (720p)
 https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8
-#EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/ThWK08S/World-Billiards-TV-Logo-sml.png", World Billiards
+#EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/1RmyHr3/Billiards.png", World Billiards
 https://i.mjh.nz/SamsungTVPlus/KRBC3200011N3.m3u8
 https://newidco-billiardstv-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/cbgY0xm/Kozoom.png", KOZOOM TV
