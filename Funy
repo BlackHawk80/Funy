@@ -85,7 +85,7 @@ https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="cineboxanimation.uk" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/S0Z2crr/CineBox.png", Cinebox Animation ᴴᴰ
 http://fortv.cc:8080/N0QaDD/625713/119420
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="6206" tvg-logo="http://epg.it999.ru/img/6206.png" tvg-rec="0",ZooMoo
-https://i.mjh.nz/SamsungTVPlus/USBC2400019EF.m3u8
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 
 #-------------------Thiết yếu-------------------#
 #EXTINF:-1 tvg-id="antvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/LkKzBb8/Anninh.png",❤️| ANTV ¹⁰⁸⁰
@@ -325,8 +325,8 @@ http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19192/index.m3u8
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
 https://bkm.beetv.kz/btv/live/hls/000000447.m3u8
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mtvhits.uk" tvg-name="MTV HITS" tvg-logo="https://logo.iptveditor.com/mtvhits.png" group-title="🎶| Music",MTV HITS
-http://185.193.88.10/iptv/AHMQNVLWUTM5PW/221/index.m3u8
-https://vnpt.nekocdn.xyz/hls/MTV/index.m3u8
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18&isp=10&bind=0&uin=159413&playseek=0
+
 
 #EXTINF:-1 tvg-id="" tvg-name="Stingray Karaoke" tvg-logo="https://i.ibb.co/z28Gs8G/stingray-karaoke.png" group-title="🎶| Music",Stingray Karaoke 🎤
 https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
@@ -334,17 +334,14 @@ https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master
 https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-name="K-Pop" tvg-logo="https://i.ibb.co/LtpYRqp/6835979e3f611277056e386883832986.png" group-title="🎶| Music",💿| Korea Pop
 https://raw.githubusercontent.com/AqFad2811/randomlivefromyt/main/TheKPOP.m3u8
-https://i.mjh.nz/SamsungTVPlus/USBD3500016NH.m3u8
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267769/ei/WZQ8ZsjFDJOGkucPyMmvwA4/ip/20.55.14.132/id/JVocS7Yftw8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr5---sn-4h.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/wS/mm/44/mn/sn-4h/ms/lva/mv/u/mvi/5/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715244149/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRAIgXHVtdyBiHHYowbRJulYGuR2RSZ21hmU77y1HYQ3X7aQCIEVKBr9vMYHwPzXMvql03FihxmuoqvpZ-CrSeqC8fDgS/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRAIgDRy7iW46eOgJY2AYp-O2M0qgQzx-HfMc_bZOm-BsRM4CID1A11THckyl3PnIzFk5iwr3pA-AzuZTThbHgrxijXXZ/playlist/index.m3u8
 #EXTINF:-1 tvg-name="KPop" tvg-logo="https://i.ibb.co/vJ5sQNG/d5qk7xl-c2d79eae-935a-4336-bf93-e6a6d5ace6fe.png" group-title="🎶| Music",💿| Korea Pop 2
 https://raw.githubusercontent.com/AqFad2811/randomlivefromyt/main/TheKPOP2.m3u8
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267771/ei/W5Q8ZpqqIauqkucPieGB-A8/ip/20.55.14.132/id/91ei4xm8LO8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr1---sn-p5qddn7k.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/FL/mm/44/mn/sn-p5qddn7k/ms/lva/mv/u/mvi/1/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715245973/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRQIhAOdUJ-bCUGO5s5J1s23iAvz-kz6zQ7xF889HXAykBihVAiAD64xGKwgqppPR4fmNkOsvI9hUb2paR68lhdPfNF3mgQ%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRQIhAOjlmTabArdDbX5bT0so-eR3otwssqB_dYKT6aps7iO_AiB0-MXGxrV5sQ32oVrcXcq6XJP5cozAVbfwkrmRwgI03g%3D%3D/playlist/index.m3u8
 #EXTINF:-1 tvg-id="sexykpophd" tvg-logo="https://i.ibb.co/9HyBcHp/sexykpop.png" group-title="🎶| Music",💿| SexyK-Pop
-https://marine2.miplay.cl/kpop/playlist.m3u8
+https://ssh101-fl.bozztv.com/ssh101/kpoptv/playlist.m3u8
 #EXTINF:-1 tvg-name="K-Pop – Pluto TV" tvg-logo="https://i.ibb.co/gr4Bfp8/Kpop.png" group-title="🎶| Music",💿| K-Pop
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60c8b75fb0a68400074b86fc/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+https://marine2.miplay.cl/kpop/playlist.m3u8
 #EXTINF:-1 tvg-id="newkpop" group-title="🎶| Music" tvg-logo="https://i.ibb.co/fDGqhYH/Kpop4K.png",New-Kpop
-https://i.mjh.nz/SamsungTVPlus/USAJ3000013FJ.m3u8
 https://tinyurl.com/TiviMe-NewKPop
 
 #EXTINF:-1 tvg-id="deejaytv" group-title="🎶| Music" tvg-logo="https://i.ibb.co/GTxPjPN/Seek-Png-com-dj-png-347593.png",💿| Deejay TV
@@ -529,7 +526,7 @@ https://7pal.short.gy/BTUltimate
 http://extraott.com:80/live/7921751389/6097373662/30405.m3u8
 #http://tigerfights.xyz:80/moms/moms123/3337226
 #EXTINF:-1 tvg-id="beIN4K.qa" tvg-logo="https://i.ibb.co/CQtjqCk/Be-IN-SPORTS-4-K-Logo.jpg" group-title="🌏| 4K 🇺 🇭 🇩",⚽ BeIN UHD ⁴ᴷ HDR
-https://7pal.short.gy/bein-uhd
+http://doubleclicktv.live/70376812/52663544/327643
 #EXTINF:-1 tvg-id="ZiggoSport.nl" tvg-logo="https://i.ibb.co/zb84wJh/ziggo.png" group-title="🌏| 4K 🇺 🇭 🇩",Ziggo Sport ⁴ᴷ
 http://vzdehv1c.siauliairsavlt.pw/iptv/T3P5FCCGLZ8LXZ/31246/index.m3u
 #EXTINF:0 tvg-id="SkySportBundesligaUHD.de" group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga ⁴ᴷ
@@ -576,7 +573,7 @@ https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",⚽ SkySport Premier League HD+
 http://tigerfights.xyz:80/moms/moms123/3320442
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://vodkom.com:25461/Logo/BEIN/eng-1-HD.png",⚽ BEIN SPORTS 1 ENGLISH
-http://85.237.89.6:9590/ar-s/bein-1-stop-TimeSheft/tracks-v1a1/mono.m3u8
+http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/493043.m3u8
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/mBrGKsc/One-Sports-Plus.png",One Sport+ HD
 https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/onesportsplushd_qp.m3u8
 
@@ -616,11 +613,11 @@ http://bd330f8a.ottolok.net/iptv/2VZ7DXMBYRXFUZ/12251/index.m3u8
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/12252/index.m3u8
 http://bd330f8a.ottolok.net/iptv/2VZ7DXMBYRXFUZ/12252/index.m3u8
 #EXTINF: -1 tvg-id="Hub.Premier.1.(HD).sg" tvg-name="HubPremier1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qoerty1659622111.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 1
-http://shareext@stalker.ugoiptv.com/play/live.php?mac=00:1A:79:58:29:BA&stream=1032529&extension=ts&play_token=7pY8UHAipV
+http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554980&extension=m3u8
 #EXTINF: -1 tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/sdvs4u1659622094.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 2
-http://shareext@stalker.ugoiptv.com/play/live.php?mac=00:1A:79:58:29:BA&stream=1032528&extension=ts&play_token=7pY8UHAipV
+http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554979&extension=m3u8
 #EXTINF: -1 tvg-id="Hub.Premier.3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
-http://shareext@stalker.ugoiptv.com/play/live.php?mac=00:1A:79:58:29:BA&stream=1032527&extension=ts&play_token=7pY8UHAipV
+http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554978&extension=m3u8
 
 #EXTINF: -1 tvg-id="SkySportsBundesliga.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga
 http://rhsbjv7k.tvclub.xyz/iptv/FAGK589PV9BQAG/2480/index.m3u8
@@ -698,7 +695,7 @@ http://fortv.cc:8080/N0QaDD/625713/53741
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
 http://195.154.102.152:8000/live?channelId=264&uid=9690&deviceMac=00:1A:79:42:CD:B8
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-http://tigerfights.xyz:80/moms/moms123/2485229
+http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/366421.m3u8
 #http://fortv.cc:8080/N0QaDD/625713/53704
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19133/index.m3u8
@@ -716,7 +713,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF: -1 tvg-id="combate.br" tvg-name="BR: COMBATE FHD" tvg-logo="https://i.ibb.co/4JKFQtQ/combat.png" group-title="🔴| LÂM-PHONG SPORT",COMBAT FHDR
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
 #EXTINF:0 tvg-id="FIGHTBOX" tvg-name="FIGHT BOX" tvg-logo="https://i.ibb.co/CbFCs0D/fightbox.png" group-title="🔴| LÂM-PHONG SPORT",FIGHT BOX
-https://stream01.vnet.am/Fightbox/playlist.m3u8
+http://iptvtree.net:8080/F14995/a84c0963/299261
 #EXTINF:0 tvg-id="mmatvhd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/x1m29yh/MMAtv.png",🎖️| MMA-TV.com HD
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19243/index.m3u8
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19243/index.m3u8
