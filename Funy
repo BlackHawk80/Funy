@@ -157,61 +157,60 @@ udp://@225.1.4.54:30120
 #----VTVCAB----#
 #EXTINF:-1 group-title="💗| VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png",ON Sports Action
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tth.vn/btv5hd
+https://liveh12.vtvcab.vn/hls/ONBTV5/04.m3u8
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", ON Sports News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/onsportnews
+https://api.wintv.me/vtvcab18/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png", ON Sports HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/onsport
+https://api.wintv.me/vtvcab3/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab6hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/37hkhwk/VCab6-cc.webp", ON Sports+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/onsportplus
+https://api.wintv.me/vtvcab6/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png", ON Football HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/onfootball
+https://api.wintv.me/vtvcab16/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab23
+https://api.wintv.me/vtvcab23/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp",  VTVcab 1 - Vie Giải trí HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://m3u.at/vtvcab1
-#https://tth.vn/vtvcab1
+https://api.wintv.me/vtvcab1/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp", ON Phim Việt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab2
+https://api.wintv.me/vtvcab2/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab2/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/k2TFx50/ONMovies.png", ON Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab4
+https://api.wintv.me/vtvcab4/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab4/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab5hd"  tvg-logo="https://i.ibb.co/x6FrQSw/VCab5-cc.webp", ON - E Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab5
+https://api.wintv.me/vtvcab5/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab5/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab7hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/CwLKYLF/vtvcab7-ONO2.png", ON O2TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab7hd
+https://api.wintv.me/vtvcab7/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab7/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab8hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/61RhmVc/VCab8-cc.webp", ON BiBi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab8
+https://api.wintv.me/vtvcab8/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab8/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab9hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/17c1dp7/cccab9.webp"", ON Info TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab9
+https://api.wintv.me/vtvcab9/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab9/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab10hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/4J66cdQ/VCab10-cc.webp", ON Cine
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab10
+https://api.wintv.me/vtvcab10/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab10/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab12hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/M9L1k4D/cccab12.webp", ON Style
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab12
+https://api.wintv.me/vtvcab12/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab12/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab15hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/D9F5v7M/ONMusic15.png", ON Music
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab15
+https://api.wintv.me/vtvcab15/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab15/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab17hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/M85FLWM/VCab17-cc.webp", VTVcab 17 - Yeah1TV
 https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab17/index.m3u8
@@ -221,10 +220,10 @@ https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab19/index.m3u8
 https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab20/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab21hd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/SmvVL96/ON-Kids21.png", ON Kids
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab21
+https://api.wintv.me/vtvcab21/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab22hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/qddys4T/ONLife22.png", ON Life
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/vtvcab22
+https://api.wintv.me/vtvcab22/index.m3u8
 
 #-------------------HTV/HTVC-------------------#
 #EXTINF:-1 tvg-id="htv1hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png",HTV1
@@ -319,7 +318,7 @@ https://s11.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn
 #EXTVLCOPT:http-user-agent=VMT
 https://tth.vn/fptpladio
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
-https://api.wintv.me/360/289/index.m3u8
+http://wintv.fun/360/289/index.m3u8
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19192/index.m3u8
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
@@ -387,19 +386,19 @@ udp://@225.1.1.196:30120
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/Hollywood
+http://wintv.fun/360/160/index.m3u8
 #EXTINF:-1 tvg-id="inthebox" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png",▶️| In The Box
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/intheboxhd
+http://wintv.fun/360/235/index.m3u8
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",▶️| BOX Movie¹
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tth.vn/boxmovie1hd
+http://wintv.fun/360/159/index.m3u8
 #EXTINF:-1 tvg-id="boxhits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",▶️| Box Hits
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.wintv.me/360/239/index.m3u8
+http://wintv.fun/360/239/index.m3u8
 #EXTINF:-1 tvg-id="man" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0CPzK4F/Man-150x901j3.png",▶️| Man
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tth.vn/manhd
+http://wintv.fun/360/237/index.m3u8
 #EXTINF:-1 tvg-id="woman" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
 https://oipf0znpmnliv.vcdn.cloud/hls/woman/index.m3u8
 #EXTINF:-1 tvg-id="drfithd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
