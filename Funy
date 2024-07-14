@@ -360,8 +360,7 @@ https://d188921up0bidw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-id="vevolatino.us" group-title="🎶| Music" tvg-logo="https://i.ibb.co/84Tjwtt/vevolatino.jpg",💿| VEVO Latino
 https://d1jg19cd16tz4s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-nx7h5jeuhw79b-ssai-prd/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE
 #EXTINF:-1 tvg-id="vevotvhd" group-title="🎶| Music" tvg-logo="https://i.ibb.co/QJ4bLnY/vevo.png",💿| VEVO
-https://d2yhuqxy1ky6ij.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bel4aqksrgol2-ssai-prd/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE
-
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8
 #-------------------Minh Đức Giải Trí-------------------#
 #EXTINF:-1 tvg-id="hitv" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/yFGyjhW/HiTV.png", HiTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
