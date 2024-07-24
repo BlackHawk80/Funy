@@ -130,7 +130,7 @@ udp://@225.1.2.199:30120
 udp://@225.1.2.198:30120
 
 #EXTINF:-1 tvg-id="vtc7hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/g3F0GsF/Picsart-22-12-19-00-36-38-473.png" , VTC7 - TodayTV
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1188305641?ticket=671F28B58A6A7F9DEDB57FE4F7CFCCBFFB2FB9E4&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1188305641?ticket=96D7162013141CB18D64ED4B1635AFD2DC89A472&profile=pass
 #https://tth.vn/VTC7
 
 #EXTINF:-1 tvg-id="vtc8" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW1UaIAAAKB_?format=png" , VTC8 ¹⁰⁸⁰
@@ -162,7 +162,7 @@ https://liveh12.vtvcab.vn/hls/ONBTV5/04.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://api.wintv.me/vtvcab18/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png", ON Sports HD
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/934929518?ticket=01C48B736FD536F480AD13F4F2814733B95654F9&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/934929518?ticket=F57CDD205A44C54F57C6FBBDFB062EB8410BD123&profile=pass
 #EXTINF:-1 tvg-id="vtvcab6hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/37hkhwk/VCab6-cc.webp", ON Sports+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://api.wintv.me/vtvcab6/index.m3u8
@@ -170,51 +170,51 @@ https://api.wintv.me/vtvcab6/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://api.wintv.me/vtvcab16/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1270262548?ticket=A3FC9A2AB081250897FDA3787734BC8048C076BC&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1270262548?ticket=2EF8124D146D56E629516826254AB3538BD3E4DD&profile=pass
 #https://api.wintv.me/vtvcab23/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp",  VTVcab 1 - Vie Giải trí HD
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/860224978?ticket=EA538B9183DDF1909C00BFDB170EFCAE1BA2EE13&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/860224978?ticket=2CA31C04F505351B327879B48D2F9EFC084A1811&profile=pass
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp", ON Phim Việt
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/126882188?ticket=C9E5151FA295E87406F58FBD65E4618FA588C526&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/126882188?ticket=344B1801FDD556EDAF7EBF9093187D97DBA80AC6&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab2/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/k2TFx50/ONMovies.png", ON Movies
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1488380498?ticket=9F77C204678382B90FFEBDBD61C7FDDBD8EE3CAE&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1488380498?ticket=DC48F3EB457BB436D99D371D06BD85098FC20A70&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab4/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab5hd"  tvg-logo="https://i.ibb.co/x6FrQSw/VCab5-cc.webp", ON - E Channel
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1568507114?ticket=99BA8DED878BC6E83E53ED64E85A0A054D831666&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1568507114?ticket=6598D905BF5CAE90A4FE0700E50AACF35CFDE297&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab5/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab7hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/CwLKYLF/vtvcab7-ONO2.png", ON O2TV
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1913280232?ticket=19DE047278BD98A889DD117666DAFFC14D6E3DEB&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1913280232?ticket=E30BDBD9F6B9BDD87BDD3B07491C4C7F83821012&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab7/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab8hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/61RhmVc/VCab8-cc.webp", ON BiBi
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1363057633?ticket=C080E16E2FB34143213D92CDA2269506A84DB939&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1363057633?ticket=153BDDABD0A04903EC040FD583B53E14C07297A9&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab8/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab9hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/17c1dp7/cccab9.webp"", ON Info TV
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/135150834?ticket=45C1AF1A1FE26736F4FBEB3E32514EA559AAAAF2&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/135150834?ticket=634D58E088E625671271E575FF0C0122DB3ACBDF&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab9/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab10hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/4J66cdQ/VCab10-cc.webp", ON Cine
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1896323372?ticket=17E3DF525F694E8FAA5406F2540B862F982587B1&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1896323372?ticket=D4952064E42873329F0B90587A9A1874BEA366B1&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab10/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab12hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/M9L1k4D/cccab12.webp", ON Style
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1243690758?ticket=F4E05EE2AB5492834C88FD127F02388E0001A071&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1243690758?ticket=DB47C675608C1E71E6D5EA8301B87A7B828D1C20&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab12/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab15hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/D9F5v7M/ONMusic15.png", ON Music
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1093587134?ticket=4536E281723B72A041BB6198B0DF23E87EFFCB71&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1093587134?ticket=4AB2CC00C565A677670D250527FDB2BD2A36015D&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab15/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab17hd" group-title="💗| VTVcab" tvg-logo="https://i.imgur.com/hHYzxmS.png", ON TRENDING TV
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1980498614?ticket=D7F9951F12DF5B55396415A4F04A1071B1A92F2B&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1980498614?ticket=4796486B4C36C98D9E6C045A82734EF09881191B&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab17/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab19hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/n3Z3Qc2/vtvcab19.webp",On Vie Dramas
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/1851625509?ticket=5A1B60944AD81339D306E942ECE96E559D29AD5D&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/1851625509?ticket=84D2D887497F6DFF7BE0DAE4F3CFE97F0989C5AC&profile=pass
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab19/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab20hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/pXfDjBy/cccab20.webp", ON VFamily
-http://test:123@pcrtv.ddns.net:9981/stream/channelid/890265524?ticket=B44994FF58F670A4AC7A088B4E28EBC6B7CAADD7&profile=pass
+http://pcrtv.ddns.net:9981/stream/channelid/890265524?ticket=3F1297F0B43DCD8704DAC1A6A5D8DF4319F88F83&profile=pass
 #EXTINF:-1 tvg-id="vtvcab21hd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/SmvVL96/ON-Kids21.png", ON Kids
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://api.wintv.me/vtvcab21/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab22hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/qddys4T/ONLife22.png", ON Life
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/vtvcab22/index.m3u8
+http://pcrtv.ddns.net:9981/stream/channelid/788120250?ticket=2B5DB3578B7CAE7DA154E1704D3100384139DFEA&profile=pass
+#https://api.wintv.me/vtvcab22/index.m3u8
 
 #-------------------HTV/HTVC-------------------#
 #EXTINF:-1 tvg-id="htv1hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png",HTV1
@@ -684,7 +684,7 @@ http://fortv.cc:8080/N0QaDD/625713/53741
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
 http://195.154.102.152:8000/live?channelId=264&uid=9690&deviceMac=00:1A:79:42:CD:B8
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/366421.m3u8
+http://p2.cvtv.xyz/f1?token=live
 #http://fortv.cc:8080/N0QaDD/625713/53704
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19133/index.m3u8
