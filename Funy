@@ -168,7 +168,7 @@ http://pcrtv.ddns.net:9981/stream/channelid/934929518?ticket=F57CDD205A44C54F57C
 https://api.wintv.me/vtvcab6/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png", ON Football HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/vtvcab16/index.m3u8
+https://liveh12.vtvcab.vn/hls/ONFOOTBALL123/04.m3u8
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
 http://pcrtv.ddns.net:9981/stream/channelid/1270262548?ticket=2EF8124D146D56E629516826254AB3538BD3E4DD&profile=pass
 #https://api.wintv.me/vtvcab23/index.m3u8
