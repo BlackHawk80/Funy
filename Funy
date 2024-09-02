@@ -131,7 +131,7 @@ udp://@225.1.2.198:30120
 
 #EXTINF:-1 tvg-id="vtc7hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/g3F0GsF/Picsart-22-12-19-00-36-38-473.png" , VTC7 - TodayTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/201/index.m3u8
+https://thvip.site/360/201/index.m3u8
 #https://tth.vn/VTC7
 
 #EXTINF:-1 tvg-id="vtc8" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW1UaIAAAKB_?format=png" , VTC8 ¹⁰⁸⁰
@@ -172,64 +172,63 @@ http://m3u.at/Onsport-plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://liveh12.vtvcab.vn/hls/ONFOOTBALL123/04.m3u8
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
-http://pcrtv.ddns.net:9981/stream/channelid/1270262548?ticket=2EF8124D146D56E629516826254AB3538BD3E4DD&profile=pass
-#https://api.wintv.me/vtvcab23/index.m3u8
+https://thvip.site/360/169/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp",  VTVcab 1 - Vie Giải trí HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/180/index.m3u8
+https://thvip.site/360/180/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp", ON Phim Việt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/175/index.m3u8
+https://thvip.site/360/175/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab2/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/k2TFx50/ONMovies.png", ON Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/181/index.m3u8
+https://thvip.site/360/181/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab4/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab5hd"  tvg-logo="https://i.ibb.co/x6FrQSw/VCab5-cc.webp", ON - E Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/182/index.m3u8
+https://thvip.site/360/182/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab5/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab7hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/CwLKYLF/vtvcab7-ONO2.png", ON O2TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://113.160.152.31:5050/rtp/232.84.3.74:11608
+http://thvip.site/360/136/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab7/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab8hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/61RhmVc/VCab8-cc.webp", ON BiBi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/178/index.m3u8
+https://thvip.site/360/178/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab8/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab9hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/17c1dp7/cccab9.webp"", ON Info TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/189/index.m3u8
+https://thvip.site/360/189/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab9/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab10hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/4J66cdQ/VCab10-cc.webp", ON Cine
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/176/index.m3u8
+https://thvip.site/360/176/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab10/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab12hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/M9L1k4D/cccab12.webp", ON Style
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/184/index.m3u8
+https://thvip.site/360/184/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab12/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab15hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/D9F5v7M/ONMusic15.png", ON Music
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/185/index.m3u8
+https://thvip.site/360/185/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab15/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab17hd" group-title="💗| VTVcab" tvg-logo="https://i.imgur.com/hHYzxmS.png", ON TRENDING TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/186/index.m3u8
+https://thvip.site/360/186/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab17/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab19hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/n3Z3Qc2/vtvcab19.webp",On Vie Dramas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://api.wintv.me/360/177/index.m3u8
+https://thvip.site/360/177/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab19/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab20hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/pXfDjBy/cccab20.webp", ON VFamily
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/187/index.m3u8
+https://thvip.site/360/187/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab21hd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/SmvVL96/ON-Kids21.png", ON Kids
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/179/index.m3u8
+https://thvip.site/360/179/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab22hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/qddys4T/ONLife22.png", ON Life
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://api.wintv.me/360/188/index.m3u8
+https://thvip.site/360/188/index.m3u8
 #https://api.wintv.me/vtvcab22/index.m3u8
 
 #-------------------HTV/HTVC-------------------#
@@ -379,12 +378,6 @@ udp://@225.1.4.90:30120
 https://bcovlive-a.akamaihd.net/07d9c30456d94f3dbbcd39af064fdefa/us-west-2/6314468039001/0914b33308e3498da3b00fe2c050764e/playlist_ssaiM.m3u8
 #EXTINF:-1 tvg-id="axnhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp",▶️| AXN ¹⁰⁸⁰
 udp://@225.1.2.225:30120
-#EXTINF:-1 tvg-id="cinemaworld" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/ss7qbgg/Cinema-World-cc.png",▶️| Cinema World ¹⁰⁸⁰
-udp://@225.1.1.142:30120
-#EXTINF:-1 tvg-id="cinemaxhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/pjnAxys.png",▶️| CINEMAX ¹⁰⁸⁰
-udp://@225.1.2.86:30120
-#EXTINF:-1 tvg-id="kix" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/EIpDxnQ.png",▶️| KIX ¹⁰⁸⁰
-udp://@225.1.2.144:30120
 #EXTINF:-1 tvg-id="warnertvhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/myLbZ8m/8124486-new-wtv-logo.png",▶️| WBTV ¹⁰⁸⁰
 udp://@225.1.1.139:30120
 #EXTINF:-1 tvg-id="kbsworld" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/s1Dxmd5/KBSWorld.png",▶️| KBS WORLD ¹⁰⁸⁰
@@ -561,69 +554,6 @@ http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/639320.m3u8
 http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/639317.m3u8
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩",FUSSBALL.TV 3ᵁᴴᴰ
 http://mutant.arrox.top:80/live/iPKJmCy0r/krfwNE8z4h/639314.m3u8
-
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 4K
-http://p1.cvtv.xyz/es4k?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 1
-http://p1.cvtv.xyz/es1?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 2
-http://p1.cvtv.xyz/es2?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 3
-http://p1.cvtv.xyz/es3?token=live
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 4
-http://friedbatter.gotdns.ch:80/play/live.php?mac=00:1A:79:40:0C:9A&stream=465816&extension=ts&play_token=q1j2NRHCiT
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 5
-http://friedbatter.gotdns.ch:80/play/live.php?mac=00:1A:79:40:0C:9A&stream=465817&extension=ts&play_token=miJ70ChoZI
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 6
-http://friedbatter.gotdns.ch:80/play/live.php?mac=00:1A:79:40:0C:9A&stream=465818&extension=ts&play_token=tpOtTFw5BJ
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 7
-http://friedbatter.gotdns.ch:80/play/live.php?mac=00:1A:79:40:0C:9A&stream=465810&extension=ts&play_token=bxYdZnHErB
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 8
-http://friedbatter.gotdns.ch:80/play/live.php?mac=00:1A:79:40:0C:9A&stream=465811&extension=ts&play_token=TtwoE0JEXk
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", EURO SPORT 9
-http://friedbatter.gotdns.ch:80/play/live.php?mac=00:1A:79:40:0C:9A&stream=465812&extension=ts&play_token=QC7v7fXOAQ
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", M4 SPORT
-http://newlife3.wanicelife.com:8880/live/D12m2555/52433416/31298.ts
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://olympics.onlocationexp.com/paris2024/wp-content/uploads/2022/07/la_parisienne_ft_img-1024x1024.jpg", CCTV5+
-http://112.123.206.32:808/hls/6/index.m3u8
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277889570%27&EntityType=%27Item%27&EntityId=%27469467%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH01
-http://vnes02.duckdns.org:1234/stream/olympics21/olympicfeed1mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277889550%27&EntityType=%27Item%27&EntityId=%27469475%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH02
-http://vnes02.duckdns.org:1234/stream/olympics21/olympicfeed2mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277889576%27&EntityType=%27Item%27&EntityId=%27469700%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH03
-http://vnes01.duckdns.org:1234/stream/olympics11/olympicfeed3mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904417%27&EntityType=%27Item%27&EntityId=%27471727%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH04
-http://vnes01.duckdns.org:1234/stream/olympics11/olympicfeed4mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904421%27&EntityType=%27Item%27&EntityId=%27471662%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH05
-http://vnes02.duckdns.org:1234/stream/olympics21/olympicfeed5mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904425%27&EntityType=%27Item%27&EntityId=%27471729%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH06
-http://vnes02.duckdns.org:1234/stream/olympics21/olympicfeed6mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904429%27&EntityType=%27Item%27&EntityId=%27471661%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH07
-http://vnes01.duckdns.org:1234/stream/olympics11/olympicfeed7mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904433%27&EntityType=%27Item%27&EntityId=%27471666%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH08
-http://vnes01.duckdns.org:1234/stream/olympics11/olympicfeed8mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904437%27&EntityType=%27Item%27&EntityId=%27471724%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH09
-http://vnes02.duckdns.org:1234/stream/olympics21/olympicfeed9mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904441%27&EntityType=%27Item%27&EntityId=%27471725%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH10
-http://vnes02.duckdns.org:1234/stream/olympics22/olympicfeed10mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904445%27&EntityType=%27Item%27&EntityId=%27471739%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH11
-http://vnes01.duckdns.org:1234/stream/olympics12/olympicfeed11mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904449%27&EntityType=%27Item%27&EntityId=%27471742%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH12
-http://vnes02.duckdns.org:1234/stream/olympics22/olympicfeed12mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904453%27&EntityType=%27Item%27&EntityId=%27471948%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH13
-http://vnes01.duckdns.org:1234/stream/olympics12/olympicfeed13mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904457%27&EntityType=%27Item%27&EntityId=%27471959%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH14
-http://vnes02.duckdns.org:1234/stream/olympics22/olympicfeed14mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904463%27&EntityType=%27Item%27&EntityId=%27471962%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH15
-http://vnes01.duckdns.org:1234/stream/olympics12/olympicfeed15mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904467%27&EntityType=%27Item%27&EntityId=%27472026%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH16
-http://vnes02.duckdns.org:1234/stream/olympics22/olympicfeed16mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904471%27&EntityType=%27Item%27&EntityId=%27472215%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH17
-http://vnes01.duckdns.org:1234/stream/olympics12/olympicfeed17mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904485%27&EntityType=%27Item%27&EntityId=%27472216%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH18
-http://vnes02.duckdns.org:1234/stream/olympics22/olympicfeed18mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%277904489%27&EntityType=%27Item%27&EntityId=%27472217%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27", Paris 2024 CH19
-http://vnes01.duckdns.org:1234/stream/olympics12/olympicfeed19mw/master.m3u8?u=vmttv&p=3accea4f53146cf085a6ebd4e0bb8125d2def47adc0d9ac6449bed998545905f
 
 #-------------------Live Bóng Đá-------------------#
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
