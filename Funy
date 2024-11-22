@@ -250,9 +250,8 @@ udp://@225.1.1.181:30120
 #-------------------SCTV-------------------#
 
 #EXTINF:0 tvg-id="sctv1hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/fnTNmGf/SCTV1.webp",SCTV 1 HD - Hài
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#EXTVLCOPT:http-referer=http://sctvonline.vn/
-https://hqth.me/SCTV1?khanggtv|Referer=http://sctvonline.vn/index.m3u8
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
+https://s5.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s5.edge.cdn.sctvonline.vn/hls/sctv1/index.m3u8
 #EXTINF:0 tvg-id="sctv2hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/2qPDn0t/SCTV2.webp",SCTV2
 https://e8.endpoint.cdn.sctvonline.vn/channel/sctv2/index.m3u8|Referer=https://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv3hd"group-title="🌐| SCTV" tvg-logo="https://i.ibb.co/wNWbJKL/SCTV3.webp",SCTV 3 HD - SEE TV
@@ -536,15 +535,7 @@ http://rhsbjv7k.tvclub.xyz/iptv/FAGK589PV9BQAG/20068/index.m3u8
 #-------------------Live Bóng Đá-------------------#
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_0/chunklist.m3u8
-#EXTINF: -1 tvg-id="English.-.Now.Sports.1.hk" tvg-logo="https://i.ibb.co/MhgRjWw/now1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 1
-http://tigerfights.xyz:80/moms/moms123/3336125
-#http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69854
-#EXTINF: -1 tvg-id="NowPremierSports 2.hk" tvg-logo="https://i.ibb.co/fD0dJJb/Now-Sports-2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69855
-#EXTINF: -1 tvg-id="NowPremierSports3.hk" tvg-logo="https://i.ibb.co/6XnWYH4/Now-Sports-3.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://2hubs.ddns.net:25461/iptvsolu/eI3mjZ1M7Y/69856
+
 #EXTINF: -1 tvg-id="fptplay" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/XDVMYVK/CCTV5.png",CCTV5+
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63872908d48f9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUSBx06ZL9Bo6JOM%2BSTjxZRK254G1jtietGzDaHvFNRtjXOvFnbf%2BTao33JqYlfMYYn2z3agOn9gvNMT9KmBaR9o
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",⚽ SkySport Premier League HD+
@@ -563,12 +554,6 @@ http://damasiptv.com:80/kareem-te-100-1/fjhjh679696896868hgjhgf/177973
 http://xtream.eshost.xyz//Lbs0U2/tFMZlx/1171
 #EXTINF: -1 tvg-id="canal+sports2" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/Canal%2B_Sport_2_PL.png",Canal+ Sport 2
 http://xtream.eshost.xyz//Lbs0U2/tFMZlx/1172
-#EXTINF: -1 tvg-id="BTSport1.uk" tvg-name="BT Sport 1" tvg-logo="https://i.ibb.co/K96ZYSN/TNT1.png" group-title="🔴| LÂM-PHONG SPORT", TNT Sports 1
-http://nv1connect.com:80/tamtam/tjfYkCbP3s/33225
-#EXTINF: -1 tvg-id="BTSport2.uk" tvg-name="BT Sport 2" tvg-logo="https://i.ibb.co/2PM7v3G/TNT2.png" group-title="🔴| LÂM-PHONG SPORT", TNT Sports 2
-http://nv1connect.com:80/tamtam/tjfYkCbP3s/628
-#EXTINF: -1 tvg-id="BTSport3.uk" tvg-name="BT Sport 3" tvg-logo="https://i.ibb.co/98FWcZr/TNT3.png" group-title="🔴| LÂM-PHONG SPORT", TNT Sports 3
-http://nv1connect.com:80/tamtam/tjfYkCbP3s/629
 
 #EXTINF: -1 tvg-id="vsportfootball.fi" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/SrgjJjP/Vsportfootball.png" tvg-name="",⚽ V-Football
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/11110/index.m3u8
