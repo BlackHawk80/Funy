@@ -361,8 +361,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevo2kau-samsungau/pla
 https://tth.vn/HITVFHD
 #EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO ¹⁰⁸⁰
 udp://@225.1.4.90:30120
-#EXTINF:-1 tvg-id="HBO2.West.us" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/gM2rDGW/1265677.png",▶️| TVB Viet Nam
-https://bcovlive-a.akamaihd.net/07d9c30456d94f3dbbcd39af064fdefa/us-west-2/6314468039001/0914b33308e3498da3b00fe2c050764e/playlist_ssaiM.m3u8
 #EXTINF:-1 tvg-id="axnhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/QHzdjXX/ccaxn.webp",▶️| AXN ¹⁰⁸⁰
 udp://@225.1.2.225:30120
 #EXTINF:-1 tvg-id="warnertvhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/myLbZ8m/8124486-new-wtv-logo.png",▶️| WBTV ¹⁰⁸⁰
@@ -373,19 +371,19 @@ udp://@225.1.1.196:30120
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://thvip.site/360/160/index.m3u8
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=160
 #EXTINF:-1 tvg-id="inthebox" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png",▶️| In The Box
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://thvip.site/360/235/index.m3u8
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=235
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",▶️| BOX Movie¹
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://thvip.site/360/159/index.m3u8
 #EXTINF:-1 tvg-id="boxhits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",▶️| Box Hits
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://thvip.site/360/239/index.m3u8
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=239
 #EXTINF:-1 tvg-id="man" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0CPzK4F/Man-150x901j3.png",▶️| Man
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://thvip.site/360/237/index.m3u8
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=237
 #EXTINF:-1 tvg-id="woman" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
 https://oipf0znpmnliv.vcdn.cloud/hls/woman/index.m3u8
 #EXTINF:-1 tvg-id="drfithd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
@@ -430,7 +428,8 @@ udp://@225.1.1.47:30120
 udp://@225.1.2.215:30120
 
 #EXTINF:-1 tvg-id="planetearthhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/9sHfrwj/Planet-Earth.png",🍀| Planet Earth
-https://oipf0znpmnliv.vcdn.cloud/hls/planetearth/index.m3u8
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://hoatv001.ddns.net:8002/ott/tv360.php?id=135
 #EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" ,BBC Lifestyle
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bn7ha63.png",🍀|BBC Lifestyle ¹⁰⁸⁰
 udp://@225.1.2.52:30120
@@ -442,26 +441,7 @@ udp://@225.1.1.202:30120
 udp://@225.1.1.242:30120
 
 #-------------------Live Even-------------------#
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 1
-https://liveh34.vtvcab.vn/hls/ONSPORT01/index.m3u8
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 2
-https://liveh34.vtvcab.vn/hls/ONSPORT02/index.m3u8
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 3
-https://liveh34.vtvcab.vn/hls/ONSPORT03/index.m3u8
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 4
-https://liveh34.vtvcab.vn/hls/ONSPORT04/index.m3u8
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 5
-https://liveh34.vtvcab.vn/hls/ONSPORT05/index.m3u8
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 6
-https://liveh34.vtvcab.vn/hls/ONSPORT06/index.m3u8
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 7
-https://liveh34.vtvcab.vn/hls/ONSPORT07/index.m3u8
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 8
-https://liveh34.vtvcab.vn/hls/ONSPORT08/index.m3u8
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 9
-https://liveh34.vtvcab.vn/hls/ONSPORT09/index.m3u8
-#EXTINF:-1 group-title="🔴|Sự Kiện ONPLUS" tvg-logo="https://stvinaprod.vtvcab.vn/6ba1de50-b726-4675-a372-3df496440086.png", ONPLUS LIVE 10
-https://liveh34.vtvcab.vn/hls/ONSPORT010/index.m3u8
+
 #--------4K---------#
 #EXTINF:0 tvg-logo="https://i.ibb.co/hW8G92t/Box.png" group-title="🌏| 4K 🇺 🇭 🇩",🎶 BOX Music ⁴ᴷ
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19282/index.m3u8
