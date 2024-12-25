@@ -23,15 +23,17 @@ udp://@225.1.3.9:30120
 
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/2Sh52vt/ksport-01-hd.png", K+ Sports 1
-https://hodam:66668888@tvh.hothanhdam.dsmynas.com/stream/channelid/556914677
-
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/110317627?profile=pass
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
-https://hodam:66668888@tvh.hothanhdam.dsmynas.com/stream/channelid/541337809
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/1882525202?profile=pass
 
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 http://s12.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e4.endpoint.cdn.sctvonline.vn/nginx.s12.edge.cdn.sctvonline.vn/hls/KPlusCine/index.m3u8
-
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://s12.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e4.endpoint.cdn.sctvonline.vn/nginx.s12.edge.cdn.sctvonline.vn/hls/KPlusAction/index.m3u8
 #https://hodam:66668888@tvh.hothanhdam.dsmynas.com/stream/channelid/916837844
 
@@ -173,52 +175,52 @@ http://hoatv001.ddns.net:8002/ott/tv360.php?id=169
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=180
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp", ON Phim Việt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/175/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/175/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab2/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/k2TFx50/ONMovies.png", ON Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=181
 #EXTINF:-1 tvg-id="vtvcab5hd"  tvg-logo="https://i.ibb.co/x6FrQSw/VCab5-cc.webp", ON - E Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://hoatv001.ddns.net:8002/ott/tv360.php?id=182
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/182/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab7hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/CwLKYLF/vtvcab7-ONO2.png", ON O2TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/136/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/136/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab7/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab8hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/61RhmVc/VCab8-cc.webp", ON BiBi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/178/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/178/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab8/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab9hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/17c1dp7/cccab9.webp"", ON Info TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/189/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/189/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab9/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab10hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/4J66cdQ/VCab10-cc.webp", ON Cine
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/176/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/176/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab12hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/M9L1k4D/cccab12.webp", ON Style
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/184/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/184/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab15hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/D9F5v7M/ONMusic15.png", ON Music
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/185/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/185/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab17hd" group-title="💗| VTVcab" tvg-logo="https://i.imgur.com/hHYzxmS.png", ON TRENDING TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 http://hoatv001.ddns.net:8002/ott/tv360.php?id=186
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab17/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab19hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/n3Z3Qc2/vtvcab19.webp",On Vie Dramas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/177/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/177/index.m3u8
 #https://oipf0znpmnliv.vcdn.cloud/hls/vtvcab19/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab20hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/pXfDjBy/cccab20.webp", ON VFamily
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/187/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/187/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab21hd" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/SmvVL96/ON-Kids21.png", ON Kids
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/179/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/179/index.m3u8
 #EXTINF:-1 tvg-id="vtvcab22hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/qddys4T/ONLife22.png", ON Life
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://ott1.sgchill.io.vn/backend/vmttv/source/vstv521/188/index.m3u8
+https://ott1.sgchill.io.vn/backend/dkmcut/source/vstv521/188/index.m3u8
 
 #-------------------HTV/HTVC-------------------#
 #EXTINF:-1 tvg-id="htv1hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png",HTV1
