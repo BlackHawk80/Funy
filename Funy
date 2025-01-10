@@ -43,7 +43,8 @@ http://e4.endpoint.cdn.sctvonline.vn/hls/KPlusKid/01.m3u8
 #-------------------Hoạt hình HD-------------------#
 
 #EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp", HappyKids ᴴᴰ
-https://oipf0znpmnliv.vcdn.cloud/hls/happykid/index.m3u8
+http://hoatv001.ddns.net:8002/ott/tv3603.php?id=212
+https://tv.TruyenHinh.Click/CoBan/happykidshd/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="animaxhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/RTgouGo.png",Animax ᴴᴰ
 udp://@225.1.1.135:30120
 #EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/THfL7QS/Dream-Works-cc.png",Dreamworks ᴴᴰ
@@ -57,11 +58,11 @@ udp://@225.1.1.138:30120
 #EXTINF:-1 tvg-id="aniplus" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/KwR5cMy/Aniplus.png", Aniplus
 http://mag.king-4k.cc:80/00447341550145nigel2/45C411/1505807
 #EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel ᴴᴰ
-http://tv14s.xyz:8080/j_savoury@hotmail.com/FM2mxg0Gak/2206
+https://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
-http://tv14s.xyz:8080/j_savoury@hotmail.com/FM2mxg0Gak/41960
+https://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="disneyxd.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xGXxC8X/Disney-XD.png" ,Disney XD ᴴᴰ
-http://tv14s.xyz:8080/j_savoury@hotmail.com/FM2mxg0Gak/75621
+https://fl2.moveonjoy.com/DISNEY_XD/index.m3u8
 #EXTINF:-1 tvg-id="nicktoons.us" group-title="🌈| Hoạt hình" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Nicktoons.png",NickToons ᴴᴰ
 http://610827065366959907.ofds1114.xyz:80/live/zh45134/HdYCaWmTAeVG/959907.ts
 #EXTINF:-1 tvg-id="skykids.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/wMnp5tV/Sky-Kids.png" group-title="🌈| Hoạt hình",Sky Kids ᴴᴰ
@@ -73,12 +74,11 @@ https://jmp2.uk/sam-CABC230001363.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.us" tvg-logo="https://i.imgur.com/nuzIBbN.png" group-title="🌈| Hoạt hình",Moonbug Kids (1080p)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PinkfongBabyShark" tvg-logo="https://i.ibb.co/RzTcgsy/Pinkfong-Baby-Shark.png" group-title="🌈| Hoạt hình",Pinkfong Baby Shark ᴴᴰ
-https://jmp2.uk/plu-60faffc3fbbc120007fc4376.m3u8
-#https://raw.githubusercontent.com/MassinDV/videos/main/kids/kids-songs-stories-pinkfong-baby-shark.m3u8
+https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="pbskids.us" tvg-logo="https://i.ibb.co/56P6wP0/i-fixed-the-new-pbs-kids-logo-by-myktm250-df8zjcw-fullview.png" group-title="🌈| Hoạt hình", PBS KIDS ᴴᴰ
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
-#EXTINF:-1 tvg-id="cineboxanimation.uk" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/S0Z2crr/CineBox.png", Cinebox Animation ᴴᴰ
-http://tv14s.xyz:8080/j_savoury@hotmail.com/FM2mxg0Gak/119420
+#EXTINF:-1 tvg-id="cineboxanimation.uk" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xDbxGR0/Picsart-22-12-20-22-48-34-852.png", Tom & Jerryᴴᴰ
+http://xtv.ooo:8080/52882216/581881255/329247
 #EXTINF:0 group-title="🌈| Hoạt hình" tvg-id="6206" tvg-logo="http://epg.it999.ru/img/6206.png" tvg-rec="0",ZooMoo
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 
@@ -327,6 +327,7 @@ https://s11.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn
 http://hoatv001.ddns.net:8002/ott/tv3603.php?id=289
 #https://oipf0znpmnliv.vcdn.cloud/hls/boxmusic/index.m3u8
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
+http://iptv12k.com:35461/654321/123456/5260
 http://globalstreamz.xyz:3050/dalong1972@gmail.com/uNHnznZB6z/508012
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
 http://stream01.vnet.am/Channel_117/mono.m3u8
@@ -376,7 +377,8 @@ udp://@225.1.2.225:30120
 udp://@225.1.1.139:30120
 #EXTINF:-1 tvg-id="kbsworld" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/s1Dxmd5/KBSWorld.png",▶️| KBS WORLD ¹⁰⁸⁰
 udp://@225.1.1.196:30120
-#EXTINF:-1 tvg-id="hits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/HITS%20HD.png", HITS ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="hits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC2300002GG_20241106T143017SQUARE.png", America's Got Talent¹⁰⁸⁰
+https://jmp2.uk/sam-GBBC2300002GG.m3u8
 #EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-66be944f8711311880995280" tvg-chno=" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c94e3220-9a45-42e9-8bdb-01fc43e0f27c/white_textAction_Hollywood_Movies_logo_dark_-_Angela_Chan.png" group-title="📽️| Minh Đức Giải Trí", Action Hollywood Movies
 https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-66be944f8711311880995280.m3u8
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
@@ -395,9 +397,11 @@ https://tv.TruyenHinh.Click/CoBan/boxhits/TuyetDoiKhongKinhDoanh
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://tv.TruyenHinh.Click/CoBan/man/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="woman" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/MGcnhnG/Woman-cc.png",▶️| Woman
-https://oipf0znpmnliv.vcdn.cloud/hls/woman/index.m3u8
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://hoatv001.ddns.net:8002/ott/tv3603.php?id=163
 #EXTINF:-1 tvg-id="drfithd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0K7HcKn/static-assets-upload13174741322686086309.png",▶️| Dr.Fit
-https://oipf0znpmnliv.vcdn.cloud/hls/drfit/index.m3u8
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://hoatv001.ddns.net:8002/ott/tv3603.php?id=162
 
 #EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="📽️| Minh Đức Giải Trí",▶️| Fashion Show ¹⁰⁸⁰
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
@@ -426,8 +430,7 @@ udp://@225.1.1.236:30120
 #EXTINF:-1 tvg-id="tv5monde" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/R9P4G9X/TV5-Monde.png",TV5 MONDE ASIE ¹⁰⁸⁰
 udp://@225.1.1.200:30120
 #EXTINF:-1 tvg-id="hgtv" tvg-logo="https://i.ibb.co/kB91Qgx/HGTV.png" group-title="🌿| Khám phá",🍀| HGTV ¹⁰⁸⁰
-https://th88vip.x10.bz/getlink/play/ott/tv360.php?id=99
-#http://tv14s.xyz:8080/j_savoury@hotmail.com/FM2mxg0Gak/46717
+https://tv.TruyenHinh.Click/CoBan/hgtv/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="historyhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",🍀|History ¹⁰⁸⁰
 https://tv.TruyenHinh.Click/CoBan/historyhd/TuyetDoiKhongKinhDoanh
 
@@ -458,7 +461,7 @@ udp://@225.1.1.242:30120
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19282/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/gm6Cc0q/relax.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| BOX Relax ⁴ᴷ
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/19283/index.m3u8
-#EXTINF:-1 tvg-id="lovenature" tvg-name="Love Nature ⁴ᵏ" tvg-logo="https://i.ibb.co/Wzm2SCb/51713cb38f60e82562a65727ce7d5493-icon.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Love Nature ⁴ᵏ
+#EXTINF:-1 tvg-id="lovenature" tvg-name="Love Nature" tvg-logo="https://i.ibb.co/Wzm2SCb/51713cb38f60e82562a65727ce7d5493-icon.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Love Nature ⁴ᵏ
 #EXTVLCOPT:network-caching=1000
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8?cc
 #EXTINF:0 tvg-logo="https://i.ibb.co/nCJ8dtt/Picsart-22-12-22-21-42-09-506.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| TravelXP ⁴ᴷ
@@ -467,8 +470,6 @@ http://185.193.88.10/iptv/AHMQNVLWUTM5PW/14026/index.m3u8
 http://extraott.com:80/live/7921751389/6097373662/36969.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/k6YFzZK/home.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Home ⁴ᴷ
 http://185.193.88.10/iptv/AHMQNVLWUTM5PW/4002/index.m3u8
-#EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩",KU| ku| KRD Animals 4K
-http://extraott.com:80/live/7921751389/6097373662/36985.m3u8
 #EXTINF:-1 tvg-id="Clarity4K.us" tvg-name="Clarity ⁴ᵏ" tvg-logo="https://i.ibb.co/hHFBv1G/Clarity-cc.png" group-title="🌏| 4K 🇺 🇭 🇩",🍀| Clarity ⁴ᵏ
 #EXTVLCOPT:network-caching=1000
 https://d6s2o8so4wk28.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-2vzmnn0zl3exh-prod/amgclarity4k/playlist.m3u8
@@ -525,11 +526,11 @@ https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-w
 #EXTINF: -1 tvg-id="fptplay" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/XDVMYVK/CCTV5.png",CCTV5+
 https://feiyang.vip-tptv.xyz/migu/641886773.m3u8?migutoken=ed4eeb8e7d162ec287c018a9006dbdaa2ca060bb36ee4efdc5144f67d46126f838e51f5c25dc31363e480651cf27d7555afb1325db7bdb7ec58d36b932b2341fb616e717ba0ac78aca2e1c79d6
 
-#EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://theme.zdassets.com/theme_assets/2445237/88e391e2e1ab45a87fe39ad5730b3eabb65d55b4.png",⚽ Sky Sport Premier League HD+
+#EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/MZSzM6c/epl.png",⚽ Sky Sport Premier League HD+
 https://7pal.short.gy/skyspt8nz
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://vodkom.com:25461/Logo/BEIN/eng-1-HD.png",⚽ BEIN SPORTS 1 ENGLISH
 http://kstv.us:8080/live/tH300gvHff/8606073792/12554.ts
-#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/mBrGKsc/One-Sports-Plus.png",Hisport
+#EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/d55Y9qr/G.png",Hisport
 http://203.154.243.89:11001/hisport?m3u8
 
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV5" tvg-logo="https://i.ibb.co/tZ1rKtf/vidio.png", ⚽ CHAMPIONS TV 5 (Live EPL)
@@ -623,7 +624,6 @@ http://fortv.cc:8080/N0QaDD/625713/53741
 http://610827065366965734.ofds1114.xyz:80/live/zh45134/HdYCaWmTAeVG/965734.ts
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
 http://iptv12k.com:35461/654321/123456/5407
-#http://fortv.cc:8080/N0QaDD/625713/53704
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://globalstreamz.xyz:3050/dalong1972@gmail.com/uNHnznZB6z/607245
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19133/index.m3u8
