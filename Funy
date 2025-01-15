@@ -55,7 +55,7 @@ udp://@225.1.1.134:30120
 udp://@225.1.1.138:30120
 #EXTINF:-1 tvg-id="aniplus" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/KwR5cMy/Aniplus.png", Aniplus
 http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/298504
-http://mag.king-4k.cc:80/00447341550145nigel2/45C411/1505807
+#http://mag.king-4k.cc:80/00447341550145nigel2/45C411/1505807
 #EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel ᴴᴰ
 https://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 #EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
@@ -179,7 +179,7 @@ https://live2onsport.vtvcab.vn/onplus/HAY_TV/manifest.mpd
 https://live2onsport.vtvcab.vn/onplus/BONGDA_HD/manifest.mpd
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://hoatv001.ddns.net:8002/ott/tv3603.php?id=169
+https://tv.TruyenHinh.Click/CoBan/vtvcab23hd/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp",  VTVcab 1 - Vie Giải trí HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tv.TruyenHinh.Click/CoBan/vtvcab1hd/TuyetDoiKhongKinhDoanh
@@ -335,8 +335,6 @@ https://jmp2.uk/sam-KRBC41000021C.m3u8
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267769/ei/WZQ8ZsjFDJOGkucPyMmvwA4/ip/20.55.14.132/id/JVocS7Yftw8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr5---sn-4h.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/wS/mm/44/mn/sn-4h/ms/lva/mv/u/mvi/5/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715244149/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRAIgXHVtdyBiHHYowbRJulYGuR2RSZ21hmU77y1HYQ3X7aQCIEVKBr9vMYHwPzXMvql03FihxmuoqvpZ-CrSeqC8fDgS/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRAIgDRy7iW46eOgJY2AYp-O2M0qgQzx-HfMc_bZOm-BsRM4CID1A11THckyl3PnIzFk5iwr3pA-AzuZTThbHgrxijXXZ/playlist/index.m3u8
 #EXTINF:-1 tvg-name="KPop" tvg-logo="https://i.ibb.co/vJ5sQNG/d5qk7xl-c2d79eae-935a-4336-bf93-e6a6d5ace6fe.png" group-title="🎶| Music",💿| Korea Pop 2
 https://jmp2.uk/sam-CABD1200034DU.m3u8
-#EXTINF:-1 tvg-id="sexykpophd" tvg-logo="https://i.ibb.co/9HyBcHp/sexykpop.png" group-title="🎶| Music",💿| SexyK-Pop
-https://ssh101-fl.bozztv.com/ssh101/kpoptv/playlist.m3u8
 #EXTINF:-1 tvg-name="K-Pop – Pluto TV" tvg-logo="https://i.ibb.co/gr4Bfp8/Kpop.png" group-title="🎶| Music",💿| K-Pop
 https://jmp2.uk/sam-CA3900002PM.m3u8
 #EXTINF:-1 tvg-id="newkpop" group-title="🎶| Music" tvg-logo="https://i.ibb.co/fDGqhYH/Kpop4K.png",New-Kpop
@@ -369,9 +367,9 @@ udp://@225.1.2.225:30120
 udp://@225.1.1.139:30120
 #EXTINF:-1 tvg-id="kbsworld" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/s1Dxmd5/KBSWorld.png",▶️| KBS WORLD ¹⁰⁸⁰
 udp://@225.1.1.196:30120
-#EXTINF:-1 tvg-id="hits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC2300002GG_20241106T143017SQUARE.png", America's Got Talent¹⁰⁸⁰
+#EXTINF:-1 tvg-id="hits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/M9LfBRM/Gottalent.png", America's Got Talent¹⁰⁸⁰
 https://jmp2.uk/sam-GBBC2300002GG.m3u8
-#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-66be944f8711311880995280" tvg-chno=" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c94e3220-9a45-42e9-8bdb-01fc43e0f27c/white_textAction_Hollywood_Movies_logo_dark_-_Angela_Chan.png" group-title="📽️| Minh Đức Giải Trí", Action Hollywood Movies
+#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-66be944f8711311880995280" tvg-chno=" tvg-logo="https://i.ibb.co/FgymSBY/900.png" group-title="📽️| Minh Đức Giải Trí", Action Hollywood Movies
 https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-66be944f8711311880995280.m3u8
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
