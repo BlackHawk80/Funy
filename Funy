@@ -106,46 +106,7 @@ udp://@225.1.2.189:30120
 udp://@225.1.1.155:30120
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/0FDCSbz/ccVL2.webp",❤️| Vĩnh Long2 ¹⁰⁸⁰
 udp://@225.1.1.154:30120
-#-------------------VTC-------------------#
-#EXTINF:-1 tvg-id="vtc1hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/o70uxdn.png",VTC1 ¹⁰⁸⁰
-udp://@225.1.3.50:30120
-#EXTINF:-1 tvg-id="vtc2" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZTWeaAAEdIn6?format=png", VTC2 ¹⁰⁸⁰
-udp://@225.1.2.202:30120
 
-#EXTINF:-1 tvg-id="vtc3hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/iJ0haYq.png",VTC3 ¹⁰⁸⁰
-udp://@225.1.3.48:30120
-#EXTINF:-1 tvg-id="vtc4hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/1qxHnSG/VTC4.png",VTC4 ¹⁰⁸⁰
-udp://@225.1.2.200:30120
-
-#EXTINF:-1 tvg-id="vtc5hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZWy1aUAErHpL?format=png" , VTC5 ¹⁰⁸⁰
-udp://@225.1.2.199:30120
-
-#EXTINF:-1 tvg-id="vtc6hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW0DacAEhukR?format=png", VTC6 ¹⁰⁸⁰
-udp://@225.1.2.198:30120
-
-#EXTINF:-1 tvg-id="vtc7hd" group-title="💙| VTC" tvg-logo="https://i.ibb.co/g3F0GsF/Picsart-22-12-19-00-36-38-473.png" , VTC7 - TodayTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.TruyenHinh.Click/CoBan/vtc7hd/TuyetDoiKhongKinhDoanh
-https://thvip.site/today/index.m3u8
-#EXTINF:-1 tvg-id="vtc8" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZW1UaIAAAKB_?format=png" , VTC8 ¹⁰⁸⁰
-udp://@225.1.2.196:30120
-
-#EXTINF:-1 tvg-id="vtc9hd" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaROakAAjK6t?format=png" , VTC9 ¹⁰⁸⁰
-udp://@225.1.2.195:30120
-
-#EXTINF:-1 tvg-id="vtc10" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaSnacAEyzdQ?format=png", VTC10 ¹⁰⁸⁰
-udp://@225.1.2.194:30120
-
-#EXTINF:-1 tvg-id="vtc11" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaTfaMAEtEGN?format=png", VTC11 ¹⁰⁸⁰
-udp://@225.1.2.193:30120
-#EXTINF:-1 tvg-id="vtc12" group-title="💙| VTC" tvg-logo="https://pbs.twimg.com/media/Fa6ZaUGacAAR-2X?format=png", VTC12 ¹⁰⁸⁰
-https://1236573804.pop.vnptcdn.com/VTC12/playlist.m3u8
-#EXTINF:-1 tvg-id="vtc13hd" group-title="💙| VTC" tvg-logo="https://imgur.com/2RRt2M4.png",VTC13 ¹⁰⁸⁰
-udp://@225.1.2.250:30120
-#EXTINF:-1 tvg-id="vtc14hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/pD5HCal.png",VTC14 ¹⁰⁸⁰
-udp://@225.1.2.88:30120
-#EXTINF:-1 tvg-id="vtc16hd" group-title="💙| VTC" tvg-logo="https://i.imgur.com/Az8QejV.png",VTC16 ¹⁰⁸⁰
-udp://@225.1.4.54:30120
 #----VTVCAB----#
 #EXTINF:-1 group-title="💗| VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/119.png",ON Sports Action
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
