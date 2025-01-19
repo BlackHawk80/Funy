@@ -23,17 +23,13 @@ udp://@225.1.3.9:30120
 
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/2Sh52vt/ksport-01-hd.png", K+ Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/110317627?profile=pass
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/2000475896
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/1882525202?profile=pass
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1860957148
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/651475300?profile=pass
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1642319258
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://hodam:66668888@hothanhdam.dsmynas.com:9981/stream/channelid/1984950986?profile=pass
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1490899242
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 http://e4.endpoint.cdn.sctvonline.vn/hls/KPlusKid/01.m3u8
@@ -84,8 +80,6 @@ https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 #-------------------Thiết yếu-------------------#
 #EXTINF:-1 tvg-id="antvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/LkKzBb8/Anninh.png",❤️| ANTV ¹⁰⁸⁰
 udp://@225.1.3.23:30120
-#EXTINF:-1 tvg-id="nhandan" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/82zXj85/1576489-nhan-dan.png",❤️| Nhân Dân TV ¹⁰⁸⁰
-udp://@225.1.3.41:30120
 #EXTINF:-1 tvg-id="quochoi" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/n02rRKY/quoc-huy.png",❤️| QUỐC HỘI ¹⁰⁸⁰
 udp://@225.1.3.78:30120
 #EXTINF:-1 tvg-id="qpvnhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/N9zkzV2/Quoc-Phong-cc.webp",❤️| QPVN ¹⁰⁸⁰
@@ -216,63 +210,57 @@ udp://@225.1.1.181:30120
 
 #EXTINF:0 tvg-id="sctv1hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/fnTNmGf/SCTV1.webp",SCTV 1 HD - Hài
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://s5.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s5.edge.cdn.sctvonline.vn/hls/sctv1/index.m3u8
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1333268396?profile=pass
 #EXTINF:0 tvg-id="sctv2hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/2qPDn0t/SCTV2.webp",SCTV2
-https://e8.endpoint.cdn.sctvonline.vn/channel/sctv2/index.m3u8|Referer=https://sctvonline.vn/
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/476186775?profile=pass
 #EXTINF:0 tvg-id="sctv3hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/wNWbJKL/SCTV3.webp",SCTV 3 HD - SEE TV
-https://e8.endpoint.cdn.sctvonline.vn/channel/sctv3/index.m3u8|Referer=https://sctvonline.vn/
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/863063167?profile=pass
 
 #EXTINF:-1 tvg-id="sctv6hd" group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/FHWGnnz/SCTV6.webp",SCTV6
 udp://@225.1.1.188:30120
 #EXTINF:0 tvg-id="sctv7hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/QM75wdn/SCTV7.webp",SCTV 7 HD - Sân Khấu
-#EXTVLCOPT:http-user-agent="Khanggtv"
-https://dl.dropboxusercontent.com/s/tofa0n7ai9q3eu4/getlink/sctv/e1.endpoint.cdn.sctvonline.vn/channel/sctv7/index.m3u8?khanggtv|Referer=http://sctvonline.vn
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/265979533?profile=pass
 #EXTINF:0 tvg-id="sctv8hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/s3Kkgw7/SCTV8.webp",SCTV8-VITV - Kinh Tế Tài Chính
-#EXTVLCOPT:http-user-agent="Khannggtv"
-https://dl.dropboxusercontent.com/s/6h9qy7vtvmcp4c7/getlink/sctv/url=https://e1.endpoint.cdn.sctvonline.vn/channel/sctv8/index.m3u8?khanggtv|Referer=http://sctvonline.vn
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/936549085?profile=pass
 #EXTINF:0 tvg-id="sctv9hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/jLHmbXs/SCTV9.webp",SCTV9 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://s3.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s3.edge.cdn.sctvonline.vn/hls/sctv9/index.m3u8
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/483434305?profile=pass
 #EXTINF:0 tvg-id="sctv11hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/M9rfCP9/SCTV10.webp",SCTV10 HD
 #EXTVLCOPT:http-user-agent="Khanggtv"
 https://dl.dropboxusercontent.com/s/smvxx6vgo4vuafd/getlink/sctv/url=https://e1.endpoint.cdn.sctvonline.vn/channel/sctv10/s1/index.m3u8?khanggtv|Referer=http://sctvonline.vn
 #EXTINF:0 tvg-id="sctv11hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/cX6nSNF/SCTV11.webp",SCTV11 HD
-#EXTVLCOPT:http-user-agent="Khanggtv"
-https://dl.dropboxusercontent.com/s/jirfenbjp2dzsht/getlink/sctv/url=https://e1.endpoint.cdn.sctvonline.vn/channel/sctv11/index.m3u8?khanggtv|Referer=http://sctvonline.vn/
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/872376509?profile=pass
 #EXTINF:0 tvg-id="sctv12hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/Fn08B2G/SCTV12.webp",SCTV 12 HD - Du Lịch
-https://dl.dropboxusercontent.com/s/vl0msvjwf3zdg8y/getlink/sctv/url=https://e1.endpoint.cdn.sctvonline.vn/channel/sctv12/s1/index.m3u8?khanggtv|Referer=http://sctvonline.vn
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/338635191?profile=pass
 #EXTINF:0 tvg-id="sctv13hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/QKpFThG/SCTV13.webp",SCTV13 HD - Phụ nữ & Gia đình
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#EXTVLCOPT:http-user-agent="Khanggtivi"
-https://dl.dropboxusercontent.com/s/cfo5t1hgnlf8924/getlink/sctv/url=https://e1.endpoint.cdn.sctvonline.vn/channel/sctv13/s1/index.m3u8?khanggtv|Referer=http://sctvonline.vn
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1530657378?profile=pass
 #EXTINF:0 tvg-id="sctv14hd" group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/VtxJP6M/SCTV14.webp",SCTV14 HD - Kênh Phim Việt
 https://e7.endpoint.cdn.sctvonline.vn/live/smil:SCTV14.smil/chunklist_b1692000.m3u8|Referer=https://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv15hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/WGGWyv9/SCTV15.webp" ,SCTV15 HD - SSPORT 2
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://live2cloud.sgchill.io.vn/hls/v2/uid:vmttv/ip:122:46:728:99/play/sctv/sctv15.smil/index.m3u8
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1896735193?profile=pass
 #EXTINF:0 tvg-id="sctv16hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/xfGq1GY/SCTV16.webp" ,SCTV16 HD - Phim Nước Ngoài
-https://dl.dropboxusercontent.com/s/nzoimgpwyj7ob6f/getlink/sctv/url=https://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/s1/index.m3u8?khanggtv|Referer=http://sctvonline.vn
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/798861132?profile=pass
 #EXTINF:0 tvg-id="sctv17hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/cy1D7NX/SCTV17.webp" ,SCTV17 HD - SSPORT 
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://s13.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s13.edge.cdn.sctvonline.vn/hls/sctv17/index.m3u8
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1653275918?profile=pass
 #EXTINF:0 tvg-id="sctv18hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/5jCVgmv/SCTV18.webp" ,SCTV18 HD
-#EXTVLCOPT:http-user-agent="Khanggtv"
-https://dl.dropboxusercontent.com/s/mt5rq6oukaev6r3/getlink/sctv/url=https://e1.endpoint.cdn.sctvonline.vn/channel/sctv18/s1/index.m3u8?khanggtv|Referer=http://sctvonline.vn
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/310127169?profile=pass
 #EXTINF:0 tvg-id="sctv19hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/XWLdBXJ/SCTV19.webp" ,SCTV19 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://s13.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s13.edge.cdn.sctvonline.vn/hls/sctv19/index.m3u8
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1523703487?profile=pass
 #EXTINF:0 tvg-id="sctv20hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/BrM18dN/SCTV20.webp" ,SCTV20 HD
-#EXTVLCOPT:http-user-agent="Khanggtv"
-https://dl.dropboxusercontent.com/s/po8lqm7n93cjptw/getlink/sctv/url=https://e1.endpoint.cdn.sctvonline.vn/channel/sctv20/s1/index.m3u8?khanggtv|Referer=http://sctvonline.vn
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1137247527?profile=pass
 #EXTINF:0 tvg-id="sctv21hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/Jy1cBs4/SCTV21.webp" ,SCTV21 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://s13.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s13.edge.cdn.sctvonline.vn/hls/sctv21/index.m3u8
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/697621332?profile=pass
 #EXTINF:0 tvg-id="sctv22hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/zGyB6xr/SCTV22.webp" ,SCTV22 HD - SSPORT1
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://s9.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/nginx.s9.edge.cdn.sctvonline.vn/hls/sctv22/index.m3u8
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1534590583?profile=pass
 #EXTINF:0 tvg-id="sctvhdpth"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/B2cKf4w/SCTVPhim.webp" ,SCTV PHIM TỔNG HỢP 
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://s11.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s11.edge.cdn.sctvonline.vn/hls/sctvphimtonghop/index.m3u8
+http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/88830793?profile=pass
 
 #----Music----#
 
