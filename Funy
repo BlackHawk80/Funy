@@ -488,9 +488,13 @@ http://p1.cvtv.xyz/E1?token=live
 #EXTINF: -1 tvg-id="skysportsfootball.hd.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
 http://rhsbjv7k.tvclub.xyz/iptv/6ESD8RFEN3KF87/9289/index.m3u8
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
-http://rhsbjv7k.tvclub.xyz/iptv/6ESD8RFEN3KF87/9334/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edge/113.0.1774.57
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/17285
 #EXTINF: -1 tvg-id="skysportsmainevent.uk" tvg-logo="https://i.ibb.co/Q6SS7SJ/Sky-Sports-Main-Event-UHD.png" group-title="🔴| LÂM-PHONG SPORT",SKY SPORTS MAIN EVENT
-http://rhsbjv7k.tvclub.xyz/iptv/6ESD8RFEN3KF87/9308/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edge/113.0.1774.57
+#EXTVLCOPT:network-caching=1000
+http://samisat44.xyz:80/5XF88W5/A38UYQV/17286
 #EXTINF: -1 tvg-id="skysportsmix" tvg-name="SKY SPORTS MIX" tvg-logo="https://logo.iptveditor.com/skysportsmix.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS
 https://raw.githubusercontent.com/Cutsiffa/Cutsiffa/main/Spl_1/Sky8.m3u8
 #EXTINF: -1 tvg-id="GolfChannel" tvg-name="Golf Channel" tvg-logo="https://i.ibb.co/Fz64cqv/Gofl.png" group-title="🔴| LÂM-PHONG SPORT",Golf Channel
