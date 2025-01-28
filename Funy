@@ -27,9 +27,9 @@ http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/2000475896
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
 http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1860957148
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
-http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1642319258
+https://509942876.r.vtvcdn.com/onplus/K_CINE_7777/m20_index.m3u8
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
-http://mytv123:mytv11234@hothanhdam.dsmynas.com:9981/stream/channelid/1490899242
+https://509942876.r.vtvcdn.com/onplus/K_LIFE_7777/m20_index.m3u8
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 http://e4.endpoint.cdn.sctvonline.vn/hls/KPlusKid/01.m3u8
@@ -58,8 +58,6 @@ https://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 https://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="disneyxd.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xGXxC8X/Disney-XD.png" ,Disney XD ᴴᴰ
 https://fl2.moveonjoy.com/DISNEY_XD/index.m3u8
-#EXTINF:-1 tvg-id="nicktoons.us" group-title="🌈| Hoạt hình" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6e/Nicktoons.png",NickToons ᴴᴰ
-http://610827065366959907.ofds1114.xyz:80/live/zh45134/HdYCaWmTAeVG/959907.ts
 #EXTINF:-1 tvg-id="skykids.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/wMnp5tV/Sky-Kids.png" group-title="🌈| Hoạt hình",Sky Kids ᴴᴰ
 https://jmp2.uk/sam-USAJ3504502A.m3u8
 #EXTINF:-1 tvg-id="SkyCinemaAnimationHD.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/Bw4M2xJ/Sky-Cinema-Animation.png" group-title="🌈| Hoạt hình", Sky Cinema Animation ᴴᴰ
@@ -456,25 +454,12 @@ http://client.newsborntvs.info:80/FatmirKraja/kGKd64cm3/86266
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_0/chunklist.m3u8
 
-#EXTINF: -1 tvg-id="fptplay" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/XDVMYVK/CCTV5.png",CCTV5+
-https://feiyang.vip-tptv.xyz/migu/641886773.m3u8?migutoken=ed4eeb8e7d162ec287c018a9006dbdaa2ca060bb36ee4efdc5144f67d46126f838e51f5c25dc31363e480651cf27d7555afb1325db7bdb7ec58d36b932b2341fb616e717ba0ac78aca2e1c79d6
-
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/MZSzM6c/epl.png",⚽ Sky Sport Premier League HD+
 https://7pal.short.gy/skyspt8nz
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://vodkom.com:25461/Logo/BEIN/eng-1-HD.png",⚽ BEIN SPORTS 1 ENGLISH
 http://kstv.us:8080/live/tH300gvHff/8606073792/12554.ts
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/d55Y9qr/G.png",Hisport
 http://203.154.243.89:11001/hisport?m3u8
-
-#EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-id="ChampionsTV5" tvg-logo="https://i.ibb.co/tZ1rKtf/vidio.png", ⚽ CHAMPIONS TV 5 (Live EPL)
-http://globalstreamz.xyz:3050/dalong1972@gmail.com/uNHnznZB6z/560114
-
-#EXTINF: -1 tvg-id="Hub.Premier.1.(HD).sg" tvg-name="HubPremier1" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/qoerty1659622111.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 1
-http://ky-iptv.com:80/live/Ivica5274/juric4005/2688447.ts
-#EXTINF: -1 tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/sdvs4u1659622094.png" group-title="🔴| LÂM-PHONG SPORT",⚽| HubPremier 2
-http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554979&extension=m3u8
-#EXTINF: -1 tvg-id="Hub.Premier.3.sg" tvg-name="HubPremier3" tvg-logo="https://i.ibb.co/4Ns61QY/znzwou1659622086.png" group-title="🔴| LÂM-PHONG SPORT",⚽ HubPremier 3
-http://ledir.thund.re/play/live.php?mac=00:1a:79:25:50:a8&stream=554978&extension=m3u8
 
 #EXTINF: -1 tvg-id="SkySportsBundesliga.de" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga
 http://rhsbjv7k.tvclub.xyz/iptv/FAGK589PV9BQAG/2480/index.m3u8
@@ -503,10 +488,7 @@ http://xtream.eshost.xyz//Lbs0U2/tFMZlx/121
 http://610827065366974014.ofds1114.xyz:80/live/zh45134/HdYCaWmTAeVG/974014.ts
 #EXTINF: -1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/MZSzM6c/epl.png", Paramount ⚽EPL
 http://globalstreamz.xyz:3050/dalong1972@gmail.com/uNHnznZB6z/611531
-#EXTINF:0 tvg-id="setanta1" tvg-logo="https://i.ibb.co/86rsQyd/Setanta-Sports-1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Setanta 1 HD
-http://82.215.111.227/1263/index.m3u8
-#EXTINF:0 tvg-id="setanta2" tvg-logo="https://i.ibb.co/XCYT22S/Setanta-Sports-2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Setanta 2 HD
-http://82.215.111.227/1264/index.m3u8
+
 #EXTINF: -1 tvg-id="SONYSPORTSTEN1.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN1 HD
 http://tv.cloudcdn.online:80/live/00:1A:79:A4:26:62/2977/289.ts
 #EXTINF: -1 tvg-id="SONYSPORTSTEN2.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN2 HD
@@ -581,7 +563,7 @@ http://client.newsborntvs.info:80/FatmirKraja/kGKd64cm3/81429
 #EXTINF: -1 tvg-logo="https://i.ibb.co/d22d4qh/Hard-Kock.png" group-title="🔴| LÂM-PHONG SPORT",Hard_Knock
 https://d3uyzhwvmemdyf.cloudfront.net/scheduler/scheduleMaster/109/variant/22099396/52e53bec-21f1-4caf-86ce-a502b6cc8520.m3u8
 #EXTINF: -1 tvg-id="fightsports" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/VqskkPL/FIGHT-SPORTS-2018.png",🎖️| FIGHT SPORTS
-http://premiumiptvmk.com:8080/cipo/TAd9YX7VLaxhjxXt/157606
+https://cdn09jtedge.indihometv.com/joss/133/fightsport/index.m3u8?c
 #EXTINF: -1 tvg-id="fightnetwork" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/qrWHqLb/fight.png",🎖️| Fight Network
 https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-606605549dbfca002d2ae877.m3u8
 #https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
