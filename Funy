@@ -168,6 +168,67 @@ https://tv.TruyenHinh.Click/CoBan/vtvcab21hd/TuyetDoiKhongKinhDoanh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tv.TruyenHinh.Click/CoBan/vtvcab22hd/TuyetDoiKhongKinhDoanh
 
+#EXTINF:-1 tvg-id="on1" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON1.jpg", ON 1
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT1/manifest.mpd
+#EXTINF:-1 tvg-id="on2" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON2.jpg", ON 2
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT2/manifest.mpd
+#EXTINF:-1 tvg-id="on3" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON3.jpg", ON 3
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT3/manifest.mpd
+#EXTINF:-1 tvg-id="on4" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON4.jpg", ON 4
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT4/manifest.mpd
+#EXTINF:-1 tvg-id="on5" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON5.jpg", ON 5
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT5/manifest.mpd
+#EXTINF:-1 tvg-id="on6" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON6.jpg", ON 6
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT6/manifest.mpd
+#EXTINF:-1 tvg-id="on7" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON7.jpg", ON 7
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT7/manifest.mpd
+#EXTINF:-1 tvg-id="on8" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON8.jpg", ON 8
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT8/manifest.mpd
+#EXTINF:-1 tvg-id="on9" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON9.jpg", ON 9
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT9/manifest.mpd
+#EXTINF:-1 tvg-id="on10" group-title="Sự kiện ON" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ON10.jpg", ON 10
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://api.sgchill.io.vn/v8/key/tv.xml
+http://live2onsport.vtvcab.vn/onplus/ONSPORT10/manifest.mpd
+
 #-------------------HTV/HTVC-------------------#
 #EXTINF:-1 tvg-id="htv1hd" group-title="📺| HTV/HTVC" tvg-logo="https://pbs.twimg.com/media/Fa7AbJWagAMOXSN?format=png",HTV1
 udp://@225.1.1.180:30120
@@ -251,7 +312,7 @@ https://e1.endpoint.cdn.sctvonline.vn/channel/sctv20/index.m3u8?khichtv|Referer=
 https://e1.endpoint.cdn.sctvonline.vn/channel/sctv21/index.m3u8?|Referer=https://sctvonline.vn/
 #EXTINF:0 tvg-id="sctv22hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/zGyB6xr/SCTV22.webp" ,SCTV22 HD - SSPORT1
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://e1.endpoint.cdn.sctvonline.vn/channel/sctv22/index.m3u8?khichtv|Referer=http://sctvonline.vn/
+https://e1.endpoint.cdn.sctvonline.vn/channel/sctv22/index.m3u8?|Referer=http://sctvonline.vn/
 #EXTINF:0 tvg-id="sctvhdpth"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/B2cKf4w/SCTVPhim.webp" ,SCTV PHIM TỔNG HỢP 
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://s11.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s11.edge.cdn.sctvonline.vn/hls/sctvphimtonghop/index.m3u8
