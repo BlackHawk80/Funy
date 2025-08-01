@@ -23,16 +23,15 @@ udp://@225.1.3.9:30120
 
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/2Sh52vt/ksport-01-hd.png", K+ Sports 1
-https://xem.TruyenHinh.Click/BoSung/ksport1hd/TruyenHinh.Click
+http://113.177.113.7:4022/rtp/232.84.1.98:8562
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
-https://xem.TruyenHinh.Click/BoSung/ksport2hd/TruyenHinh.Click
+http://113.177.113.7:4022/rtp/232.84.1.131:10368
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
-https://xem.TruyenHinh.Click/BoSung/kcinehd/TruyenHinh.Click
+http://113.177.113.7:4022/rtp/232.84.1.96:8550
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
-https://xem.TruyenHinh.Click/BoSung/kaction/TruyenHinh.Click
+http://113.177.113.7:4022/rtp/232.84.1.97:8556
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
-https://xem.TruyenHinh.Click/BoSung/kkidshd/TruyenHinh.Click
-
+http://113.177.113.7:4022/rtp/232.84.3.43:11794
 
 #-------------------Hoạt hình HD-------------------#
 
@@ -113,7 +112,7 @@ https://rg.hoangducanh.site/vtvcab16hd
 https://xem.TruyenHinh.Click/CoBan/vtvcab-23-golf-channel/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp",  VTVcab 1 - Vie Giải trí HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://xem.TruyenHinh.Click/CoBan/vtvcab-1-vie-giai-tri-hd/TuyetDoiKhongKinhDoanh.m3u8
+http://123.17.139.17:8889/Vieon.php?id=vtvcab1
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp", ON Phim Việt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://xem.TruyenHinh.Click/CoBan/vtvcab-2-phim-viet-hd/TuyetDoiKhongKinhDoanh.m3u8
@@ -189,7 +188,7 @@ https://rg.hoangducanh.site/kcinehd
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 https://liveh12.seenow.vn/hls/SCTV1/index.m3u8
 #EXTINF:0 tvg-id="sctv2hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/2qPDn0t/SCTV2.webp",SCTV2
-https://xem.TruyenHinh.Click/CoBan/sctv2-today-tv/TuyetDoiKhongKinhDoanh.m3u8
+https://rg.hoangducanh.site/sctv2
 #EXTINF:0 tvg-id="sctv3hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/wNWbJKL/SCTV3.webp",SCTV 3 HD - SEE TV
 https://liveh12.seenow.vn/hls/SCTV3/index.m3u8
 
@@ -432,7 +431,7 @@ http://client.newsborntvs.info:80/FatmirKraja/kGKd64cm3/89828
 http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=484209&extension=ts&play_token=5XWDuAhsnf
 
 #EXTINF:-1 tvg-id="SkySp.F1.HD.uk" tvg-name="SkySportsF1UHD" tvg-logo="https://i.ibb.co/gTd6Hnn/1280px-Sky-Sport-F1-Logo-2018-svg.png" group-title="🌏| 4K 🇺 🇭 🇩",Sky Sports F1 ⁴ᴷ
-https://xem.TruyenHinh.Click/BMT/SkySp.F1.HD.uk/DoiTac.m3u8
+https://rg.hducanh.site/Skysportf1
 #EXTINF:-1 group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/yX1WWbL/Euro4k.png", EuroSport ⁴ᴷ
 https://xem.TruyenHinh.Click/BMT/Eurosport.4K.ro/DoiTac.m3u8
 #EXTINF:1 tvg-id="V.sport.ULTRA.HD.fi" group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/vvmq4zv/Vsport-Uhd.png",⚽ V Sport Ultra ⁴ᴷ
@@ -517,7 +516,7 @@ http://fortv.cc:8080/N0QaDD/625713/53741
 #EXTINF: -1 tvg-id="ZiggoSportRacing.nl" tvg-name="Ziggo Sport Racing" tvg-logo="https://i.ibb.co/st0W3mm/Ziggo-Sport-Racing.png" group-title="🔴| LÂM-PHONG SPORT",Ziggo Sport Racing
 http://610827065366965734.ofds1114.xyz:80/live/zh45134/HdYCaWmTAeVG/965734.ts
 #EXTINF: -1 tvg-id="skysportsf1.uk" tvg-name="SKY SPORTS F1" tvg-logo="https://logo.iptveditor.com/skysportsf1.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS F1
-http://b0f98b53.ucomist.net/iptv/P2VBZUVUF3SYNE/7342/index.m3u8
+https://rg.hducanh.site/ssportf1
 #EXTINF: -1 tvg-id="Sky.Sport.MotoGP.it" tvg-name="IT: SKY SPORT MOTOGP FHD" tvg-logo="https://logo.iptveditor.com/skysportmotogp.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORT MOTOGP FHD
 http://globalstreamz.xyz:3050/dalong1972@gmail.com/uNHnznZB6z/607245
 http://iyvhm8br.akciatv.ru/iptv/2XGFGMMXT97LQZ/19133/index.m3u8
