@@ -2,23 +2,23 @@
 #EXTM3U
 #-------------------VTV------------------#
 
-#EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV" tvg-logo="https://commons.wikimedia.org/wiki/File:Logo_VTV1_HD.png",❤️| VTV1 ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/NfRs8gt/VTV1.png",❤️| VTV1 ¹⁰⁸⁰
 udp://@225.1.3.1:30120
-#EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/xt5yxQ5p/VTV2-HD-0.png",❤️| VTV2 ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/pBs0KHnC/VTV2.png",❤️| VTV2 ¹⁰⁸⁰
 udp://@225.1.3.5:30120
-#EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/VNHdbry/VTV3-cc.png",❤️| VTV3 ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/ksR7NgKx/VTV3.png",❤️| VTV3 ¹⁰⁸⁰
 udp://@225.1.3.2:30120
-#EXTINF:-1 tvg-id="vtv4hd" group-title="💕| VTV" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b8/VTV4_HD_logo_2015.png/revision/latest/scale-to-width-down/1000?cb=20250402032951&path-prefix=vi",❤️| VTV4 ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="vtv4hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/mCKFb8b6/VTV4.png",❤️| VTV4 ¹⁰⁸⁰
 udp://@225.1.3.6:30120
 #EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Logov5.png",❤️| VTV5 ¹⁰⁸⁰
 udp://@225.1.3.4:30120
 #EXTINF:-1 tvg-id="vtv6hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/ycFFS1xF/Logo-vtv-c-n-th-2022.png",❤️| VTV6 ¹⁰⁸⁰
 udp://@225.1.3.3:30120
-#EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV" tvg-logo="https://vi.m.wikipedia.org/wiki/T%E1%BA%ADp_tin:VTV7_logo_2016_final.svg",❤️| VTV7 ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/Cs0jZTQf/VTV7.png",❤️| VTV7 ¹⁰⁸⁰
 udp://@225.1.3.15:30120
-#EXTINF:-1 tvg-id="vtv8hd" group-title="💕| VTV" tvg-logo="https://gpng.net/wp-content/uploads/Vietnam-TV-Chanel-Logo-VTV8HD-png.png",❤️| VTV8 ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="vtv8hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/7tNW1G5h/VTV8.png",❤️| VTV8 ¹⁰⁸⁰
 udp://@225.1.3.11:30120
-#EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV" tvg-logo="https://gpng.net/wp-content/uploads/Vietnam-TV-Chanel-Logo-VTV9HD-png.png",❤️| VTV9 ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/Pz4gGbxh/VTV9.png",❤️| VTV9 ¹⁰⁸⁰
 udp://@225.1.3.9:30120
 
 #-------------------K+-------------------#
@@ -50,16 +50,6 @@ udp://@225.1.1.138:30120
 #EXTINF:-1 tvg-id="aniplus" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/KwR5cMy/Aniplus.png", Aniplus
 http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/298504
 #http://mag.king-4k.cc:80/00447341550145nigel2/45C411/1505807
-#EXTINF:-1 tvg-id="disneychannel.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/n37ZS9S/Disney-Channel-Logo.png" ,Disney Channel ᴴᴰ
-https://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
-#EXTINF:-1 group-title="🌈| Hoạt hình" tvg-id="disneyjunior.us" tvg-logo="https://i.ibb.co/2qCqP9P/junior.png",Disney Junior ᴴᴰ
-https://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
-#EXTINF:-1 tvg-id="disneyxd.us" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/xGXxC8X/Disney-XD.png" ,Disney XD ᴴᴰ
-https://fl2.moveonjoy.com/DISNEY_XD/index.m3u8
-#EXTINF:-1 tvg-id="skykids.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/wMnp5tV/Sky-Kids.png" group-title="🌈| Hoạt hình",Sky Kids ᴴᴰ
-https://jmp2.uk/sam-USAJ3504502A.m3u8
-#EXTINF:-1 tvg-id="SkyCinemaAnimationHD.uk" tvg-name="SkyKidsHD" tvg-logo="https://i.ibb.co/Bw4M2xJ/Sky-Cinema-Animation.png" group-title="🌈| Hoạt hình", Sky Cinema Animation ᴴᴰ
-http://globalstreamz.xyz:3050/dalong1972@gmail.com/uNHnznZB6z/508113
 #EXTINF:-1 tvg-id="thelegochannel.us" tvg-name="LEGO Kids TV" tvg-logo="https://i.ibb.co/z2kWh2P/Lego.png" group-title="🌈| Hoạt hình",LEGO Kids TV ᴴᴰ
 https://is.gd/TH0DFt?(cc)o_Kids.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.us" tvg-logo="https://i.imgur.com/nuzIBbN.png" group-title="🌈| Hoạt hình",Moonbug Kids (1080p)
