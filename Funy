@@ -23,13 +23,13 @@ udp://@225.1.3.9:30120
 
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/2Sh52vt/ksport-01-hd.png", K+ Sports 1
-http://113.177.113.7:4022/rtp/232.84.1.98:8562
+http://luizkun.duckdns.org:63213/rtp/232.84.1.98:8562
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
-http://113.177.113.7:4022/rtp/232.84.1.131:10368
+http://luizkun.duckdns.org:63213/rtp/232.84.1.34:8178
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
-http://113.177.113.7:4022/rtp/232.84.1.96:8550
+http://luizkun.duckdns.org:63213/rtp/232.84.1.122:10314 
 #EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.ibb.co/jgszY8N/K-Action.png" group-title="K+",K+ ACTION
-http://113.177.113.7:4022/rtp/232.84.1.97:8556
+http://luizkun.duckdns.org:63213/rtp/232.84.1.33:8172
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="http://gg.gg/kkidkkk", K+ Kids
 http://113.177.113.7:4022/rtp/232.84.3.43:11794
 
@@ -96,7 +96,7 @@ https://xem.hoiquan.click/TichHop/OnLive/LIVE/?user=onsports
 https://xem.hoiquan.click/TichHop/OnLive/LIVE/?user=onsportsplus
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png", ON Football HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://xem.hoiquan.click/TichHop/OnLive/LIVE/?user=onfootball
+http://luizkun.duckdns.org:63213/rtp/232.84.1.210:9234
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Golf_du_phong
