@@ -71,7 +71,7 @@ udp://@225.1.3.23:30120
 #EXTINF:-1 tvg-id="qpvnhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/N9zkzV2/Quoc-Phong-cc.webp",❤️| QPVN ¹⁰⁸⁰
 udp://@225.1.3.54:30120
 #EXTINF:-1 tvg-id="hanoi2"group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/ajnzMuj.png",❤️| Hà Nội ⁴ᵏ
-udp://@225.1.1.109:30120
+https://cloudstreamhntv.tek4tv.vn/events/HN2/chunklist_w1097979085.m3u8
 #EXTINF:-1 tvg-id="hanoi1"group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/ajnzMuj.png",❤️| Hà Nội1 ¹⁰⁸⁰
 udp://@225.1.2.186:30120
 #EXTINF:-1 tvg-id="hanoi2" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hà Nội2 ¹⁰⁸⁰
@@ -285,13 +285,9 @@ https://jmp2.uk/sam-USBD1200008GL.m3u8
 #EXTINF:-1 tvg-id="VevoHipHop.us" group-title="🎶| Music" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/Hip_Hop_TV.svg/640px-Hip_Hop_TV.svg.png",💿| Hip Hop
 https://jmp2.uk/sam-CABC52000171D.m3u8
 #EXTINF:-1 tvg-id="vevopop.us" group-title="🎶| Music" tvg-logo="https://logo.iptveditor.com/vevopop.png",💿| VEVO Pop
-https://jmp2.uk/sam-GBBC19000017V.m3u8
-#EXTINF:-1 tvg-id="vevoR&B.us" group-title="🎶| Music" tvg-logo="https://i.ibb.co/DK1tk8d/vevor-b.jpg",💿| VEVO R&B
-https://jmp2.uk/sam-USBC3900009K5.m3u8
-#EXTINF:-1 tvg-id="vevolatino.us" group-title="🎶| Music" tvg-logo="https://i.ibb.co/84Tjwtt/vevolatino.jpg",💿| VEVO Latino
-https://jmp2.uk/sam-USBC3600015GF.m3u8
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="vevotvhd" group-title="🎶| Music" tvg-logo="https://i.ibb.co/QJ4bLnY/vevo.png",💿| VEVO
-https://jmp2.uk/sam-USBB4400015F5.m3u8
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8
 #-------------------Minh Đức Giải Trí-------------------#
 #EXTINF:-1 group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/TVB%20Vietnam%20Banner_Side.jpg", TVB VIỆT NAM
 https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist1080p.m3u8
@@ -455,11 +451,6 @@ https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-w
 https://7pal.short.gy/skyspt8nz
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="http://vodkom.com:25461/Logo/BEIN/eng-1-HD.png",⚽ BEIN SPORTS 1 ENGLISH
 https://1.org.vn/IaoHqg
-
-#EXTINF: -1 tvg-id="English.-.Now.Sports.1.hk" tvg-logo="https://i.ibb.co/MhgRjWw/now1.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 1
-https://xem.TruyenHinh.Click/BMT/English.-.Now.Sports.Premier.League.1.hk/DoiTac.m3u8
-#EXTINF: -1 tvg-id="NowPremierSports 2.hk" tvg-logo="https://i.ibb.co/fD0dJJb/Now-Sports-2.png" group-title="🔴| LÂM-PHONG SPORT",⚽ Now Premier Sports 2
-https://7pal.short.gy/nowhkp2
 #EXTINF: -1 tvg-id="skysportsfootball.hd.uk" tvg-name="SKY SPORTS FOOTBALL" tvg-logo="https://logo.iptveditor.com/skysportsfootball.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS FOOTBALL
 https://1.org.vn/hzrPmA
 #EXTINF: -1 tvg-id="skysportspremiereleague.uk" tvg-name="SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.iptveditor.com/skysportspremierleague.png" group-title="🔴| LÂM-PHONG SPORT", SKY SPORTS PREMIER LEAGUE
@@ -474,14 +465,7 @@ https://7pal.short.gy/ssportplus
 http://xtream.eshost.xyz//Lbs0U2/tFMZlx/121
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://iptvboss.xyz/logos/Romania/PrimaSport4.ro.png",FOOT EPL
 https://1.org.vn/nEeDuL
-#EXTINF: -1 tvg-id="SONYSPORTSTEN1.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN1 HD
-http://tv.cloudcdn.online:80/live/00:1A:79:A4:26:62/2977/289.ts
-#EXTINF: -1 tvg-id="SONYSPORTSTEN2.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN2 HD
-http://samisat44.xyz:80/live/5XF88W5/A38UYQV/1052690.ts
-#http://tv.cloudcdn.online:80/live/00:1A:79:A4:26:62/2977/290.ts
-#EXTINF: -1 tvg-id="SONYSPORTSTEN3.in" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen3_SD.png" group-title="🔴| LÂM-PHONG SPORT",SONY SPORTS TEN3 HD
-http://samisat44.xyz:80/live/5XF88W5/A38UYQV/1052691.ts
-#http://tv.cloudcdn.online:80/live/00:1A:79:A4:26:62/2977/291.ts
+
 #EXTINF: -1 tvg-id="usanetwork.us" tvg-name="USA NETWORK" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/USA-Network-Logo.svg/1200px-USA-Network-Logo.svg.png",USA Network
 https://xem.TruyenHinh.Click/BMT/USA.Network.HDTV.(East).(USAHD).us/DoiTac.m3u8
 #EXTINF: -1 tvg-id="eurosport1.uk" tvg-name="EUROSPORT 1 HD" tvg-logo="https://logo.iptveditor.com/eurosport1.png" group-title="🔴| LÂM-PHONG SPORT", EUROSPORT 1 HD
@@ -495,7 +479,6 @@ https://dk9k3t9vof80w.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da6
 #EXTINF:-1 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/YRdK5NM/fubo-sports.png",US| FUBO SPORTS 1 HD
 http://globalstreamz.xyz:3050/dalong1972@gmail.com/uNHnznZB6z/418199
 #EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/1RmyHr3/Billiards.png", World Billiards
-https://i.mjh.nz/SamsungTVPlus/KRBC3200011N3.m3u8
 https://newidco-billiardstv-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/cbgY0xm/Kozoom.png", KOZOOM TV
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8
