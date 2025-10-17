@@ -23,7 +23,8 @@ udp://@225.1.3.9:30120
 
 #-------------------K+-------------------#
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.ibb.co/2Sh52vt/ksport-01-hd.png", K+ Sports 1
-http://luizkun.duckdns.org:63213/rtp/232.84.1.98:8562
+http://aismile.dpdns.org/play/PlJVLeh3OFlevh__G-rmB8Bhv8AwPH-8TUlO_Jo3kh8/ts
+#http://luizkun.duckdns.org:63213/rtp/232.84.1.98:8562
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
 http://luizkun.duckdns.org:63213/rtp/232.84.1.34:8178
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="http://gg.gg/kcinekkk",K+ CINE
