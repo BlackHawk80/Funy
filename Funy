@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/PhatBee/phatbeetv/refs/heads/main/merged_epg.xml, http://lichphatsong.xyz/schedule/epg.xml.gz, https://lichphatsong.xyz/schedule/epg.xml, https://truyenhinh.click/EPG-VN" tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="https://raw.githubusercontent.com/PhatBee/phatbeetv/refs/heads/main/merged_epg.xml, https://vnepg.site/epg.xml.gz, https://vnepg.site/epg.xml, https://truyenhinh.click/EPG-VN" tvg-shift=0 m3uautoload=1
 #EXTM3U
 #-------------------VTV------------------#
 
