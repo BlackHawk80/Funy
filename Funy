@@ -3,44 +3,28 @@
 #-------------------VTV------------------#
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/NfRs8gt/VTV1.png",❤️| VTV1 ¹⁰⁸⁰
-udp://@225.1.3.1:30120
+udp://@225.1.2.249:30120
 #EXTINF:-1 tvg-id="vtv2hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/pBs0KHnC/VTV2.png",❤️| VTV2 ¹⁰⁸⁰
-udp://@225.1.3.5:30120
+udp://@225.1.2.13:30120
 #EXTINF:-1 tvg-id="vtv3hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/ksR7NgKx/VTV3.png",❤️| VTV3 ¹⁰⁸⁰
-udp://@225.1.3.2:30120
+udp://@225.1.2.247:30120
 #EXTINF:-1 tvg-id="vtv4hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/mCKFb8b6/VTV4.png",❤️| VTV4 ¹⁰⁸⁰
-udp://@225.1.3.6:30120
+udp://@225.1.2.20:30120
 #EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Logov5.png",❤️| VTV5 ¹⁰⁸⁰
-udp://@225.1.3.4:30120
+udp://@225.1.1.131:30120
 #EXTINF:-1 tvg-id="vtv6hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/ycFFS1xF/Logo-vtv-c-n-th-2022.png",❤️| VTV6 ¹⁰⁸⁰
-udp://@225.1.3.3:30120
+udp://@225.1.2.245:30120
 #EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/Cs0jZTQf/VTV7.png",❤️| VTV7 ¹⁰⁸⁰
-udp://@225.1.3.15:30120
+udp://@225.1.2.96:30120
 #EXTINF:-1 tvg-id="vtv8hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/7tNW1G5h/VTV8.png",❤️| VTV8 ¹⁰⁸⁰
-udp://@225.1.3.11:30120
+udp://@225.1.2.166:30120
 #EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/Pz4gGbxh/VTV9.png",❤️| VTV9 ¹⁰⁸⁰
-udp://@225.1.3.9:30120
-
-#-------------------K+-------------------#
-#EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://i.imgur.com/6yiAtRg.png", K+ Sports 1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://livesport.io.vn/key.xml
-https://livevlisctcdnw.seenow.vn/mean/KSPORT1/manifest.mpd
-#EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://i.imgur.com/bzACfOj.png", K+ Sports 2
-http://luizkun.duckdns.org:27031/rtp/232.84.1.34:8178
-#EXTINF:-1 tvg-id="kcinehd" group-title="K+" tvg-logo="https://i.imgur.com/As4bwUs.png",K+ CINE
-http://luizkun.duckdns.org:27031/rtp/232.84.1.38:8202
-#EXTINF:-1 tvg-id="klifehd" tvg-logo="https://i.imgur.com/QPkuBRi.png" group-title="K+",K+ ACTION
-http://luizkun.duckdns.org:27031/rtp/232.84.1.33:8172
-#EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://i.imgur.com/erWqYxh.png", K+ Kids
-http://luizkun.duckdns.org:27031/rtp/232.84.3.42:11800
+udp://@225.1.1.128:30120
 
 #-------------------Hoạt hình HD-------------------#
 
 #EXTINF:-1 tvg-id="happykids" type="stream" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp", HappyKids ᴴᴰ
-https://toiyeuvietnam.dpdns.org/CoBan/happy-kids-hd/TuyetDoiKhongKinhDoanh.m3u8
+udp://@225.1.1.138:30120
 #EXTINF:-1 tvg-id="animaxhd" group-title="🌈| Hoạt hình" tvg-logo="https://i.imgur.com/RTgouGo.png",Animax ᴴᴰ
 udp://@225.1.1.135:30120
 #EXTINF:-1 tvg-id="dreamworks" group-title="🌈| Hoạt hình" tvg-logo="https://i.ibb.co/THfL7QS/Dream-Works-cc.png",Dreamworks ᴴᴰ
@@ -69,9 +53,9 @@ https://zoomoo-samsungau.amagi.tv/playlist1080p.m3u8
 
 #-------------------Thiết yếu-------------------#
 #EXTINF:0 tvg-id="vietnamtoday" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/dsxCXcHm/VTV-Vietnam-Today.png",❤️| Vietnam Today ¹⁰⁸⁰
-udp://@225.1.3.95:30120
+udp://@225.1.2.190:30120
 #EXTINF:-1 tvg-id="antvhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/LkKzBb8/Anninh.png",❤️| ANTV ¹⁰⁸⁰
-udp://@225.1.3.23:30120
+udp://@225.1.2.169:30120
 #EXTINF:-1 tvg-id="qpvnhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/N9zkzV2/Quoc-Phong-cc.webp",❤️| QPVN ¹⁰⁸⁰
 udp://@225.1.3.54:30120
 #EXTINF:-1 tvg-id="hanoi2"group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/ajnzMuj.png",❤️| Hà Nội ⁴ᵏ
@@ -81,7 +65,7 @@ udp://@225.1.2.186:30120
 #EXTINF:-1 tvg-id="hanoi2" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.imgur.com/5Nc0aiR.png",❤️| Hà Nội2 ¹⁰⁸⁰
 udp://@225.1.3.49:30120
 #EXTINF:-1 tvg-id="hungyen" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/wWQtTwr/HUNGYEN-BEARTV.png",❤️| Hưng Yên ¹⁰⁸⁰
-https://live.mediatech.vn/live/285f5449d7d7d2946e0bd2d54b7e60f25a4/chunklist.m3u8
+udp://@225.1.1.118:30120
 #EXTINF:-1 tvg-id="anvienhd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/F08gVbK/BTV9-BEARTV.png",❤️| An Viên HD ¹⁰⁸⁰
 udp://@225.1.2.189:30120
 #EXTINF:-1 tvg-id="vinhlong1hd" group-title="💚| Kênh Thiết yếu" tvg-logo="https://i.ibb.co/PGxCzX8/ccVL1.webp",❤️| Vĩnh Long1 ¹⁰⁸⁰
@@ -105,7 +89,7 @@ http://luizkun.duckdns.org:27031/rtp/232.84.3.75:11602
 http://luizkun.duckdns.org:27031/rtp/232.84.3.243:11380
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://luizkun.duckdns.org:27031/rtp/232.84.3.244:11386
+https://toiyeuvietnam.dpdns.org/CoBan/vtvcab-23-golf-channel/TuyetDoiKhongKinhDoanh.m3u8
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp",  VTVcab 1 - Vie Giải trí HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://freem3u.xyz/api/live/play.m3u8?vid=180
@@ -216,8 +200,7 @@ https://liveh34.seenow.vn/hls/SCTV10/index.m3u8
 #EXTINF:0 tvg-id="sctv11hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/cX6nSNF/SCTV11.webp",SCTV11 HD
 https://liveh34.seenow.vn/hls/SCTV11/03.m3u8
 #EXTINF:0 tvg-id="sctv12hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/Fn08B2G/SCTV12.webp",SCTV 12 HD - Du Lịch
-https://liveh34.seenow.vn/hls/SCTV12/03.m3u8
-https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV12_HD_du_phong
+https://liveh34.seenow.vn/hls/SCTV12/index.m3u8
 #EXTINF:0 tvg-id="sctv13hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/QKpFThG/SCTV13.webp",SCTV13 HD - Phụ nữ & Gia đình
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://liveh34.seenow.vn/hls/SCTV13/03.m3u8
@@ -228,7 +211,7 @@ https://liveh34.seenow.vn/hls/SCTV14/03.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://livecdn.seenow.vn/mean/SCTV15HD/manifest.mpd
 #EXTINF:0 tvg-id="sctv16hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/xfGq1GY/SCTV16.webp" ,SCTV16 HD - Phim Nước Ngoài
-https://e1.endpoint.cdn.sctvonline.vn/channel/sctv16/index.m3u8?khichtv|Referer=http://sctvonline.vn/
+https://liveh34.seenow.vn/hls/SCTV16/index.m3u8
 #EXTINF:0 tvg-id="sctv17hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/cy1D7NX/SCTV17.webp" ,SCTV17 HD - SSPORT 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://livecdn.seenow.vn/mean/SCTV17/manifest.mpd
@@ -236,19 +219,17 @@ https://livecdn.seenow.vn/mean/SCTV17/manifest.mpd
 https://liveh34.seenow.vn/hls/SCTV18/03.m3u8
 #EXTINF:0 tvg-id="sctv19hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/XWLdBXJ/SCTV19.webp" ,SCTV19 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://s13.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s13.edge.cdn.sctvonline.vn/hls/sctv19/index.m3u8?khichtv|Referer=http://sctvonline.vn/
+https://liveh34.seenow.vn/hls/SCTV19/index.m3u8
 #EXTINF:0 tvg-id="sctv20hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/BrM18dN/SCTV20.webp" ,SCTV20 HD
-https://e1.endpoint.cdn.sctvonline.vn/channel/sctv20/index.m3u8?khichtv|Referer=http://sctvonline.vn/
+https://liveh34.seenow.vn/hls/SCTV20/index.m3u8
 #EXTINF:0 tvg-id="sctv21hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/Jy1cBs4/SCTV21.webp" ,SCTV21 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://e1.endpoint.cdn.sctvonline.vn/channel/sctv21/index.m3u8?|Referer=https://sctvonline.vn/
+https://liveh34.seenow.vn/hls/SCTV21/index.m3u8
 #EXTINF:0 tvg-id="sctv22hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/zGyB6xr/SCTV22.webp" ,SCTV22 HD - SSPORT1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-http://e5.endpoint.cdn.sctvonline.vn/hls/sctv22/index.m3u8?vmttv
+https://liveh34.seenow.vn/hls/SCTV22/index.m3u8
 #EXTINF:0 tvg-id="sctvhdpth"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/B2cKf4w/SCTVPhim.webp" ,SCTV PHIM TỔNG HỢP 
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV_Phim_Tong_Hop_HD_du_phong
+https://liveh12.seenow.vn/hls/SCTVPHIM/index.m3u8
 #----Music----#
 
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
@@ -296,9 +277,9 @@ https://d1s6jz7jeei17.cloudfront.net/playlist/amg00056-vevotv-vevo2kau-samsungau
 #EXTINF:-1 group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://tvbaw-na.s3.us-west-1.amazonaws.com/hb/TVB%20Vietnam%20Banner_Side.jpg", TVB VIỆT NAM
 https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" tvg-name="Cinemax" tvg-logo="https://i.imgur.com/pjnAxys.png" group-title="📽️| Minh Đức Giải Trí",▶️| Cinemax
-http://luizkun.duckdns.org:63213/rtp/232.84.3.117:10654
+udp://@225.1.2.86:30120
 #EXTINF:-1 tvg-id="cinemaworldhd" tvg-name="Cinema World" tvg-logo="https://i.ibb.co/ss7qbgg/Cinema-World-cc.png" group-title="📽️| Minh Đức Giải Trí",▶️| Cinema World
-http://luizkun.duckdns.org:63213/rtp/232.84.3.103:10840
+udp://@225.1.1.142:30120
 #EXTINF:-1 tvg-id="hbohd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.imgur.com/w5u4IrO.png",▶️| HBO ¹⁰⁸⁰
 udp://@225.1.4.90:30120
 #EXTINF:-1 tvg-id="warnertvhd" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/myLbZ8m/8124486-new-wtv-logo.png",▶️| WBTV ¹⁰⁸⁰
