@@ -12,7 +12,7 @@ udp://@225.1.2.247:30120
 udp://@225.1.2.20:30120
 #EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Logov5.png",❤️| VTV5 ¹⁰⁸⁰
 udp://@225.1.1.131:30120
-#EXTINF:-1 tvg-id="vtv6hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/ycFFS1xF/Logo-vtv-c-n-th-2022.png",❤️| VTV6 ¹⁰⁸⁰
+#EXTINF:-1 tvg-id="vtvcantho" group-title="💕| VTV" tvg-logo="https://i.ibb.co/ycFFS1xF/Logo-vtv-c-n-th-2022.png",❤️| VTV6 ¹⁰⁸⁰
 udp://@225.1.2.245:30120
 #EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/Cs0jZTQf/VTV7.png",❤️| VTV7 ¹⁰⁸⁰
 udp://@225.1.2.96:30120
@@ -90,7 +90,7 @@ https://freem3u.xyz/api/live/play.m3u8?vid=180
 #https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Vie_GIAI_TRI_HD_du_phong
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp", ON Phim Việt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://toiyeuvietnam.dpdns.org/CoBan/vtvcab-2-phim-viet-hd/TuyetDoiKhongKinhDoanh.m3u8
+https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtvcab-2-phim-viet-hd/KenhCoBan.m3u8
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/k2TFx50/ONMovies.png", ON Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://freem3u.xyz/api/live/play.m3u8?vid=181
@@ -294,16 +294,16 @@ https://jmp2.uk/sam-GBBC2300002GG.m3u8
 https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-66be944f8711311880995280.m3u8
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",▶️| Hollywood Classics
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://toiyeuvietnam.dpdns.org/CoBan/hollywood-classic-hd/TuyetDoiKhongKinhDoanh.m3u8
+https://toiyeuvietnam.dpdns.org/OnliveTV/hollywood-classic-hd/Free.m3u8
 #EXTINF:-1 tvg-id="inthebox" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/InTheBox%20Channel.png",▶️| In The Box
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://toiyeuvietnam.dpdns.org/CoBan/in-the-box/TuyetDoiKhongKinhDoanh.m3u8
+https://toiyeuvietnam.dpdns.org/OnliveTV/in-the-box/Free.m3u8
 #EXTINF:-1 tvg-id="boxmovie1" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",▶️| BOX Movie¹
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://cloud.sgchill.io.vn/tv/getlink/source/coban1/index.m3u8?id=159&token=2025
+https://toiyeuvietnam.dpdns.org/OnliveTV/box-movie-1-hd/Free.m3u8
 #EXTINF:-1 tvg-id="boxhits" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",▶️| Box Hits
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://toiyeuvietnam.dpdns.org/CoBan/box-hits/TuyetDoiKhongKinhDoanh.m3u8
+https://toiyeuvietnam.dpdns.org/Start/VMT456_BoxHit
 #EXTINF:-1 tvg-id="man" group-title="📽️| Minh Đức Giải Trí" tvg-logo="https://i.ibb.co/0CPzK4F/Man-150x901j3.png",▶️| Man
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://toiyeuvietnam.dpdns.org/CoBan/man/TuyetDoiKhongKinhDoanh.m3u8
@@ -343,7 +343,7 @@ udp://@225.1.1.200:30120
 #EXTINF:-1 tvg-id="hgtv" tvg-logo="https://i.ibb.co/kB91Qgx/HGTV.png" group-title="🌿| Khám phá",🍀| HGTV ¹⁰⁸⁰
 https://tv.TruyenHinh.Click/CoBan/hgtv/TuyetDoiKhongKinhDoanh
 #EXTINF:-1 tvg-id="historyhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",🍀|History ¹⁰⁸⁰
-https://xem.TruyenHinh.Click/CoBan/history-hd/TuyetDoiKhongKinhDoanh.m3u8
+https://freem3u.xyz/api/live/play.m3u8?vid=9856
 
 #EXTINF:-1 tvg-id="dw" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/B6jnE9k.png",🍀|DW ¹⁰⁸⁰
 udp://@225.1.1.46:30120
@@ -354,7 +354,7 @@ udp://@225.1.2.215:30120
 
 #EXTINF:-1 tvg-id="planetearthhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/9sHfrwj/Planet-Earth.png",🍀| Planet Earth
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://toiyeuvietnam.dpdns.org/CoBan/planet-earth-hd/TuyetDoiKhongKinhDoanh.m3u8
+https://toiyeuvietnam.dpdns.org/Start/VMT345_PlanetEarth
 #EXTINF:-1 tvg-id="bbclifestyle" tvg-name="BBC Lifestyle" ,BBC Lifestyle
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bn7ha63.png",🍀|BBC Lifestyle ¹⁰⁸⁰
 udp://@225.1.2.52:30120
@@ -432,7 +432,7 @@ http://client.newsborntvs.info:80/FatmirKraja/kGKd64cm3/86266
 
 #-------------------Live Bóng Đá-------------------#
 #EXTINF: -1 tvg-id="mutv" tvg-logo="https://logo.iptveditor.com/mutv.png" group-title="🔴| LÂM-PHONG SPORT",⚽ MUTV FC
-https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-west-1/6058004203001/profile_0/chunklist.m3u8
+http://nocable.cc:8080////////////N2sdm7////////499994//////////53717
 
 #EXTINF: -1 tvg-id="vtvcab18hd" group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/MZSzM6c/epl.png",⚽ Sky Sport Premier League HD+
 https://7pal.short.gy/skyspt8nz
