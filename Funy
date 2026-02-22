@@ -83,7 +83,7 @@ http://luizkun.duckdns.org:27031/rtp/232.84.3.75:11602
 http://luizkun.duckdns.org:27031/rtp/232.84.3.243:11380
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://toiyeuvietnam.dpdns.org/CoBan/vtvcab-23-golf-channel/TuyetDoiKhongKinhDoanh.m3u8
+https://toiyeuvietnam.dpdns.org/TuyetDoiKhongKinhDoanh/vtvcab-23-golf-channel/KenhCoBan.m3u8
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/fQFFZTS/vtvcab1.webp",  VTVcab 1 - Vie Giải trí HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://freem3u.xyz/api/live/play.m3u8?vid=180
@@ -177,10 +177,9 @@ udp://@225.1.1.181:30120
 https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV_4K
 #EXTINF:0 tvg-id="sctv1hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/fnTNmGf/SCTV1.webp",SCTV 1 HD - Hài
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://liveh12.seenow.vn/hls/SCTV1/index.m3u8
+https://liveh12.vtvprime.vn/hls/SCTV1/03.m3u8
 #EXTINF:0 tvg-id="sctv2hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/2qPDn0t/SCTV2.webp",SCTV2
 https://freem3u.xyz/api/live/play.m3u8?vid=201
-https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV2_HD
 #EXTINF:0 tvg-id="sctv3hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/wNWbJKL/SCTV3.webp",SCTV 3 HD - SEE TV
 https://liveh34.seenow.vn/hls/SCTV3/03.m3u8
 
@@ -232,8 +231,10 @@ https://liveh12.seenow.vn/hls/SCTVPHIM/index.m3u8
 
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://toiyeuvietnam.dpdns.org/CoBan/music-box/TuyetDoiKhongKinhDoanh.m3u8
-#https://cloud.sgchill.io.vn/tv/getlink/source/coban1/index.m3u8?id=289&token=2025
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
+https://livevlisctcdnw.seenow.vn/livesnv2/MUSICBOX/manifest.mpd
 #EXTINF:-1 tvg-id="mtv.hd.uk" tvg-logo="https://i.ibb.co/8KcP8kr/Mtvlive.png" group-title="🎶| Music",💿| MTV
 http://190.102.246.93:9005/play/a01p
 #EXTINF:-1 tvg-id="MTV.Live.HD.uk" group-title="🎶| Music" tvg-logo="https://i.ibb.co/Qj9JZrs/MTV-Live.png",💿| MTV Live
@@ -249,13 +250,13 @@ https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master
 #EXTINF:-1 tvg-id="StingrayHolidayHits" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/518a9541-fade-45ec-9d64-5b0a65806270-small3x1_stirr_1219_epg_stingraygreatesthits_1920x1080.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="🎶| Music",Stingray Holiday Hits
 https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-name="K-Pop" tvg-logo="https://i.ibb.co/LtpYRqp/6835979e3f611277056e386883832986.png" group-title="🎶| Music",💿| Korea Pop
-https://jmp2.uk/sam-KRBC41000021C.m3u8
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715267769/ei/WZQ8ZsjFDJOGkucPyMmvwA4/ip/20.55.14.132/id/JVocS7Yftw8.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr5---sn-4h.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/wS/mm/44/mn/sn-4h/ms/lva/mv/u/mvi/5/pl/16/dover/11/pacing/0/keepalive/yes/mt/1715244149/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,vprv,playlist_type/sig/AJfQdSswRAIgXHVtdyBiHHYowbRJulYGuR2RSZ21hmU77y1HYQ3X7aQCIEVKBr9vMYHwPzXMvql03FihxmuoqvpZ-CrSeqC8fDgS/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRAIgDRy7iW46eOgJY2AYp-O2M0qgQzx-HfMc_bZOm-BsRM4CID1A11THckyl3PnIzFk5iwr3pA-AzuZTThbHgrxijXXZ/playlist/index.m3u8
 #EXTINF:-1 tvg-name="KPop" tvg-logo="https://i.ibb.co/vJ5sQNG/d5qk7xl-c2d79eae-935a-4336-bf93-e6a6d5ace6fe.png" group-title="🎶| Music",💿| Korea Pop 2
 https://live.24hrkpop.com/hls/3/stream.m3u8
 #EXTINF:-1 tvg-name="K-Pop – Pluto TV" tvg-logo="https://i.ibb.co/gr4Bfp8/Kpop.png" group-title="🎶| Music",💿| K-Pop
-https://jmp2.uk/sam-CA3900002PM.m3u8
+https://jmp2.uk/stvp-CA3900002PM
 #EXTINF:-1 tvg-id="newkpop" group-title="🎶| Music" tvg-logo="https://i.ibb.co/fDGqhYH/Kpop4K.png",New-Kpop
+https://909b88a1a7814326b58f45aa4514efdc.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/LG-ca_NewKPop/playlist.m3u8
 https://tinyurl.com/TiviMe-NewKPop
 
 #EXTINF:-1 tvg-id="deejaytv" group-title="🎶| Music" tvg-logo="https://i.ibb.co/GTxPjPN/Seek-Png-com-dj-png-347593.png",💿| Deejay TV
@@ -412,7 +413,7 @@ http://doubleclicktv.live/70376812/52663544/327643
 #EXTINF:-1 tvg-id="ZiggoSport.nl" tvg-logo="https://i.ibb.co/zb84wJh/ziggo.png" group-title="🌏| 4K 🇺 🇭 🇩",Ziggo Sport ⁴ᴷ
 http://client.newsborntvs.info:80/FatmirKraja/kGKd64cm3/89828
 #EXTINF:0 tvg-id="SkySportBundesligaUHD.de" group-title="🌏| 4K 🇺 🇭 🇩" tvg-logo="https://i.ibb.co/zSv7xmm/Sky-Sport-Bundesliga-UHD-DE-Logo-2020-svg.png",⚽ Sky Sport Bundesliga ⁴ᴷ
-http://89.45.13.201:8080/play/live.php?mac=00:1A:79:01:6e:4b&stream=484209&extension=ts&play_token=5XWDuAhsnf
+http://0pentv.space:8080/live/iosif_alina_elena/5onWQ2rCS8lNhNVKXecRCyaoC4eSag/19319.m3u8
 
 #EXTINF:-1 tvg-id="SkySp.F1.HD.uk" tvg-name="SkySportsF1UHD" tvg-logo="https://i.ibb.co/gTd6Hnn/1280px-Sky-Sport-F1-Logo-2018-svg.png" group-title="🌏| 4K 🇺 🇭 🇩",Sky Sports F1 ⁴ᴷ
 https://a1xs.vip/2000016
@@ -508,9 +509,10 @@ https://7pal.short.gy/wwenw
 #EXTINF: -1 tvg-id="WWENetwork" tvg-name="Peacock Live | WWE Network" tvg-logo="https://i.ibb.co/z5FfTRm/WWE-Network.png" group-title="🔴| LÂM-PHONG SPORT",Peacock Live | WWE Network
 http://ru02.spr24.net/21001/mpegts?token=45UYwCTbAVBazU
 #EXTINF: -1 tvg-id="FightKlub" tvg-logo="https://i.ibb.co/J2vjZCV/Picsart-23-06-12-20-13-16-488.png" group-title="🔴| LÂM-PHONG SPORT", FightKlub
-http://client.newsborntvs.info:80/FatmirKraja/kGKd64cm3/80323
+https://jmp2.uk/stvp-CA4600017KV
 #EXTINF: -1 tvg-id="boxnation.uk" tvg-logo="https://images.pluto.tv/channels/668c5d3bfd9eb2000882bb50/colorLogoPNG.png" group-title="🔴| LÂM-PHONG SPORT",One Championship
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/668c5d3bfd9eb2000882bb50/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
+https://dbrb49pjoymg4.cloudfront.net/10001/99951530/hls/master.m3u8?ads.xumo_channelId=99951530&ads.xumo_streamId=99951530&ads.channelId=99951530&ads.channelName=C15OneChampionship_us&ads.caid=C15OneChampionship&ads.csid=xumo_web_C15OneChampionship_ssai&ads.genre=Sport,Sports,SC&ads._fw_content_genre=Sport,Sports,SC&ads._fw_coppa=0&ads.xumo_contentId=4403&ads.xumo_contentName=C15OneChampionship&ads.xumo_providerId=4403&ads.xumo_providerName=C15OneChampionship&ads._fw_ifa_type=&ads._fw_did=aaecf7c6-e9fe-4589-9b2e-5899d15c5be0&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=XumoPlay
+#https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/668c5d3bfd9eb2000882bb50/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=web&servertSideAds=false&&deviceMake=github.com/inspirationlinks&deviceDNT=1
 #EXTINF:0 group-title="🔴| LÂM-PHONG SPORT" tvg-logo="https://i.ibb.co/9WDS1Vk/logo.png",🎖️|SKY HIGH FIGHT +
 https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 #EXTINF: -1 tvg-id="UfcNetwork.us" tvg-logo="http://gg.gg/ufckkk" group-title="🔴| LÂM-PHONG SPORT",UFC Fight
