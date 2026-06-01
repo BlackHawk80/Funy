@@ -12,14 +12,14 @@ udp://@225.1.2.247:30120
 udp://@225.1.2.20:30120
 #EXTINF:-1 tvg-id="vtv5hd" group-title="💕| VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Logov5.png",❤️| VTV5 ¹⁰⁸⁰
 udp://@225.1.1.131:30120
-#EXTINF:-1 tvg-id="vtvcantho" group-title="💕| VTV" tvg-logo="https://i.ibb.co/ycFFS1xF/Logo-vtv-c-n-th-2022.png",❤️| VTV6 ¹⁰⁸⁰
-udp://@225.1.2.245:30120
 #EXTINF:-1 tvg-id="vtv7hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/Cs0jZTQf/VTV7.png",❤️| VTV7 ¹⁰⁸⁰
 udp://@225.1.2.96:30120
 #EXTINF:-1 tvg-id="vtv8hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/7tNW1G5h/VTV8.png",❤️| VTV8 ¹⁰⁸⁰
 udp://@225.1.2.166:30120
 #EXTINF:-1 tvg-id="vtv9hd" group-title="💕| VTV" tvg-logo="https://i.ibb.co/Pz4gGbxh/VTV9.png",❤️| VTV9 ¹⁰⁸⁰
 udp://@225.1.1.128:30120
+#EXTINF:-1 tvg-id="vtv10hd" group-title="💕| VTV" tvg-logo="https://raw.githubusercontent.com/ntd249/logochannel/refs/heads/main/VTV10.png",❤️| VTV10 ¹⁰⁸⁰
+udp://@225.1.2.245:30120
 
 #-------------------Hoạt hình HD-------------------#
 
@@ -105,7 +105,7 @@ https://freem3u.xyz/api/live/play.m3u8?vid=180
 #https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Vie_GIAI_TRI_HD_du_phong
 #EXTINF:-1 tvg-id="vtvcab2hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/JnhVYWw/VCab2-cc.webp", ON Phim Việt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://sgclient.duckdns.org/source/tv360.m3u8?id=175
+https://freem3u.xyz/api/live/play.m3u8?vid=175
 #EXTINF:-1 tvg-id="vtvcab4hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/k2TFx50/ONMovies.png", ON Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://freem3u.xyz/api/live/play.m3u8?vid=181
