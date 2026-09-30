@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: vietnam-sources-stremio
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      - key: CACHE_TTL_SECONDS
+        value: "21600"
+      - key: MAX_RESULTS_PER_PROVIDER
+        value: "2"
