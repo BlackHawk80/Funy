@@ -1,0 +1,28 @@
+'use strict';
+const assert=require('node:assert/strict');
+const source=require('./rophim-source');
+const movie={slug:'fixture-movie',name:'Fixture',type:'single',imdb:{id:'tt123'},country:[{slug:'viet-nam'}],quality:'HD',episodes:[{server_name:'Vietsub',server_data:[{name:'Full',link_m3u8:'https://media.example/full.m3u8'},{name:'Trailer',link_m3u8:'https://media.example/trailer.m3u8'},{name:'Full',link_m3u8:'javascript:alert(1)'},{name:'Full',link_m3u8:'https://media.example/full.m3u8'}]}]};
+const series={...movie,slug:'fixture-series',type:'series',imdb:{id:'tt456'},tmdb:{season:2},episodes:[{server_name:'Vietsub',server_data:[{name:'Tập 01',link_m3u8:'https://media.example/ep1.m3u8'},{name:'Tập 10',link_m3u8:'https://media.example/ep10.m3u8'},{name:'1-2',link_m3u8:'https://media.example/combined.m3u8'},{name:'1.5',link_m3u8:'https://media.example/special.m3u8'}]}]};
+const request=(t,id)=>source.parseRequest(t,id);
+assert.equal(source.streamsFor(movie,request('movie','tt123')).length,1);
+assert.equal(source.streamsFor(movie,request('movie','tt999')).length,0);
+assert.equal(source.streamsFor({...movie,country:[{slug:'au-my'}]},request('movie','tt123')).length,0);
+assert.equal(source.streamsFor(series,request('series','tt456:2:1'))[0].url,'https://media.example/ep1.m3u8');
+assert.equal(source.streamsFor(series,request('series','tt456:1:1')).length,0);
+assert.equal(source.streamsFor(series,request('series','tt456:2:2')).length,0);
+assert.equal(source.streamsFor({...series,tmdb:{}},request('series','tt456:2:1')).length,0);
+for(const [type,id] of [['movie','tt123:1:1'],['series','tt123'],['series','tt123:0:1'],['series','tt123:1:-1'],['series','tt123:1:9007199254740992'],['movie','../../health']])assert.equal(request(type,id),null);
+source.remember(movie);source.remember(series);source.restore({'movie:tt999':[{slug:'../invalid',season:null}]});
+assert.equal(source.snapshot()['movie:tt999'],undefined);
+const saved=source.snapshot();source.restore(saved);assert.deepEqual(source.snapshot(),saved);
+(async()=>{
+ let calls=0;
+ global.fetch=async url=>{calls++;if(url.includes('/v1/api/phim/fixture-movie'))return {ok:true,json:async()=>({status:true,data:{item:movie}})};throw Error('fixture outage')};
+ assert.equal((await source.streams('movie','tt123',async()=>null)).length,1);
+ assert.equal((await source.streams('movie','tt123',async()=>null)).length,1);assert.equal(calls,2,'successful stream requests must share cache across both upstream endpoints');
+ assert.deepEqual(await source.streams('series','tt456:2:1',async()=>null),[],'outage returns an empty stream response');
+ global.fetch=async()=>({ok:true,json:async()=>({status:true,data:{items:[]}})});
+ await assert.rejects(()=>source.refresh({}),/no catalog data/);
+ assert.deepEqual(source.snapshot(),saved,'empty refresh keeps previous source links');
+ console.log('PASS RoPhim IMDb identity, region, season, episode, duplicate/unsafe URL filtering, cache, outage and retained index');
+})().catch(e=>{console.error(e);process.exitCode=1});
