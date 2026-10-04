@@ -1,4 +1,4 @@
-# Asian Movies v0.15.0
+# Asian Movies v0.15.1
 
 Recovered the catalog runtime previously embedded in Render build commands.
 
@@ -38,3 +38,7 @@ The checks exercise the HTTP manifest, health, catalog paging, unique IDs,
 region filtering, retaining entries on empty updates, and Vietnamese search.
 
 Other apps in this repository retain their existing entry points and settings.
+
+Version 0.15.1 keeps existing title positions during sync and appends newly
+discovered titles. Catalog responses use no-store to prevent mixed cached pages.
+Regression checks refresh titles in reverse order between page requests.

@@ -16,7 +16,7 @@ const CATS=[
  {type:'movie',id:'vn-movie-v013',name:'Việt Nam - Phim lẻ',key:'vnMovie'},
  {type:'series',id:'vn-series-v013',name:'Việt Nam - Phim bộ',key:'vnSeries'}
 ];
-const manifest={id:'community.asian.movies.v013',version:'0.15.0',name:'Asian Movies v0.15.0',
+const manifest={id:'community.asian.movies.v013',version:'0.15.1',name:'Asian Movies v0.15.1',
  description:'Danh mục phim Châu Á và Việt Nam, dùng IMDb ID. Tự đồng bộ iQIYI và ZonaParfum mỗi 6 giờ; giữ dữ liệu cũ khi nguồn lỗi. Có dữ liệu RoPhim đã bổ sung; chưa hỗ trợ đồng bộ RoPhim trực tiếp. Nguồn phát do các addon stream đã cài xử lý.',
  resources:[{name:'catalog',types:['movie','series']}],types:['movie','series'],idPrefixes:['tt'],
  catalogs:CATS.map(x=>({type:x.type,id:x.id,name:x.name,extra:[{name:'search',isRequired:false},{name:'skip',isRequired:false}]}))
@@ -25,7 +25,7 @@ let STATE={movie:SEED.movie||[],series:SEED.series||[],vnMovie:SEED.vnMovie||[],
 let syncing=null,lastAttempt=0,lastSuccess=0;
 let status={iqiyi:'seed',zona:'seed',rophim:'snapshot only; live source returned HTTP 403 during verification',lastSuccess:'never'};
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-function send(res,s,o){res.writeHead(s,{'content-type':'application/json; charset=utf-8','access-control-allow-origin':'*','access-control-allow-headers':'*','cache-control':'public, max-age=180'});res.end(JSON.stringify(o))}
+function send(res,s,o){res.writeHead(s,{'content-type':'application/json; charset=utf-8','access-control-allow-origin':'*','access-control-allow-headers':'*','cache-control':'no-store'});res.end(JSON.stringify(o))}
 function clean(s=''){return String(s).replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim()}
 function norm(s=''){return clean(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/đ/g,'d').replace(/\b(?:phan|season)\s*\d+\b/g,' ').replace(/[^a-z0-9]+/g,' ').trim()}
 function score(q,c){const a=norm(q),b=norm(c);if(!a||!b)return 0;if(a===b)return 1;if(a.includes(b)||b.includes(a))return .9;const A=new Set(a.split(' ')),B=new Set(b.split(' '));let n=0;for(const x of A)if(B.has(x))n++;return n/Math.max(A.size,B.size)}
@@ -50,9 +50,14 @@ function decorate(type,id,name,srcYear,m){
  return {id,type,name:name||m.name,poster:m.poster||('https://images.metahub.space/poster/medium/'+id+'/img'),posterShape:'poster',background:m.background,description:m.description,releaseInfo:m.releaseInfo||srcYear,imdbRating:m.imdbRating,genres:m.genres,runtime:m.runtime,language:m.language,country:m.country};
 }
 function merge(key,items){
- const old=STATE[key]||[],oldMap=new Map(old.map(x=>[x.id,x])),fresh=[],seen=new Set();let added=0;
- for(const x of items){if(!x||!/^tt\d+$/.test(x.id||'')||x.type!==(key.toLowerCase().includes('movie')?'movie':'series')||!isAsian(x)||(key.startsWith('vn')&&!isVietnam(x))||seen.has(x.id))continue;seen.add(x.id);if(!oldMap.has(x.id))added++;fresh.push({...oldMap.get(x.id),...x});oldMap.delete(x.id)}
- STATE[key]=[...fresh,...oldMap.values()];return added;
+ const records=new Map((STATE[key]||[]).map(x=>[x.id,x]));let added=0;
+ for(const x of items){
+  if(!x||!/^tt\d+$/.test(x.id||'')||x.type!==(key.toLowerCase().includes('movie')?'movie':'series')||!isAsian(x)||(key.startsWith('vn')&&!isVietnam(x)))continue;
+  if(!records.has(x.id))added++;
+  // Updating metadata must not move an existing title across pagination boundaries.
+  records.set(x.id,{...records.get(x.id),...x});
+ }
+ STATE[key]=[...records.values()];return added;
 }
 async function suggest(type,it){
  for(const q of [it.original,it.name].filter(Boolean)){
