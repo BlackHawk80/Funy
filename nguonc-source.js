@@ -113,4 +113,42 @@ async function refresh({mapTitle,meta,isAsian,isVietnam,merge,mapLimit}){
  }
  return {added,status:'ok scanned '+found.size+', verified '+good.length+', added '+added};
 }
-module.exports={refresh,streams,restore,snapshot:()=>Object.fromEntries(links),health:()=>({indexedTitles:links.size,lastRequest,lastStream}),streamsFor,remember,exact,asian,typeOf,yearOf,seasonOf};
+module.exports={refresh,streams,restore,snapshot:()=>Object.fromEntries(links),health:()=>({indexedTitles:links.size,lastRequest,lastStream,diagnostic}),streamsFor,remember,exact,asian,typeOf,yearOf,seasonOf};
+
+// Temporary, fixed-target production diagnostic. No redirects, retries or arbitrary URLs.
+// Expires automatically; never blocks startup or returns HTML/credentials in health.
+const diagnostic={state:'not run'};
+async function probeText(url){
+ const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
+ try{
+  const r=await fetch(url,{signal:controller.signal,redirect:'manual'});
+  const reader=r.body?.getReader();let text='',size=0;
+  if(reader)try{while(true){const chunk=await reader.read();if(chunk.done)break;size+=chunk.value.length;if(size>131072)throw Error('response too large');text+=Buffer.from(chunk.value).toString('utf8')}}finally{await reader.cancel().catch(()=>{})}
+  return {status:r.status,text,contentType:r.headers.get('content-type')||''};
+ }finally{clearTimeout(timer)}
+}
+async function runDiagnostic(){
+ diagnostic.state='running';
+ try{
+  const r=await probeText(API+'/api/film/lan-huong-nhu-co');
+  diagnostic.api={status:r.status};
+  if(r.status===200&&r.contentType.includes('json')){
+   const m=JSON.parse(r.text).movie||{},servers=Array.isArray(m.episodes)?m.episodes:[];
+   const items=servers.flatMap(x=>Array.isArray(x.items)?x.items:[]);
+   diagnostic.api={status:r.status,name:m.name,type:typeOf(m),year:yearOf(m),season:seasonOf(m),servers:servers.length,episodes:items.length,directHls:items.filter(x=>x.m3u8||x.link_m3u8).length,embedded:items.filter(x=>x.embed).length};
+  }
+ }catch(e){diagnostic.api={error:e.name}}
+ try{
+  const r=await probeText('https://embed13.streamc.xyz/embed.php?hash=a23d5dd45108ea7610f7c9e76206723c');
+  diagnostic.player={status:r.status,contentType:r.contentType,
+   title:(r.text.match(/<title[^>]*>([^<]*)<\/title>/i)?.[1]||'').slice(0,120),
+   challenge:/cf-chl-|challenge-platform|verify you are human|just a moment/i.test(r.text),
+   bootstrap:/id=["']stream-bootstrap["']/i.test(r.text),
+   directHls:/https?:[^\s"'<>]+\.m3u8/i.test(r.text)};
+ }catch(e){diagnostic.player={error:e.name}}
+ diagnostic.state='complete';diagnostic.checkedAt=new Date().toISOString();
+ console.log('NGUONC_DIAGNOSTIC',JSON.stringify(diagnostic));
+}
+if(process.env.RENDER==='true'&&process.env.DISABLE_SYNC!=='1'&&Date.now()<Date.parse('2026-10-07T09:00:00Z')){
+ setTimeout(()=>runDiagnostic().catch(()=>{diagnostic.state='failed'}),3000).unref();
+}
