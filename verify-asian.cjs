@@ -7,7 +7,7 @@ const app=require('./asian-v013');
  const root='http://127.0.0.1:'+app.server.address().port;
  const get=async p=>{const r=await fetch(root+p);assert.equal(r.status,200);return r.json()};
  const m=await get('/manifest.json'),h=await get('/health');
- assert.equal(m.version,'0.16.0');assert.equal(h.version,m.version);
+ assert.equal(m.version,'0.17.0');assert.equal(h.version,m.version);
  assert(m.resources.some(x=>x.name==='stream'&&x.idPrefixes.includes('tt')));
  assert.deepEqual(await get('/stream/series/tt123:0:1.json'),{streams:[]});
  assert.deepEqual(await get('/stream/movie/not-imdb.json'),{streams:[]});

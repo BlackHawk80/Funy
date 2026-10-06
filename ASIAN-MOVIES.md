@@ -1,4 +1,4 @@
-# Asian Movies v0.16.0
+# Asian Movies v0.17.0
 
 Recovered the catalog runtime previously embedded in Render build commands.
 
@@ -64,3 +64,30 @@ Other apps in this repository retain their existing entry points and settings.
 Version 0.15.1 keeps existing title positions during sync and appends newly
 discovered titles. Catalog responses use no-store to prevent mixed cached pages.
 Regression checks refresh titles in reverse order between page requests.
+
+
+## NguonC (v0.17.0)
+
+Adds `phim.nguonc.com` recent-update catalogs and direct HLS lookup to the existing
+four Asian/Vietnamese catalogs and IMDb stream endpoint. Keeps the manifest URL,
+addon ID, old providers and catalog positions. Sources run independently during
+stream lookup; an unavailable NguonC does not discard RoPhimHD results.
+
+Every six hours, scans at most two recent pages / 48 details. Requires source
+Asian-country metadata, a recognized movie/series category, and an exact
+normalized title plus release-year match against independently fetched Cinemeta
+metadata before saving an IMDb mapping. Uncertain matches are omitted. Series
+playback additionally requires an explicit season and exact episode number.
+Only HTTPS .m3u8 URLs supplied by the API are returned; embed pages are omitted.
+Titles with embed-only playback can still use other installed stream addons.
+
+Mappings persist under `nguoncLinks` with the existing catalog cache/Redis key.
+The API cache is bounded to 200 entries / five minutes. A 403 starts a five-minute
+cooldown. Existing entries survive empty responses/outages. `/health` now includes
+`sourceStatus.nguonc` and the latest NguonC request/stream result.
+
+Checks: `node build-asian.cjs`, `node verify-asian.cjs`,
+`node verify-rophim.cjs`, `node verify-nguonc.cjs`.
+These passed locally using fixture responses for NguonC. The prior Railway test
+of NguonC returned HTTP 403; changing addon does not remove that restriction.
+Render runtime access and real playback are NOT yet verified for this version.

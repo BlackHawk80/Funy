@@ -1,6 +1,6 @@
 'use strict';
 const {execFileSync}=require('node:child_process');
-for(const file of ['asian-v013.js','catalog-storage.js','rophim-source.js'])execFileSync(process.execPath,['--check',file],{stdio:'inherit'});
+for(const file of ['asian-v013.js','catalog-storage.js','rophim-source.js','nguonc-source.js'])execFileSync(process.execPath,['--check',file],{stdio:'inherit'});
 const seed=require('./seed-v013.json');
 for(const key of ['movie','series','vnMovie','vnSeries']){
  if(!Array.isArray(seed[key])||!seed[key].length)throw Error('Missing catalog snapshot: '+key);
