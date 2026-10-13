@@ -1,0 +1,22 @@
+'use strict';
+const assert=require('node:assert/strict'),s=require('./nguonc-source'),n=require('./nguonc-native');
+const category=(country,type)=>({c:{group:{name:'Quốc gia'},list:[{name:country}]},t:{group:{name:'Định dạng'},list:[{name:type}]},y:{group:{name:'Năm'},list:[{name:'2025'}]}});
+const movie={slug:'phim-viet',name:'Phim Việt',category:category('Việt Nam','Phim lẻ'),episodes:[{server_name:'Vietsub',items:[{name:'Full',m3u8:'javascript:bad',link_m3u8:'https://cdn.example/full.m3u8',mp4:'https://cdn.example/full.mp4'},{name:'Trailer',mp4:'https://cdn.example/trailer.mp4'}]}]};
+const series={...movie,slug:'bo-viet',name:'Bộ Việt',category:category('Việt Nam','Phim bộ'),episodes:[{server_name:'Vietsub',items:[{name:'Tập 01',m3u8:'https://cdn.example/1.m3u8'},{name:'Tập 02',embed:'https://embed.example/player'}]}]};
+assert(n.ingest(movie));assert(n.ingest(series));assert(!n.ingest({...movie,slug:'western',category:category('Âu Mỹ','Phim lẻ')}));
+assert(n.ingest({...movie,slug:'china',category:category('Trung Quốc','Phim lẻ')}));
+assert.equal(n.catalog('movie','nguonc-vn-movie').length,1);assert.equal(n.catalog('series','nguonc-vn-series').length,1);assert.equal(n.catalog('movie','nguonc-asia-movie').length,2);
+assert.equal(n.catalog('movie','nguonc-vn-movie','search=phim%20viet').length,1);assert.equal(n.catalog('movie','nguonc-vn-movie','skip=50').length,0);
+assert.equal(n.parse('series','nguonc:bo-viet:2:1',true),null);assert.equal(n.parse('movie','nguonc:phim-viet:1:1',true),null);
+const saved=n.snapshot();n.restore(saved);assert.deepEqual(n.snapshot(),saved);
+(async()=>{
+ const meta=await n.meta('series','nguonc:bo-viet');assert.equal(meta.videos.length,2);assert.equal(meta.videos[1].id,'nguonc:bo-viet:1:2');
+ const original=s.detail;s.detail=async slug=>slug===movie.slug?movie:series;
+ let calls=0;const fallback=async()=>{calls++;return []};
+ assert.equal((await n.streams('movie','nguonc:phim-viet',fallback)).length,2);
+ assert.equal((await n.streams('series','nguonc:bo-viet:1:1',fallback))[0].url,'https://cdn.example/1.m3u8');
+ assert.equal(calls,0);assert.deepEqual(await n.streams('series','nguonc:bo-viet:1:2',fallback),[]);assert.equal(calls,1);
+ assert.deepEqual(await n.streams('series','nguonc:bo-viet:1:99',fallback),[]);
+ s.detail=async()=>{throw Error('403')};assert.deepEqual(await n.streams('movie','nguonc:phim-viet',fallback),[]);assert.equal(n.catalog('movie','nguonc-vn-movie').length,1);s.detail=original;
+ console.log('PASS native country/type filters, independent IDs, metadata/episodes, paging, persistence, HLS/MP4, embed omission, outage retention');
+})().catch(e=>{console.error(e);process.exitCode=1});

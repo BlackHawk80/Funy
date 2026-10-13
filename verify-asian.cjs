@@ -7,14 +7,14 @@ const app=require('./asian-v013');
  const root='http://127.0.0.1:'+app.server.address().port;
  const get=async p=>{const r=await fetch(root+p);assert.equal(r.status,200);return r.json()};
  const m=await get('/manifest.json'),h=await get('/health');
- assert.equal(m.version,'0.17.0');assert.equal(h.version,m.version);
+ assert.equal(m.version,'0.18.0');assert.equal(h.version,m.version);
  assert(m.resources.some(x=>x.name==='stream'&&x.idPrefixes.includes('tt')));
  assert.deepEqual(await get('/stream/series/tt123:0:1.json'),{streams:[]});
  assert.deepEqual(await get('/stream/movie/not-imdb.json'),{streams:[]});
- assert.equal(m.catalogs.length,4);assert.deepEqual(m.idPrefixes,['tt']);
+ assert.equal(m.catalogs.length,8);assert.deepEqual(m.idPrefixes,['tt','nguonc:']);
  assert(!JSON.stringify(m).match(/motchilla|thvli/i));
  const allCounts={};
- for(const c of m.catalogs){
+ for(const c of m.catalogs.filter(x=>!x.id.startsWith('nguonc-'))){
   const all=[];for(let skip=0;skip<1000;skip+=50){const a=(await get('/catalog/'+c.type+'/'+c.id+'/skip='+skip+'.json')).metas;all.push(...a);if(a.length<50)break}
   assert(all.length>0);assert.equal(new Set(all.map(x=>x.id)).size,all.length);
   assert(all.every(x=>/^tt\d+$/.test(x.id)&&x.type===c.type&&app.isAsian(x)));

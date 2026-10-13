@@ -4,6 +4,7 @@ const fs=require('fs'),path=require('path');
 const SEED=require('./seed-v013.json');
 const rophim=require('./rophim-source');
 const nguonc=require('./nguonc-source');
+const native=require('./nguonc-native');
 const CACHE=path.join(__dirname,'catalog-cache.json');
 const SYNC_MS=6*3600e3;
 let syncDeadline=0;
@@ -18,10 +19,10 @@ const CATS=[
  {type:'movie',id:'vn-movie-v013',name:'Việt Nam - Phim lẻ',key:'vnMovie'},
  {type:'series',id:'vn-series-v013',name:'Việt Nam - Phim bộ',key:'vnSeries'}
 ];
-const manifest={id:'community.asian.movies.v013',version:'0.17.0',name:'Asian Movies v0.17.0',
+const manifest={id:'community.asian.movies.v013',version:'0.18.0',name:'Asian Movies v0.18.0',
  description:'Danh mục phim Châu Á và Việt Nam, dùng IMDb ID. Tự đồng bộ iQIYI, ZonaParfum, RoPhimHD (phimapi.com) và NguonC mỗi 6 giờ; giữ dữ liệu cũ khi nguồn lỗi. Nguồn RoPhimHD HLS cho phim khớp IMDb và mùa/tập.',
- resources:[{name:'catalog',types:['movie','series']},{name:'stream',types:['movie','series'],idPrefixes:['tt']}],types:['movie','series'],idPrefixes:['tt'],
- catalogs:CATS.map(x=>({type:x.type,id:x.id,name:x.name,extra:[{name:'search',isRequired:false},{name:'skip',isRequired:false}]}))
+ resources:[{name:'meta',types:['movie','series'],idPrefixes:['nguonc:']},{name:'catalog',types:['movie','series']},{name:'stream',types:['movie','series'],idPrefixes:['tt','nguonc:']}],types:['movie','series'],idPrefixes:['tt','nguonc:'],
+ catalogs:[...native.cats.map(([type,id,name])=>({type,id,name,extra:[{name:'search',isRequired:false},{name:'skip',isRequired:false}]})),...CATS.map(x=>({type:x.type,id:x.id,name:x.name,extra:[{name:'search',isRequired:false},{name:'skip',isRequired:false}]}))]
 };
 let STATE={movie:SEED.movie||[],series:SEED.series||[],vnMovie:SEED.vnMovie||[],vnSeries:SEED.vnSeries||[]};
 let syncing=null,lastAttempt=0,lastSuccess=0;
@@ -157,7 +158,8 @@ async function sync(){
  if(syncing)return syncing;
  syncing=(async()=>{
   lastAttempt=Date.now();syncDeadline=lastAttempt+8*60e3;let total=0,ok=0;
-  try{const r=await nguonc.refresh({mapTitle,meta,isAsian,isVietnam,merge,mapLimit});total+=r.added;status.nguonc=r.status;ok++}catch(e){status.nguonc='error '+e.message;console.log('NGUONC ERROR',e.message)}
+  try{status.nguonc=await native.refresh();await saveState()}catch(e){status.nguonc='error '+e.message}
+  try{const r=await nguonc.refresh({mapTitle,meta,isAsian,isVietnam,merge,mapLimit});total+=r.added;status.nguonc+='; IMDb: '+r.status;ok++}catch(e){status.nguonc='error '+e.message;console.log('NGUONC ERROR',e.message)}
   try{const r=await rophim.refresh({mapTitle,meta,decorate,isAsian,isVietnam,merge,mapLimit});total+=r.added;status.rophim=r.status;ok++}catch(e){status.rophim='error '+e.message;console.log('ROPHIM ERROR',e.message)}
   try{total+=await refreshIq();ok++}catch(e){status.iqiyi='error '+e.message;console.log('V013 IQ ERROR',e.message)}
   try{total+=await refreshZona();ok++}catch(e){status.zona='error '+e.message;console.log('V013 ZONA ERROR',e.message)}
@@ -178,10 +180,10 @@ async function restoreState(){
  let cached=null;
  try{cached=JSON.parse(fs.readFileSync(CACHE,'utf8'));storageStatus='local cache'}catch{}
  try{const remote=await redisGet();if(remote){cached=JSON.parse(remote);storageStatus='redis'}}catch(e){storageStatus='redis unavailable; using snapshot/cache';console.error('Restore:',e.message)}
- if(cached){nguonc.restore(cached.nguoncLinks);rophim.restore(cached.rophimLinks);for(const key of Object.keys(STATE))merge(key,cached.catalogs?.[key]||[]);if(cached.lastSuccess)status.lastSuccess=cached.lastSuccess}
+ if(cached){native.restore(cached.nguoncNative);nguonc.restore(cached.nguoncLinks);rophim.restore(cached.rophimLinks);for(const key of Object.keys(STATE))merge(key,cached.catalogs?.[key]||[]);if(cached.lastSuccess)status.lastSuccess=cached.lastSuccess}
 }
 async function saveState(){
- const body=JSON.stringify({catalogs:STATE,nguoncLinks:nguonc.snapshot(),rophimLinks:rophim.snapshot(),lastSuccess:status.lastSuccess,savedAt:new Date().toISOString()});
+ const body=JSON.stringify({catalogs:STATE,nguoncNative:native.snapshot(),nguoncLinks:nguonc.snapshot(),rophimLinks:rophim.snapshot(),lastSuccess:status.lastSuccess,savedAt:new Date().toISOString()});
  try{fs.writeFileSync(CACHE+'.tmp',body);fs.renameSync(CACHE+'.tmp',CACHE)}catch(e){console.error('Cache:',e.message)}
  try{if(await redisSet(body))storageStatus='redis';else storageStatus='local cache; deploy fallback is committed snapshot'}catch(e){storageStatus='redis unavailable; local cache';console.error('Persist:',e.message)}
 }
@@ -189,10 +191,19 @@ const server=http.createServer(async(req,res)=>{try{
  if(req.method==='OPTIONS'){res.writeHead(204,{'access-control-allow-origin':'*','access-control-allow-headers':'*'});return res.end()}
  const u=new URL(req.url,'http://x');if(process.env.DISABLE_SYNC!=='1')maybeSync();
  if(u.pathname==='/manifest.json')return send(res,200,manifest);
- if(u.pathname==='/'||u.pathname==='/health')return send(res,200,{ok:true,version:manifest.version,counts:{movie:STATE.movie.length,series:STATE.series.length,vnMovie:STATE.vnMovie.length,vnSeries:STATE.vnSeries.length},syncing:!!syncing,lastAttempt:lastAttempt?new Date(lastAttempt).toISOString():'never',lastSuccess:status.lastSuccess,sourceStatus:{nguonc:status.nguonc,iqiyi:status.iqiyi,zona:status.zona,rophim:status.rophim},storage:storageStatus,nguonc:nguonc.health(),rophim:rophim.health()});
+ if(u.pathname==='/'||u.pathname==='/health')return send(res,200,{ok:true,version:manifest.version,counts:{movie:STATE.movie.length,series:STATE.series.length,vnMovie:STATE.vnMovie.length,vnSeries:STATE.vnSeries.length},syncing:!!syncing,lastAttempt:lastAttempt?new Date(lastAttempt).toISOString():'never',lastSuccess:status.lastSuccess,sourceStatus:{nguonc:status.nguonc,iqiyi:status.iqiyi,zona:status.zona,rophim:status.rophim},storage:storageStatus,nguonc:{...nguonc.health(),native:native.health()},rophim:rophim.health()});
+ const nm=u.pathname.match(/^\/meta\/(movie|series)\/([^/]+)\.json$/);
+ if(nm)return send(res,200,{meta:await native.meta(nm[1],decodeURIComponent(nm[2]))});
  const stream=u.pathname.match(/^\/stream\/(movie|series)\/([^/]+)\.json$/);
  if(stream){
   let id;try{id=decodeURIComponent(stream[2])}catch{return send(res,400,{streams:[]})}
+  if(id.startsWith('nguonc:'))return send(res,200,{streams:await native.streams(stream[1],id,async(m,episode)=>{
+   const type=stream[1],mapped=await mapTitle(type,{name:m.name,original:m.original_name,year:nguonc.yearOf(m)});
+   if(!mapped)return [];const cm=await meta(type,mapped.id);
+   if(!nguonc.exact(m,cm,type))return [];
+   const season=nguonc.seasonOf(m);if(type==='series'&&!season)return [];
+   return rophim.streams(type,type==='movie'?mapped.id:mapped.id+':'+season+':'+episode,async()=>cm);
+  })});
   const metadata=new Map();
   const lookup=(type,imdb)=>{
    const key=type+':'+imdb;if(metadata.has(key))return metadata.get(key);
@@ -208,7 +219,7 @@ const server=http.createServer(async(req,res)=>{try{
  const m=u.pathname.match(/^\/catalog\/(movie|series)\/([^/]+)(?:\/([^/]+))?\.json$/);
  if(!m)return send(res,404,{error:'not_found'});
  const [,type,id,raw='']=m,c=CATS.find(x=>x.type===type&&x.id===id);
- return send(res,200,{metas:c?list(c.key,raw):[]});
+ return send(res,200,{metas:c?list(c.key,raw):native.catalog(type,id,raw)});
 }catch(e){console.error(e);return send(res,500,{error:'server_error'})}});
 async function start(){await restoreState();server.listen(PORT,'0.0.0.0',()=>{
  console.log(manifest.name,'live',PORT,'seed',STATE.movie.length,STATE.series.length,'VN',STATE.vnMovie.length,STATE.vnSeries.length);

@@ -91,3 +91,15 @@ Checks: `node build-asian.cjs`, `node verify-asian.cjs`,
 These passed locally using fixture responses for NguonC. The prior Railway test
 of NguonC returned HTTP 403; changing addon does not remove that restriction.
 Render runtime access and real playback are NOT yet verified for this version.
+
+
+## v0.18.0 — NguonC rebuild (2026-10-13)
+
+Rebuilt from the verified v0.17.0 GitHub source; this is not a recovery of the missing v0.17.7 code.
+
+- Four native NguonC catalogs: Asian movies/series and dedicated Vietnamese movies/series. Country/type must be verified in source detail; missing country or Western-only content is excluded. IMDb is no longer required for these catalogs.
+- Native `nguonc:` metadata and exact episode IDs; a source slug has one local season. IMDb cross-source fallback requires an explicit source season.
+- Sync recent updates and Vietnam country pages every six hours while service runs. Progressively scan four older Vietnam pages each successful sync. Preserve native catalog records/cursor in the existing Redis/local snapshot; failed requests do not erase catalogs. Search covers indexed records.
+- Direct HTTPS HLS/MP4 fields, alternate-field fallback, deduplication, no trailer or embed-as-video. Raw StreamC external links are not offered. If there is no direct link, try existing RoPhim only after exact title/year/type/Asian metadata verification; reject uncertain season and absent episode.
+- StreamC access-blocked pages cannot be converted into playable HLS by this change. Some titles may still have no streams. Returning a stream URL is not proof of playback on Android TV.
+- Validation: `node build-asian.cjs`, `node verify-asian.cjs`, `node verify-nguonc.cjs`, `node verify-nguonc-native.cjs`, `node verify-rophim.cjs`.
