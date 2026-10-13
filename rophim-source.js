@@ -64,6 +64,9 @@ function episodeNumber(e){
 function streamsFor(m,req){
  if(m.imdb?.id!==req.id||typeOf(m)!==req.type||!asian(m))return [];
  if(req.type==='series'&&Number(m.tmdb?.season)!==req.season)return [];
+ return directStreams(m,req);
+}
+function directStreams(m,req){
  const streams=[],seen=new Set();
  for(const server of Array.isArray(m.episodes)?m.episodes:[]){
   for(const ep of Array.isArray(server.server_data)?server.server_data:[]){
@@ -101,6 +104,32 @@ async function streams(type,id,getMeta){
   });
  }catch(e){lastStream='error '+e.message;console.error('ROPHIM STREAM',e.message);return []}
 }
+const normalized=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/đ/g,'d').replace(/[^a-z0-9]+/g,' ').trim();
+function matchesNative(m,source){
+ if(typeOf(m)!==source.type||!asian(m)||!source.year||Number(m.year)!==source.year)return false;
+ if(!normalized(source.name)||normalized(m.name)!==normalized(source.name))return false;
+ if(source.original&&m.origin_name&&normalized(source.original)!==normalized(m.origin_name))return false;
+ if(!(m.country||[]).some(c=>source.countries.some(n=>normalized(n)===normalized(c.name))))return false;
+ if(source.type==='series'){
+  // An unnumbered native slug can match only an explicitly first-season target.
+  const season=Number(m.tmdb?.season);
+  if(!Number.isSafeInteger(season)||season<1||season!==(source.season||1))return false;
+ }
+ return true;
+}
+async function nativeStreams(source,episode){
+ try{return await cached('native:'+JSON.stringify(source)+':'+episode,async()=>{
+  const j=await json('/v1/api/tim-kiem?keyword='+encodeURIComponent(source.name)+'&limit=24');
+  const candidates=(j.data?.items||j.items||[]).filter(m=>validSlug(m.slug)&&matchesNative(m,source));
+  // Ambiguous source matches must not select an arbitrary remake or edition.
+  const slugs=[...new Set(candidates.map(x=>x.slug))];if(slugs.length!==1)return [];
+  const variants=(await detail(slugs[0])).filter(m=>matchesNative(m,source));
+  const all=variants.flatMap(m=>directStreams(m,{type:source.type,season:Number(m.tmdb?.season)||null,episode}));
+  const result=[...new Map(all.map(x=>[x.url,x])).values()];
+  lastStream=result.length?'native exact title/year/country match':'native match has no direct HLS';return result;
+ })}catch(e){lastStream='native fallback error '+e.message;return []}
+}
+
 async function refresh({mapTitle,meta,decorate,isAsian,isVietnam,merge,mapLimit}){
  const found=new Map();let errors=0;
  for(const country of COUNTRIES){
@@ -131,4 +160,4 @@ async function refresh({mapTitle,meta,decorate,isAsian,isVietnam,merge,mapLimit}
  console.log('ROPHIM SYNC',status);
  return {added,status};
 }
-module.exports={refresh,streams,restore,snapshot:()=>Object.fromEntries(links),health:()=>({indexedTitles:links.size,lastStream}),parseRequest,streamsFor,episodeNumber,remember};
+module.exports={nativeStreams,matchesNative,refresh,streams,restore,snapshot:()=>Object.fromEntries(links),health:()=>({indexedTitles:links.size,lastStream}),parseRequest,streamsFor,episodeNumber,remember};

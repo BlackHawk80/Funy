@@ -198,11 +198,7 @@ const server=http.createServer(async(req,res)=>{try{
  if(stream){
   let id;try{id=decodeURIComponent(stream[2])}catch{return send(res,400,{streams:[]})}
   if(id.startsWith('nguonc:'))return send(res,200,{streams:await native.streams(stream[1],id,async(m,episode)=>{
-   const type=stream[1],mapped=await mapTitle(type,{name:m.name,original:m.original_name,year:nguonc.yearOf(m)});
-   if(!mapped)return [];const cm=await meta(type,mapped.id);
-   if(!nguonc.exact(m,cm,type))return [];
-   const season=nguonc.seasonOf(m);if(type==='series'&&!season)return [];
-   return rophim.streams(type,type==='movie'?mapped.id:mapped.id+':'+season+':'+episode,async()=>cm);
+   return rophim.nativeStreams({type:stream[1],name:m.name,original:m.original_name||'',year:nguonc.yearOf(m),countries:nguonc.group(m,'Quốc gia'),season:nguonc.seasonOf(m)},episode);
   })});
   const metadata=new Map();
   const lookup=(type,imdb)=>{
