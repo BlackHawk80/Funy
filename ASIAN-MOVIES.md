@@ -103,3 +103,7 @@ Rebuilt from the verified v0.17.0 GitHub source; this is not a recovery of the m
 - Direct HTTPS HLS/MP4 fields, alternate-field fallback, deduplication, no trailer or embed-as-video. Raw StreamC external links are not offered. If there is no direct link, try existing RoPhim only after exact title/year/original-title/country/type verification, even without IMDb; reject ambiguous matches, uncertain target season and absent episode.
 - StreamC access-blocked pages cannot be converted into playable HLS by this change. Some titles may still have no streams. Returning a stream URL is not proof of playback on Android TV.
 - Validation: `node build-asian.cjs`, `node verify-asian.cjs`, `node verify-nguonc.cjs`, `node verify-nguonc-native.cjs`, `node verify-rophim.cjs`, `node verify-native-fallback.cjs`.
+
+## v0.18.1 — Correct website fallback
+
+Keep native HLS/MP4 first and verified RoPhim HLS second. When neither exists, return `NguonC · Trang phim` pointing to the canonical `https://phim.nguonc.com/phim/{slug}` page, never directly to StreamC embed. Series labels tell the viewer to select the requested episode on that page; no unverified deep-link parameters are used. Only return the option for a known matching episode. Previously verified cached records can retain the website option during API outages, but expired cached direct URLs are not reused. IMDb results deduplicate by URL or externalUrl. This is browser playback, not a StreamC-to-HLS extractor.

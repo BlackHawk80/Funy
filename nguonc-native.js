@@ -42,8 +42,10 @@ async function streams(type,id,fallback){
  if(type==='series'&&!(m.episodes||[]).some(server=>(server.items||[]).some(ep=>episodeNumber(ep)===req.episode)))return [];
  const out=source.directStreams(m,{type,season:1,episode:req.episode});
  if(out.length){lastPlayback='direct '+out.length;return out}
- const others=await fallback(m,req.episode);lastPlayback=others.length?'verified alternative '+others.length:'source has no direct HLS/MP4';return others;
- }catch(e){lastPlayback='unavailable: '+e.message;return []}
+ let others=[];try{others=await fallback(m,req.episode)}catch{}
+ if(others.length){lastPlayback='verified alternative '+others.length;return others}
+ const web=source.webStreams(m,{type,episode:req.episode});lastPlayback=web.length?'website fallback; no direct HLS/MP4':'no matching episode';return web;
+ }catch(e){lastPlayback='unavailable: '+e.message;const saved=records.get(req.slug);return saved?source.webStreams(saved,{type,episode:req.episode}):[]}
 }
 async function refresh(){
  const found=new Map();let errors=0,successfulPages=0;

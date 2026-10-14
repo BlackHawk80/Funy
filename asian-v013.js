@@ -19,7 +19,7 @@ const CATS=[
  {type:'movie',id:'vn-movie-v013',name:'Việt Nam - Phim lẻ',key:'vnMovie'},
  {type:'series',id:'vn-series-v013',name:'Việt Nam - Phim bộ',key:'vnSeries'}
 ];
-const manifest={id:'community.asian.movies.v013',version:'0.18.0',name:'Asian Movies v0.18.0',
+const manifest={id:'community.asian.movies.v013',version:'0.18.1',name:'Asian Movies v0.18.1',
  description:'Danh mục phim Châu Á và Việt Nam, dùng IMDb ID. Tự đồng bộ iQIYI, ZonaParfum, RoPhimHD (phimapi.com) và NguonC mỗi 6 giờ; giữ dữ liệu cũ khi nguồn lỗi. Nguồn RoPhimHD HLS cho phim khớp IMDb và mùa/tập.',
  resources:[{name:'meta',types:['movie','series'],idPrefixes:['nguonc:']},{name:'catalog',types:['movie','series']},{name:'stream',types:['movie','series'],idPrefixes:['tt','nguonc:']}],types:['movie','series'],idPrefixes:['tt','nguonc:'],
  catalogs:[...native.cats.map(([type,id,name])=>({type,id,name,extra:[{name:'search',isRequired:false},{name:'skip',isRequired:false}]})),...CATS.map(x=>({type:x.type,id:x.id,name:x.name,extra:[{name:'search',isRequired:false},{name:'skip',isRequired:false}]}))]
@@ -210,7 +210,7 @@ const server=http.createServer(async(req,res)=>{try{
   };
   const results=await Promise.allSettled([rophim.streams(stream[1],id,lookup),nguonc.streams(stream[1],id,lookup)]);
   const combined=results.filter(x=>x.status==='fulfilled').flatMap(x=>x.value);
-  return send(res,200,{streams:[...new Map(combined.map(x=>[x.url,x])).values()]});
+  return send(res,200,{streams:[...new Map(combined.map(x=>[x.url||x.externalUrl,x])).values()]});
  }
  const m=u.pathname.match(/^\/catalog\/(movie|series)\/([^/]+)(?:\/([^/]+))?\.json$/);
  if(!m)return send(res,404,{error:'not_found'});

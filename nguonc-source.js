@@ -57,7 +57,8 @@ function restore(saved){
 function streamsFor(m,req,record){
  if(!req||!record||m.slug!==record.slug||!exact(m,{name:record.name,originalName:record.original,year:record.year},req.type))return [];
  if(req.type==='series'&&(seasonOf(m)!==req.season||record.season!==req.season))return [];
- return directStreams(m,req);
+ const direct=directStreams(m,req);
+ return direct.length?direct:webStreams(m,req);
 }
 function directStreams(m,req){
  if(!asian(m)||typeOf(m)!==req.type)return [];
@@ -71,6 +72,14 @@ function directStreams(m,req){
   }
  }
  return out;
+}
+
+function webStreams(m,req){
+ if(!validSlug(m?.slug)||!asian(m)||typeOf(m)!==req?.type)return [];
+ const items=(Array.isArray(m.episodes)?m.episodes:[]).flatMap(s=>Array.isArray(s.items)?s.items:[]);
+ const available=items.some(ep=>req.type==='series'?episodeNumber(ep)===req.episode:/^(full|hoàn tất|hoan tat|hd|fhd|\d+p)$/i.test(String(ep.name||'').trim()));
+ if(!available)return [];
+ return [{name:'NguonC · Trang phim',title:[m.name,req.type==='series'?'Mở website và chọn tập '+req.episode:'Mở website rồi chọn Xem ngay','Phát bằng trình duyệt'].join('\n'),externalUrl:API+'/phim/'+encodeURIComponent(m.slug)}];
 }
 
 async function streams(type,id,getMeta){
@@ -91,8 +100,8 @@ async function streams(type,id,getMeta){
   }
   const results=await Promise.allSettled(candidates.slice(0,4).map(async x=>streamsFor(await detail(x.slug),req,x)));
   if(results.length&&results.every(x=>x.status==='rejected'))throw results[0].reason;
-  const out=[...new Map(results.filter(x=>x.status==='fulfilled').flatMap(x=>x.value).map(s=>[s.url,s])).values()];
-  lastStream=out.length?'ok '+out.length:'no verified direct HLS / exact season and episode';return out;
+  const out=[...new Map(results.filter(x=>x.status==='fulfilled').flatMap(x=>x.value).map(s=>[s.url||s.externalUrl,s])).values()];
+  lastStream=out.length?'ok '+out.length:'no exact season/episode source';return out;
  }catch(e){lastStream='error '+e.message;return []}
 }
 async function refresh({mapTitle,meta,isAsian,isVietnam,merge,mapLimit}){
@@ -120,5 +129,5 @@ async function refresh({mapTitle,meta,isAsian,isVietnam,merge,mapLimit}){
  }
  return {added,status:'ok scanned '+found.size+', verified '+good.length+', added '+added};
 }
-module.exports={refresh,streams,restore,snapshot:()=>Object.fromEntries(links),health:()=>({indexedTitles:links.size,lastRequest,lastStream}),directStreams,json,detail,group,validSlug,streamsFor,remember,exact,asian,typeOf,yearOf,seasonOf};
+module.exports={webStreams,refresh,streams,restore,snapshot:()=>Object.fromEntries(links),health:()=>({indexedTitles:links.size,lastRequest,lastStream}),directStreams,json,detail,group,validSlug,streamsFor,remember,exact,asian,typeOf,yearOf,seasonOf};
 
