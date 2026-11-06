@@ -71,29 +71,29 @@ udp://@225.1.1.154:30120
 #----VTVCAB----#
 
 #EXTINF:-1 tvg-id="vtvcab18hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png", ON Sports News
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cafb6e60c1504dfc858fd3dddc6fd20c:92061ffeb13f47c4d8879316dbc9521d
-https://livevlisctcdnw.seenow.vn/mean/THETHAO_TINTUC_HD/manifest.mpd
+# #KODIPROP:inputstream=inputstream.adaptive
+# #KODIPROP:inputstream.adaptive.manifest_type=dash
+# #KODIPROP:inputstream.adaptive.license_type=clearkey
+# #KODIPROP:inputstream.adaptive.license_key=c410ddc6a75244639fd0561fba5ef19b:30d13ea42031b9ff8271e5dc37d90e10
+# https://cdnet-cdn-01.onsports.vn/onplus/THETHAO_TINTUC_HD/manifest.mpd
 #EXTINF:-1 tvg-id="vtvcab3hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png", ON Sports HD
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4e619c5b54494762b131f65fc34a885b:676d9f5a28d409d7d601514baa147c9d
-https://livevlisctcdnw.seenow.vn/livesnv2/THETHAO_HD/manifest.mpd
+# #KODIPROP:inputstream=inputstream.adaptive
+# #KODIPROP:inputstream.adaptive.manifest_type=dash
+# #KODIPROP:inputstream.adaptive.license_type=clearkey
+# #KODIPROP:inputstream.adaptive.license_key=c410ddc6a75244639fd0561fba5ef19b:30d13ea42031b9ff8271e5dc37d90e10
+# https://cdnet-cdn-01.onsports.vn/onplus/THETHAO_HD/manifest.mpd
 #EXTINF:-1 tvg-id="vtvcab6hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/37hkhwk/VCab6-cc.webp", ON Sports+
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4e619c5b54494762b131f65fc34a885b:676d9f5a28d409d7d601514baa147c9d
-https://livevlisctcdnw.seenow.vn/livesnv2/HAY_TV/manifest.mpd
+# #KODIPROP:inputstream=inputstream.adaptive
+# #KODIPROP:inputstream.adaptive.manifest_type=dash
+# #KODIPROP:inputstream.adaptive.license_type=clearkey
+# #KODIPROP:inputstream.adaptive.license_key=c410ddc6a75244639fd0561fba5ef19b:30d13ea42031b9ff8271e5dc37d90e10
+# https://cdnet-cdn-01.onsports.vn/onplus/HAY_TV/manifest.mpd
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png", ON Football HD
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=dcda1c0511c347f8b89c1821600426ac:dbc1d4d9244f8e7d01d999d4d9f53855
-https://livevlisctcdnw.seenow.vn/mean/BONGDA_HD/manifest.mpd
+# #KODIPROP:inputstream=inputstream.adaptive
+# #KODIPROP:inputstream.adaptive.manifest_type=dash
+# #KODIPROP:inputstream.adaptive.license_type=clearkey
+# #KODIPROP:inputstream.adaptive.license_key=c410ddc6a75244639fd0561fba5ef19b:30d13ea42031b9ff8271e5dc37d90e10
+# https://cdnet-cdn-01.onsports.vn/onplus/BONGDA_HD/manifest.mpd
 #EXTINF:-1 tvg-id="vtvcab23hd" group-title="💗| VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png", ON Golf
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -190,66 +190,69 @@ udp://@225.1.1.186:30120
 #EXTINF:-1 tvg-id="htvcplushd" group-title="📺| HTV/HTVC" tvg-logo="https://i.ibb.co/7QjqVJP/HTVCPlus-cc.webp",HTVC Plus ᴴᴰ
 udp://@225.1.1.181:30120
 #-------------------SCTV-------------------#
-#EXTINF:0 tvg-id="sctv4K"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/W4rVjqSb/sctv.png",SCTV 4K
-https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV_4K
+
 #EXTINF:0 tvg-id="sctv1hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/fnTNmGf/SCTV1.webp",SCTV 1 HD - Hài
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://liveh12.vtvprime.vn/hls/SCTV1/03.m3u8
+https://iptv.hoantran.name.vn/sctv/sctvphim
 #EXTINF:0 tvg-id="sctv2hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/2qPDn0t/SCTV2.webp",SCTV2
 https://freem3u.xyz/api/live/play.m3u8?vid=201
 #EXTINF:0 tvg-id="sctv3hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/wNWbJKL/SCTV3.webp",SCTV 3 HD - SEE TV
-https://liveh34.seenow.vn/hls/SCTV3/03.m3u8
-
+https://iptv.hoantran.name.vn/sctv/sctv3
+#EXTINF:-1 tvg-id="sctv4hd" group-title="🕊| SCTV" tvg-logo="https://hoantran.name.vn/assets/logo/sctv/sctv4hd.webp",SCTV4 - Let's Việt
+https://iptv.hoantran.name.vn/sctv/sctv4
 #EXTINF:-1 tvg-id="sctv6hd" group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/FHWGnnz/SCTV6.webp",SCTV6
 udp://@225.1.1.188:30120
 #EXTINF:0 tvg-id="sctv7hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/QM75wdn/SCTV7.webp",SCTV 7 HD - Sân Khấu
-https://liveh34.seenow.vn/hls/SCTV7/03.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv7
 #EXTINF:0 tvg-id="sctv8hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/s3Kkgw7/SCTV8.webp",SCTV8-VITV - Kinh Tế Tài Chính
-https://liveh34.seenow.vn/hls/SCTV8/03.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv8
 #EXTINF:0 tvg-id="sctv9hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/jLHmbXs/SCTV9.webp",SCTV9 HD
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://e1.endpoint.cdn.sctvonline.vn/channel/sctv9/index.m3u8?khichtv|Referer=http://sctvonline.vn/
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=22a9a9a63d2746df9f90c184c596105a:2d9d24caeaea42f8b44e413fe04f0e5c
+https://livevlisctcdnw.seenow.vn/mean/SCTV9/manifest.mpd
 #EXTINF:0 tvg-id="sctv11hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/M9rfCP9/SCTV10.webp",SCTV10 HD
 https://liveh34.seenow.vn/hls/SCTV10/index.m3u8
 #EXTINF:0 tvg-id="sctv11hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/cX6nSNF/SCTV11.webp",SCTV11 HD
-https://liveh34.seenow.vn/hls/SCTV11/03.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv11
 #EXTINF:0 tvg-id="sctv12hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/Fn08B2G/SCTV12.webp",SCTV 12 HD - Du Lịch
-https://liveh34.seenow.vn/hls/SCTV12/index.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv12
 #EXTINF:0 tvg-id="sctv13hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/QKpFThG/SCTV13.webp",SCTV13 HD - Phụ nữ & Gia đình
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://liveh34.seenow.vn/hls/SCTV13/03.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv13
 #EXTINF:0 tvg-id="sctv14hd" group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/VtxJP6M/SCTV14.webp",SCTV14 HD - Kênh Phim Việt
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://liveh34.seenow.vn/hls/SCTV14/03.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv14
 #EXTINF:0 tvg-id="sctv15hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/WGGWyv9/SCTV15.webp" ,SCTV15 HD - SSPORT 2
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
-https://livevlisctcdnw.seenow.vn/mean/SCTV15HD/manifest.mpd
+# #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+# #KODIPROP:inputstream.adaptive.license_type=clearkey
+# #KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
+# https://livevlisctcdnw.seenow.vn/mean/SCTV15HD/manifest.mpd
 #EXTINF:0 tvg-id="sctv16hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/xfGq1GY/SCTV16.webp" ,SCTV16 HD - Phim Nước Ngoài
-https://liveh34.seenow.vn/hls/SCTV16/index.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv16
 #EXTINF:0 tvg-id="sctv17hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/cy1D7NX/SCTV17.webp" ,SCTV17 HD - SSPORT 
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
-https://livevlisctcdnw.seenow.vn/mean/SCTV17/manifest.mpd
+# #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+# #KODIPROP:inputstream.adaptive.license_type=clearkey
+# #KODIPROP:inputstream.adaptive.license_key=a7c942778e874d43be92b8d0a0cd11b4:6d54358306571658ffdb952c6560688b
+# https://livevlisctcdnw.seenow.vn/mean/SCTV17/manifest.mpd
 #EXTINF:0 tvg-id="sctv18hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/5jCVgmv/SCTV18.webp" ,SCTV18 HD
-https://liveh34.seenow.vn/hls/SCTV18/03.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv18
 #EXTINF:0 tvg-id="sctv19hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/XWLdBXJ/SCTV19.webp" ,SCTV19 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://liveh34.seenow.vn/hls/SCTV19/index.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv19
 #EXTINF:0 tvg-id="sctv20hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/BrM18dN/SCTV20.webp" ,SCTV20 HD
-https://liveh34.seenow.vn/hls/SCTV20/index.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv20
 #EXTINF:0 tvg-id="sctv21hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/Jy1cBs4/SCTV21.webp" ,SCTV21 HD
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://liveh34.seenow.vn/hls/SCTV21/index.m3u8
+https://iptv.hoantran.name.vn/sctv/sctv21
 #EXTINF:0 tvg-id="sctv22hd"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/zGyB6xr/SCTV22.webp" ,SCTV22 HD - SSPORT1
 https://liveh34.seenow.vn/hls/SCTV22/index.m3u8
 #EXTINF:0 tvg-id="sctvhdpth"group-title="🕊| SCTV" tvg-logo="https://i.ibb.co/B2cKf4w/SCTVPhim.webp" ,SCTV PHIM TỔNG HỢP 
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://liveh12.seenow.vn/hls/SCTVPHIM/index.m3u8
+https://iptv.hoantran.name.vn/sctv/sctvphim
 #----Music----#
 
 #EXTINF:-1 tvg-id="musicbox" group-title="🎶| Music" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Music%20Box.png",💿| Music Box
@@ -377,7 +380,7 @@ udp://@225.1.1.236:30120
 #EXTINF:-1 tvg-id="tv5monde" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/R9P4G9X/TV5-Monde.png",TV5 MONDE ASIE ¹⁰⁸⁰
 udp://@225.1.1.200:30120
 #EXTINF:-1 tvg-id="hgtv" tvg-logo="https://i.ibb.co/kB91Qgx/HGTV.png" group-title="🌿| Khám phá",🍀| HGTV ¹⁰⁸⁰
-https://tv.TruyenHinh.Click/CoBan/hgtv/TuyetDoiKhongKinhDoanh
+https://freem3u.xyz/api/live/play.mpd?vid=99
 #EXTINF:-1 tvg-id="historyhd" tvg-name="History" tvg-logo="https://i.ibb.co/d2dJNWn/cchistory.webp" group-title="🌿| Khám phá",🍀|History ¹⁰⁸⁰
 https://freem3u.xyz/api/live/play.m3u8?vid=9856
 
@@ -387,7 +390,6 @@ udp://@225.1.1.46:30120
 udp://@225.1.1.47:30120
 #EXTINF:-1 tvg-id="outdoorhd" group-title="🌿| Khám phá" tvg-logo="https://i.imgur.com/bbOifca.png",🍀|Outdoor Channel ¹⁰⁸⁰
 udp://@225.1.2.215:30120
-
 #EXTINF:-1 tvg-id="planetearthhd" group-title="🌿| Khám phá" tvg-logo="https://i.ibb.co/9sHfrwj/Planet-Earth.png",🍀| Planet Earth
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://toiyeuvietnam.dpdns.org/Start/VMT345_PlanetEarth
