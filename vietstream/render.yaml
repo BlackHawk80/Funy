@@ -1,0 +1,25 @@
+# Render Blueprint — tự động deploy khi bấm nút "Deploy to Render"
+services:
+  - type: web
+    name: vietstream-addon
+    runtime: node
+    plan: free
+    region: singapore   # gần Việt Nam nhất; có thể đổi: oregon | frankfurt | ohio | virginia
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Tuỳ chọn: bật một tập nguồn cụ thể — Xem20 cần thêm hai secret bên dưới.
+      # - key: PROVIDERS
+      #   value: kkphim,k20,xem20,nguonc,phim4k,tophim,vnstream,ophim
+      # - key: PROXY_PROVIDERS
+      #   value: nguonc
+      # Đặt hai giá trị Xem20 bằng Render Dashboard → Environment → Add Secret.
+      # Không ghi credential thật vào file này.
+      # - key: XEM20_LOGIN
+      #   sync: false
+      # - key: XEM20_PASSWORD
+      #   sync: false

@@ -1,0 +1,25 @@
+# Fly.io — deploy bằng: flyctl launch (từ thư mục repo) rồi flyctl deploy
+app = "vietstream-addon"
+primary_region = "sin"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "7001"
+  NODE_ENV = "production"
+
+[http_service]
+  internal_port = 7001
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [[http_service.ports]]
+    port = 80
+    handlers = ["http"]
+
+  [[http_service.ports]]
+    port = 443
+    handlers = ["tls", "http"]

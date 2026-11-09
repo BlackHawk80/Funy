@@ -1,0 +1,23 @@
+{
+  "name": "vietstream-nuvio-addon",
+  "version": "1.1.1",
+  "description": "Nuvio/Stremio addon tổng hợp luồng phim Việt: KKphim, K20, Xem20, OPhim, NguonC, Phim4K, Tophim, VnStream (Vietsub / Lồng tiếng / Thuyết minh)",
+  "main": "server.js",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "fetch-cookie": "^3.1.0",
+    "tough-cookie": "^5.1.2"
+  }
+}
