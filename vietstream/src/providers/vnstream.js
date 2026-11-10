@@ -17,7 +17,9 @@ class VnstreamProvider extends BaseProvider {
     try {
       const response = await fetch(url, { headers: this.headers, signal: AbortSignal.timeout(25000) });
       if (!response.ok) {
-        console.warn('[VNStream] upstream HTTP', response.status, new URL(url).pathname);
+        const body = (await response.text()).slice(0, 4096);
+        const title = body.match(/<title[^>]*>([^<]*)/i)?.[1] || '';
+        console.warn('[VNStream] upstream HTTP', response.status, new URL(url).pathname, JSON.stringify({ server: response.headers.get('server'), contentType: response.headers.get('content-type'), challenge: response.headers.get('cf-mitigated'), title, jsonError: response.headers.get('content-type')?.includes('json') ? body.slice(0, 500) : undefined }));
         return null;
       }
       return await response.json();
