@@ -14,7 +14,17 @@ function episodeInfo(stream) {
 
 class VnstreamProvider extends BaseProvider {
   async request(url) {
-    return super.request(url, { timeout: 25000 });
+    try {
+      const response = await fetch(url, { headers: this.headers, signal: AbortSignal.timeout(25000) });
+      if (!response.ok) {
+        console.warn('[VNStream] upstream HTTP', response.status, new URL(url).pathname);
+        return null;
+      }
+      return await response.json();
+    } catch (error) {
+      console.warn('[VNStream] request failed', error.name, error.cause?.code || '', new URL(url).pathname);
+      return null;
+    }
   }
 
   normalize(item, type) {
