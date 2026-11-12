@@ -3,7 +3,10 @@
 const BaseProvider = require('./base');
 const { getText, getJson, parseEpNum, detectAudio, cached, mapImageUrl } = require('../utils');
 const { decodeNativeId } = require('./k20');
-const { CONFIG } = require('../config');
+const { CONFIG, PROVIDERS } = require('../config');
+const { KKphimProvider } = require('./kkphim');
+const { normTitle } = require('../utils');
+const { wrappedVideoOffset } = require('../hls-proxy');
 
 // Nguồn VnStream — CoBePhim (biz redirects to fit):
 //  - API nội bộ: /movies/search, /episodes/by-idMovie/{id}, /movies/hot
@@ -29,7 +32,50 @@ function serverScore(name) {
   return 4;
 }
 
+// Only accept the same title, year and media type; never substitute by slug alone.
+async function matchingFallback(detail, slug) {
+  const other = await new KKphimProvider(PROVIDERS.kkphim).detail(slug);
+  if (!other || other.type !== detail.type || !detail.year || Number(other.year) !== Number(detail.year)) return null;
+  const a = normTitle(detail.originalName || detail.name);
+  const b = normTitle(other.originalName || other.name);
+  if (!a || a !== b) return null;
+  if (detail.imdbId && other.imdbId && detail.imdbId !== other.imdbId) return null;
+  return other;
+}
+
+async function playableHls(url, headers = {}, allowWrapped = false) {
+  if (!/^https?:\/\//i.test(url || '')) return false;
+  return cached(`playable:${allowWrapped}:${url}`, 120000, async () => {
+    try {
+      let target = url;
+      for (let depth = 0; depth < 3; depth++) {
+        const res = await fetch(target, { headers, signal: AbortSignal.timeout(6000) });
+        if (!res.ok) return false;
+        const text = await res.text();
+        if (!text.trimStart().startsWith('#EXTM3U')) return false;
+        const line = text.split(/\r?\n/).find(l => l.trim() && !l.startsWith('#'));
+        if (!line) return false;
+        const next = new URL(line.trim(), res.url || target).href;
+        if (text.includes('#EXT-X-STREAM-INF')) { target = next; continue; }
+        const seg = await fetch(next, { headers: { ...headers, Range: 'bytes=0-4095' }, signal: AbortSignal.timeout(6000) });
+        if (!seg.ok || !seg.body) return false;
+        const reader = seg.body.getReader(); let bytes = Buffer.alloc(0);
+        try {
+          while (bytes.length < 8192) { const {value,done}=await reader.read(); if(done) break; bytes=Buffer.concat([bytes,Buffer.from(value)]); }
+        } finally { await reader.cancel(); }
+        // Reject HTML challenges and image-wrapped segments, even with HTTP 200.
+        return (allowWrapped && /(^|\.)streamvsmov\.com$/i.test(new URL(next).hostname) && wrappedVideoOffset(bytes) >= 0) || (bytes[0] === 0x47 && bytes[188] === 0x47 && bytes[376] === 0x47) ||
+          ['ftyp','styp','moof'].includes(bytes.toString('ascii',4,8));
+      }
+    } catch { return false; }
+    return false;
+  });
+}
+
 class VnstreamProvider extends BaseProvider {
+  validateHls(url, headers) { return playableHls(url, headers, true); }
+  getFallback(detail, slug) { return matchingFallback(detail, slug); }
+
   async search(q) {
     if (!q) return [];
     return cached(`vn:search:${q}`, 10 * 60 * 1000, async () => {
@@ -199,7 +245,7 @@ class VnstreamProvider extends BaseProvider {
     if (/m3u8/i.test(typ)) return link;
     if (/embed/i.test(typ)) {
       const direct = await this.resolveEmbed(link).catch(() => null);
-      return direct ? { url: direct } : { externalUrl: link };
+      return direct || null;
     }
     return null;
   }
@@ -244,26 +290,28 @@ class VnstreamProvider extends BaseProvider {
 
     // mỗi server có bản ghi riêng cho cùng tập; sắp xếp theo mức ưu tiên audio
     const sorted = [...pool].sort((a, b) => serverScore(a.server) - serverScore(b.server));
-    const streams = [];
-    const used = new Set();
-    for (const ep of sorted.slice(0, 3)) {
-      if (used.has(ep.server)) continue;
-      used.add(ep.server);
-      const m3u8 = await this.watchM3u8(slug, ep.id);
-      if (!m3u8) continue;
-      streams.push(
-        this.makeStream({
-          movieName: d.name,
-          epLabel: isMovie ? 'Full' : `Tập ${parseEpNum(ep.name) || episode}`,
-          audio: detectAudio(ep.server, 'Vietsub'),
-          quality: 'HD',
-          ...(typeof m3u8 === 'string' ? {url: m3u8} : m3u8),
-          headers: { 'User-Agent': UA, Referer: `${this.cfg.siteUrl}/` }
-        })
-      );
+    const headers = { 'User-Agent': UA, Referer: `${this.cfg.siteUrl}/` };
+    const candidates = await Promise.allSettled(sorted.slice(0, 8).map(async ep => {
+      const url = await this.watchM3u8(slug, ep.id);
+      if (typeof url !== 'string' || !await this.validateHls(url, headers)) return null;
+      return this.makeStream({ movieName: d.name, epLabel: isMovie ? 'Full' : `Tập ${episode}`,
+        audio: detectAudio(ep.server, 'Vietsub'), quality: 'HD', url, headers });
+    }));
+    const streams = candidates.filter(r => r.status === 'fulfilled' && r.value).map(r => r.value);
+    if (!streams.length && (isMovie || (Number(season) || 1) === 1)) {
+      const fallback = await this.getFallback({ ...d, type }, slug);
+      for (const server of fallback?.servers || []) {
+        const entry = isMovie ? server.items.find(e => /^(full|1|tập 0?1)$/i.test(e.name)) :
+          server.items.find(e => parseEpNum(e.name) === (Number(episode) || 1));
+        if (!entry?.m3u8 || !await this.validateHls(entry.m3u8, {})) continue;
+        const stream = this.makeStream({ movieName: d.name, epLabel: isMovie ? 'Full' : `Tập ${episode}`,
+          audio: detectAudio(server.serverName, 'Vietsub'), quality: fallback.quality, url: entry.m3u8 });
+        stream.name = `KKphim dự phòng\n${fallback.quality || 'HD'} · ${detectAudio(server.serverName, 'Vietsub')}`;
+        streams.push(stream);
+      }
     }
     return streams;
   }
 }
 
-module.exports = { VnstreamProvider };
+module.exports = { VnstreamProvider, matchingFallback, playableHls };
