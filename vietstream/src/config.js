@@ -28,7 +28,7 @@ const PROVIDERS = {
     cdnImage: process.env.OPHIM_CDN_IMAGE || 'https://img.ophim.live',
     siteUrl: process.env.OPHIM_SITE_URL || 'https://www.ophim.live',
     referer: 'https://www.ophim.live/',
-    enabled: ENABLED_LIST ? ENABLED_LIST.includes('ophim') : true,
+    enabled: false,
     proxy: false
   },
   nguonc: {
@@ -40,16 +40,16 @@ const PROVIDERS = {
     siteUrl: 'https://phim.nguonc.com',
     referer: 'https://phim.nguonc.com/',
     enabled: ENABLED_LIST ? ENABLED_LIST.includes('nguonc') : true,
-    // Link StreamC của NguonC cần Referer → mặc định đi qua HLS proxy của addon
-    proxy: true
+    // NguonC mở trình phát ngoài bằng externalUrl.
+    proxy: false
   },
   vnstream: {
     id: 'vnstream',
     name: 'VNStream',
     prefix: 'vn_',
-    apiUrl: process.env.VNSTREAM_API_URL || 'https://addon.vnstream.io.vn/guest',
-    siteUrl: process.env.VNSTREAM_SITE_URL || 'https://addon.vnstream.io.vn',
-    referer: 'https://addon.vnstream.io.vn/',
+    apiUrl: process.env.VNSTREAM_COBE_API_URL || 'https://egluy2hhb21vaw5ndw9pbmhl.darkbytes.xyz/api/v1',
+    siteUrl: (process.env.VNSTREAM_SITE_URL || 'https://cobephim.fit').replace('cobephim.biz', 'cobephim.fit'),
+    referer: 'https://cobephim.fit/',
     enabled: ENABLED_LIST ? ENABLED_LIST.includes('vnstream') : true,
     proxy: false
   },
@@ -111,11 +111,12 @@ const CONFIG = {
   proxyProviders: csv('PROXY_PROVIDERS', ['nguonc']),
   manifest: {
     id: 'community.vietstream',
-    version: process.env.VERSION || '1.1.1',
+    version: process.env.VERSION || '1.2.0',
     name: 'VietStream · Phim Việt',
     description:
-      'Xem phim Việt đa nguồn: KKphim, K20, Xem20 (tùy chọn), OPhim, NguonC, Phim4K, Tophim, VnStream — Vietsub, Lồng tiếng, Thuyết minh. Tương thích Nuvio & Stremio.'
+      'Xem phim Việt đa nguồn: KKphim, K20, Xem20 (tùy chọn), NguonC, Phim4K, Tophim, VnStream — Vietsub, Lồng tiếng, Thuyết minh. Tương thích Nuvio & Stremio.'
   }
 };
 
 module.exports = { CONFIG, PROVIDERS };
+
