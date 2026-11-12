@@ -94,6 +94,14 @@ router.get('/hls/manifest.m3u8', async (req, res) => {
   }
 });
 
+function wrappedVideoOffset(bytes) {
+  if (bytes.subarray(0,8).toString('hex') !== '89504e470d0a1a0a') return -1;
+  for (let i = 8; i < Math.min(bytes.length - 564, 4096); i++) {
+    if ([0,188,376,564].every(n => bytes[i+n] === 0x47)) return i;
+  }
+  return -1;
+}
+
 router.get('/hls/seg', async (req, res) => {
   const base = getBaseUrl(req);
   const target = b64d(req.query.url);
@@ -101,7 +109,28 @@ router.get('/hls/seg', async (req, res) => {
   const origin = b64d(req.query.origin);
   if (!/^https?:/i.test(target)) return res.status(400).send('bad url');
   try {
-    const up = await fetch(target, { headers: upstreamHeaders(ref, origin, req.headers.range), redirect: 'follow' });
+    const u = new URL(target);
+    const wrapped = /(^|\.)streamvsmov\.com$/i.test(u.hostname) && /\.png$/i.test(u.pathname);
+    const up = await fetch(target, { headers: upstreamHeaders(ref, origin, wrapped ? undefined : req.headers.range), redirect: 'follow', signal: AbortSignal.timeout(30000) });
+    if (wrapped && up.ok && up.body) {
+      const reader = up.body.getReader(); let prefix = Buffer.alloc(0); let handedOff = false;
+      try {
+        while(prefix.length < 8192) { const {done,value}=await reader.read(); if(done) break; prefix=Buffer.concat([prefix,Buffer.from(value)]); }
+        const offset = wrappedVideoOffset(prefix);
+        if (offset < 0) return res.status(502).end('Invalid video segment');
+        res.status(200).set('Content-Type','video/mp2t').set('Cache-Control','no-cache');
+        const body = Readable.from((async function* () {
+          try { yield prefix.subarray(offset); while(true) { const {done,value}=await reader.read(); if(done) break; yield value; } }
+          finally { await reader.cancel().catch(()=>{}); }
+        })());
+        res.on('close',()=>body.destroy());
+        body.on('error',()=>res.destroy());
+        handedOff = true;
+        body.pipe(res);
+        return;
+      } catch(error) { await reader.cancel().catch(()=>{}); throw error; }
+      finally { if (!handedOff) await reader.cancel().catch(()=>{}); }
+    }
     const ct = up.headers.get('content-type') || '';
     if (/mpegurl/i.test(ct) || /\.m3u8(\?|$)/i.test(target)) {
       // playlist biến thể lọt vào seg -> rewrite luôn
@@ -122,4 +151,4 @@ router.get('/hls/seg', async (req, res) => {
   }
 });
 
-module.exports = { router, getBaseUrl, b64e, b64d };
+module.exports = { router, getBaseUrl, b64e, b64d, wrappedVideoOffset };
