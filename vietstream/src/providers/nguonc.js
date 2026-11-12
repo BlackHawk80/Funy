@@ -1,6 +1,7 @@
 'use strict';
 
 const BaseProvider = require('./base');
+const { matchingFallback, playableHls } = require('./vnstream');
 const { getJson, stripHtml, mapImageUrl, cached, parseEpNum } = require('../utils');
 
 // Nguồn NguonC — API công khai https://phim.nguonc.com/api
@@ -36,6 +37,9 @@ function toMetaItem(it) {
 }
 
 class NguoncProvider extends BaseProvider {
+  getFallback(detail, slug) { return matchingFallback(detail, slug); }
+  validateHls(url) { return playableHls(url); }
+
   async request(url, opts = {}) {
     // thử domain chính, lỗi thì thử domain dự phòng
     let data = await getJson(url, { headers: this.headers, ...opts });
@@ -120,6 +124,7 @@ class NguoncProvider extends BaseProvider {
     try {
       const url = new URL(ep.embed);
       if (!['https:', 'http:'].includes(url.protocol) || url.username || url.password) return null;
+      if (/(^|\.)streamc\.xyz$/i.test(url.hostname)) return null;
       return { externalUrl: url.href };
     } catch { return null; }
   }
@@ -132,11 +137,20 @@ class NguoncProvider extends BaseProvider {
     for (const server of d.servers || []) {
       const ep = isMovie ? this.pickEpisode(server.items, epNum, true) : (server.items || []).find(e => parseEpNum(e.name) === epNum || parseEpNum(e.slug) === epNum);
       if (!ep) continue;
-      const src = await this.extractStreamItem(ep); // tuần tự: ít request song song
+      let src = await this.extractStreamItem(ep);
+      let fallbackUsed = false;
+      if (!src) {
+        const fallback = await this.getFallback(d, d.slug);
+        for (const fs of fallback?.servers || []) {
+          const fe = isMovie ? fs.items.find(e => /^(full|1|tập 0?1)$/i.test(e.name)) : fs.items.find(e => parseEpNum(e.name) === epNum);
+          if (!fe?.embed || !fe.m3u8 || !await this.validateHls(fe.m3u8)) continue;
+          src = await this.extractStreamItem(fe);
+          if (src) { fallbackUsed = true; break; }
+        }
+      }
       if (!src) continue;
       const audio = require('../utils').detectAudio(server.serverName, require('../utils').detectAudio(d.lang, 'Vietsub'));
-      streams.push(
-        this.makeStream({
+      const stream = this.makeStream({
           movieName: d.name,
           epLabel: isMovie ? ep.name || 'Full' : `Tập ${epNum}`,
           audio,
@@ -144,8 +158,9 @@ class NguoncProvider extends BaseProvider {
           url: src.url,
           externalUrl: src.externalUrl,
           headers: undefined
-        })
-      );
+        });
+      if (fallbackUsed) stream.name = 'KKphim dự phòng · Trình duyệt';
+      if (!streams.some(s => s.externalUrl === stream.externalUrl)) streams.push(stream);
     }
     return streams;
   }
