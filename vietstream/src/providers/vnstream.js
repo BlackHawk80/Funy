@@ -49,7 +49,7 @@ async function playableHls(url, headers = {}, allowWrapped = false) {
     try {
       let target = url;
       for (let depth = 0; depth < 3; depth++) {
-        const res = await fetch(target, { headers, signal: AbortSignal.timeout(6000) });
+        const res = await fetch(target, { headers, signal: AbortSignal.timeout(12000) });
         if (!res.ok) return false;
         const text = await res.text();
         if (!text.trimStart().startsWith('#EXTM3U')) return false;
@@ -57,7 +57,7 @@ async function playableHls(url, headers = {}, allowWrapped = false) {
         if (!line) return false;
         const next = new URL(line.trim(), res.url || target).href;
         if (text.includes('#EXT-X-STREAM-INF')) { target = next; continue; }
-        const seg = await fetch(next, { headers: { ...headers, Range: 'bytes=0-4095' }, signal: AbortSignal.timeout(6000) });
+        const seg = await fetch(next, { headers, signal: AbortSignal.timeout(12000) });
         if (!seg.ok || !seg.body) return false;
         const reader = seg.body.getReader(); let bytes = Buffer.alloc(0);
         try {
