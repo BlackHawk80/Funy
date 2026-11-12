@@ -51,7 +51,7 @@ const PROVIDERS = {
     siteUrl: (process.env.VNSTREAM_SITE_URL || 'https://cobephim.fit').replace('cobephim.biz', 'cobephim.fit'),
     referer: 'https://cobephim.fit/',
     enabled: ENABLED_LIST ? ENABLED_LIST.includes('vnstream') : true,
-    proxy: false
+    proxy: true
   },
   phim4k: {
     id: 'phim4k',
