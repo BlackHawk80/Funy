@@ -1,45 +1,27 @@
 'use strict';
 const {test}=require('node:test');const assert=require('node:assert/strict');
-const {VnstreamProvider}=require('../src/providers/vnstream');
-const {NguoncProvider}=require('../src/providers/nguonc');
+const {VnstreamProvider,guestEpisode}=require('../src/providers/vnstream');
 const {encodeNativeId}=require('../src/providers/k20');
 const {PROVIDERS}=require('../src/config');
-test('CoBe selects exact season and episode, preserves legacy IDs and sorts videos',async()=>{
- const p=new VnstreamProvider(PROVIDERS.vnstream);let slug;
- p.detailFromSite=async s=>{slug=s;return {id:1,name:'Show',type:'series'}};
- p.episodes=async()=>[{id:10,name:'10',season_number:1,server:'Vietsub'},{id:2,name:'2',season_number:1,server:'Vietsub'},{id:20,name:'2',season_number:2,server:'Vietsub'}];
- p.watchM3u8=async(s,id)=>`https://cdn.test/${id}.m3u8`;p.validateHls=async()=>true;p.getFallback=async()=>null;
- const d=await p.detail(encodeNativeId('series','show'));assert.equal(slug,'show');assert.deepEqual(d.videos.map(e=>[e.season,e.episode]),[[1,2],[1,10],[2,2]]);
- const streams=await p.streamsFromSlug('show','series',2,2);assert.equal(streams.length,1);assert.equal(streams[0].url,'https://cdn.test/20.m3u8');assert.equal(streams[0].externalUrl,undefined);
- assert.deepEqual(await p.streamsFromSlug('show','series',1,99),[]);
- assert.deepEqual(await p.streamsFromSlug('show','series',3,2),[]);
+test('Guest keeps complete metadata and derives distinct sorted episodes from streams',async()=>{
+ const p=new VnstreamProvider(PROVIDERS.vnstream);
+ p.request=async url=>url.includes('/meta/')?{meta:{name:'Show',poster:'https://img.test/p.jpg',description:'Summary',runtime:'45 phút',imdbRating:'8.5',releaseInfo:2026}}:{streams:[{name:'Tập 02',url:'https://cdn.test/2.m3u8'},{name:'Tập 01',url:'https://cdn.test/1.m3u8'},{name:'Tập 02',url:'https://cdn.test/2-dub.m3u8'},{name:'Trailer',externalUrl:'https://site.test'}]};
+ const slug=encodeNativeId('series','guest-test-show');const d=await p.detail(slug);const meta=p.buildMeta(d);
+ assert.equal(meta.description,'Summary');assert.equal(meta.poster,'https://img.test/p.jpg');assert.equal(meta.runtime,'45 phút');assert.equal(meta.imdbRating,'8.5');assert.equal(meta.releaseInfo,'2026');assert.deepEqual(meta.videos.map(e=>e.episode),[1,2]);
+ const s=await p.streamsFromSlug(slug,'series',1,2);assert.equal(s.length,2);assert.equal(s[0].url,'https://cdn.test/2.m3u8');
+ assert.deepEqual(await p.streamsFromSlug(slug,'series',2,2),[]);assert.deepEqual(await p.streamsFromSlug(slug,'series',1,99),[]);
 });
-test('NguonC returns browser player only and never wrong episode',async()=>{
- const p=new NguoncProvider(PROVIDERS.nguonc);
- const d={type:'series',name:'Show',servers:[{serverName:'Vietsub',items:[{name:'2',embed:'https://player.test/2',m3u8:'https://cdn.test/2.m3u8'}]}]};
- const streams=await p.streamsFromDetail(d,{season:1,episode:2});assert.equal(streams.length,1);assert.equal(streams[0].externalUrl,'https://player.test/2');assert.equal(streams[0].url,undefined);
- assert.deepEqual(await p.streamsFromDetail(d,{season:1,episode:1}),[]);
- assert.deepEqual(await p.streamsFromDetail(d,{season:2,episode:2}),[]);
- assert.equal(await p.extractStreamItem({embed:'javascript:alert(1)'}),null);
- assert.equal(await p.extractStreamItem({m3u8:'https://cdn.test/2.m3u8'}),null);
+test('Guest forwards filters and retains playback headers and subtitles unchanged',async()=>{
+ const p=new VnstreamProvider(PROVIDERS.vnstream);let called;
+ p.request=async url=>{called=url;return {metas:[{id:'movie-test',name:'Film',releaseInfo:2026,poster:'https://img.test/a.jpg'}]}};
+ const items=await p.listCatalog('moi',{search:'A B',skip:24,genre:'Hài'});assert.match(called,/vnstream-vietsub/);assert.match(called,/skip=24/);assert.equal(items[0].releaseInfo,'2026');
+ const stream={url:'https://cdn.test/movie.mp4',name:'Full',behaviorHints:{proxyHeaders:{request:{Referer:'https://source.test/'}}},subtitles:[{url:'https://cdn.test/vi.vtt',lang:'vie'}]};
+ p.rawStreams=async()=>[stream];const out=await p.streamsFromSlug('plain-legacy-slug','movie',1,1);assert.equal(out[0].url,stream.url);assert.deepEqual(out[0].behaviorHints,stream.behaviorHints);assert.deepEqual(out[0].subtitles,stream.subtitles);
 });
-test('OPhim disabled and CoBe uses API with current site',()=>{assert.equal(PROVIDERS.ophim.enabled,false);assert.match(PROVIDERS.vnstream.apiUrl,/darkbytes/);assert.match(PROVIDERS.vnstream.siteUrl,/cobephim.fit/);});
-
-test('VNStream never exposes browser URLs or invalid playlists', async()=>{
- const p=new VnstreamProvider(PROVIDERS.vnstream);p.detailFromSite=async()=>({id:1,name:'A'});p.episodes=async()=>[{id:1,name:'1',server:'Vietsub'}];p.getFallback=async()=>null;
- p.watchM3u8=async()=>({externalUrl:'https://embed1.streamc.xyz/player'});p.validateHls=async()=>true;
- assert.deepEqual(await p.streamsFromSlug('a','series',1,1),[]);
- p.watchM3u8=async()=>'https://cdn.test/dead.m3u8';p.validateHls=async()=>false;
- assert.deepEqual(await p.streamsFromSlug('a','series',1,1),[]);
-});
-test('NguonC hides blocked StreamC and labels matched browser fallback',async()=>{
- const p=new NguoncProvider(PROVIDERS.nguonc);p.validateHls=async()=>true;
- const d={slug:'a',type:'series',name:'A',servers:[{serverName:'Vietsub',items:[{name:'2',embed:'https://embed1.streamc.xyz/embed.php?hash=x'}]}]};
- p.getFallback=async()=>null;assert.deepEqual(await p.streamsFromDetail(d,{season:1,episode:2}),[]);
- p.getFallback=async()=>({servers:[{items:[{name:'2',embed:'https://player.phimapi.com/player/?url=x',m3u8:'https://cdn.test/2.m3u8'}]}]});
- const out=await p.streamsFromDetail(d,{season:1,episode:2});assert.equal(out.length,1);assert.match(out[0].name,/KKphim dự phòng/);assert.match(out[0].externalUrl,/player.phimapi.com/);
-});
-test('Image wrapper is removed only when repeated MPEG-TS sync exists',()=>{
- const {wrappedVideoOffset}=require('../src/hls-proxy');const b=Buffer.alloc(1300);Buffer.from('89504e470d0a1a0a','hex').copy(b);for(let i=0;i<4;i++) b[501+i*188]=0x47;
- assert.equal(wrappedVideoOffset(b),501);b[501+376]=0;assert.equal(wrappedVideoOffset(b),-1);assert.equal(wrappedVideoOffset(Buffer.from('<html>blocked</html>')),-1);
+test('Guest empty responses remain empty and no source substitution occurs',async()=>{
+ const p=new VnstreamProvider(PROVIDERS.vnstream);p.request=async()=>null;
+ assert.deepEqual(await p.listCatalog('moi'),[]);assert.equal(await p.detail(encodeNativeId('movie','missing')),null);
+ assert.deepEqual(await p.streamsFromSlug('missing','movie',1,1),[]);
+ assert.deepEqual(guestEpisode({name:'Tập 2',behaviorHints:{filename:'Show_S02E02'}}),{season:2,episode:2});
+ assert.equal(PROVIDERS.vnstream.proxy,false);assert.equal(PROVIDERS.vnstream.apiUrl,'https://addon.vnstream.io.vn/guest');assert.equal(PROVIDERS.nguonc.enabled,false);
 });
