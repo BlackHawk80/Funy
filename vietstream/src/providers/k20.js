@@ -1,7 +1,7 @@
 'use strict';
 
 const BaseProvider = require('./base');
-const { cached, detectAudio, parseEpNum, qualityFromText } = require('../utils');
+const { cached, detectAudio, parseEpNum, qualityFromText, catalogYear } = require('../utils');
 const { CONFIG } = require('../config');
 
 const K20_SOURCES = ['vsmov', 'kkphim'];
@@ -49,7 +49,9 @@ class K20Provider extends BaseProvider {
       type,
       name: meta.name,
       originalName: meta.name,
-      year: parseEpNum(meta.releaseInfo),
+      year: catalogYear(meta),
+      updatedAt: meta.updatedAt || meta.modified?.time,
+      released: meta.released,
       poster: meta.poster,
       background: meta.background || meta.poster,
       description: meta.description || '',
@@ -67,6 +69,8 @@ class K20Provider extends BaseProvider {
       background: item.background,
       description: item.description,
       releaseInfo: item.releaseInfo || (item.year ? String(item.year) : undefined),
+      updatedAt: item.updatedAt,
+      released: item.released,
       year: item.year || undefined
     };
   }
@@ -177,7 +181,9 @@ class K20Provider extends BaseProvider {
         nativeId: native.id,
         name: meta.name,
         originalName: meta.name,
-        year: parseEpNum(meta.releaseInfo),
+        year: catalogYear(meta),
+      updatedAt: meta.updatedAt || meta.modified?.time,
+      released: meta.released,
         type: native.type,
         quality: 'Auto',
         lang: '',
