@@ -47,7 +47,7 @@ const PROVIDERS = {
     id: 'vnstream', name: 'VNStream Guest', prefix: 'vn_',
     apiUrl: process.env.VNSTREAM_GUEST_URL || 'https://addon.vnstream.io.vn/guest',
     siteUrl: 'https://addon.vnstream.io.vn', referer: 'https://addon.vnstream.io.vn/',
-    enabled: ENABLED_LIST ? ENABLED_LIST.includes('vnstream') : true,
+    enabled: false,
     proxy: false
   },
   phim4k: {
@@ -108,10 +108,10 @@ const CONFIG = {
   proxyProviders: csv('PROXY_PROVIDERS', ['nguonc']),
   manifest: {
     id: 'community.vietstream',
-    version: process.env.VERSION || '1.4.1',
+    version: process.env.VERSION || '1.4.2',
     name: 'VietStream · Phim Việt',
     description:
-      'Xem phim Việt đa nguồn: KKphim, K20, Xem20 (tùy chọn), Phim4K, Tophim, VnStream — Vietsub, Lồng tiếng, Thuyết minh. Tương thích Nuvio & Stremio.'
+      'Xem phim Việt đa nguồn: KKphim, K20, Xem20 (tùy chọn), Phim4K, Tophim — Vietsub, Lồng tiếng, Thuyết minh. Tương thích Nuvio & Stremio.'
   }
 };
 
