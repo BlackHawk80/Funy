@@ -19,9 +19,9 @@ const cfg = {
 };
 
 test('K20 opaque native ID round-trips colon-containing IDs', () => {
-  const encoded = encodeNativeId('series', 'nguonc:naruto:tap-1');
+  const encoded = encodeNativeId('series', 'stp:naruto:tap-1');
   assert.match(encoded, /^[A-Za-z0-9_-]+$/);
-  assert.deepEqual(decodeNativeId(encoded), { type: 'series', id: 'nguonc:naruto:tap-1' });
+  assert.deepEqual(decodeNativeId(encoded), { type: 'series', id: 'stp:naruto:tap-1' });
   assert.equal(decodeNativeId('not-base64-json'), null);
 });
 
@@ -39,13 +39,13 @@ test('K20 series resolves the exact native video and preserves headers/subtitles
     if (url.includes('/meta/series/')) {
       return {
         meta: {
-          id: 'nguonc:naruto',
+          id: 'stp:naruto',
           type: 'series',
           name: 'Naruto',
           releaseInfo: '2002',
           videos: [
-            { id: 'nguonc:naruto:tap-1', title: '1', season: 1, episode: 1 },
-            { id: 'nguonc:naruto:tap-2', title: '2', season: 1, episode: 2 }
+            { id: 'stp:naruto:tap-1', title: '1', season: 1, episode: 1 },
+            { id: 'stp:naruto:tap-2', title: '2', season: 1, episode: 2 }
           ]
         }
       };
@@ -66,13 +66,13 @@ test('K20 series resolves the exact native video and preserves headers/subtitles
     return null;
   };
 
-  const slug = encodeNativeId('series', 'nguonc:naruto');
+  const slug = encodeNativeId('series', 'stp:naruto');
   const streams = await provider.streamsFromSlug(slug, 'series', 1, 2);
   assert.equal(streams.length, 1);
   assert.equal(streams[0].url, 'https://sc.k-20.xyz/test.m3u8');
   assert.equal(streams[0].behaviorHints.proxyHeaders.request.Origin, 'https://embed.example');
   assert.equal(streams[0].subtitles[0].url, 'https://sub.example/2.vtt');
-  assert.ok(calls.some((url) => url.includes(encodeURIComponent('nguonc:naruto:tap-2'))));
+  assert.ok(calls.some((url) => url.includes(encodeURIComponent('stp:naruto:tap-2'))));
 });
 
 test('K20 resolveStream falls back to a year-matched localized search result', async () => {
@@ -99,10 +99,10 @@ test('K20 resolveStream falls back to a year-matched localized search result', a
 test('K20 catalog merges and deduplicates provider results', async () => {
   const provider = new K20Provider(cfg);
   provider.fetchCatalog = async (type, catalogId) => {
-    if (catalogId.startsWith('nguonc')) {
+    if (catalogId.startsWith('stp')) {
       return [{ nativeId: 'same:id', slug: encodeNativeId(type, 'same:id'), type, name: 'Same' }];
     }
-    if (catalogId.startsWith('hh3d')) {
+    if (catalogId.startsWith('clbpx')) {
       return [
         { nativeId: 'same:id', slug: encodeNativeId(type, 'same:id'), type, name: 'Duplicate' },
         { nativeId: 'new:id', slug: encodeNativeId(type, 'new:id'), type, name: 'New' }
@@ -114,4 +114,18 @@ test('K20 catalog merges and deduplicates provider results', async () => {
   const metas = await provider.listCatalog('movie');
   assert.deepEqual(metas.map((meta) => meta.name), ['Same', 'New']);
   assert.ok(metas.every((meta) => meta.id.startsWith('k20_')));
+});
+
+test('K20 uses current catalogs, excludes NguonC and routes individual rows',async()=>{
+ const p=new K20Provider(cfg);assert.deepEqual(p.catalogIds('series'),['stp-series','vsmov-series','kkphim-series']);
+ let called;p.fetchCatalog=async(type,id,extra)=>{called={type,id,extra};return []};
+ await p.listCatalog('vsmov-4k',{skip:20});assert.deepEqual(called,{type:'movie',id:'vsmov-4k',extra:{skip:20}});
+ assert.equal(await p.detail(encodeNativeId('movie','nguonc:old')),null);
+ const {buildManifest}=require('../src/manifest');const manifest=buildManifest('https://test.example');
+ assert.ok(!manifest.catalogs.some(c=>c.id.startsWith('nguonc-')));assert.ok(!manifest.description.includes('NguonC'));
+ assert.equal(manifest.catalogs.filter(c=>c.id.startsWith('k20-')).length,8);
+});
+test('K20 cannot substitute another season or episode',()=>{
+ const p=new K20Provider(cfg);const d={type:'series',nativeVideos:[{id:'one',season:1,episode:1,title:'1'}]};
+ assert.equal(p.pickNativeVideo(d,2,1),null);assert.equal(p.pickNativeVideo(d,1,2),null);
 });
