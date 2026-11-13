@@ -7,6 +7,7 @@ const { GENRE_MAP } = require('./providers/kkphim');
 const CATALOG_DEFS = {
   kkphim: [
     { type: 'movie', id: 'kkphim-phim-le', name: 'Phim lẻ (KKphim)', genres: true },
+    { type: 'movie', id: 'kkphim-viet-nam', name: 'Phim Việt Nam (KKPhim)', genres: true },
     { type: 'movie', id: 'kkphim-chieu-rap', name: 'Chiếu rạp (KKphim)', genres: true },
     { type: 'series', id: 'kkphim-phim-bo', name: 'Phim bộ (KKphim)', genres: true },
     { type: 'series', id: 'kkphim-hoat-hinh', name: 'Hoạt hình (KKphim)', genres: true }
