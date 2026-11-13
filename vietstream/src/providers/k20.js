@@ -4,7 +4,11 @@ const BaseProvider = require('./base');
 const { cached, detectAudio, parseEpNum, qualityFromText } = require('../utils');
 const { CONFIG } = require('../config');
 
-const K20_SOURCES = ['nguonc', 'hh3d', 'stp', 'vsmov', 'yan'];
+const K20_SOURCES = ['stp', 'clbpx', 'vsmov', 'kkphim'];
+const K20_CATALOGS = {
+  movie: ['stp-movie', 'clbpx-movie', 'vsmov-movie', 'vsmov-4k', 'kkphim-movie'],
+  series: ['stp-series', 'vsmov-series', 'kkphim-series']
+};
 
 function encodeNativeId(type, id) {
   return Buffer.from(JSON.stringify({ type, id }), 'utf8').toString('base64url');
@@ -34,7 +38,7 @@ class K20Provider extends BaseProvider {
   }
 
   catalogIds(type) {
-    return K20_SOURCES.map((source) => `${source}-${type}`);
+    return K20_CATALOGS[type] || [];
   }
 
   normalizeMeta(meta, fallbackType) {
@@ -69,12 +73,14 @@ class K20Provider extends BaseProvider {
 
   async fetchCatalog(type, catalogId, extra = {}) {
     let suffix = '';
-    if (extra.search) suffix = `/search=${encodeURIComponent(extra.search)}.json`;
-    else if (parseInt(extra.skip, 10) > 0) suffix = `/skip=${parseInt(extra.skip, 10)}.json`;
-    else suffix = '.json';
+    const parts = [];
+    if (extra.search) parts.push(`search=${encodeURIComponent(extra.search)}`);
+    if (parseInt(extra.skip,10) > 0) parts.push(`skip=${parseInt(extra.skip,10)}`);
+    if (extra.genre) parts.push(`genre=${encodeURIComponent(extra.genre)}`);
+    suffix = (parts.length ? '/' + parts.join('&') : '') + '.json';
 
     const data = await this.request(`${this.cfg.apiUrl}/catalog/${type}/${catalogId}${suffix}`);
-    return ((data && data.metas) || []).map((meta) => this.normalizeMeta(meta, type));
+    return ((data && data.metas) || []).filter(meta => meta.id && !String(meta.id).startsWith('nguonc:')).map((meta) => this.normalizeMeta(meta, type));
   }
 
   async searchType(query, type) {
@@ -112,7 +118,9 @@ class K20Provider extends BaseProvider {
   }
 
   async listCatalog(kind, extra = {}) {
-    const type = kind === 'series' ? 'series' : 'movie';
+    const type = kind === 'series' || kind.endsWith('-series') ? 'series' : 'movie';
+    if (this.catalogIds(type).includes(kind)) return (await this.fetchCatalog(type, kind, extra)).map(item => this.toMeta(item));
+    if (!['movie','series'].includes(kind)) return [];
     if (extra.search) return (await this.searchType(extra.search, type)).map((item) => this.toMeta(item));
 
     const results = await Promise.allSettled(
@@ -143,7 +151,7 @@ class K20Provider extends BaseProvider {
 
   async detail(slug) {
     const native = decodeNativeId(slug);
-    if (!native) return null;
+    if (!native || native.id.startsWith('nguonc:')) return null;
     return cached(`k20:detail:${native.type}:${native.id}`, 60 * 60 * 1000, async () => {
       const data = await this.request(
         `${this.cfg.apiUrl}/meta/${native.type}/${encodeURIComponent(native.id)}.json`
@@ -186,7 +194,8 @@ class K20Provider extends BaseProvider {
   }
 
   pickNativeVideo(detail, season, episode) {
-    if (detail.type !== 'series' || !detail.nativeVideos.length) return detail.nativeId;
+    if (detail.type !== 'series') return detail.nativeId;
+    if (!detail.nativeVideos.length) return null;
     const targetSeason = parseInt(season, 10) || 1;
     const targetEpisode = parseInt(episode, 10) || 1;
 
@@ -194,10 +203,6 @@ class K20Provider extends BaseProvider {
       const videoSeason = parseInt(video.season, 10) || 1;
       return videoSeason === targetSeason && episodeNumber(video, index) === targetEpisode;
     });
-    if (!match) {
-      match = detail.nativeVideos.find((video, index) => episodeNumber(video, index) === targetEpisode);
-    }
-    if (!match && targetEpisode <= detail.nativeVideos.length) match = detail.nativeVideos[targetEpisode - 1];
     return match && match.id ? String(match.id) : null;
   }
 
@@ -208,7 +213,7 @@ class K20Provider extends BaseProvider {
     const quality = qualityFromText(label, 'Auto');
     const behaviorHints = stream.behaviorHints ? { ...stream.behaviorHints } : { notWebReady: false };
     const mapped = {
-      name: `K20\n${quality} · ${audio}`,
+      name: `K20 · ${detail.nativeId.split(':')[0].toUpperCase()}\n${quality} · ${audio}`,
       title: stream.title || (detail.type === 'series' ? `Tập ${episode}` : detail.name),
       url: stream.url,
       behaviorHints,
