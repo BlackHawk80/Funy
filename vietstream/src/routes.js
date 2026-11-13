@@ -232,7 +232,7 @@ router.get('/meta/:type/:id.json', async (req, res) => {
 
   if (parsed.provider) {
     const d = await cached(`meta:${parsed.provider.id}:${parsed.slug}`, 30 * 60 * 1000, () =>
-      parsed.provider.detail(parsed.slug)
+      parsed.provider.detail(parsed.slug, type)
     );
     if (!d) return res.status(404).json({ err: 'not found' });
     const meta = parsed.provider.buildMeta(d, { withVideos: true });
