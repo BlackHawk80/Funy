@@ -99,10 +99,10 @@ test('K20 resolveStream falls back to a year-matched localized search result', a
 test('K20 catalog merges and deduplicates provider results', async () => {
   const provider = new K20Provider(cfg);
   provider.fetchCatalog = async (type, catalogId) => {
-    if (catalogId.startsWith('clbpx')) {
+    if (catalogId.startsWith('vsmov')) {
       return [{ nativeId: 'same:id', slug: encodeNativeId(type, 'same:id'), type, name: 'Same' }];
     }
-    if (catalogId.startsWith('vsmov')) {
+    if (catalogId.startsWith('kkphim')) {
       return [
         { nativeId: 'same:id', slug: encodeNativeId(type, 'same:id'), type, name: 'Duplicate' },
         { nativeId: 'new:id', slug: encodeNativeId(type, 'new:id'), type, name: 'New' }
@@ -122,10 +122,11 @@ test('K20 uses current catalogs, excludes NguonC and routes individual rows',asy
  await p.listCatalog('vsmov-4k',{skip:20});assert.deepEqual(called,{type:'movie',id:'vsmov-4k',extra:{skip:20}});
  assert.equal(await p.detail(encodeNativeId('movie','nguonc:old')),null);
  assert.equal(await p.detail(encodeNativeId('movie','stp:old')),null);
+ assert.equal(await p.detail(encodeNativeId('movie','clbpx:old')),null);
  assert.ok(!p.catalogIds('movie').some(id=>id.startsWith('stp-')));
  const {buildManifest}=require('../src/manifest');const manifest=buildManifest('https://test.example');
  assert.ok(!manifest.catalogs.some(c=>c.id.startsWith('nguonc-')));assert.ok(!manifest.description.includes('NguonC'));
- assert.equal(manifest.catalogs.filter(c=>c.id.startsWith('k20-')).length,6);
+ assert.equal(manifest.catalogs.filter(c=>c.id.startsWith('k20-')).length,5);
 });
 test('K20 cannot substitute another season or episode',()=>{
  const p=new K20Provider(cfg);const d={type:'series',nativeVideos:[{id:'one',season:1,episode:1,title:'1'}]};
