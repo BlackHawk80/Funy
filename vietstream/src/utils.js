@@ -144,7 +144,33 @@ function cached(key, ttlMs, fn) {
     .catch(() => null);
 }
 
+// Keep missing years last; do not mistake quality labels such as 1080p for years.
+function catalogYear(item) {
+  const max = new Date().getUTCFullYear() + 10;
+  for (const value of [item.year, item.releaseInfo, item.released]) {
+    const match = String(value || '').match(/\b(?:18|19|20|21)\d{2}\b/);
+    if (match && Number(match[0]) <= max) return Number(match[0]);
+  }
+  return 0;
+}
+
+function catalogTime(value) {
+  if (!value) return 0;
+  const n = typeof value === 'number' ? value : Date.parse(value);
+  return Number.isFinite(n) ? n : 0;
+}
+
+function sortCatalogNewest(items) {
+  return [...(items || [])].sort((a,b) =>
+    catalogYear(b) - catalogYear(a) ||
+    catalogTime(b.released) - catalogTime(a.released) ||
+    catalogTime(b.updatedAt) - catalogTime(a.updatedAt)
+  );
+}
+
 module.exports = {
+  catalogYear,
+  sortCatalogNewest,
   getJson,
   getText,
   normTitle,
