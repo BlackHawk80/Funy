@@ -30,8 +30,6 @@ const CATALOG_DEFS = {
   ],
   tophim: [],
   k20: [
-    { type: 'movie', id: 'k20-stp-movie', name: 'K20 · STP — Phim lẻ' },
-    { type: 'series', id: 'k20-stp-series', name: 'K20 · STP — Phim bộ' },
     { type: 'movie', id: 'k20-clbpx-movie', name: 'K20 · CLB Phim Xưa' },
     { type: 'movie', id: 'k20-vsmov-movie', name: 'K20 · VSMOV — Phim lẻ' },
     { type: 'series', id: 'k20-vsmov-series', name: 'K20 · VSMOV — Phim bộ' },
