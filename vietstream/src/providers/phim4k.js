@@ -17,6 +17,7 @@ class Phim4kProvider extends BaseProvider {
       name: item.name,
       originalName: item.origin_name,
       year: item.year,
+      updatedAt: item.modified?.time || item.updated_at,
       type,
       poster: mapImageUrl(item.poster_url, null),
       background: mapImageUrl(item.thumb_url, null),
@@ -37,6 +38,7 @@ class Phim4kProvider extends BaseProvider {
       background: it.background,
       releaseInfo: [it.quality, it.lang, it.year].filter(Boolean).join(' · ') || (it.year ? String(it.year) : undefined),
       year: it.year,
+      updatedAt: it.updatedAt,
       imdbId: it.imdbId || undefined
     };
   }
