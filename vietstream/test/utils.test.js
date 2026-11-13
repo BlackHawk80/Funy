@@ -39,3 +39,20 @@ test('KKPhim requests descending release-year order on every page and genre filt
  assert.deepEqual(calls.map(u=>u.searchParams.get('page')),['2','3']);
  for(const u of calls){assert.equal(u.searchParams.get('sort_field'),'year');assert.equal(u.searchParams.get('sort_type'),'desc');}
 });
+
+
+test('Vietnam catalog keeps country constraint for browsing, genre, search and pagination',async()=>{
+ const {KKphimProvider}=require('../src/providers/kkphim');const p=new KKphimProvider({apiUrl:'https://example.test',prefix:'kk_'});let calls=[];
+ p.request=async url=>{calls.push(new URL(url));return {data:{items:[
+ {slug:'vn-movie',name:'VN',type:'single',year:2026,country:[{slug:'viet-nam'}]},
+ {slug:'foreign',name:'Foreign',type:'single',country:[{slug:'han-quoc'}]},
+ {slug:'vn-series',name:'Series',type:'series',country:[{slug:'viet-nam'}]}
+ ]}}};
+ for(const extra of [{},{genre:'Hài Hước',skip:20},{search:'Mai',skip:40}]){
+ const list=await p.listCatalog('viet-nam',extra);assert.deepEqual(list.map(m=>m.id),['kk_vn-movie']);
+ }
+ assert.deepEqual(calls.map(u=>u.searchParams.get('page')),['1','2','3']);
+ for(const u of calls){assert.equal(u.searchParams.get('country'),'viet-nam');assert.equal(u.searchParams.get('sort_type'),'desc');}
+ assert.equal(calls[1].searchParams.get('category'),'hai-huoc');assert.equal(calls[2].searchParams.get('keyword'),'Mai');
+ const {buildManifest}=require('../src/manifest');assert.ok(buildManifest('https://test.example').catalogs.some(c=>c.id==='kkphim-viet-nam'&&c.type==='movie'));
+});
