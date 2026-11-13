@@ -19,11 +19,7 @@ const CATALOG_DEFS = {
     { type: 'movie', id: 'nguonc-phim-le', name: 'Phim lẻ (NguonC)' },
     { type: 'series', id: 'nguonc-phim-bo', name: 'Phim bộ (NguonC)' }
   ],
-  vnstream: [
-    { type: 'movie', id: 'vnstream-moi', name: 'Mới nhất (VNStream Guest)' },
-    { type: 'movie', id: 'vnstream-hanh-dong', name: 'Hành động (VNStream Guest)' },
-    { type: 'series', id: 'vnstream-bo', name: 'Phim bộ (VNStream Guest)' }
-  ],
+  vnstream: [],
   phim4k: [
     { type: 'movie', id: 'phim4k-phim-le', name: 'Phim lẻ 4K (Phim4K)' },
     { type: 'series', id: 'phim4k-phim-bo', name: 'Phim bộ 4K (Phim4K)' }
