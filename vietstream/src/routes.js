@@ -71,7 +71,7 @@ function shouldProxy(providerId) {
   const cfg = PROVIDERS[providerId];
   if (!cfg || !cfg.proxy) return false;
   // CoBe segments may carry an image header; our proxy normalizes them for Stremio.
-  if (providerId === 'vnstream') return true;
+  if (providerId === 'vnstream' || providerId === 'phim4k') return true;
   const list = CONFIG.proxyProviders;
   if (list.includes('none')) return false;
   return list.includes('*') || list.includes(providerId);
