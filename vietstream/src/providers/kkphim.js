@@ -88,6 +88,16 @@ class KKphimProvider extends BaseProvider {
 
   async listCatalog(kind, extra = {}) {
     const page = Math.max(1, Math.floor((parseInt(extra.skip, 10) || 0) / 20) + 1);
+    if (kind === 'viet-nam') {
+      const params = new URLSearchParams({ country: 'viet-nam', page: String(page), limit: '20', sort_field: 'year', sort_type: 'desc' });
+      if (extra.genre) params.set('category', GENRE_MAP[extra.genre] || extra.genre);
+      if (extra.search) params.set('keyword', extra.search);
+      const path = extra.search ? '/v1/api/tim-kiem' : '/v1/api/danh-sach/phim-le';
+      const data = await this.request(`${this.cfg.apiUrl}${path}?${params}`);
+      return (data?.data?.items || []).filter(item =>
+        (item.country || []).some(c => c.slug === 'viet-nam')
+      ).map(item => this.normalizeItem(item, 'movie')).filter(item => item.type === 'movie').map(item => this.toMeta(item));
+    }
     if (extra.search) return (await this.search(extra.search)).map((i) => this.toMeta(i));
 
     let items = [];
