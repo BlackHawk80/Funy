@@ -44,14 +44,11 @@ const PROVIDERS = {
     proxy: false
   },
   vnstream: {
-    id: 'vnstream',
-    name: 'VNStream',
-    prefix: 'vn_',
-    apiUrl: process.env.VNSTREAM_COBE_API_URL || 'https://egluy2hhb21vaw5ndw9pbmhl.darkbytes.xyz/api/v1',
-    siteUrl: (process.env.VNSTREAM_SITE_URL || 'https://cobephim.fit').replace('cobephim.biz', 'cobephim.fit'),
-    referer: 'https://cobephim.fit/',
+    id: 'vnstream', name: 'VNStream Guest', prefix: 'vn_',
+    apiUrl: process.env.VNSTREAM_GUEST_URL || 'https://addon.vnstream.io.vn/guest',
+    siteUrl: 'https://addon.vnstream.io.vn', referer: 'https://addon.vnstream.io.vn/',
     enabled: ENABLED_LIST ? ENABLED_LIST.includes('vnstream') : true,
-    proxy: true
+    proxy: false
   },
   phim4k: {
     id: 'phim4k',
@@ -111,7 +108,7 @@ const CONFIG = {
   proxyProviders: csv('PROXY_PROVIDERS', ['nguonc']),
   manifest: {
     id: 'community.vietstream',
-    version: process.env.VERSION || '1.3.1',
+    version: process.env.VERSION || '1.4.0',
     name: 'VietStream · Phim Việt',
     description:
       'Xem phim Việt đa nguồn: KKphim, K20, Xem20 (tùy chọn), Phim4K, Tophim, VnStream — Vietsub, Lồng tiếng, Thuyết minh. Tương thích Nuvio & Stremio.'
