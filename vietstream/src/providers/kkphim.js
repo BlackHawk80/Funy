@@ -50,6 +50,7 @@ class KKphimProvider extends BaseProvider {
       name: item.name,
       originalName: item.origin_name,
       year: item.year,
+      updatedAt: item.modified?.time || item.updated_at,
       type,
       poster: mapImageUrl(item.poster_url, this.cfg.cdnImage),
       background: mapImageUrl(item.thumb_url, this.cfg.cdnImage),
@@ -69,6 +70,7 @@ class KKphimProvider extends BaseProvider {
       background: it.background,
       releaseInfo: [it.quality, it.lang, it.year].filter(Boolean).join(' · ') || (it.year ? String(it.year) : undefined),
       year: it.year,
+      updatedAt: it.updatedAt,
       imdbId: it.imdbId || undefined
     };
   }
@@ -95,13 +97,13 @@ class KKphimProvider extends BaseProvider {
       const slug = GENRE_MAP[extra.genre] || String(extra.genre).toLowerCase().replace(/\s+/g, '-');
       const ep = CATALOG_ENDPOINTS[kind] || CATALOG_ENDPOINTS['phim-le'];
       const data = await this.request(
-        `${this.cfg.apiUrl}${ep.path}?category=${encodeURIComponent(slug)}&page=${page}&limit=20`
+        `${this.cfg.apiUrl}${ep.path}?category=${encodeURIComponent(slug)}&page=${page}&limit=20&sort_field=year&sort_type=desc`
       );
       items = (data && data.data && data.data.items) || [];
     } else {
       const ep = CATALOG_ENDPOINTS[kind];
       if (!ep) return [];
-      const data = await this.request(`${this.cfg.apiUrl}${ep.path}?page=${page}&limit=20`);
+      const data = await this.request(`${this.cfg.apiUrl}${ep.path}?page=${page}&limit=20&sort_field=year&sort_type=desc`);
       items = (data && data.data && data.data.items) || [];
     }
     return items.map((i) => this.toMeta(this.normalizeItem(i, CATALOG_ENDPOINTS[kind] ? CATALOG_ENDPOINTS[kind].type : 'movie')));
