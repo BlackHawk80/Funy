@@ -8,30 +8,7 @@ const { KKphimProvider } = require('./kkphim');
 const { normTitle } = require('../utils');
 const { wrappedVideoOffset } = require('../hls-proxy');
 
-// Nguồn VnStream — CoBePhim (biz redirects to fit):
-//  - API nội bộ: /movies/search, /episodes/by-idMovie/{id}, /movies/hot
-//  - Link xem: lấy m3u8 trực tiếp từ trang xem-phim (SSR React) hoặc giải mã embed (baseUrl + videoHash).
-
-const UA = CONFIG.userAgent;
-
-function unescapeSsr(body) {
-  let b = String(body || '');
-  while (b.includes('\\"')) {
-    b = b.replace(/\\"/g, '"').replace(/\\\\/g, '\\');
-  }
-  return b;
-}
-
-// Ưu tiên server: Vietsub -> Phụ đề -> Thuyết minh -> Song ngữ -> còn lại
-function serverScore(name) {
-  const s = String(name || '');
-  if (/vietsub/i.test(s)) return 0;
-  if (/phụ đề|phu de/i.test(s)) return 1;
-  if (/thuyết minh|thuyet minh/i.test(s)) return 2;
-  if (/song ngữ|song ngu/i.test(s)) return 3;
-  return 4;
-}
-
+// VNStream guest adapter. The helpers below are retained for the disabled NguonC module.
 // Only accept the same title, year and media type; never substitute by slug alone.
 async function matchingFallback(detail, slug) {
   const other = await new KKphimProvider(PROVIDERS.kkphim).detail(slug);
@@ -72,246 +49,91 @@ async function playableHls(url, headers = {}, allowWrapped = false) {
   });
 }
 
-class VnstreamProvider extends BaseProvider {
-  validateHls(url, headers) { return playableHls(url, headers, true); }
-  getFallback(detail, slug) { return matchingFallback(detail, slug); }
 
-  async search(q) {
-    if (!q) return [];
-    return cached(`vn:search:${q}`, 10 * 60 * 1000, async () => {
-      const data = await getJson(`${this.cfg.apiUrl}/movies/search?keyword=${encodeURIComponent(q)}`, {
-        headers: { 'User-Agent': UA, Referer: this.cfg.referer }
-      });
-      const result = (data && data.result) || [];
-      return result.map((it) => ({
-        slug: it.slug,
-        name: it.name,
-        originalName: it.origin_name,
-        year: it.publish_year || it.year || null,
-        type: it.type === 'series' ? 'series' : 'movie',
-        poster: mapImageUrl(it.poster || it.thumbnail, null),
-        imdbId: it.imdb_id || it.imdbId || null,
-        id: it.id
-      }));
-    });
-  }
-
-  toMeta(it) {
-    return {
-      id: `${this.prefix}${it.slug}`,
-      type: it.type === 'series' ? 'series' : 'movie',
-      name: it.name || it.originalName,
-      poster: it.poster,
-      posterShape: 'poster',
-      background: it.poster,
-      releaseInfo: it.year ? String(it.year) : undefined,
-      year: it.year
-    };
-  }
-
-  async listCatalog(kind, extra = {}) {
-    const page = Math.max(1, Math.floor((parseInt(extra.skip, 10) || 0) / 20) + 1);
-    if (extra.search) return (await this.search(extra.search)).filter(i => i.type === (kind === 'bo' ? 'series' : 'movie')).map((i) => this.toMeta(i));
-
-    if (kind === 'moi') {
-      const data = await getJson(`${this.cfg.apiUrl}/movies/hot`, {
-        headers: { 'User-Agent': UA, Referer: this.cfg.referer }
-      });
-      const result = (data && data.result) || [];
-      return result.filter(it => it.type !== 'series').slice(Math.max(0, parseInt(extra.skip,10)||0), Math.max(0, parseInt(extra.skip,10)||0)+20).map((it) =>
-        this.toMeta({ slug: it.slug, name: it.name, poster: mapImageUrl(it.poster || it.thumbnail, null), type: 'movie' })
-      );
-    }
-
-    // Các mục còn lại scrape HTML danh sách (phim-bo, the-loai/...)
-    const path =
-      kind === 'bo'
-        ? `${this.cfg.siteUrl}/phim-bo?page=${page}`
-        : `${this.cfg.siteUrl}/the-loai/${kind}?page=${page}`;
-    return cached(`vn:cat:${path}`, 30 * 60 * 1000, async () => {
-      let html = await getText(path, { headers: { 'User-Agent': UA, Referer: this.cfg.referer }, timeout: 10000 });
-      if (!html) return [];
-      html = unescapeSsr(html);
-      const hostEsc = this.cfg.siteUrl.replace(/https?:\/\//, '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const re = new RegExp(`"url":"https?://${hostEsc}/phim/([^"]+)","name":"([^"]+)"`, 'g');
-      const seen = new Set();
-      const out = [];
-      let m;
-      while ((m = re.exec(html)) && out.length < 40) {
-        const slug = m[1];
-        if (seen.has(slug)) continue;
-        seen.add(slug);
-        out.push(this.toMeta({ slug, name: m[2], type: kind === 'bo' ? 'series' : 'movie' }));
-      }
-      return out;
-    });
-  }
-
-  // Scrape trang chi tiết (SSR) để lấy id + imdb_id + năm
-  async detailFromSite(slug) {
-    return cached(`vn:detail:${slug}`, 60 * 60 * 1000, async () => {
-      let html = await getText(`${this.cfg.siteUrl}/phim/${encodeURIComponent(slug)}`, {
-        headers: { 'User-Agent': UA, Referer: this.cfg.referer },
-        timeout: 10000
-      });
-      if (!html) return null;
-      html = unescapeSsr(html);
-      const i = html.indexOf('"movie":{');
-      if (i < 0) return null;
-      const chunk = html.slice(i, i + 4000);
-      const grab = (re) => {
-        const m = chunk.match(re);
-        return m ? m[1] : null;
-      };
-      const idM = chunk.match(/"id":(\d+)/);
-      return {
-        id: idM ? parseInt(idM[1], 10) : null,
-        slug,
-        name: grab(/"name":"([^"]+)"/),
-        originalName: grab(/"origin_name":"([^"]+)"/),
-        imdbId: grab(/"imdb_id":"([^"]+)"/),
-        year: grab(/"publish_year":(\d+)/),
-        type: /"type":"series"/.test(chunk) ? 'series' : 'movie',
-        poster: mapImageUrl(grab(/"poster":"([^"]+)"/), null)
-      };
-    });
-  }
-
-  async detail(slug) {
-    slug = decodeNativeId(slug)?.id || slug;
-    const d = await this.detailFromSite(slug);
-    if (!d || !d.id) return null;
-    const eps = await this.episodes(d.id);
-    const videos = [];
-    const seen = new Set();
-    for (const e of eps) {
-      const s = parseInt(e.season_number, 10) || 1;
-      const num = parseEpNum(e.name) || parseEpNum(e.slug);
-      if (!num) continue;
-      const key = `${s}-${num}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      videos.push({
-        id: `${this.prefix}${slug}:${s}:${num}`,
-        title: `Tập ${num}`,
-        season: s,
-        episode: num,
-        released: new Date().toISOString()
-      });
-    }
-    return {
-      slug,
-      name: d.name,
-      originalName: d.originalName,
-      year: d.year ? parseInt(d.year, 10) : null,
-      type: d.type,
-      poster: d.poster,
-      background: d.poster,
-      description: '',
-      imdbId: d.imdbId,
-      servers: [],
-      videos: videos.sort((a,b) => a.season-b.season || a.episode-b.episode)
-    };
-  }
-
-  async episodes(movieId) {
-    return cached(`vn:eps:${movieId}`, 30 * 60 * 1000, async () => {
-      const data = await getJson(`${this.cfg.apiUrl}/episodes/by-idMovie/${movieId}`, {
-        headers: { 'User-Agent': UA, Referer: this.cfg.referer }
-      });
-      return Array.isArray(data) ? data : [];
-    });
-  }
-
-  // Lấy m3u8 từ trang xem phim của cobephim
-  async watchM3u8(slug, epId) {
-    const url = `${this.cfg.siteUrl}/xem-phim/${encodeURIComponent(slug)}.${epId}`;
-    let html = await getText(url, {
-      headers: { 'User-Agent': UA, Referer: `${this.cfg.siteUrl}/`, Accept: 'text/html' },
-      timeout: 12000
-    });
-    if (!html) return null;
-
-    // HTML React SSR có thể escape dấu quote
-    let m = html.match(/"link"\s*:\s*\\?"(https?:\/\/[^"\\]+?\.m3u8[^"\\]*)\\?"/);
-    if (m) return m[1];
-    m = html.match(/"link"\s*:\s*"(https?:\/\/[^"]+?\.m3u8[^"]*)"/);
-    if (m) return m[1];
-
-    html = unescapeSsr(html);
-    m = html.match(/"type":"([^"]+)","link":"([^"]+)"/);
-    if (!m) return null;
-    const [, typ, link] = m;
-    if (/m3u8/i.test(typ)) return link;
-    if (/embed/i.test(typ)) {
-      const direct = await this.resolveEmbed(link).catch(() => null);
-      return direct || null;
-    }
-    return null;
-  }
-
-  async resolveEmbed(embedUrl) {
-    const response = await fetch(embedUrl, {
-      headers: { 'User-Agent': UA, Referer: `${this.cfg.siteUrl}/` },
-      signal: AbortSignal.timeout(5000)
-    });
-    if (!response.ok) return null;
-    const html = await response.text();
-    if (!html) return null;
-    const bm = html.match(/baseUrl\s*=\s*"([^"]+)"/);
-    const vh = html.match(/videoHash\s*=\s*"([^"]+)"/);
-    if (bm && vh) return `${bm[1]}/stream/${vh[1]}/master.m3u8`;
-    const m = html.match(/https?:\/\/[^"'\s]+\.m3u8[^"'\s]*/i);
-    return m ? m[0] : null;
-  }
-
-  async streamsFromSlug(slug, type, season, episode) {
-    const isMovie = type !== 'series';
-    slug = decodeNativeId(slug)?.id || slug;
-    const d = await this.detailFromSite(slug);
-    if (!d || !d.id) return [];
-    let eps = await this.episodes(d.id);
-    if (!eps.length) return [];
-
-    // chọn tập
-    let pool = eps;
-    if (!isMovie) {
-      const s = parseInt(season, 10) || 1;
-      const target = parseInt(episode, 10) || 1;
-      const bySeason = eps.filter((e) => (parseInt(e.season_number, 10) || 1) === s);
-      pool = bySeason;
-      const byNum = pool.filter((e) => parseEpNum(e.name) === target || parseEpNum(e.slug) === target);
-      pool = byNum;
-    } else {
-      pool = eps.filter((e) => /full|tap-full/i.test(`${e.name} ${e.slug}`)) || eps;
-      if (!pool.length) pool = eps;
-    }
-    if (!pool.length) return [];
-
-    // mỗi server có bản ghi riêng cho cùng tập; sắp xếp theo mức ưu tiên audio
-    const sorted = [...pool].sort((a, b) => serverScore(a.server) - serverScore(b.server));
-    const headers = { 'User-Agent': UA, Referer: `${this.cfg.siteUrl}/` };
-    const candidates = await Promise.allSettled(sorted.slice(0, 8).map(async ep => {
-      const url = await this.watchM3u8(slug, ep.id);
-      if (typeof url !== 'string' || !await this.validateHls(url, headers)) return null;
-      return this.makeStream({ movieName: d.name, epLabel: isMovie ? 'Full' : `Tập ${episode}`,
-        audio: detectAudio(ep.server, 'Vietsub'), quality: 'HD', url, headers });
-    }));
-    const streams = candidates.filter(r => r.status === 'fulfilled' && r.value).map(r => r.value);
-    if (!streams.length && (isMovie || (Number(season) || 1) === 1)) {
-      const fallback = await this.getFallback({ ...d, type }, slug);
-      for (const server of fallback?.servers || []) {
-        const entry = isMovie ? server.items.find(e => /^(full|1|tập 0?1)$/i.test(e.name)) :
-          server.items.find(e => parseEpNum(e.name) === (Number(episode) || 1));
-        if (!entry?.m3u8 || !await this.validateHls(entry.m3u8, {})) continue;
-        const stream = this.makeStream({ movieName: d.name, epLabel: isMovie ? 'Full' : `Tập ${episode}`,
-          audio: detectAudio(server.serverName, 'Vietsub'), quality: fallback.quality, url: entry.m3u8 });
-        stream.name = `KKphim dự phòng\n${fallback.quality || 'HD'} · ${detectAudio(server.serverName, 'Vietsub')}`;
-        streams.push(stream);
-      }
-    }
-    return streams;
-  }
+function guestEpisode(stream) {
+  const name = String(stream.name || '');
+  const label = `${name} ${stream.title || ''} ${stream.behaviorHints?.filename || ''}`;
+  const se = label.match(/(?:^|[^a-z0-9])S(\d+)E(\d+)(?=$|[^0-9])/i);
+  const ep = name.match(/(?:tập|tap|episode|ep)\s*0*(\d+)/i) || name.match(/^0*(\d+)$/);
+  if (!ep && !se) return null;
+  return { season: se ? Number(se[1]) : 1, episode: ep ? Number(ep[1]) : Number(se[2]) };
 }
 
-module.exports = { VnstreamProvider, matchingFallback, playableHls };
+class VnstreamProvider extends BaseProvider {
+  async request(url) {
+    try {
+      const r = await fetch(url, { headers: this.headers, signal: AbortSignal.timeout(20000) });
+      if (!r.ok) { console.warn('[VNStream guest]',r.status,new URL(url).pathname); return null; }
+      return await r.json();
+    } catch(e) { console.warn('[VNStream guest]',e.name); return null; }
+  }
+  native(slug, type = 'series') { return decodeNativeId(slug) || {id:slug,type}; }
+  normalize(meta, type) {
+    return {...meta, type, slug:require('./k20').encodeNativeId(type,meta.id),
+      originalName:String(meta.description || '').split(' / ')[1] || meta.name,
+      year:parseInt(meta.year || meta.releaseInfo,10) || undefined,
+      background:meta.background || meta.banner || meta.poster};
+  }
+  toMeta(item) {
+    return {...item, id:this.prefix+item.slug, releaseInfo:item.releaseInfo == null ? undefined : String(item.releaseInfo)};
+  }
+  async fetchCatalog(type, catalog, extra={}) {
+    const parts=[];
+    for(const key of ['search','genre','skip']) if(extra[key] !== undefined && extra[key] !== '') parts.push(`${key}=${encodeURIComponent(extra[key])}`);
+    const data=await this.request(`${this.cfg.apiUrl}/catalog/${type}/${catalog}${parts.length ? '/'+parts.join('&') : ''}.json`);
+    return (data?.metas || []).filter(m=>m.id).map(m=>this.normalize(m,type));
+  }
+  async listCatalog(kind,extra={}) {
+    const type=kind==='bo' ? 'series' : 'movie';
+    const filters=kind==='hanh-dong' ? {...extra,genre:'Hành Động'} : extra;
+    return (await this.fetchCatalog(type,extra.search ? 'vnstream-vietsub' : 'vnstream-top',filters)).map(m=>this.toMeta(m));
+  }
+  async search(q) {
+    return (await Promise.all(['movie','series'].map(type=>this.fetchCatalog(type,'vnstream-vietsub',{search:q})))).flat();
+  }
+  async rawStreams(native) {
+    return await cached(`vn-guest-v2:streams:${native.type}:${native.id}`,60000,async()=>{
+      const d=await this.request(`${this.cfg.apiUrl}/stream/${native.type}/${encodeURIComponent(native.id)}.json`);
+      return (d?.streams || []).filter(s=>/^https?:\/\//i.test(s.url || ''));
+    }) || [];
+  }
+  async detail(slug,type='series') {
+    const native=this.native(slug,type);
+    const d=await this.request(`${this.cfg.apiUrl}/meta/${native.type}/${encodeURIComponent(native.id)}.json`);
+    if(!d?.meta) return null;
+    const meta=this.normalize(d.meta,native.type);
+    const videos=[]; const seen=new Set();
+    if(native.type==='series') {
+      for(const stream of await this.rawStreams(native)) {
+        const ep=guestEpisode(stream);if(!ep || seen.has(`${ep.season}:${ep.episode}`))continue;
+        seen.add(`${ep.season}:${ep.episode}`);
+        videos.push({id:`${this.prefix}${slug}:${ep.season}:${ep.episode}`,title:`Tập ${ep.episode}`,...ep});
+      }
+      videos.sort((a,b)=>a.season-b.season || a.episode-b.episode);
+    }
+    return {...meta,slug,videos};
+  }
+  buildMeta(d) {
+    if(!d)return null;
+    const {slug,originalName,year,...meta}=d;
+    return {...meta,id:this.prefix+slug,releaseInfo:d.releaseInfo == null ? undefined : String(d.releaseInfo)};
+  }
+  async streamsFromSlug(slug,type,season=1,episode=1) {
+    const native=this.native(slug,type);
+    let list=await this.rawStreams(native);
+    if(native.type==='series') list=list.filter(s=>{const e=guestEpisode(s);return e && e.season===Number(season) && e.episode===Number(episode)});
+    return list.map(s=>{
+      const mapped={...s,name:`VNStream Guest · ${s.name || 'Full'}`,title:s.description || s.title || s.name};
+      Object.defineProperty(mapped,'_providerId',{value:this.id,enumerable:false});return mapped;
+    });
+  }
+  async resolveStream(options) {
+    const hits=await this.fetchCatalog(options.type==='series'?'series':'movie','vnstream-vietsub',{search:options.title});
+    for(const item of this.matchCandidates(hits,options).slice(0,3)) {
+      const streams=await this.streamsFromSlug(item.slug,options.type,options.season,options.episode);
+      if(streams.length)return streams;
+    }
+    return [];
+  }
+}
+module.exports = { VnstreamProvider, guestEpisode, matchingFallback, playableHls };
