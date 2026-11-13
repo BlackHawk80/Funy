@@ -20,9 +20,9 @@ const CATALOG_DEFS = {
     { type: 'series', id: 'nguonc-phim-bo', name: 'Phim bộ (NguonC)' }
   ],
   vnstream: [
-    { type: 'movie', id: 'vnstream-moi', name: 'Mới nhất (VnStream)' },
-    { type: 'movie', id: 'vnstream-hanh-dong', name: 'Hành động (VnStream)' },
-    { type: 'series', id: 'vnstream-bo', name: 'Phim bộ (VnStream)' }
+    { type: 'movie', id: 'vnstream-moi', name: 'Mới nhất (VNStream Guest)' },
+    { type: 'movie', id: 'vnstream-hanh-dong', name: 'Hành động (VNStream Guest)' },
+    { type: 'series', id: 'vnstream-bo', name: 'Phim bộ (VNStream Guest)' }
   ],
   phim4k: [
     { type: 'movie', id: 'phim4k-phim-le', name: 'Phim lẻ 4K (Phim4K)' },
@@ -30,7 +30,6 @@ const CATALOG_DEFS = {
   ],
   tophim: [],
   k20: [
-    { type: 'movie', id: 'k20-clbpx-movie', name: 'K20 · CLB Phim Xưa' },
     { type: 'movie', id: 'k20-vsmov-movie', name: 'K20 · VSMOV — Phim lẻ' },
     { type: 'series', id: 'k20-vsmov-series', name: 'K20 · VSMOV — Phim bộ' },
     { type: 'movie', id: 'k20-vsmov-4k', name: 'K20 · Phim 4K' },
