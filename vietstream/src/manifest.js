@@ -30,8 +30,14 @@ const CATALOG_DEFS = {
   ],
   tophim: [],
   k20: [
-    { type: 'movie', id: 'k20-movie', name: 'Phim lẻ đa nguồn (K20)' },
-    { type: 'series', id: 'k20-series', name: 'Phim bộ đa nguồn (K20)' }
+    { type: 'movie', id: 'k20-stp-movie', name: 'K20 · STP — Phim lẻ' },
+    { type: 'series', id: 'k20-stp-series', name: 'K20 · STP — Phim bộ' },
+    { type: 'movie', id: 'k20-clbpx-movie', name: 'K20 · CLB Phim Xưa' },
+    { type: 'movie', id: 'k20-vsmov-movie', name: 'K20 · VSMOV — Phim lẻ' },
+    { type: 'series', id: 'k20-vsmov-series', name: 'K20 · VSMOV — Phim bộ' },
+    { type: 'movie', id: 'k20-vsmov-4k', name: 'K20 · Phim 4K' },
+    { type: 'movie', id: 'k20-kkphim-movie', name: 'K20 · KKPhim — Phim lẻ' },
+    { type: 'series', id: 'k20-kkphim-series', name: 'K20 · KKPhim — Phim bộ' }
   ]
 };
 
