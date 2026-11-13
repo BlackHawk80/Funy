@@ -39,7 +39,7 @@ const PROVIDERS = {
     apiFallbacks: ['https://nguonc.com/api'],
     siteUrl: 'https://phim.nguonc.com',
     referer: 'https://phim.nguonc.com/',
-    enabled: ENABLED_LIST ? ENABLED_LIST.includes('nguonc') : true,
+    enabled: false,
     // NguonC mở trình phát ngoài bằng externalUrl.
     proxy: false
   },
@@ -111,10 +111,10 @@ const CONFIG = {
   proxyProviders: csv('PROXY_PROVIDERS', ['nguonc']),
   manifest: {
     id: 'community.vietstream',
-    version: process.env.VERSION || '1.2.1',
+    version: process.env.VERSION || '1.3.0',
     name: 'VietStream · Phim Việt',
     description:
-      'Xem phim Việt đa nguồn: KKphim, K20, Xem20 (tùy chọn), NguonC, Phim4K, Tophim, VnStream — Vietsub, Lồng tiếng, Thuyết minh. Tương thích Nuvio & Stremio.'
+      'Xem phim Việt đa nguồn: KKphim, K20, Xem20 (tùy chọn), Phim4K, Tophim, VnStream — Vietsub, Lồng tiếng, Thuyết minh. Tương thích Nuvio & Stremio.'
   }
 };
 
