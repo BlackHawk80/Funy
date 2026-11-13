@@ -4,10 +4,10 @@ const BaseProvider = require('./base');
 const { cached, detectAudio, parseEpNum, qualityFromText } = require('../utils');
 const { CONFIG } = require('../config');
 
-const K20_SOURCES = ['stp', 'clbpx', 'vsmov', 'kkphim'];
+const K20_SOURCES = ['clbpx', 'vsmov', 'kkphim'];
 const K20_CATALOGS = {
-  movie: ['stp-movie', 'clbpx-movie', 'vsmov-movie', 'vsmov-4k', 'kkphim-movie'],
-  series: ['stp-series', 'vsmov-series', 'kkphim-series']
+  movie: ['clbpx-movie', 'vsmov-movie', 'vsmov-4k', 'kkphim-movie'],
+  series: ['vsmov-series', 'kkphim-series']
 };
 
 function encodeNativeId(type, id) {
@@ -80,7 +80,7 @@ class K20Provider extends BaseProvider {
     suffix = (parts.length ? '/' + parts.join('&') : '') + '.json';
 
     const data = await this.request(`${this.cfg.apiUrl}/catalog/${type}/${catalogId}${suffix}`);
-    return ((data && data.metas) || []).filter(meta => meta.id && !String(meta.id).startsWith('nguonc:')).map((meta) => this.normalizeMeta(meta, type));
+    return ((data && data.metas) || []).filter(meta => meta.id && !/^(nguonc|stp):/.test(String(meta.id))).map((meta) => this.normalizeMeta(meta, type));
   }
 
   async searchType(query, type) {
@@ -151,7 +151,7 @@ class K20Provider extends BaseProvider {
 
   async detail(slug) {
     const native = decodeNativeId(slug);
-    if (!native || native.id.startsWith('nguonc:')) return null;
+    if (!native || /^(nguonc|stp):/.test(native.id)) return null;
     return cached(`k20:detail:${native.type}:${native.id}`, 60 * 60 * 1000, async () => {
       const data = await this.request(
         `${this.cfg.apiUrl}/meta/${native.type}/${encodeURIComponent(native.id)}.json`
