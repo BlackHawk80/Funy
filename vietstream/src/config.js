@@ -58,7 +58,7 @@ const PROVIDERS = {
     siteUrl: process.env.PHIM4K_SITE_URL || 'https://vsmov.com',
     referer: 'https://vsmov.com/',
     enabled: ENABLED_LIST ? ENABLED_LIST.includes('phim4k') : true,
-    proxy: false
+    proxy: true
   },
   tophim: {
     id: 'tophim',
@@ -108,7 +108,7 @@ const CONFIG = {
   proxyProviders: csv('PROXY_PROVIDERS', ['nguonc']),
   manifest: {
     id: 'community.vietstream',
-    version: process.env.VERSION || '1.4.0',
+    version: process.env.VERSION || '1.4.1',
     name: 'VietStream · Phim Việt',
     description:
       'Xem phim Việt đa nguồn: KKphim, K20, Xem20 (tùy chọn), Phim4K, Tophim, VnStream — Vietsub, Lồng tiếng, Thuyết minh. Tương thích Nuvio & Stremio.'
