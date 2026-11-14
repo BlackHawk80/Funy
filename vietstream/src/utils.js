@@ -183,22 +183,35 @@ function catalogYear(item) {
   return 0;
 }
 
-function catalogTime(value) {
-  if (!value) return 0;
-  const n = typeof value === 'number' ? value : Date.parse(value);
-  return Number.isFinite(n) ? n : 0;
+// Only release fields count. Upload/modified dates are never premiere dates.
+function releaseDate(item) {
+  for (const value of [item.released, item.release_date, item.releaseDate, item.first_air_date]) {
+    const text = String(value || '').trim();
+    const iso = text.match(/^(\d{4})-(\d{2})-(\d{2})(?:T.*)?$/);
+    const local = text.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+    if (!iso && !local) continue;
+    const [year, month, day] = iso ? iso.slice(1).map(Number) : [Number(local[3]), Number(local[2]), Number(local[1])];
+    const date = new Date(Date.UTC(year, month - 1, day));
+    if (year < 1800 || year > new Date().getUTCFullYear() + 10 ||
+        date.getUTCFullYear() !== year || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) continue;
+    return date.toISOString().slice(0, 10);
+  }
+  return undefined;
+}
+
+function releaseOrder(item) {
+  const date = releaseDate(item);
+  // Missing month/day sort after known dates in the same year; not a fabricated premiere.
+  return date ? Number(date.replace(/-/g, '')) : catalogYear(item) * 10000;
 }
 
 function sortCatalogNewest(items) {
-  return [...(items || [])].sort((a,b) =>
-    catalogYear(b) - catalogYear(a) ||
-    catalogTime(b.released) - catalogTime(a.released) ||
-    catalogTime(b.updatedAt) - catalogTime(a.updatedAt)
-  );
+  return [...(items || [])].sort((a, b) => releaseOrder(b) - releaseOrder(a));
 }
 
 module.exports = {
   cachedCatalog,
+  releaseDate,
   catalogYear,
   sortCatalogNewest,
   getJson,
