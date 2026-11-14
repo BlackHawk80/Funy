@@ -5,7 +5,7 @@ const path = require('node:path');
 const fs = require('node:fs');
 const { CONFIG, PROVIDERS } = require('./config');
 const cinemeta = require('./cinemeta');
-const { cached, getJson, sortCatalogNewest } = require('./utils');
+const { cached, cachedCatalog, getJson, sortCatalogNewest } = require('./utils');
 const { router: hlsRouter, getBaseUrl, b64e } = require('./hls-proxy');
 const { buildManifest, enabledProviders } = require('./manifest');
 
@@ -216,12 +216,25 @@ async function catalogSend(req, res) {
   const extra = req._extra || {};
   if (process.env.DEBUG) console.log('[catalog]', providerId, kind, JSON.stringify(extra));
   const key = `cat:${providerId}:${kind}:${type}:${extra.search || ''}|${extra.genre || ''}|${extra.skip || 0}`;
-  const metas = await cached(key, 10 * 60 * 1000, () => p.listCatalog(kind, extra));
+  let metas, stale = false;
+  if (providerId === 'kkphim') {
+    try {
+      ({ metas, stale } = await cachedCatalog(key, () => p.listCatalog(kind, extra)));
+    } catch (error) {
+      console.warn('[catalog] KKPhim upstream unavailable:', kind);
+      return res.status(503).set({ 'Cache-Control': 'no-store', 'Retry-After': '15' })
+        .json({ error: 'KKPhim tạm thời không phản hồi. Vui lòng thử lại.', cacheMaxAge: 0 });
+    }
+  } else {
+    metas = await cached(key, 10 * 60 * 1000, () => p.listCatalog(kind, extra));
+  }
   const filtered = (metas || [])
     .filter((m) => m && m.id)
     .filter((m) => !m.type || m.type === type);
   if (process.env.DEBUG) console.log('[catalog] raw:', (metas || []).length, '-> filtered:', filtered.length);
-  res.json({ metas: sortCatalogNewest(filtered), cacheMaxAge: 600 });
+  const cacheMaxAge = stale ? 30 : filtered.length ? 600 : 0;
+  if (!cacheMaxAge) res.set('Cache-Control', 'no-store');
+  res.json({ metas: sortCatalogNewest(filtered), cacheMaxAge, ...(stale ? { stale: true } : {}) });
 }
 
 // /meta/series/kk_slug.json
