@@ -144,6 +144,35 @@ function cached(key, ttlMs, fn) {
     .catch(() => null);
 }
 
+
+const _catalogCache = new Map();
+const _catalogPending = new Map();
+
+// Preserve only successful nonempty pages, scoped by the full request key.
+// Stale data is bounded to one day and only used on upstream failure.
+function cachedCatalog(key, fn, { ttl = 600000, staleTtl = 86400000 } = {}) {
+  const hit = _catalogCache.get(key);
+  if (hit && hit.exp > Date.now()) return Promise.resolve({ metas: hit.value, stale: false });
+  if (_catalogPending.has(key)) return _catalogPending.get(key);
+  const work = Promise.resolve().then(fn).then(value => {
+    if (!Array.isArray(value)) throw new Error('Invalid catalog response');
+    if (value.length) {
+      _catalogCache.delete(key);
+      _catalogCache.set(key, { value, exp: Date.now() + ttl, staleExp: Date.now() + staleTtl });
+      while (_catalogCache.size > 200) _catalogCache.delete(_catalogCache.keys().next().value);
+    } else {
+      // A legitimate empty search/page must not resurrect an old matching page.
+      _catalogCache.delete(key);
+    }
+    return { metas: value, stale: false };
+  }).catch(error => {
+    if (hit && hit.staleExp > Date.now()) return { metas: hit.value, stale: true };
+    throw error;
+  }).finally(() => _catalogPending.delete(key));
+  _catalogPending.set(key, work);
+  return work;
+}
+
 // Keep missing years last; do not mistake quality labels such as 1080p for years.
 function catalogYear(item) {
   const max = new Date().getUTCFullYear() + 10;
@@ -169,6 +198,7 @@ function sortCatalogNewest(items) {
 }
 
 module.exports = {
+  cachedCatalog,
   catalogYear,
   sortCatalogNewest,
   getJson,
