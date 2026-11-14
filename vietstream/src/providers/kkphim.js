@@ -1,7 +1,7 @@
 'use strict';
 
 const BaseProvider = require('./base');
-const { getJson, stripHtml, mapImageUrl, parseEpNum, qualityFromText, cached } = require('../utils');
+const { releaseDate, getJson, stripHtml, mapImageUrl, parseEpNum, qualityFromText, cached } = require('../utils');
 const { CONFIG } = require('../config');
 
 // Nguồn KKphim — API công khai tại https://phimapi.com
@@ -60,6 +60,7 @@ class KKphimProvider extends BaseProvider {
       name: item.name,
       originalName: item.origin_name,
       year: item.year,
+      released: releaseDate(item),
       updatedAt: item.modified?.time || item.updated_at,
       type,
       poster: mapImageUrl(item.poster_url, this.cfg.cdnImage),
@@ -80,6 +81,7 @@ class KKphimProvider extends BaseProvider {
       background: it.background,
       releaseInfo: [it.quality, it.lang, it.year].filter(Boolean).join(' · ') || (it.year ? String(it.year) : undefined),
       year: it.year,
+      released: it.released,
       updatedAt: it.updatedAt,
       imdbId: it.imdbId || undefined
     };
