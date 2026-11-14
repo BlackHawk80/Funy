@@ -27,7 +27,7 @@ test('Catalog newest first handles missing years, quality labels and same-year d
  const {sortCatalogNewest,catalogYear}=require('../src/utils');
  const items=[{id:'unknown',releaseInfo:'4K 2160p'},{id:'old',year:1997},{id:'recent-old-update',year:2026,updatedAt:'2026-01-01'},{id:'recent-new-update',releaseInfo:'HD · Vietsub · 2026',updatedAt:'2026-11-01'},{id:'mid',year:2024}];
  const before=JSON.stringify(items);
- assert.deepEqual(sortCatalogNewest(items).map(x=>x.id),['recent-new-update','recent-old-update','mid','old','unknown']);
+ assert.deepEqual(sortCatalogNewest(items).map(x=>x.id),['recent-old-update','recent-new-update','mid','old','unknown']);
  assert.equal(JSON.stringify(items),before);assert.equal(catalogYear({releaseInfo:'4K 2160p · 2025'}),2025);
  assert.deepEqual(sortCatalogNewest([{id:'a',year:2026},{id:'b',year:2026}]).map(x=>x.id),['a','b']);
 });
@@ -55,4 +55,20 @@ test('Vietnam catalog keeps country constraint for browsing, genre, search and p
  for(const u of calls){assert.equal(u.searchParams.get('country'),'viet-nam');assert.equal(u.searchParams.get('sort_type'),'desc');}
  assert.equal(calls[1].searchParams.get('category'),'hai-huoc');assert.equal(calls[2].searchParams.get('keyword'),'Mai');
  const {buildManifest}=require('../src/manifest');assert.ok(buildManifest('https://test.example').catalogs.some(c=>c.id==='kkphim-viet-nam'&&c.type==='movie'));
+});
+
+test('release date sorts by year month day and ignores upload dates', () => {
+ const {sortCatalogNewest,releaseDate}=require('../src/utils');
+ const rows=[
+ {id:'old-reuploaded',released:'2020-12-31',year:2026,updatedAt:'2026-12-31'},
+ {id:'jan',release_date:'2026-01-31'},
+ {id:'nov',released:'2026-11-02T00:00:00Z'},
+ {id:'oct',first_air_date:'31/10/2026'},
+ {id:'year-only',year:2026},
+ {id:'invalid',released:'2026-02-30'},
+ {id:'unknown',updatedAt:'2027-01-01'}];
+ assert.deepEqual(sortCatalogNewest(rows).map(x=>x.id),['nov','oct','jan','year-only','invalid','old-reuploaded','unknown']);
+ assert.equal(releaseDate({released:'2026-02-30'}),undefined);
+ assert.equal(releaseDate({released:'2024-02-29'}),'2024-02-29');
+ assert.equal(releaseDate({modified:{time:'2026-11-14'}}),undefined);
 });
