@@ -41,6 +41,16 @@ const CATALOG_ENDPOINTS = {
 };
 
 class KKphimProvider extends BaseProvider {
+  // A failed catalog request is not a successful empty page.
+  async catalogRequest(url) {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const data = await this.request(url, { timeout: 12000 });
+      if (data?.status !== false && Array.isArray(data?.data?.items)) return data;
+      if (!attempt) await new Promise(resolve => setTimeout(resolve, 300));
+    }
+    throw new Error('KKPHIM_CATALOG_UNAVAILABLE');
+  }
+
   normalizeItem(item, fallbackType = 'movie') {
     let type = fallbackType;
     if (item.type === 'single' || item.tmdb?.type === 'movie') type = 'movie';
@@ -93,12 +103,17 @@ class KKphimProvider extends BaseProvider {
       if (extra.genre) params.set('category', GENRE_MAP[extra.genre] || extra.genre);
       if (extra.search) params.set('keyword', extra.search);
       const path = extra.search ? '/v1/api/tim-kiem' : '/v1/api/danh-sach/phim-le';
-      const data = await this.request(`${this.cfg.apiUrl}${path}?${params}`);
+      const data = await this.catalogRequest(`${this.cfg.apiUrl}${path}?${params}`);
       return (data?.data?.items || []).filter(item =>
         (item.country || []).some(c => c.slug === 'viet-nam')
       ).map(item => this.normalizeItem(item, 'movie')).filter(item => item.type === 'movie').map(item => this.toMeta(item));
     }
-    if (extra.search) return (await this.search(extra.search)).map((i) => this.toMeta(i));
+    if (extra.search) {
+      const params = new URLSearchParams({ keyword: extra.search, page: String(page), limit: '20', sort_field: 'year', sort_type: 'desc' });
+      if (extra.genre) params.set('category', GENRE_MAP[extra.genre] || extra.genre);
+      const data = await this.catalogRequest(`${this.cfg.apiUrl}/v1/api/tim-kiem?${params}`);
+      return data.data.items.map(i => this.toMeta(this.normalizeItem(i, CATALOG_ENDPOINTS[kind]?.type || 'movie')));
+    }
 
     let items = [];
     if (extra.genre) {
@@ -106,14 +121,14 @@ class KKphimProvider extends BaseProvider {
       // endpoint the-loai trả lẫn cả movie lẫn series
       const slug = GENRE_MAP[extra.genre] || String(extra.genre).toLowerCase().replace(/\s+/g, '-');
       const ep = CATALOG_ENDPOINTS[kind] || CATALOG_ENDPOINTS['phim-le'];
-      const data = await this.request(
+      const data = await this.catalogRequest(
         `${this.cfg.apiUrl}${ep.path}?category=${encodeURIComponent(slug)}&page=${page}&limit=20&sort_field=year&sort_type=desc`
       );
       items = (data && data.data && data.data.items) || [];
     } else {
       const ep = CATALOG_ENDPOINTS[kind];
       if (!ep) return [];
-      const data = await this.request(`${this.cfg.apiUrl}${ep.path}?page=${page}&limit=20&sort_field=year&sort_type=desc`);
+      const data = await this.catalogRequest(`${this.cfg.apiUrl}${ep.path}?page=${page}&limit=20&sort_field=year&sort_type=desc`);
       items = (data && data.data && data.data.items) || [];
     }
     return items.map((i) => this.toMeta(this.normalizeItem(i, CATALOG_ENDPOINTS[kind] ? CATALOG_ENDPOINTS[kind].type : 'movie')));
