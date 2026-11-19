@@ -2,6 +2,9 @@
 
 const {
   getJson,
+  metadataNames,
+  metadataRating,
+  releaseDate,
   normTitle,
   parseEpNum,
   detectAudio,
@@ -133,11 +136,16 @@ class BaseProvider {
       posterShape: 'poster',
       background: d.background || d.poster,
       description: d.description || '',
-      releaseInfo: [d.quality, d.lang, d.year].filter(Boolean).join(' · ') || (d.year ? String(d.year) : undefined),
+      releaseInfo: d.year ? String(d.year) : undefined,
       genres: d.genres || undefined,
-      runtime: d.time || undefined,
-      cast: d.cast || undefined,
-      director: d.director || undefined
+      runtime: d.time || d.runtime || undefined,
+      country: metadataNames(d.country).join(', ') || undefined,
+      imdbRating: metadataRating(d.imdbRating),
+      imdb_id: /^tt\\d+$/.test(d.imdbId || '') ? d.imdbId : undefined,
+      year: d.year || undefined,
+      released: releaseDate(d),
+      cast: metadataNames(d.cast),
+      director: metadataNames(d.director)
     };
     if (meta.type === 'series' && withVideos && Array.isArray(d.videos)) {
       meta.videos = d.videos;
