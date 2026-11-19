@@ -5,7 +5,7 @@ const path = require('node:path');
 const fs = require('node:fs');
 const { CONFIG, PROVIDERS } = require('./config');
 const cinemeta = require('./cinemeta');
-const { cached, cachedCatalog, getJson, sortCatalogNewest } = require('./utils');
+const { enrichCatalog, cached, cachedCatalog, getJson, sortCatalogNewest } = require('./utils');
 const { router: hlsRouter, getBaseUrl, b64e } = require('./hls-proxy');
 const { buildManifest, enabledProviders } = require('./manifest');
 
@@ -232,9 +232,10 @@ async function catalogSend(req, res) {
     .filter((m) => m && m.id)
     .filter((m) => !m.type || m.type === type);
   if (process.env.DEBUG) console.log('[catalog] raw:', (metas || []).length, '-> filtered:', filtered.length);
-  const cacheMaxAge = stale ? 30 : filtered.length ? 600 : 0;
+  const enriched = await enrichCatalog(p, type, filtered);
+  const cacheMaxAge = stale || enriched.incomplete ? 30 : filtered.length ? 600 : 0;
   if (!cacheMaxAge) res.set('Cache-Control', 'no-store');
-  res.json({ metas: sortCatalogNewest(filtered), cacheMaxAge, ...(stale ? { stale: true } : {}) });
+  res.json({ metas: sortCatalogNewest(enriched.metas), cacheMaxAge, ...(stale ? { stale: true } : {}) });
 }
 
 // /meta/series/kk_slug.json
