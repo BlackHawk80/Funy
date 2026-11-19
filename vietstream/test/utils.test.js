@@ -72,3 +72,29 @@ test('release date sorts by year month day and ignores upload dates', () => {
  assert.equal(releaseDate({released:'2024-02-29'}),'2024-02-29');
  assert.equal(releaseDate({modified:{time:'2026-11-14'}}),undefined);
 });
+
+test('rich catalog preserves IDs/artwork and skips unavailable metadata', async () => {
+ const {enrichCatalog}=require('../src/utils');
+ let calls=0;
+ const p={id:'rich-test',prefix:'rt_',detail:async slug=>{calls++;return slug==='bad'?null:{slug};},
+ buildMeta:d=>({id:'wrong',poster:'wrong',description:'Story',cast:['Actor'],releaseInfo:'2024'})};
+ const input=[{id:'rt_ok',poster:'portrait',type:'movie'},{id:'rt_bad',name:'Fallback'}];
+ const r=await enrichCatalog(p,'movie',input);
+ assert.equal(r.metas[0].id,'rt_ok');assert.equal(r.metas[0].poster,'portrait');
+ assert.equal(r.metas[0].description,'Story');assert.equal(r.metas[1].name,'Fallback');
+ assert.equal(input[0].description,undefined);
+ await enrichCatalog(p,'movie',[input[0]]);assert.equal(calls,2);
+});
+test('rich catalog has a deadline and does not discard movies on timeout', async () => {
+ const {enrichCatalog}=require('../src/utils');
+ const p={id:'slow-rich',prefix:'slow_',detail:async()=>new Promise(resolve=>setTimeout(()=>resolve(null),60)),buildMeta:()=>null};
+ const t=Date.now();const r=await enrichCatalog(p,'movie',[{id:'slow_a'}],10);
+ assert.ok(Date.now()-t<50);assert.equal(r.metas.length,1);assert.equal(r.incomplete,true);
+});
+test('full metadata sanitizes names and rating without inventing release dates',()=>{
+ const Base=require('../src/providers/base');const p=new Base({prefix:'test_'});
+ const m=p.buildMeta({slug:'movie',year:2024,cast:['Đang cập nhật','Actor'],director:[{name:'Director'}],country:[{name:'Việt Nam'}],imdbRating:8.2,imdbId:'tt123',runtime:'120 phút',modified:{time:'2026-01-01'}});
+ assert.deepEqual(m.cast,['Actor']);assert.deepEqual(m.director,['Director']);assert.equal(m.country,'Việt Nam');
+ assert.equal(m.imdbRating,'8.2');assert.equal(m.runtime,'120 phút');assert.equal(m.releaseInfo,'2024');assert.equal(m.released,undefined);
+ assert.equal(p.buildMeta({slug:'none',imdbRating:99}).imdbRating,undefined);
+});
