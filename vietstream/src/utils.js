@@ -209,7 +209,66 @@ function sortCatalogNewest(items) {
   return [...(items || [])].sort((a, b) => releaseOrder(b) - releaseOrder(a));
 }
 
+
+function metadataNames(value) {
+  const list = Array.isArray(value) ? value : typeof value === 'string' ? value.split(',') : [];
+  return list.map(v => typeof v === 'string' ? stripHtml(v).trim() : stripHtml(v?.name || '').trim())
+    .filter(v => v && !/^(đang cập nhật|n\/a|unknown)$/i.test(v));
+}
+function metadataRating(value) {
+  const n = Number(value);
+  return Number.isFinite(n) && n > 0 && n <= 10 ? String(n) : undefined;
+}
+const _richMeta = new Map();
+const _richPending = new Map();
+const RICH_FIELDS = ['description', 'genres', 'runtime', 'cast', 'director', 'country', 'imdbRating', 'imdb_id', 'released', 'releaseInfo', 'year', 'language'];
+async function enrichCatalog(provider, type, items, budgetMs = 9000) {
+  const output = items.map(item => ({ ...item }));
+  const deadline = Date.now() + budgetMs;
+  let index = 0, incomplete = false;
+  function apply(target, meta) {
+    for (const key of RICH_FIELDS) {
+      const value = meta[key];
+      if (value !== undefined && value !== null && value !== '' && (!Array.isArray(value) || value.length)) target[key] = value;
+    }
+  }
+  async function worker() {
+    while (index < output.length && Date.now() < deadline) {
+      const target = output[index++];
+      if (!String(target.id).startsWith(provider.prefix)) continue;
+      const key = provider.id + ':' + type + ':' + target.id;
+      const hit = _richMeta.get(key);
+      if (hit && hit.exp > Date.now()) { apply(target, hit.meta); continue; }
+      let pending = _richPending.get(key);
+      if (!pending) {
+        if (_richPending.size >= 12) { incomplete = true; continue; }
+        pending = Promise.resolve().then(() => provider.detail(target.id.slice(provider.prefix.length), type))
+          .then(detail => detail ? provider.buildMeta(detail, { withVideos: false }) : null)
+          .then(meta => {
+            if (meta) {
+              _richMeta.set(key, { meta, exp: Date.now() + 3600000 });
+              while (_richMeta.size > 500) _richMeta.delete(_richMeta.keys().next().value);
+            }
+            return meta;
+          }).catch(() => null).finally(() => _richPending.delete(key));
+        _richPending.set(key, pending);
+      }
+      let timer;
+      const meta = await Promise.race([pending, new Promise(resolve => {
+        timer = setTimeout(() => resolve(null), Math.max(1, deadline - Date.now()));
+      })]);
+      clearTimeout(timer);
+      if (meta) apply(target, meta); else incomplete = true;
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(4, items.length) }, worker));
+  return { metas: output, incomplete: incomplete || index < output.length };
+}
+
 module.exports = {
+  metadataNames,
+  metadataRating,
+  enrichCatalog,
   cachedCatalog,
   releaseDate,
   catalogYear,
