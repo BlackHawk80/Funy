@@ -87,6 +87,9 @@ class Phim4kProvider extends BaseProvider {
         name: m.name,
         originalName: m.origin_name,
         year: m.year,
+        released: releaseDate(m),
+        country: m.country,
+        imdbRating: m.imdb?.vote_average,
         type: ['series', 'hoathinh', 'tvshows'].includes(m.type) ? 'series' : 'movie',
         quality: m.quality,
         lang: m.lang,
@@ -95,6 +98,8 @@ class Phim4kProvider extends BaseProvider {
         background: mapImageUrl(m.poster_url || m.thumb_url, null),
         description: stripHtml(m.content),
         genres: Array.isArray(m.category) ? m.category.map((c) => c.name || c.slug) : [],
+        cast: m.actor,
+        director: m.director,
         imdbId: m.imdb?.id || null,
         servers,
         videos: this.videosFromServers(servers, `${this.prefix}${m.slug || slug}`)
