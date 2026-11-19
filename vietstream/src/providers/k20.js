@@ -192,6 +192,11 @@ class K20Provider extends BaseProvider {
         description: meta.description || '',
         genres: meta.genres,
         runtime: meta.runtime,
+        cast: meta.cast,
+        director: meta.director,
+        country: meta.country,
+        imdbRating: meta.imdbRating,
+        imdbId: meta.imdb_id || meta.imdbId,
         servers: [],
         videos: videos.length ? videos : undefined,
         nativeVideos
